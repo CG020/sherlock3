@@ -1,4 +1,4 @@
-package edu.arizona.cs;
+package model;
 import org.apache.lucene.document.Document;
 
 public class ResultClass {

@@ -5,7 +5,7 @@
  * proximity queries, as well as changing the scoring algorithm.
  */
 
-package edu.arizona.cs;
+package model;
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;

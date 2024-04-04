@@ -1,10 +1,8 @@
-package edu.arizona.cs;
+package model;
 
-import java.util.ArrayList;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import org.apache.lucene.document.Document;
 
 
 public class TestQ1_2_b {

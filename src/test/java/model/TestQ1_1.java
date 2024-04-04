@@ -1,13 +1,11 @@
-package edu.arizona.cs;
-
-import org.junit.jupiter.api.Test;
+package model;
 
 import java.util.List;
-
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class TestQ1_3 {
+public class TestQ1_1 {
 
     @Test
     public void testDocsAndScores() {
@@ -15,11 +13,11 @@ public class TestQ1_3 {
         QueryEngine objQueryEngine = new QueryEngine(inputFileFullPath);
         try {
             String[] common_query = {"information", "retrieval"};
-            List<ResultClass> ans1 = objQueryEngine.runQ1_3(common_query);
+            List<ResultClass> ans1_1= objQueryEngine.runQ1_1(common_query);
             String[] doc_names_q1 = {"Doc1", "Doc2"};
             int counter1 = 0;
-            assertEquals((doc_names_q1.length) , ans1.size());
-            for (ResultClass docs : ans1) {
+            assertEquals(ans1_1.size(),(doc_names_q1.length) ) ;
+            for (ResultClass docs : ans1_1) {
                 assertEquals(doc_names_q1[counter1], docs.DocName.get("docid"));
                 counter1 = counter1 + 1;
             }
