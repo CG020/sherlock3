@@ -1,0 +1,23 @@
+name: Run Unit Tests on Pull Request
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'  # Or any other version you need
+        distribution: 'adopt'
+
+    - name: Run Maven Clean Verify
+      run: mvn clean verify
