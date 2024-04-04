@@ -13,7 +13,7 @@ import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.store.ByteBuffersDirectory;
 import org.apache.lucene.store.Directory;
 
-public class Indexer {
+public class Index {
 
     IndexWriter writer;
     StandardAnalyzer analyzer;
@@ -21,7 +21,7 @@ public class Indexer {
     Directory index;
     File dirPath;
 
-    public Indexer(String path) throws IOException {
+    public Index(String path) throws IOException {
         dirPath = new File(path);
         File[] files = dirPath.listFiles();
 
@@ -30,6 +30,7 @@ public class Indexer {
         config = new IndexWriterConfig(analyzer);
         writer = new IndexWriter(index, config);
 
+        assert files != null;
         for (File file : files) {
             makeIndex(file);
         }
@@ -64,7 +65,7 @@ public class Indexer {
     public static void main(String[] args ) {
         try {
             String wikiPath = "../resoureces/wiki-subset-20140602";
-            Indexer indexer = new Indexer(wikiPath);
+            Index indexer = new Index(wikiPath);
         }
         catch (Exception ex) {
             System.out.println(ex.getMessage());
