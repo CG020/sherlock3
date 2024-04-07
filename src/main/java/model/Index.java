@@ -1,7 +1,9 @@
 package model;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Scanner;
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
@@ -47,7 +49,20 @@ public class Index {
     }
 
     private void makeIndex(File filename) {
-        System.out.println("parsing stuff");
+        Scanner scanner;
+        try {
+            scanner = new Scanner(filename);
+            String wiki = scanner.useDelimiter("\\A").next();
+            Page p = new Page(wiki);
+            addDoc(writer, p.title, p.categories, p.summary, p.text);
+        } catch (FileNotFoundException e) {
+            System.out.println("File not Found issue for " + filename);
+            // e.printStackTrace();
+        } catch (IOException e) {
+            System.out.println("Issue processing page for " + filename);
+            // e.printStackTrace();
+        }
+
         // - - - making notes - -
         // new wiki pages have titles in double brackets [[ stuf ]]
         // relevant categories always come after titles right after 'CATEGORIES:'
@@ -59,7 +74,7 @@ public class Index {
         // [[Bronze age]]
         //     #REDIRECT Bronze Age [tpl]R from other capitalisation[/tpl]
         // [[ next page ]]
-
+        
     }
 
     public static void main(String[] args ) {
