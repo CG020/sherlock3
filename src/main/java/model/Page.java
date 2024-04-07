@@ -7,7 +7,7 @@ public class Page {
     String text;
 
     public Page(String contents) {
-        String[] pages = contents.split("[[");
+        String[] pages = contents.split("\\[\\[");
 
         for (String page : pages) {
             if (checkNormalized(page)) {
@@ -17,7 +17,7 @@ public class Page {
     }
 
     private boolean checkNormalized(String p) {
-        if (p.contains("]]" ) && p.contains("CATEGORIES")
+        if (p.contains("]]" ) && p.contains("CATEGORIES:")
             && p.contains("==")) {
             return true;
         }
@@ -26,7 +26,6 @@ public class Page {
     }
 
     private void processPage(String p) {
-        
         int titleEnd = p.indexOf("]]");
         title = p.substring(0,titleEnd);
 

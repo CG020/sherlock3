@@ -10,8 +10,11 @@ import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.StringField;
 import org.apache.lucene.document.TextField;
+import org.apache.lucene.index.DirectoryReader;
+import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.store.ByteBuffersDirectory;
 import org.apache.lucene.store.Directory;
 
@@ -20,7 +23,7 @@ public class Index {
     IndexWriter writer;
     StandardAnalyzer analyzer;
     IndexWriterConfig config;
-    Directory index;
+    static Directory index;
     File dirPath;
 
     public Index(String path) throws IOException {
@@ -74,13 +77,16 @@ public class Index {
         // [[Bronze age]]
         //     #REDIRECT Bronze Age [tpl]R from other capitalisation[/tpl]
         // [[ next page ]]
-        
+
     }
 
     public static void main(String[] args ) {
         try {
-            String wikiPath = "../resoureces/wiki-subset-20140602";
+            String wikiPath = "src\\main\\resources\\wiki-subset-20140602";
             Index indexer = new Index(wikiPath);
+            
+            IndexReader reader = DirectoryReader.open(index);
+            IndexSearcher searcher = new IndexSearcher(reader);
         }
         catch (Exception ex) {
             System.out.println(ex.getMessage());
