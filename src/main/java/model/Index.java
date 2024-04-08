@@ -3,6 +3,8 @@ package model;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -26,16 +28,26 @@ import org.apache.lucene.store.Directory;
 
 public class Index {
 
-    static String wikiPath;
-    static IndexWriter writer;
+    IndexWriter writer;
     static StandardAnalyzer analyzer;
     IndexWriterConfig config;
-    static Directory index;
-    File dirPath;
+    Directory index;
 
     public Index(String path) throws IOException {
-        dirPath = new File(path);
-        File[] files = dirPath.listFiles();
+        File[] files;
+        URL dirURL = getClass().getClassLoader().getResource(path);
+        if (dirURL != null) {
+            File dir;
+            try {
+                dir = new File(dirURL.toURI());
+            } catch (URISyntaxException e) {
+                throw new RuntimeException(e);
+            }
+            files = dir.listFiles();
+
+        } else {
+            throw new IOException("Directory not found");
+        }
 
         analyzer = new StandardAnalyzer();
         index = new ByteBuffersDirectory();
@@ -46,6 +58,7 @@ public class Index {
         for (File file : files) {
             makeIndex(file);
         }
+        writer.commit();
     }
 
     public static void addDoc(IndexWriter writer, String title, String categories, String summary, String text) throws IOException {
@@ -119,10 +132,8 @@ public class Index {
     public static void main(String[] args ) {
         // mvn exec:java -D"exec.mainClass=model.Index"      
         try {
-            wikiPath = "src\\main\\resources\\wiki-subset-20140602";
+            String wikiPath = "wiki-subset-20140602";
             Index indexer = new Index(wikiPath);
-
-            writer.commit();
 
             // dont mind this long long query
             String querystr = "dominant paper in our nation's capital, it's among the top 10 U.S. papers in circulation";
@@ -138,15 +149,10 @@ public class Index {
 
         }
         catch (Exception ex) {
-            System.out.println(ex.getMessage());
+            ex.printStackTrace();
         }
 
-        System.out.println("test");
-        try {
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        System.out.println("Done!");
 
     }
 
