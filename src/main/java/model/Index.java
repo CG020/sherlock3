@@ -58,8 +58,11 @@ public class Index {
 
         assert files != null;
         System.out.println("Indexing...");
+        int num = 0;
         for (File file : files) {
+            ProgressBar.printProgressBar(num, files.length);
             makeIndex(file);
+            num += 1;
         }
         System.out.println("Indexing complete.\n");
         writer.commit();
@@ -89,6 +92,7 @@ public class Index {
                     allPages.add(p);
                     addDoc(writer, p.title, p.categories, p.summary, p.text);
                 }
+                writer.commit();
             }
 
         } catch (FileNotFoundException e) {
