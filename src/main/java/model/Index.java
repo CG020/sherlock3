@@ -58,9 +58,10 @@ public class Index {
 
         assert files != null;
         System.out.println("Indexing...");
-        int num = 0;
+        int num = 1;
+        long startTime = System.currentTimeMillis();
         for (File file : files) {
-            ProgressBar.printProgressBar(num, files.length);
+            ProgressBar.printProgressBar(num, files.length, startTime);
             makeIndex(file);
             num += 1;
         }
