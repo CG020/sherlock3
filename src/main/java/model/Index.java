@@ -32,8 +32,10 @@ public class Index {
     static StandardAnalyzer analyzer;
     IndexWriterConfig config;
     Directory index;
+    ArrayList<Page> allPages;
 
     public Index(String path) throws IOException {
+        allPages = new ArrayList<>();
         File[] files;
         URL dirURL = getClass().getClassLoader().getResource(path);
         if (dirURL != null) {
@@ -55,9 +57,11 @@ public class Index {
         writer = new IndexWriter(index, config);
 
         assert files != null;
+        System.out.println("Indexing...");
         for (File file : files) {
             makeIndex(file);
         }
+        System.out.println("Indexing complete.\n");
         writer.commit();
     }
 
@@ -74,10 +78,19 @@ public class Index {
     private void makeIndex(File filename) {
         Scanner scanner;
         try {
+            // read in the whole page as one string
             scanner = new Scanner(filename);
-            String wiki = scanner.useDelimiter("\\A").next();
-            Page p = new Page(wiki);
-            addDoc(writer, p.title, p.categories, p.summary, p.text);
+            String contents = scanner.useDelimiter("\\A").next();
+
+            // parse the file into separate pages
+            WikiPage wp = new WikiPage(contents);
+            for (Page p : wp.getPages()) {
+                if (p.pageType.equals("standard")) {
+                    allPages.add(p);
+                    addDoc(writer, p.title, p.categories, p.summary, p.text);
+                }
+            }
+
         } catch (FileNotFoundException e) {
             System.out.println("File not Found issue for " + filename);
             // e.printStackTrace();

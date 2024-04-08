@@ -5,38 +5,37 @@ public class Page {
     String categories;
     String summary;
     String text;
+    String rawText;
+    String pageType;
 
     public Page(String contents) {
-        String[] pages = contents.split("\\[\\[");
-
-        for (String page : pages) {
-            if (checkNormalized(page)) {
-                processPage(page);
-            }
+        rawText = contents;
+        if (checkStandardPage()) {
+            pageType = "standard";
+            processPage();
+        } else {
+            pageType = "unprocessed";
         }
     }
 
-    private boolean checkNormalized(String p) {
-        if (p.contains("]]" ) && p.contains("CATEGORIES:")
-            && p.contains("==")) {
-            return true;
-        }
-
-        return false;
+    public boolean checkStandardPage() {
+        return rawText.contains("]]")
+                && rawText.contains("CATEGORIES:")
+                && rawText.contains("==");
     }
 
-    private void processPage(String p) {
-        int titleEnd = p.indexOf("]]");
-        title = p.substring(0,titleEnd);
+    public void processPage() {
+        int titleEnd = rawText.indexOf("]]");
+        title = rawText.substring(0,titleEnd);
 
-        int catIndex = p.indexOf("CATEGORIES:");
-        int endCatIndex = p.indexOf('\n', catIndex);
-        categories = p.substring(catIndex, endCatIndex);
+        int catIndex = rawText.indexOf("CATEGORIES:");
+        int endCatIndex = rawText.indexOf('\n', catIndex);
+        categories = rawText.substring(catIndex, endCatIndex);
 
-        int endSummary = p.indexOf("==", endCatIndex);
-        summary = p.substring(endCatIndex, endSummary);
+        int endSummary = rawText.indexOf("==", endCatIndex);
+        summary = rawText.substring(endCatIndex, endSummary);
 
-        text = p.substring(endSummary);
-        
+        text = rawText.substring(endSummary);
     }
+
 }
