@@ -33,10 +33,10 @@ public class Query {
      * @return List<ResultClass>: A list of ResultClass objects representing the matching
      * documents. A ResultClass object holds a document's score Document object and score
      */
-    private List<ResultClass> runQuery(String queryStr) throws IOException {
+    public List<ResultClass> runQuery(String queryStr) throws IOException {
         // make the query parser
         org.apache.lucene.search.Query q;
-        try { q = new QueryParser("contents", analyzer).parse(queryStr); }
+        try { q = new QueryParser("text", analyzer).parse(queryStr); }
         catch (ParseException e) { throw new RuntimeException(e); }
 
         // search

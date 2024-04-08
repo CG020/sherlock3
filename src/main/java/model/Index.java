@@ -3,6 +3,8 @@ package model;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
@@ -14,14 +16,19 @@ import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
+import org.apache.lucene.search.ScoreDoc;
+import org.apache.lucene.search.TopDocs;
+import org.apache.lucene.search.similarities.ClassicSimilarity;
 import org.apache.lucene.store.ByteBuffersDirectory;
 import org.apache.lucene.store.Directory;
 
 public class Index {
 
-    IndexWriter writer;
-    StandardAnalyzer analyzer;
+    static String wikiPath;
+    static IndexWriter writer;
+    static StandardAnalyzer analyzer;
     IndexWriterConfig config;
     static Directory index;
     File dirPath;
@@ -80,19 +87,67 @@ public class Index {
 
     }
 
+    private List<ResultClass> queryAns (org.apache.lucene.search.Query q, int maxNoOfDocs, boolean search) throws IOException {
+        List<ResultClass> retVal=new ArrayList<ResultClass>();
+        int hitsPerPage = maxNoOfDocs;
+        IndexReader reader = DirectoryReader.open(index);
+        IndexSearcher searcher = new IndexSearcher(reader);
+        if (search) {
+            searcher.setSimilarity(new ClassicSimilarity()); 
+        }
+        TopDocs docs = searcher.search(q, hitsPerPage);
+        ScoreDoc[] hits = docs.scoreDocs;
+
+        if (docs.scoreDocs.length == 0) {
+            return retVal;
+        }
+
+        for(int i=0; i < maxNoOfDocs; i++) {
+            int docId = hits[i].doc;
+            Document d = searcher.doc(docId);
+
+            ResultClass res = new ResultClass();
+            res.DocName = d;
+            res.docScore = hits[i].score;
+            retVal.add(res);
+        }
+        reader.close();
+        return retVal;
+    }
+
+
     public static void main(String[] args ) {
+        // mvn exec:java -D"exec.mainClass=model.Index"      
         try {
-            String wikiPath = "src\\main\\resources\\wiki-subset-20140602";
+            wikiPath = "src\\main\\resources\\wiki-subset-20140602";
             Index indexer = new Index(wikiPath);
-            
-            IndexReader reader = DirectoryReader.open(index);
-            IndexSearcher searcher = new IndexSearcher(reader);
+
+            writer.commit();
+
+            // dont mind this long long query
+            String querystr = "dominant paper in our nation's capital, it's among the top 10 U.S. papers in circulation";
+            org.apache.lucene.search.Query q = new QueryParser("text", analyzer).parse(querystr);
+            List<ResultClass> ans= indexer.queryAns(q, 10, false);
+
+            for (ResultClass r : ans) {
+                System.out.println(r.DocName.get("title") + ", " + r.docScore);
+                // if (r.DocName.get("title").contains("Comic strip")) {
+                //     System.out.println(r.DocName.get("text"));
+                // }
+            }
+
         }
         catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
 
         System.out.println("test");
+        try {
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
 }
