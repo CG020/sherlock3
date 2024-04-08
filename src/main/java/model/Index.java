@@ -62,10 +62,11 @@ public class Index {
         long startTime = System.currentTimeMillis();
         for (File file : files) {
             ProgressBar.printProgressBar(num, files.length, startTime);
+//            ProgressBar.printMemoryUsage();
             makeIndex(file);
             num += 1;
         }
-        System.out.println("Indexing complete.\n");
+        System.out.println("\nIndexing complete.\n");
         writer.commit();
     }
 

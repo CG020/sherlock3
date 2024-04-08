@@ -42,4 +42,32 @@ public class ProgressBar {
             System.out.println("\nCompleted!"); // print a newline when done
         }
     }
+
+    public static void printMemoryUsage() {
+        Runtime runtime = Runtime.getRuntime();
+        long maxMemory = runtime.maxMemory(); // Maximum memory JVM will attempt to use
+        long allocatedMemory = runtime.totalMemory(); // Currently allocated memory
+        long freeMemory = runtime.freeMemory(); // Free memory inside allocated
+        long usedMemory = allocatedMemory - freeMemory; // Used memory
+        long availableMemory = freeMemory + (maxMemory - allocatedMemory); // Approx. available memory
+
+        int width = 50; // Width of the memory usage bar
+        long totalMemory = maxMemory; // Consider maxMemory as the total for calculation
+        int usedPercentage = (int) ((100 * usedMemory) / totalMemory);
+        int progress = (width * usedPercentage) / 100;
+
+        StringBuilder bar = new StringBuilder("Mem [");
+        for (int i = 0; i < width; i++) {
+            if (i < progress) {
+                bar.append("#");
+            } else {
+                bar.append(" ");
+            }
+        }
+        bar.append("] ").append(usedPercentage).append("% of Max JVM Memory");
+
+        System.out.print("\r"); // carriage return, to return to the start of the line
+        System.out.println(bar.toString());
+    }
+
 }
