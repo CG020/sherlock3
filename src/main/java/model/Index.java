@@ -61,12 +61,13 @@ public class Index {
         int num = 1;
         long startTime = System.currentTimeMillis();
         for (File file : files) {
-            ProgressBar.printProgressBar(num, files.length, startTime);
+//            ProgressBar.printProgressBar(num, files.length, startTime);
 //            ProgressBar.printMemoryUsage();
             makeIndex(file);
             num += 1;
+            return; // only first file
         }
-        System.out.println("\nIndexing complete.\n");
+
         writer.commit();
     }
 
@@ -89,13 +90,13 @@ public class Index {
 
             // parse the file into separate pages
             WikiPage wp = new WikiPage(contents);
-            for (Page p : wp.getPages()) {
-                if (p.pageType.equals("standard")) {
-                    allPages.add(p);
-                    addDoc(writer, p.title, p.categories, p.summary, p.text);
-                }
-                writer.commit();
-            }
+//            for (Page p : wp.getPages()) {
+//                if (p.pageType.equals("standard")) {
+//                    allPages.add(p);
+//                    addDoc(writer, p.title, p.categories, p.summary, p.text);
+//                }
+//                writer.commit();
+//            }
 
         } catch (FileNotFoundException e) {
             System.out.println("File not Found issue for " + filename);
@@ -149,22 +150,22 @@ public class Index {
 
 
     public static void main(String[] args ) {
-        // mvn exec:java -D"exec.mainClass=model.Index"      
+        // mvn exec:java -D"exec.mainClass=model.Index"
         try {
-            String wikiPath = "wiki-subset-20140602";
+            String wikiPath = "sample";
             Index indexer = new Index(wikiPath);
 
-            // dont mind this long long query
-            String querystr = "dominant paper in our nation's capital, it's among the top 10 U.S. papers in circulation";
-            org.apache.lucene.search.Query q = new QueryParser("text", analyzer).parse(querystr);
-            List<ResultClass> ans= indexer.queryAns(q, 10, false);
-
-            for (ResultClass r : ans) {
-                System.out.println(r.DocName.get("title") + ", " + r.docScore);
-                // if (r.DocName.get("title").contains("Comic strip")) {
-                //     System.out.println(r.DocName.get("text"));
-                // }
-            }
+//            // dont mind this long long query
+//            String querystr = "dominant paper in our nation's capital, it's among the top 10 U.S. papers in circulation";
+//            org.apache.lucene.search.Query q = new QueryParser("text", analyzer).parse(querystr);
+//            List<ResultClass> ans= indexer.queryAns(q, 10, false);
+//
+//            for (ResultClass r : ans) {
+//                System.out.println(r.DocName.get("title") + ", " + r.docScore);
+//                // if (r.DocName.get("title").contains("Comic strip")) {
+//                //     System.out.println(r.DocName.get("text"));
+//                // }
+//            }
 
         }
         catch (Exception ex) {
