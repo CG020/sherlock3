@@ -54,11 +54,14 @@ public abstract class Page {
     static protected String removeTPL(String line) {
         int startPoint = line.indexOf("[tpl]");
         int endPoint = line.indexOf("[/tpl]");
-        if (startPoint == -1 || endPoint == -1) {
-            return line;
+        while (startPoint != -1 && endPoint != -1) {
+            line = line.substring(0, startPoint)
+                    + line.substring(endPoint + "[/tpl]".length());
+
+            startPoint = line.indexOf("[tpl]");
+            endPoint = line.indexOf("[/tpl]");
         }
-        return line.substring(0, startPoint)
-                + line.substring(endPoint + "[/tpl]".length()).trim();
+        return line;
     }
 
 }
