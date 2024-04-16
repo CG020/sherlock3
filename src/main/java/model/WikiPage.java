@@ -11,9 +11,10 @@ public class WikiPage {
     public WikiPage(String contents) {
         // Using regex to find the page sections. This also makes it
         // lazy evaluation, so it should be a bit more memory efficient.
-        String regex =  "\\[\\[(.*?)]]\n" +       // match the title
-                        "(.*?)" +                 // and all text in the middle
-                        "(?=\\[\\[(.*?)]]\n|$)";  // until the next title match (or EOF)
+        String regex =  "\\[\\[(?!File:)(.*?)]]\n" +       // match the prev_title
+                        "(.*?)" +                          // and all text in the middle
+                        "(?=\\[\\[(?!File:)(.*?)]]\n|$)";  // until the next prev_title match (or EOF)
+
         Pattern pattern = Pattern.compile(regex, Pattern.DOTALL);
         Matcher matcher = pattern.matcher(contents);
 
@@ -24,8 +25,8 @@ public class WikiPage {
             String title = matcher.group(1);
             String pageText = matcher.group(0);
             Page p = createCorrectPageType(title, pageText);
+            System.out.println(p.getPageType() + " -- " + p.getTitle());
             pages.add(p);
-            return;
         }
     }
 

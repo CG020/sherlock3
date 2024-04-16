@@ -9,7 +9,6 @@ public abstract class Page {
     public Page (String contents) {
         this.contents = contents;
         parseOutTitle(contents);
-//        removeHeaderDashes(contents.split("\n")[3]);
     }
 
 
@@ -28,21 +27,34 @@ public abstract class Page {
         this.title = removeDoubleBrackets(title_contents[0]);
     }
 
+
+
     //
     // METHODS TO CLEAN UP STRINGS BELOW
     //
 
-
+    /**
+     * Removes the double brackets around a page title
+     */
     protected String removeDoubleBrackets(String text) {
         return text.substring(2, text.length()-2);
     }
 
 
-//    protected void removeHeaderDashes(String header) {
-//        int dashCount;
-//        for (dashCount = 0; header.charAt(dashCount) == '='; dashCount++);
-//        System.out.println(dashCount);
-//    }
+    /**
+     * Removes n number of dashes around a header, n >= 0.
+     * Precondition: dashes are balanced on the header. Meaning, the same
+     * number of dashes exist on both sides of the text.
+     * @return The header without the surrounding dashes.
+     */
+    protected String removeHeaderDashes(String header) {
+        int dashCount;
+        for (dashCount = 0; dashCount < header.length(); dashCount++) {
+            if (header.charAt(dashCount) != '=') break;
+        }
+
+        return header.substring(dashCount, header.length()-dashCount);
+    }
 
 
 }
