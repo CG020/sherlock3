@@ -11,22 +11,18 @@ public abstract class Page {
         parseOutTitle(contents);
     }
 
-
     public String getTitle() {
         return title;
     }
-
 
     public String getPageType() {
         return pageType;
     }
 
-
     private void parseOutTitle(String contents){
         String[] title_contents = contents.split("\n", 2);
         this.title = removeDoubleBrackets(title_contents[0]);
     }
-
 
 
     //
@@ -36,10 +32,9 @@ public abstract class Page {
     /**
      * Removes the double brackets around a page title
      */
-    protected String removeDoubleBrackets(String text) {
+    static protected String removeDoubleBrackets(String text) {
         return text.substring(2, text.length()-2);
     }
-
 
     /**
      * Removes n number of dashes around a header, n >= 0.
@@ -47,7 +42,7 @@ public abstract class Page {
      * number of dashes exist on both sides of the text.
      * @return The header without the surrounding dashes.
      */
-    protected String removeHeaderDashes(String header) {
+    static protected String removeHeaderDashes(String header) {
         int dashCount;
         for (dashCount = 0; dashCount < header.length(); dashCount++) {
             if (header.charAt(dashCount) != '=') break;

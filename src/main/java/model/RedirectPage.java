@@ -8,5 +8,4 @@ public class RedirectPage extends Page{
         this.pageType = "redirect";
     }
 
-
 }
