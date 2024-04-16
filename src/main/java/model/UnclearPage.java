@@ -39,15 +39,12 @@ public class UnclearPage extends Page {
 
     @Override
     public String toString() {
-        StringBuilder retval = new StringBuilder();
-        retval.append("Unclear Page: ");
-        retval.append(this.title);
-        retval.append("\n\t Categories: ");
-        retval.append(categories.toString());
-        retval.append("\n\t Headers: ");
-        retval.append(headers.toString());
-        return retval.toString();
+        return "Unclear Page: " +
+                this.title +
+                "\n\t Categories: " +
+                categories.toString() +
+                "\n\t Headers: " +
+                headers.toString();
     }
-
 
 }
