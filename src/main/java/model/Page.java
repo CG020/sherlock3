@@ -51,5 +51,14 @@ public abstract class Page {
         return header.substring(dashCount, header.length()-dashCount);
     }
 
+    static protected String removeTPL(String line) {
+        int startPoint = line.indexOf("[tpl]");
+        int endPoint = line.indexOf("[/tpl]");
+        if (startPoint == -1 || endPoint == -1) {
+            return line;
+        }
+        return line.substring(0, startPoint)
+                + line.substring(endPoint + "[/tpl]".length()).trim();
+    }
 
 }
