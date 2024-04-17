@@ -25,7 +25,7 @@ public abstract class Page {
 
     private void parseOutTitle(String contents){
         String[] title_contents = contents.split("\n", 2);
-        this.title = removeDoubleBrackets(title_contents[0]);
+        this.title = removeDoubleBrackets(title_contents[0]).trim();
     }
 
 
