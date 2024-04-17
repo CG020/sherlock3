@@ -1,5 +1,9 @@
 package model;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 public abstract class Page {
     protected String title;
     protected String contents;
@@ -38,30 +42,78 @@ public abstract class Page {
 
     /**
      * Removes n number of dashes around a header, n >= 0.
-     * Precondition: dashes are balanced on the header. Meaning, the same
-     * number of dashes exist on both sides of the text.
      * @return The header without the surrounding dashes.
      */
+    // TODO FIX	 Headers: [Technologies==, Organisations==, Science==, Culture==]
     static protected String removeHeaderDashes(String header) {
         int dashCount;
         for (dashCount = 0; dashCount < header.length(); dashCount++) {
             if (header.charAt(dashCount) != '=') break;
         }
 
-        return header.substring(dashCount, header.length()-dashCount);
-    }
-
-    static protected String removeTPL(String line) {
-        int startPoint = line.indexOf("[tpl]");
-        int endPoint = line.indexOf("[/tpl]");
-        while (startPoint != -1 && endPoint != -1) {
-            line = line.substring(0, startPoint)
-                    + line.substring(endPoint + "[/tpl]".length());
-
-            startPoint = line.indexOf("[tpl]");
-            endPoint = line.indexOf("[/tpl]");
+        int backDashCount;
+        for (backDashCount = header.length()-1; backDashCount == 0; backDashCount--) {
+            if (header.charAt(backDashCount) != '=') break;
         }
-        return line;
+        return header.substring(dashCount, backDashCount+1);
     }
+
+//    static protected String removeTPL(String line) {
+//        StringBuilder result = new StringBuilder();
+//        int startIndex = 0;
+//        int tplStart = line.indexOf("[tpl]", startIndex);
+//        int tplEnd;
+//
+//        while (tplStart != -1) {
+//            tplEnd = line.indexOf("[/tpl]", tplStart);
+//
+//            if (tplEnd == -1) {  // if end tag doesn't exist, stop
+//                break;
+//            } else {
+//                result.append(line, startIndex, tplStart);
+//                startIndex = tplEnd + "[/tpl]".length();
+//            }
+//
+//            // find the next template start
+//            tplStart = line.indexOf("[tpl]", startIndex);
+//        }
+//
+//        // add back any remaining part of the string
+//        if (startIndex < line.length()) {
+//            result.append(line.substring(startIndex));
+//        }
+//
+//        return result.toString();
+//    }
+
+    public static String removeTPL(String text) {
+        Stack<Integer> stack = new Stack<>();
+        StringBuilder result = new StringBuilder(text);
+        // List to hold the start and end indices of outermost tpl tags
+        List<Integer> startIndices = new ArrayList<>();
+        List<Integer> endIndices = new ArrayList<>();
+
+        for (int i = 0; i < text.length(); i++) {
+            if (i + 4 < text.length() && text.substring(i, i + 5).equals("[tpl]")) {
+                stack.push(i);
+            } else if (i + 5 < text.length() && text.substring(i, i + 6).equals("[/tpl]")) {
+                int start = stack.pop();
+
+                // Check if the stack is empty to determine if it's an outermost tag
+                if (stack.isEmpty()) {
+                    startIndices.add(start);
+                    endIndices.add(i + 6);  // i + 6 to include the length of the closing tag
+                }
+            }
+        }
+
+        // Removing from the back to avoid messing up the indices
+        for (int i = startIndices.size() - 1; i >= 0; i--) {
+            result.delete(startIndices.get(i), endIndices.get(i));
+        }
+
+        return result.toString();
+    }
+
 
 }

@@ -28,6 +28,9 @@ public class WikiPage {
             Page p = createCorrectPageType(title, pageText);
             System.out.println(p);
             System.out.println();
+//            if (p.getPageType().equals("normal")) {
+//                break;
+//            }
             pages.add(p);
         }
     }
