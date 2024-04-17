@@ -45,7 +45,7 @@ public class NormalPage extends Page{
                 summary.append(line).append("\n");
             }
         }
-        this.summary = removeTPL(summary.toString());
+        this.summary = removeTPL(summary.toString()).trim();
     }
 
     private void parseHeaders(String[] categories) {
@@ -77,12 +77,19 @@ public class NormalPage extends Page{
 
     @Override
     public String toString() {
+        String shortSummary;
+        if (summary.length() < 50) {
+            shortSummary = summary;
+        } else {
+            shortSummary = summary.substring(0, 50);
+        }
+
         return "Normal Page: " +
                 this.title +
                 "\n\t Categories: " +
                 categories.toString() +
                 "\n\t Summary: " +
-                summary.substring(0, 50) +
+                shortSummary +
                 "...";
     }
 }

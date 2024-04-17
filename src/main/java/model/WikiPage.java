@@ -11,10 +11,10 @@ public class WikiPage {
     public WikiPage(String contents) {
         // Using regex to find the page sections. This also makes it
         // lazy evaluation, so it should be a bit more memory efficient.
-        String regex =  "(?<=^|\\n)" +                                // require a newline or start of file before [[
-                        "\\[\\[(?!File:)(?!Image:)(.*?)]]\n" +       // match the title (ignoring [[File:]] and [[Image:]])
-                        "(.*?)" +                                    // and all text in the middle
-                        "(?=\\[\\[(?!File:)(?!Image:)(.*?)]]\n|$)";  // until the next title matches (or EOF)
+        String regex =  "(?<=^|\\r?\\n)" +                               // Matches start of file or newline (Windows or Unix)
+                        "\\[\\[(?!File:)(?!Image:)(.*?)]]\\r?\\n" +     // Matches the title, ignoring File: and Image:, with potential Windows newline
+                        "(.*?)" +                                       // Matches all text in the middle
+                        "(?=\\[\\[(?!File:)(?!Image:)(.*?)]]\\r?\\n|$)"; // Matches until the next title or EOF, considering Windows newline
 
         Pattern pattern = Pattern.compile(regex, Pattern.DOTALL);
         Matcher matcher = pattern.matcher(contents);

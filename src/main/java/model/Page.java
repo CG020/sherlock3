@@ -37,7 +37,9 @@ public abstract class Page {
      * Removes the double brackets around a page title
      */
     static protected String removeDoubleBrackets(String text) {
-        return text.substring(2, text.length()-2);
+        return text.replaceAll("^\\[+|\\]+$", "");
+
+//        return text.substring(2, text.length()-2);
     }
 
     /**
@@ -46,16 +48,7 @@ public abstract class Page {
      */
     // TODO FIX	 Headers: [Technologies==, Organisations==, Science==, Culture==]
     static protected String removeHeaderDashes(String header) {
-        int dashCount;
-        for (dashCount = 0; dashCount < header.length(); dashCount++) {
-            if (header.charAt(dashCount) != '=') break;
-        }
-
-        int backDashCount;
-        for (backDashCount = header.length()-1; backDashCount == 0; backDashCount--) {
-            if (header.charAt(backDashCount) != '=') break;
-        }
-        return header.substring(dashCount, backDashCount+1);
+        return header.replaceAll("^\\=+|\\=+$", "");
     }
 
 //    static protected String removeTPL(String line) {
