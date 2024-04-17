@@ -15,10 +15,10 @@ public class NormalPage extends Page{
     ArrayList<String> headers;
     String summary;
     StringBuilder bodyText;
-    ArrayList<String> metadataTitles;
 
     public NormalPage(String contents) {
         super(contents);
+        bodyText = new StringBuilder();
         this.pageType = "normal";
 //        System.out.println(this.title);
         parse();
@@ -46,7 +46,9 @@ public class NormalPage extends Page{
                 summary.append(line).append("\n");
             }
         }
-        this.summary = removeTPL(summary.toString());
+        MetadataParse summary_metadata = extractMetadata(summary.toString());
+        metadata.addAll(summary_metadata.metadata);
+        this.summary = removeExtraTags(summary_metadata.text());
     }
 
     private void parseHeaders(String[] categories) {
@@ -64,17 +66,11 @@ public class NormalPage extends Page{
             }
 
             String body = parts[1];
-//            System.out.println(removeTPL(body));
-
-
-
+            MetadataParse header_metadata = extractMetadata(body);
+            metadata.addAll(header_metadata.metadata);
+            bodyText.append(removeExtraTags(header_metadata.text())).append("\n");
         }
     }
-
-    private void parseMetadata(String metadata) {
-
-    }
-
 
     @Override
     public String toString() {

@@ -20,8 +20,10 @@ public class UnclearPage extends Page {
             line = line.trim();
             if (line.startsWith("CATEGORIES:")) {
                 String topicsTemp = line.substring("CATEGORIES:".length());
-                for (String topic: topicsTemp.split(",")) {
-                    categories.add(topic.trim());
+                MetadataParse category_metadata = extractMetadata(topicsTemp);
+                metadata.addAll(category_metadata.metadata);
+                for (String topic: category_metadata.text().split(",")) {
+                    categories.add(removeExtraTags(topic.trim()));
                 }
             } else if (line.startsWith("=")) {
                 if (ignoreHeader(line)) {

@@ -14,7 +14,9 @@ public class RedirectPage extends Page{
             line = line.trim();
             if (line.startsWith("#REDIRECT")) {
                 String lineTemp = line.substring("#REDIRECT".length()).trim();
-                this.redirect = removeTPL(lineTemp);
+                MetadataParse redirect_metadata = extractMetadata(lineTemp);
+                metadata.addAll(redirect_metadata.metadata);
+                this.redirect = removeExtraTags(redirect_metadata.text());
                 break;
             }
         }

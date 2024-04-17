@@ -28,13 +28,10 @@ public class WikiPage {
             Page p = createCorrectPageType(title, pageText);
             System.out.println(p);
             System.out.println();
-//            if (p.getPageType().equals("normal")) {
-//                break;
-//            }
+//            System.out.println(p.metadata);
             pages.add(p);
         }
     }
-
 
     private Page createCorrectPageType(String title, String contents) {
         String unclearSearchPhrase = title + " may refer to:";
