@@ -11,6 +11,7 @@ public class RedirectPage extends Page{
 
     private void parse() {
         for (String line: this.contents.split("\n")) {
+            line = line.trim();
             if (line.startsWith("#REDIRECT")) {
                 String lineTemp = line.substring("#REDIRECT".length()).trim();
                 this.redirect = removeTPL(lineTemp);

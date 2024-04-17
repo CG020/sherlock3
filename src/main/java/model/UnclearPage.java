@@ -17,6 +17,7 @@ public class UnclearPage extends Page {
         categories = new ArrayList<>();
         headers = new ArrayList<>();
         for (String line: this.contents.split("\n")) {
+            line = line.trim();
             if (line.startsWith("CATEGORIES:")) {
                 String topicsTemp = line.substring("CATEGORIES:".length());
                 for (String topic: topicsTemp.split(",")) {

@@ -36,6 +36,7 @@ public class NormalPage extends Page{
         categories = new ArrayList<>();
         StringBuilder summary = new StringBuilder();
         for (String line: text.split("\n")) {
+            line = line.trim();
             if (line.startsWith("CATEGORIES:")) {
                 String topicsTemp = line.substring("CATEGORIES:".length());
                 for (String topic: topicsTemp.split(",")) {
@@ -45,7 +46,7 @@ public class NormalPage extends Page{
                 summary.append(line).append("\n");
             }
         }
-        this.summary = removeTPL(summary.toString()).trim();
+        this.summary = removeTPL(summary.toString());
     }
 
     private void parseHeaders(String[] categories) {
