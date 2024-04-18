@@ -26,9 +26,6 @@ public class WikiPage {
             String title = matcher.group(1);
             String pageText = matcher.group(0);
             Page p = createCorrectPageType(title, pageText);
-            System.out.println(p);
-            System.out.println();
-//            System.out.println(p.metadata);
             pages.add(p);
         }
     }

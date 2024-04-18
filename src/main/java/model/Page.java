@@ -101,5 +101,22 @@ public abstract class Page {
         return text;
     }
 
+    protected static String parseTPLforTitle(String text) {
+        String[] tags = removeExtraTags(text).split("\\|");
+        for (String tag : tags) {
+            if (!tag.contains("=")) continue;
+            String[] field_info = tag.split("=");
+
+            if (field_info.length != 2) continue;
+            String field = field_info[0].trim();
+            String info = field_info[1].trim();
+
+            if (field.equalsIgnoreCase("title") && !info.isEmpty()) {
+                return info;
+            }
+        }
+        return null;
+    }
+
 
 }

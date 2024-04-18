@@ -10,26 +10,30 @@ public class NormalPage extends Page{
             "Bibliography", "Distinctions", "Further reading",
             "Notes", "External links", "Sources"
     );
+    static final List<String> headersToIgnore = Arrays.asList(
+            "Images", "External links", "Sources"
+    );
 
     ArrayList<String> categories;
     ArrayList<String> headers;
     String summary;
     StringBuilder bodyText;
+    ArrayList<String> metaTitles;
 
     public NormalPage(String contents) {
         super(contents);
         bodyText = new StringBuilder();
         this.pageType = "normal";
-//        System.out.println(this.title);
         parse();
-//        System.out.println(headers.toString());
     }
 
     private void parse() {
         headers = new ArrayList<>();
+        metaTitles = new ArrayList<>();
         String[] lines = this.contents.split("\n={2,6}");
         parseTopPart(lines[0]);
         parseHeaders(lines);
+        parseMetaTitles();
     }
 
     private void parseTopPart(String text) {
@@ -54,21 +58,46 @@ public class NormalPage extends Page{
     private void parseHeaders(String[] categories) {
         for (int i = 1; i < categories.length; i++) {
             String[] parts = categories[i].split("={2,6}\n");
-            String header = removeHeaderDashes(parts[0]);
+
+            // THERE'S LIKE ONE HEADER WITH NO TEXT IN THE MIDDLE
+            String header;
+            try {
+                header = removeHeaderDashes(parts[0]);
+            } catch (ArrayIndexOutOfBoundsException e) {
+                continue;
+            }
 
             // if no body of text
             if (parts.length == 1) {
                 // add to headers if non-standard header, ignore if it is
                 if (!generalHeaders.contains(header)) {
-                    headers.add(header);
+                    MetadataParse header_metadata = extractMetadata(header);
+                    metadata.addAll(header_metadata.metadata);
+                    header = removeExtraTags(header_metadata.text());
+                    if (!header.isEmpty()) headers.add(header);
                 }
                 continue;
-            }
+            }  // else body of text exists
 
             String body = parts[1];
-            MetadataParse header_metadata = extractMetadata(body);
-            metadata.addAll(header_metadata.metadata);
-            bodyText.append(removeExtraTags(header_metadata.text())).append("\n");
+            MetadataParse body_metadata = extractMetadata(body);
+            metadata.addAll(body_metadata.metadata);
+
+            if (!headersToIgnore.contains(header)) {
+                headers.add(header);
+                body = removeExtraTags(body_metadata.text());
+                if (!body.isEmpty()) bodyText.append(body).append("\n");
+            }
+
+        }
+    }
+
+    private void parseMetaTitles() {
+        for (String line: metadata) {
+            String title = parseTPLforTitle(line);
+            if (title != null) {
+                metaTitles.add(title);
+            }
         }
     }
 
