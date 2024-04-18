@@ -61,13 +61,13 @@ public class Index {
         int num = 1;
         long startTime = System.currentTimeMillis();
         for (File file : files) {
-//            ProgressBar.printProgressBar(num, files.length, startTime);
+            ProgressBar.printProgressBar(num, files.length, startTime);
 //            ProgressBar.printMemoryUsage();
             makeIndex(file);
             num += 1;
-            return; // only first file
         }
-
+//        System.out.println("Connecting redirects...");
+//        connectRedirects();
         writer.commit();
     }
 
@@ -90,6 +90,7 @@ public class Index {
 
             // parse the file into separate pages
             WikiPage wp = new WikiPage(contents);
+            allPages.addAll(wp.getPages());
 //            for (Page p : wp.getPages()) {
 //                if (p.pageType.equals("standard")) {
 //                    allPages.add(p);
@@ -105,18 +106,6 @@ public class Index {
             System.out.println("Issue processing page for " + filename);
             // e.printStackTrace();
         }
-
-        // - - - making notes - -
-        // new wiki pages have titles in double brackets [[ stuf ]]
-        // relevant categories always come after titles right after 'CATEGORIES:'
-        // the summary of the page is just below that before the first header signified by ==
-        // the == and === are sub page deliminators the number of = is how deep in
-        // always ends with the 'see also' piece at the bottom
-        // there are also these weird redirect ones though we should look for redirect
-        // before making categories in case they dont exist:
-        // [[Bronze age]]
-        //     #REDIRECT Bronze Age [tpl]R from other capitalisation[/tpl]
-        // [[ next page ]]
 
     }
 
@@ -135,7 +124,7 @@ public class Index {
             return retVal;
         }
 
-        for(int i=0; i < maxNoOfDocs; i++) {
+        for (int i = 0; i < maxNoOfDocs; i++) {
             int docId = hits[i].doc;
             Document d = searcher.doc(docId);
 
@@ -148,11 +137,39 @@ public class Index {
         return retVal;
     }
 
+    // TODO this function takes about 7 mins to run on MY computer and I don't
+    // even think it changes the actual index. Sooooo, kinda pointless?
+    private void connectRedirects() {
+        ArrayList<RedirectPage> redirects = new ArrayList<>();
+        ArrayList<NormalPage> normals = new ArrayList<>();
+        for (Page p: allPages) {
+            if (p.getPageType().equals("redirect")) {
+                redirects.add((RedirectPage) p);
+            } else if (p.getPageType().equals("normal")) {
+                normals.add((NormalPage) p);
+            }
+        }
+
+        int num = 1;
+        long startTime = System.currentTimeMillis();
+        for (RedirectPage r: redirects) {
+            ProgressBar.printProgressBar(num, redirects.size(), startTime);
+            for (NormalPage n: normals) {
+                if (r.redirect.equals(n.title)) {
+                    n.categories.add(r.redirect);
+                    break;
+                }
+            }
+            num += 1;
+        }
+    }
+
 
     public static void main(String[] args ) {
         // mvn exec:java -D"exec.mainClass=model.Index"
         try {
-            String wikiPath = "sample";
+//            String wikiPath = "sample";
+            String wikiPath = "wiki-subset-20140602";
             Index indexer = new Index(wikiPath);
 
 //            // dont mind this long long query
