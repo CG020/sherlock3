@@ -83,6 +83,10 @@ public class Query {
         org.apache.lucene.search.Query q;
         // try { q = new QueryParser("text", analyzer).parse(queryStr); }
         // catch (ParseException e) { throw new RuntimeException(e); }
+
+        int hitsPerPage = 10;
+        IndexReader reader = DirectoryReader.open(index);
+        IndexSearcher searcher = new IndexSearcher(reader);
         
         // multi-field query
         assignBoosts(this.boosts);
@@ -90,18 +94,17 @@ public class Query {
         catch (ParseException e) { throw new RuntimeException(e); }
 
         // phrase query
+        List<TopDocs> phraseHits = new ArrayList<TopDocs>();
         List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr);
+        for (PhraseQuery pq : phraseQueries) {
+            phraseHits.add(searcher.search(pq, hitsPerPage));
+        }
 
-        int hitsPerPage = 10;
-
-        IndexReader reader = DirectoryReader.open(index);
-        IndexSearcher searcher = new IndexSearcher(reader);
 
         TopDocs pages = searcher.search(q, hitsPerPage);
-
         ScoreDoc[] hits = pages.scoreDocs;
 
-        // add to score
+        // add to score and display the returned docs
         System.out.format("Query '%s' returned:\n", queryStr);
         List<ResultClass> ans = new ArrayList<>();
         for (ScoreDoc hit : hits) {
