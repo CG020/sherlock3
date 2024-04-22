@@ -4,10 +4,14 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
+import org.apache.lucene.index.Term;
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
+import org.apache.lucene.search.BooleanClause;
+import org.apache.lucene.search.BooleanQuery;
 import org.apache.lucene.search.IndexSearcher;
+import org.apache.lucene.search.PhraseQuery;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
@@ -21,7 +25,7 @@ import java.util.List;
 public class Query {
     Directory index;
     StandardAnalyzer analyzer;
-    MultiFieldQueryParser parser;
+    MultiFieldQueryParser multiParser;
     HashMap<String, Float> boosts;
 
 
@@ -30,8 +34,10 @@ public class Query {
         this.analyzer = analyzer;
     }
 
-
-    // this is where we will boost nujmbers for the doc fields - creates multifield parser
+    /**
+     * assigns subjective boost values to each field, builds the mutilFieldParser
+     * @param boosts the hashmap that stores boost numbers
+     */
     public void assignBoosts(HashMap<String, Float> boosts)  {
         boosts = new HashMap<>();
         boosts.put("categories", 2.0f);
@@ -39,11 +45,29 @@ public class Query {
         boosts.put("bodyText", 1.5f);
         boosts.put("headers", 0.5f);
 
-        this.parser = new MultiFieldQueryParser(
+        this.multiParser = new MultiFieldQueryParser(
             new String[] {"categories", "summary", "bodyText", "headers"},
             analyzer,
             boosts
         );
+    }
+
+
+    public List<PhraseQuery> buildPhraseQ(String queryString) {
+        String[] words = queryString.split("\\s+");
+
+        List<PhraseQuery> queries = new ArrayList<>();
+
+        for (String word : words) {
+            for (int i = 0; i < words.length - 1; i++) {
+                PhraseQuery.Builder builder = new PhraseQuery.Builder();
+                builder.add(new Term(word, words[i]));
+                builder.add(new Term(word, words[i + 1]));
+                PhraseQuery phrase = builder.build();
+                queries.add(phrase);
+            }
+        }
+        return queries;
     }
 
 
@@ -60,20 +84,21 @@ public class Query {
         // try { q = new QueryParser("text", analyzer).parse(queryStr); }
         // catch (ParseException e) { throw new RuntimeException(e); }
         
-
+        // multi-field query
         assignBoosts(this.boosts);
-        try {q = parser.parse(queryStr); }
+        try {q = multiParser.parse(queryStr); }
         catch (ParseException e) { throw new RuntimeException(e); }
+
+        // phrase query
+        List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr);
 
         int hitsPerPage = 10;
 
-        String wikiPath = "sample";
         IndexReader reader = DirectoryReader.open(index);
-        // serilized 
-
         IndexSearcher searcher = new IndexSearcher(reader);
 
         TopDocs pages = searcher.search(q, hitsPerPage);
+
         ScoreDoc[] hits = pages.scoreDocs;
 
         // add to score
@@ -93,6 +118,9 @@ public class Query {
 
     public static void main(String[] args ) {
         // mvn exec:java -D"exec.mainClass=model.Index"
+
+        // open the index here
+        // make new query object
         String wikiPath = "sample";
         try {
             Index indexer = new Index(wikiPath);
