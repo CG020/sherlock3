@@ -66,10 +66,11 @@ public class Index implements Serializable {
         num = 1;
         startTime = System.currentTimeMillis();
         for (Page page: allPages) {
-            ProgressBar.printProgressBar(num, files.length, startTime);
+            ProgressBar.printProgressBar(num, allPages.size(), startTime);
             if (page.getPageType().equals("normal")) { // always true if redirects are run
                 addToIndex((NormalPage) page);
             }
+            num += 1;
         }
     }
 
