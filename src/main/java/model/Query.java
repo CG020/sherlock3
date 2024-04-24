@@ -13,9 +13,12 @@ import org.apache.lucene.search.BooleanQuery;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.PhraseQuery;
 import org.apache.lucene.search.ScoreDoc;
+import org.apache.lucene.search.TermQuery;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.apache.lucene.search.similarities.BM25Similarity;
+
 
 import java.io.IOException;
 import java.nio.file.Paths;
@@ -29,6 +32,7 @@ public class Query {
     StandardAnalyzer analyzer;
     MultiFieldQueryParser multiParser;
     HashMap<String, Float> boosts;
+    List<ResultClass> ans;
 
 
     public Query(IndexSearcher searcher, StandardAnalyzer analyzer) {
@@ -42,13 +46,13 @@ public class Query {
      */
     public void assignBoosts(HashMap<String, Float> boosts)  {
         boosts = new HashMap<>();
-        boosts.put("categories", 1.0f);
-        boosts.put("summary", 0.8f);
-        boosts.put("bodyText", 0.8f);
-        boosts.put("headers", 0.3f);
+        boosts.put("summary", 1.0f);
+        boosts.put("categories", 0.8f);
+        // boosts.put("bodyText", 0.8f);
+        // boosts.put("headers", 0.3f);
 
         this.multiParser = new MultiFieldQueryParser(
-            new String[] {"categories", "summary", "bodyText", "headers"},
+            new String[] {"summary", "categories"},
             analyzer,
             boosts
         );
@@ -73,6 +77,13 @@ public class Query {
     }
 
 
+    public static class tuning extends BM25Similarity {
+        public tuning(float k, float b) {
+            super(k, b);
+        }
+    }
+
+
     // Lucene's default scoring system is BM25!!! this is good
     /**
      * Runs the lucene query then prints and returns a list of the matching documents
@@ -80,33 +91,40 @@ public class Query {
      * @return List<ResultClass>: A list of ResultClass objects representing the matching
      * documents. A ResultClass object holds a document's score Document object and score
      */
-    public List<ResultClass> runQuery(String queryStr) throws IOException {
-        // make the query parser
-        org.apache.lucene.search.Query q;
-        // try { q = new QueryParser("text", analyzer).parse(queryStr); }
-        // catch (ParseException e) { throw new RuntimeException(e); }
-
+    public List<ResultClass> runQuery(String category, String queryStr) throws IOException {
+        // lucene query, answer arraylist, number of hits to return
+        // org.apache.lucene.search.Query categoryQuery;
+        org.apache.lucene.search.Query multiQuery;
+        // org.apache.lucene.search.Query q;
+        List<ResultClass> ans = new ArrayList<>();
         int hitsPerPage = 10;
+
+        // boosts the category word
+        queryStr =  queryStr + " AND " + category + "^2.0";
+        // q is a combination of two types of query parsing multifield and phrase
+        BooleanQuery.Builder q = new BooleanQuery.Builder();
+
+        // categories not parse yet wait to test
+        // categoryQuery = new TermQuery(new Term("categories", category));
         
         // multi-field query
         assignBoosts(this.boosts);
-        try {q = multiParser.parse(queryStr); }
+        try {
+            multiQuery = multiParser.parse(queryStr);
+            q.add(multiQuery, BooleanClause.Occur.SHOULD);
+        }
         catch (ParseException e) { throw new RuntimeException(e); }
 
         // phrase query
-        List<TopDocs> phraseHits = new ArrayList<TopDocs>();
         List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr);
         for (PhraseQuery pq : phraseQueries) {
-            phraseHits.add(searcher.search(pq, hitsPerPage));
+            q.add(pq, BooleanClause.Occur.SHOULD);
         }
 
-
-        TopDocs pages = searcher.search(q, hitsPerPage);
+        TopDocs pages = searcher.search(q.build(), hitsPerPage);
         ScoreDoc[] hits = pages.scoreDocs;
 
-        // add to score and display the returned docs
         System.out.format("Query '%s' returned:\n", queryStr);
-        List<ResultClass> ans = new ArrayList<>();
         for (ScoreDoc hit : hits) {
             Document d = searcher.doc(hit.doc);
             String title = d.get("title");
@@ -115,12 +133,15 @@ public class Query {
             page.docScore = hit.score;
             ans.add(page);
             System.out.format("\t%s: %f\n", title, hit.score);
+            // debugging
+            // System.out.println("\n" + d.get("categories") + "\n");
         }
+        
         return ans;
     }
 
     public static void main(String[] args ) {
-        // mvn exec:java -D"exec.mainClass=model.Index"
+        // mvn exec:java -D"exec.mainClass=model.Query" dont mind me maven notes 
 
         Directory index;
         DirectoryReader reader;
@@ -130,8 +151,16 @@ public class Query {
             reader = DirectoryReader.open(index);
             searcher = new IndexSearcher(reader);
 
+            // $k_1$ and $k_3$ to a value between 1.2 and 2 and b = 0.75 -- random rn
+            float k = 1.8f;
+            float b = 0.75f;
+            searcher.setSimilarity(new tuning(k, b));
+
+
             Query q = new Query(searcher, new StandardAnalyzer());
-            List<ResultClass> ans = q.runQuery("The dominant paper in our nation's capital, it's among the top 10 U.S. papers in circulation");
+            String category = ("NEWSPAPER").toLowerCase();
+            String question = "The dominant paper in our nation's capital, it's among the top 10 U.S. papers in circulation";
+            List<ResultClass> ans = q.runQuery(category, question);
 
         } catch (IOException e) {
             e.printStackTrace();
