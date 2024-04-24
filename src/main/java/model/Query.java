@@ -46,8 +46,8 @@ public class Query {
      */
     public void assignBoosts(HashMap<String, Float> boosts)  {
         boosts = new HashMap<>();
-        boosts.put("summary", 1.0f);
-        boosts.put("categories", 0.8f);
+        boosts.put("summary", 0.8f);
+        boosts.put("categories", 1.0f);
         // boosts.put("bodyText", 0.8f);
         // boosts.put("headers", 0.3f);
 
@@ -100,7 +100,7 @@ public class Query {
         int hitsPerPage = 10;
 
         // boosts the category word
-        queryStr =  queryStr + " AND " + category + "^2.0";
+        queryStr =  queryStr + " AND " + category + "^3.0";
         // q is a combination of two types of query parsing multifield and phrase
         BooleanQuery.Builder q = new BooleanQuery.Builder();
 
@@ -152,7 +152,7 @@ public class Query {
             searcher = new IndexSearcher(reader);
 
             // $k_1$ and $k_3$ to a value between 1.2 and 2 and b = 0.75 -- random rn
-            float k = 1.8f;
+            float k = 2.0f;
             float b = 0.75f;
             searcher.setSimilarity(new tuning(k, b));
 
