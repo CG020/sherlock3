@@ -48,5 +48,11 @@ public class WikiPage {
         return pages;
     }
 
+    public void clearAllContents() {
+        for (Page p: pages) {
+            p.clearContents();
+        }
+    }
+
 
 }

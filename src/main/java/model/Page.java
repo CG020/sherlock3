@@ -118,5 +118,8 @@ public abstract class Page {
         return null;
     }
 
+    public void clearContents() {
+        this.contents = null;
+    }
 
 }
