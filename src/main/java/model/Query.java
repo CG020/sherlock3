@@ -15,22 +15,24 @@ import org.apache.lucene.search.PhraseQuery;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
+import org.apache.lucene.store.FSDirectory;
 
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 
 public class Query {
-    Directory index;
+    IndexSearcher searcher;
     StandardAnalyzer analyzer;
     MultiFieldQueryParser multiParser;
     HashMap<String, Float> boosts;
 
 
-    public Query(Directory index, StandardAnalyzer analyzer) {
-        this.index = index;
+    public Query(IndexSearcher searcher, StandardAnalyzer analyzer) {
+        this.searcher = searcher;
         this.analyzer = analyzer;
     }
 
@@ -40,10 +42,10 @@ public class Query {
      */
     public void assignBoosts(HashMap<String, Float> boosts)  {
         boosts = new HashMap<>();
-        boosts.put("categories", 2.0f);
-        boosts.put("summary", 1.5f);
-        boosts.put("bodyText", 1.5f);
-        boosts.put("headers", 0.5f);
+        boosts.put("categories", 1.0f);
+        boosts.put("summary", 0.8f);
+        boosts.put("bodyText", 0.8f);
+        boosts.put("headers", 0.3f);
 
         this.multiParser = new MultiFieldQueryParser(
             new String[] {"categories", "summary", "bodyText", "headers"},
@@ -85,8 +87,6 @@ public class Query {
         // catch (ParseException e) { throw new RuntimeException(e); }
 
         int hitsPerPage = 10;
-        IndexReader reader = DirectoryReader.open(index);
-        IndexSearcher searcher = new IndexSearcher(reader);
         
         // multi-field query
         assignBoosts(this.boosts);
@@ -109,29 +109,35 @@ public class Query {
         List<ResultClass> ans = new ArrayList<>();
         for (ScoreDoc hit : hits) {
             Document d = searcher.doc(hit.doc);
+            String title = d.get("title");
             ResultClass page = new ResultClass();
             page.DocName = d;
             page.docScore = hit.score;
             ans.add(page);
-            System.out.format("\t%s: %f\n", d.get("docid"), hit.score);
+            System.out.format("\t%s: %f\n", title, hit.score);
         }
-        reader.close();
         return ans;
     }
 
     public static void main(String[] args ) {
         // mvn exec:java -D"exec.mainClass=model.Index"
 
-        // open the index here
-        // make new query object
-        String wikiPath = "sample";
+        Directory index;
+        DirectoryReader reader;
+        IndexSearcher searcher;
         try {
-            Index indexer = new Index(wikiPath);
-            Query q = new Query(indexer.index, new StandardAnalyzer());
-            try {
-                List<ResultClass> ans = q.runQuery("The dominant paper in our nation's capital, it's among the top 10 U.S. papers in circulation");
-            } catch (IOException e) { throw new RuntimeException(e); }
-        } catch (IOException e) { e.printStackTrace();}
+            index = FSDirectory.open(Paths.get("IndexBuild-20240424T182433Z-001\\IndexBuild"));
+            reader = DirectoryReader.open(index);
+            searcher = new IndexSearcher(reader);
+
+            Query q = new Query(searcher, new StandardAnalyzer());
+            List<ResultClass> ans = q.runQuery("The dominant paper in our nation's capital, it's among the top 10 U.S. papers in circulation");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("Could not set up searcher");
+        }
+
 
     }
 }
