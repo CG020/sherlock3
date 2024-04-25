@@ -20,7 +20,10 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.search.similarities.BM25Similarity;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -160,7 +163,7 @@ public class Query {
     }
     
 
-    public static void main(String[] args ) {
+    public static void main(String[] args ) throws FileNotFoundException {
         // mvn exec:java -D"exec.mainClass=model.Query" dont mind me maven notes 
         Directory index;
         DirectoryReader reader;
@@ -169,6 +172,11 @@ public class Query {
         // quick stop words remove test 
         List<String> stopWords = Arrays.asList("a", "an", "the", "and", "or", "but");
         CharArraySet stopSet = new CharArraySet(stopWords, true);
+
+        // im using this for debugging throwing all the out data into answers.txt
+        try (PrintStream out = new PrintStream(new FileOutputStream("src\\main\\resources\\answers.txt"))) {
+            System.setOut(out);
+        
 
         try {
             index = FSDirectory.open(Paths.get("IndexBuild-20240424T182433Z-001\\IndexBuild"));
@@ -190,6 +198,8 @@ public class Query {
                 String category = quest.get(0).toLowerCase();
                 String question = quest.get(1).toLowerCase();
                 List<ResultClass> ans = q.runQuery(category, question);
+                System.out.println(quest.get(2));
+                System.out.println("\n");
             }
 
 
@@ -197,6 +207,8 @@ public class Query {
             e.printStackTrace();
             System.out.println("Could not set up searcher");
         }
+
+    }
 
 
     }
