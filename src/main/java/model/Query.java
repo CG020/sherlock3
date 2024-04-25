@@ -1,5 +1,6 @@
 package model;
 
+import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
@@ -7,7 +8,6 @@ import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
-import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.BooleanClause;
 import org.apache.lucene.search.BooleanQuery;
 import org.apache.lucene.search.IndexSearcher;
@@ -19,68 +19,65 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.search.similarities.BM25Similarity;
 
-
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
 
 
 public class Query {
     IndexSearcher searcher;
     StandardAnalyzer analyzer;
     MultiFieldQueryParser multiParser;
-    HashMap<String, Float> boosts;
+    HashMap<String, Float> boosts = new HashMap<>();
     List<ResultClass> ans;
 
 
     public Query(IndexSearcher searcher, StandardAnalyzer analyzer) {
         this.searcher = searcher;
         this.analyzer = analyzer;
-    }
 
-    /**
-     * assigns subjective boost values to each field, builds the mutilFieldParser
-     * @param boosts the hashmap that stores boost numbers
-     */
-    public void assignBoosts(HashMap<String, Float> boosts)  {
-        boosts = new HashMap<>();
-        boosts.put("summary", 0.8f);
-        boosts.put("categories", 1.0f);
-        // boosts.put("bodyText", 0.8f);
-        // boosts.put("headers", 0.3f);
-
+        // boost assignment
+        boosts.put("summary", 1.0f);
+        boosts.put("categories", 0.8f);
         this.multiParser = new MultiFieldQueryParser(
-            new String[] {"summary", "categories"},
+            new String[]{"summary", "categories"},
             analyzer,
             boosts
         );
     }
 
-
-    public List<PhraseQuery> buildPhraseQ(String queryString) {
-        String[] words = queryString.split("\\s+");
-
-        List<PhraseQuery> queries = new ArrayList<>();
-
-        for (String word : words) {
-            for (int i = 0; i < words.length - 1; i++) {
-                PhraseQuery.Builder builder = new PhraseQuery.Builder();
-                builder.add(new Term(word, words[i]));
-                builder.add(new Term(word, words[i + 1]));
-                PhraseQuery phrase = builder.build();
-                queries.add(phrase);
-            }
-        }
-        return queries;
-    }
-
-
+    /**
+     * BM25Similarity configuration 
+     */
     public static class tuning extends BM25Similarity {
         public tuning(float k, float b) {
             super(k, b);
         }
+    }
+
+    /**
+     * Some syntax in a query is actually interpretted by lucene as phrases or boosts - removed them here
+     * WIP I have to replace with something to help parse
+     * @param category
+     * @param queryStr
+     * @return
+     */
+    public static String validateQuery (String category, String queryStr) {
+        String newStr;
+
+        newStr = queryStr + " AND " + category + "^3.0";
+        newStr = newStr.replaceAll("\"", "");
+        newStr = newStr.replaceAll("!", "");
+        newStr = newStr.replaceAll("\\(", "").replaceAll("\\)", "");
+
+        return newStr;
     }
 
 
@@ -92,75 +89,109 @@ public class Query {
      * documents. A ResultClass object holds a document's score Document object and score
      */
     public List<ResultClass> runQuery(String category, String queryStr) throws IOException {
-        // lucene query, answer arraylist, number of hits to return
-        // org.apache.lucene.search.Query categoryQuery;
-        org.apache.lucene.search.Query multiQuery;
-        // org.apache.lucene.search.Query q;
+        Set<String> duplicatesCheck = new HashSet<>();
         List<ResultClass> ans = new ArrayList<>();
         int hitsPerPage = 10;
-
-        // boosts the category word
-        queryStr =  queryStr + " AND " + category + "^3.0";
-        // q is a combination of two types of query parsing multifield and phrase
-        BooleanQuery.Builder q = new BooleanQuery.Builder();
-
-        // categories not parse yet wait to test
-        // categoryQuery = new TermQuery(new Term("categories", category));
-        
-        // multi-field query
-        assignBoosts(this.boosts);
+    
+        // double quotes signify a phrase query in lucene
+        queryStr = validateQuery (category, queryStr);
+    
+        // multi field parsee
+        org.apache.lucene.search.Query multiQuery;
         try {
             multiQuery = multiParser.parse(queryStr);
-            q.add(multiQuery, BooleanClause.Occur.SHOULD);
+        } catch (ParseException e) {
+            throw new RuntimeException("Error parsing query: " + e.getMessage(), e);
         }
-        catch (ParseException e) { throw new RuntimeException(e); }
-
-        // phrase query
-        List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr);
-        for (PhraseQuery pq : phraseQueries) {
-            q.add(pq, BooleanClause.Occur.SHOULD);
+    
+        //  duplicate check
+        int hitCount = 0;
+        while (ans.size() < hitsPerPage) {
+            TopDocs pages = searcher.search(multiQuery, hitCount + hitsPerPage);
+            ScoreDoc[] hits = pages.scoreDocs;
+    
+            // reach 10!!
+            if (hitCount >= pages.totalHits) {
+                break;
+            }
+    
+            for (int i = hitCount; i < hits.length; i++) {
+                Document d = searcher.doc(hits[i].doc);
+                String title = d.get("title");
+                if (duplicatesCheck.add(title)) {
+                    ResultClass page = new ResultClass();
+                    page.DocName = d;
+                    page.docScore = hits[i].score;
+                    ans.add(page);
+                    if (ans.size() == hitsPerPage) {
+                        break;
+                    }
+                }
+            }
+            hitCount += hits.length;
         }
-
-        TopDocs pages = searcher.search(q.build(), hitsPerPage);
-        ScoreDoc[] hits = pages.scoreDocs;
-
-        System.out.format("Query '%s' returned:\n", queryStr);
-        for (ScoreDoc hit : hits) {
-            Document d = searcher.doc(hit.doc);
-            String title = d.get("title");
-            ResultClass page = new ResultClass();
-            page.DocName = d;
-            page.docScore = hit.score;
-            ans.add(page);
-            System.out.format("\t%s: %f\n", title, hit.score);
-            // debugging
-            // System.out.println("\n" + d.get("categories") + "\n");
+    
+        // printing the results 
+        System.out.format("Query '%s' in category '%s' returned:\n", queryStr, category);
+        for (ResultClass page : ans) {
+            System.out.format("\t%s: %f\n", page.DocName.get("title"), page.docScore);
         }
-        
+    
         return ans;
     }
 
+    public static ArrayList<ArrayList<String>> readQuestions(Scanner scanner) {
+        ArrayList<ArrayList<String>> questionList = new ArrayList<>();
+
+        ArrayList<String> temp = new ArrayList<>();
+            scanner.useDelimiter("\r\n");
+            while (scanner.hasNext()) {
+                String next = scanner.next();
+                if(next.isBlank()) {
+                    questionList.add(temp);
+                    temp = new ArrayList<>();
+                } else {
+                    temp.add(next);
+                }
+            }
+            scanner.close();
+        
+        return questionList;
+    }
+    
+
     public static void main(String[] args ) {
         // mvn exec:java -D"exec.mainClass=model.Query" dont mind me maven notes 
-
         Directory index;
         DirectoryReader reader;
         IndexSearcher searcher;
+
+        // quick stop words remove test 
+        List<String> stopWords = Arrays.asList("a", "an", "the", "and", "or", "but");
+        CharArraySet stopSet = new CharArraySet(stopWords, true);
+
         try {
             index = FSDirectory.open(Paths.get("IndexBuild-20240424T182433Z-001\\IndexBuild"));
             reader = DirectoryReader.open(index);
             searcher = new IndexSearcher(reader);
 
             // $k_1$ and $k_3$ to a value between 1.2 and 2 and b = 0.75 -- random rn
-            float k = 2.0f;
-            float b = 0.75f;
+            float k = 1.2f; // k being lower reduces saturation of term frequency
+            float b = 0.1f; // b lower means doc length affects scoring less
             searcher.setSimilarity(new tuning(k, b));
 
+            // read in the questions
+            Scanner scanner = new Scanner(new File("src\\main\\resources\\questions.txt"));
+            ArrayList<ArrayList<String>> questionList = readQuestions(scanner);
+            Query q = new Query(searcher, new StandardAnalyzer(stopSet));
 
-            Query q = new Query(searcher, new StandardAnalyzer());
-            String category = ("NEWSPAPER").toLowerCase();
-            String question = "The dominant paper in our nation's capital, it's among the top 10 U.S. papers in circulation";
-            List<ResultClass> ans = q.runQuery(category, question);
+            // query everything in questions.txt
+            for (ArrayList<String> quest : questionList) {
+                String category = quest.get(0).toLowerCase();
+                String question = quest.get(1).toLowerCase();
+                List<ResultClass> ans = q.runQuery(category, question);
+            }
+
 
         } catch (IOException e) {
             e.printStackTrace();
