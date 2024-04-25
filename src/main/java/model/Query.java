@@ -4,14 +4,12 @@ import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
-import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.BooleanClause;
 import org.apache.lucene.search.BooleanQuery;
 import org.apache.lucene.search.IndexSearcher;
-import org.apache.lucene.search.PhraseQuery;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TermQuery;
 import org.apache.lucene.search.TopDocs;
@@ -19,19 +17,9 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.search.similarities.BM25Similarity;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintStream;
+import java.io.*;
+import java.util.*;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Set;
 
 
 public class Query {
@@ -84,78 +72,6 @@ public class Query {
         return newStr;
     }
 
-
-    // Lucene's default scoring system is BM25!!! this is good
-    /**
-     * Runs the lucene query then prints and returns a list of the matching documents
-     * @param queryStr: String query given to Lucene's QueryParser
-     * @return List<ResultClass>: A list of ResultClass objects representing the matching
-     * documents. A ResultClass object holds a document's score Document object and score
-     */
-    public List<ResultClass> runQuery(String category, String queryStr) throws IOException {
-        Set<String> duplicatesCheck = new HashSet<>();
-        List<ResultClass> ans = new ArrayList<>();
-        int hitsPerPage = 10;
-    
-        // double quotes signify a phrase query in lucene
-        queryStr = validateQuery (category, queryStr);
-    
-        // multi field parsee
-        org.apache.lucene.search.Query multiQuery;
-        try {
-            multiQuery = multiParser.parse(queryStr);
-        } catch (ParseException e) {
-            throw new RuntimeException("Error parsing query: " + e.getMessage(), e);
-        }
-
-        BooleanQuery.Builder q = new BooleanQuery.Builder();
-        if (multiQuery != null) {
-            q.add(multiQuery, BooleanClause.Occur.MUST);
-        }
-
-        // category boosting
-        TermQuery catQuery = new TermQuery(new Term("categories", category.replaceAll(" ", "_") + "^3.0"));
-        q.add(catQuery, BooleanClause.Occur.SHOULD);
-
-        BooleanQuery finalQuery = q.build();
-
-    
-        //  duplicate check
-        int hitCount = 0;
-        while (ans.size() < hitsPerPage) {
-            TopDocs pages = searcher.search(finalQuery, hitCount + hitsPerPage);
-            ScoreDoc[] hits = pages.scoreDocs;
-    
-            // reach 10!!
-            if (hitCount >= pages.totalHits) {
-                break;
-            }
-    
-            for (int i = hitCount; i < hits.length; i++) {
-                Document d = searcher.doc(hits[i].doc);
-                String title = d.get("title");
-                if (duplicatesCheck.add(title)) {
-                    ResultClass page = new ResultClass();
-                    page.DocName = d;
-                    page.docScore = hits[i].score;
-                    ans.add(page);
-                    if (ans.size() == hitsPerPage) {
-                        break;
-                    }
-                }
-            }
-            hitCount += hits.length;
-        }
-    
-        // printing the results 
-        System.out.format("Query '%s' in category '%s' returned:\n", queryStr, category);
-        for (ResultClass page : ans) {
-            System.out.format("\t%s: %f\n", page.DocName.get("title"), page.docScore);
-        }
-    
-        return ans;
-    }
-
     public static ArrayList<ArrayList<String>> readQuestions(Scanner scanner) {
         ArrayList<ArrayList<String>> questionList = new ArrayList<>();
 
@@ -173,6 +89,87 @@ public class Query {
             scanner.close();
         
         return questionList;
+    }
+
+    /**
+     * makes sure theres no duplicate docs and prints the results for ans in organized format
+     * @param hitsPerPage results number 
+     * @param finalQuery the boolean query with all the configs from runQuery
+     * @return List<ResultCalss>
+     * @throws IOException
+     */
+    public List<ResultClass> duplicateCheck(int hitsPerPage, BooleanQuery finalQuery) throws IOException {
+        Set<String> duplicatesCheck = new HashSet<>();
+        List<ResultClass> ans = new ArrayList<>();
+        
+        int hitCount = 0;
+        while (ans.size() < hitsPerPage) {
+            TopDocs pages = searcher.search(finalQuery, hitCount + hitsPerPage);
+            ScoreDoc[] hits = pages.scoreDocs;
+    
+            // reach 10!!
+            if (hitCount >= pages.totalHits) { break; }
+    
+            for (int i = hitCount; i < hits.length; i++) {
+                Document d = searcher.doc(hits[i].doc);
+                String title = d.get("title");
+                if (duplicatesCheck.add(title)) {
+                    ResultClass page = new ResultClass();
+                    page.DocName = d;
+                    page.docScore = hits[i].score;
+                    ans.add(page);
+                    if (ans.size() == hitsPerPage) { break; }
+                }
+            }
+            hitCount += hits.length;
+        }
+        return ans;
+    }
+
+
+    // Lucene's default scoring system is BM25!!! this is good
+    /**
+     * Runs the lucene query then prints and returns a list of the matching documents
+     * @param queryStr: String query given to Lucene's QueryParser
+     * @return List<ResultClass>: A list of ResultClass objects representing the matching
+     * documents. A ResultClass object holds a document's score Document object and score
+     */
+    public List<ResultClass> runQuery(String category, String queryStr) throws IOException {
+        BooleanQuery.Builder q = new BooleanQuery.Builder();
+        int hitsPerPage = 10;
+    
+        // double quotes signify a phrase query in lucene
+        queryStr = validateQuery (category, queryStr);
+    
+        // multi field parsee
+        org.apache.lucene.search.Query multiQuery;
+        try {
+            multiQuery = multiParser.parse(queryStr);
+        } catch (ParseException e) {
+            throw new RuntimeException("Error parsing query: " + e.getMessage(), e);
+        }
+
+        if (multiQuery != null) {
+            q.add(multiQuery, BooleanClause.Occur.MUST);
+        }
+
+        // category boosting
+        TermQuery catQuery = new TermQuery(new Term("categories", category.replaceAll(" ", "_") + "^3.0"));
+        q.add(catQuery, BooleanClause.Occur.SHOULD);
+
+        //  the boolean query that has all the other query types layered within
+        BooleanQuery finalQuery = q.build();
+
+        //  duplicate check + returns final results list + printing 
+        List<ResultClass> ans = duplicateCheck(hitsPerPage, finalQuery);
+    
+        // printing the results 
+        System.out.format("Query '%s' in category '%s' returned:\n", queryStr, category);
+        for (ResultClass page : ans) {
+            System.out.format("\t%s: %f\n", page.DocName.get("title"), page.docScore);
+        }
+    
+        return ans;
     }
     
 
@@ -219,10 +216,17 @@ public class Query {
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println("Could not set up searcher");
-        }
-
-    }
-
+        } } 
 
     }
 }
+
+
+// phrase query experimental stuff didnt really boost any scores kinda useless but might tweak later
+
+    // String[] words = queryStr.split(" ");
+    // for (int i = 0; i < words.length -1 ; i++) {
+    //     String phrase = words[i] + words[i + 1];
+    //     TermQuery phraseQuery = new TermQuery(new Term("categories", phrase));
+    //     q.add(phraseQuery, BooleanClause.Occur.SHOULD);
+    // }
