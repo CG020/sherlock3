@@ -3,6 +3,7 @@ package model;
 import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
+import org.apache.lucene.geo.Line;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
@@ -11,6 +12,7 @@ import org.apache.lucene.search.BooleanClause;
 import org.apache.lucene.search.BooleanQuery;
 import org.apache.lucene.search.BoostQuery;
 import org.apache.lucene.search.IndexSearcher;
+import org.apache.lucene.search.PhraseQuery;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TermQuery;
 import org.apache.lucene.search.TopDocs;
@@ -39,8 +41,9 @@ public class Query {
         // boost assignment
         boosts.put("summary", 1.4f);
         boosts.put("categories", 2.5f);
+        boosts.put("bodyText", 2.0f);
         this.multiParser = new MultiFieldQueryParser(
-            new String[]{"summary", "categories"},
+            new String[]{"summary", "categories", "bodyText"},
             analyzer,
             boosts
         );
@@ -127,6 +130,21 @@ public class Query {
         return ans;
     }
 
+    public List<PhraseQuery> buildPhraseQ(String queryString) {
+        String[] words = queryString.split("\\s+");
+
+        List<PhraseQuery> queries = new ArrayList<>();
+
+        for (int i = 0; i < words.length - 1; i++) {
+            PhraseQuery.Builder builder = new PhraseQuery.Builder();
+            builder.add(new Term("bodyText", words[i]));
+            builder.add(new Term("bodyText", words[i + 1]));
+            PhraseQuery phrase = builder.build();
+            queries.add(phrase);
+        }
+        return queries;
+    }
+
 
     // Lucene's default scoring system is BM25!!! this is good
     /**
@@ -152,13 +170,19 @@ public class Query {
         }
 
         if (multiQuery != null) {
-            q.add(multiQuery, BooleanClause.Occur.MUST);
+            q.add(multiQuery, BooleanClause.Occur.SHOULD);
         }
 
         // category boosting
-        TermQuery termCombine = new TermQuery(new Term("categories", category));
+        TermQuery termCombine = new TermQuery(new Term("bodyText", category));
         BoostQuery boostedQuery = new BoostQuery(termCombine, 2.0f);
         q.add(boostedQuery, BooleanClause.Occur.SHOULD); 
+
+        BooleanQuery.setMaxClauseCount(2048);
+        List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr);
+        for (PhraseQuery pq : phraseQueries) {
+            q.add(pq, BooleanClause.Occur.SHOULD);
+        }
 
         //  the boolean query that has all the other query types layered within
         BooleanQuery finalQuery = q.build();
@@ -193,7 +217,7 @@ public class Query {
         IndexSearcher searcher;
         
         // quick stop words remove test 
-        List<String> stopWords = Arrays.asList("a", "an", "the", "and", "or", "but");
+        List<String> stopWords = Arrays.asList("a", "an", "and", "or", "but");
         CharArraySet stopSet = new CharArraySet(stopWords, true);
 
         // im using this for debugging throwing all the out data into answers.txt
@@ -207,8 +231,8 @@ public class Query {
             searcher = new IndexSearcher(reader);
 
             // $k_1$ and $k_3$ to a value between 1.2 and 2 and b = 0.75 -- random rn
-            float k = 1.4f; // k being lower reduces saturation of term frequency
-            float b = 0.5f; // b lower means doc length affects scoring less
+            float k = 1.2f; // k being lower reduces saturation of term frequency
+            float b = 0.4f; // b lower means doc length affects scoring less
             searcher.setSimilarity(new tuning(k, b));
 
             // read in the questions
