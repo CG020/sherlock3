@@ -184,12 +184,12 @@ public class Query {
         CharArraySet stopSet = new CharArraySet(stopWords, true);
 
         // im using this for debugging throwing all the out data into answers.txt
-        try (PrintStream out = new PrintStream(new FileOutputStream("src\\main\\resources\\answers.txt"))) {
+        try (PrintStream out = new PrintStream(new FileOutputStream("answers.txt"))) {
             System.setOut(out);
         
 
         try {
-            index = FSDirectory.open(Paths.get("IndexBuild-20240424T182433Z-001\\IndexBuild"));
+            index = FSDirectory.open(Paths.get("IndexBuild"));
             reader = DirectoryReader.open(index);
             searcher = new IndexSearcher(reader);
 
@@ -199,7 +199,7 @@ public class Query {
             searcher.setSimilarity(new tuning(k, b));
 
             // read in the questions
-            Scanner scanner = new Scanner(new File("src\\main\\resources\\questions.txt"));
+            Scanner scanner = new Scanner(Query.class.getClassLoader().getResourceAsStream("questions.txt"));
             ArrayList<ArrayList<String>> questionList = readQuestions(scanner);
             Query q = new Query(searcher, new StandardAnalyzer(stopSet));
 
