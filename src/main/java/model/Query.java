@@ -75,7 +75,8 @@ public class Query {
     public static String validateQuery (String category, String queryStr) {
         String newStr;
 
-        newStr = queryStr + " AND " + category + "^3.0";
+        // newStr = queryStr + " AND " + category + "^3.0";
+        newStr = queryStr;
         newStr = newStr.replaceAll("\"", "");
         newStr = newStr.replaceAll("!", "");
         newStr = newStr.replaceAll("\\(", "").replaceAll("\\)", "");
@@ -106,11 +107,23 @@ public class Query {
         } catch (ParseException e) {
             throw new RuntimeException("Error parsing query: " + e.getMessage(), e);
         }
+
+        BooleanQuery.Builder q = new BooleanQuery.Builder();
+        if (multiQuery != null) {
+            q.add(multiQuery, BooleanClause.Occur.MUST);
+        }
+
+        // category boosting
+        TermQuery catQuery = new TermQuery(new Term("categories", category.replaceAll(" ", "_") + "^3.0"));
+        q.add(catQuery, BooleanClause.Occur.SHOULD);
+
+        BooleanQuery finalQuery = q.build();
+
     
         //  duplicate check
         int hitCount = 0;
         while (ans.size() < hitsPerPage) {
-            TopDocs pages = searcher.search(multiQuery, hitCount + hitsPerPage);
+            TopDocs pages = searcher.search(finalQuery, hitCount + hitsPerPage);
             ScoreDoc[] hits = pages.scoreDocs;
     
             // reach 10!!

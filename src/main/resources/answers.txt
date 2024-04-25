@@ -1,1279 +1,1390 @@
-Query 'the dominant paper in our nation's capital, it's among the top 10 u.s. papers in circulation AND newspapers^3.0' in category 'newspapers' returned:
-	Media of the United States: 64.688774
-	William Randolph Hearst: 61.660309
-	The Baltimore Sun: 57.848202
-	Reforma: 54.838707
-	New York Press: 51.226234
-	Los Angeles Times: 50.604816
-	The Irish Times: 49.123802
-	The Age: 48.322720
-	Li'l Abner: 45.831272
-	Comic strip: 44.766235
+Query 'the dominant paper in our nation's capital, it's among the top 10 u.s. papers in circulation' in category 'newspapers' returned:
+	William Randolph Hearst: 35.299442
+	Banking in the United States: 34.821133
+	Laos: 34.593887
+	Manhattan: 32.622063
+	Omaha, Nebraska: 32.465267
+	History of the United States (1865–1918): 31.934830
+	Media of the United States: 31.761829
+	Herbert Hoover: 31.671768
+	The Baltimore Sun: 31.487331
+	Columbia Law School: 31.244730
 The Washington Post
 
 
-Query 'the practice of pre-authorizing presidential use of force dates to a 1955 resolution re: this island near mainland china AND old year's resolutions^3.0' in category 'old year's resolutions' returned:
-	League of Nations: 55.482853
-	Law: 54.813004
-	China–United States relations: 49.028282
-	Iran–Iraq War: 48.574783
-	United Nations Security Council and the Iraq War: 48.411552
-	Taiwan: 46.916275
-	Korean War: 46.803085
-	Capital punishment: 46.130432
-	Communist Party of China: 42.601723
-	New Year's Eve: 41.816551
+Query 'the practice of pre-authorizing presidential use of force dates to a 1955 resolution re: this island near mainland china' in category 'old year's resolutions' returned:
+	One-China policy: 46.200432
+	Taiwan: 45.661030
+	Political status of Taiwan: 44.787052
+	Korean War: 42.299393
+	History of Indonesia: 39.259674
+	Taiwanization: 38.219151
+	Chinese Indonesians: 37.564266
+	Sri Lanka: 37.073006
+	History of the Republic of China: 37.032146
+	History of the United States Navy: 36.781700
 Taiwan
 
 
-Query 'daniel hertzberg & james b. stewart of this paper shared a 1988 pulitzer for their stories about insider trading AND newspapers^3.0' in category 'newspapers' returned:
-	The Wall Street Journal: 57.046085
-	Michael Milken: 40.584999
-	Paris: 38.331661
-	British Library: 34.520786
-	Warren G. Harding: 34.358265
-	The Washington Post: 33.936211
-	Native Americans in the United States: 33.047958
-	Dawn Media Group: 32.278675
-	Richmond Football Club: 31.596111
-	Washington Irving: 30.322025
+Query 'daniel hertzberg & james b. stewart of this paper shared a 1988 pulitzer for their stories about insider trading' in category 'newspapers' returned:
+	The Wall Street Journal: 48.377819
+	Michael Milken: 31.916727
+	History of Scotland: 30.696579
+	White-collar crime: 29.177946
+	Raymond Chandler: 28.681374
+	Ireland: 28.246716
+	Irish literature: 28.097935
+	China–United States relations: 27.550819
+	South Sea Company: 26.779032
+	Jonathan Franzen: 26.314409
 The Wall Street Journal
 
 
-Query 'song that says, you make me smile with my heart; your looks are laughable, unphotographable AND broadway lyrics^3.0' in category 'broadway lyrics' returned:
+Query 'song that says, you make me smile with my heart; your looks are laughable, unphotographable' in category 'broadway lyrics' returned:
+	Mildred Bailey: 48.284233
+	River Phoenix: 43.699455
+	Your Disco Needs You: 42.666985
+	Fear and Trembling: 40.752777
+	Solomon Burke: 39.196999
+	Jesus Prayer: 37.326248
+	Keyshia Cole: 36.214809
+	Whitney Houston: 35.846539
+	Stan (song): 35.815586
+	Luther Vandross: 34.781094
 My Funny Valentine
 
 
-Query 'in 2011 bell ringers for this charity started accepting digital donations to its red kettle AND potpourri^3.0' in category 'potpourri' returned:
+Query 'in 2011 bell ringers for this charity started accepting digital donations to its red kettle' in category 'potpourri' returned:
+	The Salvation Army: 32.791824
+	Change ringing: 29.599731
+	Médecins Sans Frontières: 28.922131
+	Canadian Broadcasting Corporation: 26.412636
+	Royal Society for the Prevention of Cruelty to Animals: 25.379078
+	CTV Television Network: 24.912577
+	Pixie Day: 24.626961
+	Coventry: 24.299568
+	Council on American–Islamic Relations: 23.555492
+	St John's College, Cambridge: 23.317181
 The Salvation Army|Salvation Army
 
 
-Query 'the naples museum of art AND state of the art museum alex: we'll give you the museum. you give us the state.^3.0' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
-	Florida Museum of Natural History: 84.378059
-	Museum of Modern Art: 68.132538
-	Art museum: 61.578770
-	Ian Hornak: 55.838322
-	Museum of Science and Industry (Chicago): 53.887600
-	The Cloisters: 53.336666
-	Cranbrook Educational Community: 53.062565
-	Columbia, Missouri: 52.759624
-	Robert E. Lee: 52.620056
-	Raleigh, North Carolina: 52.616524
+Query 'the naples museum of art' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+	Museum of Modern Art: 23.838463
+	Art museum: 22.537729
+	Whitney Museum of American Art: 21.250351
+	Canadian War Museum: 20.465117
+	Bertel Thorvaldsen: 20.405453
+	Grand Tour: 19.460445
+	Reggio Calabria: 19.271597
+	The Cloisters: 19.172819
+	National Gallery of Victoria: 18.939590
+	Florida Museum of Natural History: 18.813278
 Florida
 
 
-Query 'this italian painter depicted the adoration of the golden calf AND tin men^3.0' in category '"tin" men' returned:
-	Hersir: 27.153965
-	Roman Empire: 21.481951
-	Picaresque novel: 13.418446
-	Welsh rarebit: 11.115832
-	Dead Sea Scrolls: 8.712235
+Query 'this italian painter depicted the adoration of the golden calf' in category '"tin" men' returned:
+	Diego Velázquez: 26.572350
+	Tintoretto: 25.505322
+	Cimabue: 23.651518
+	Nicolas Poussin: 23.626738
+	Carlo Dolci: 20.731182
+	Caravaggio: 20.630199
+	Giorgio Vasari: 20.630199
+	Antonio da Correggio: 20.630199
+	Frans Hals: 19.475176
+	Charles Alston: 18.894056
 Tintoretto
 
 
-Query 'this woman who won consecutive heptathlons at the olympics went to ucla on a basketball scholarship AND ucla celebrity alumni^3.0' in category 'ucla celebrity alumni' returned:
-	University of North Carolina at Chapel Hill: 58.401726
-	NC State Wolfpack men's basketball: 41.298958
-	Maurice Greene (athlete): 39.469101
-	University of Virginia: 38.488953
-	Bob Knight: 33.632469
-	Spencer Tracy: 33.314743
-	University of California, Irvine: 31.574503
-	Bill Schmidt: 31.137493
-	John Wayne: 30.157742
-	Ed McMahon: 28.493279
+Query 'this woman who won consecutive heptathlons at the olympics went to ucla on a basketball scholarship' in category 'ucla celebrity alumni' returned:
+	Kobe Bryant: 44.758892
+	Kevin Love: 39.050529
+	Kareem Abdul-Jabbar: 38.183899
+	Dean Smith: 33.905838
+	Larry Doby: 33.905838
+	Wilma Rudolph: 32.632061
+	Maurice Greene (athlete): 32.581318
+	University of California, Los Angeles: 31.781620
+	Ozzie Smith: 31.356085
+	Whitney Houston: 31.243187
 Jackie Joyner-Kersee
 
 
-Query 'originally this club's emblem was a wagon wheel; now it's a gearwheel with 24 cogs & 6 spokes AND service organizations^3.0' in category 'service organizations' returned:
-	Spoke-hub distribution paradigm: 31.831039
-	Lightning detection: 30.803581
-	Louisville, Kentucky: 26.130409
-	Penny-farthing: 24.007973
-	Radial engine: 23.561182
-	University of California, Irvine: 20.465862
-	Newark, New Jersey: 19.299156
-	Wright brothers: 16.718670
-	History of Scotland: 16.120022
-	Casey Jones: 15.188974
+Query 'originally this club's emblem was a wagon wheel; now it's a gearwheel with 24 cogs & 6 spokes' in category 'service organizations' returned:
+	Oregon Trail: 35.880241
+	Ford Taurus: 32.296211
+	Spoke-hub distribution paradigm: 30.323704
+	Tottenham Hotspur F.C.: 29.758467
+	American Motors: 29.303366
+	Spoke: 27.665348
+	Ford Pinto: 27.412502
+	Chariot: 27.355257
+	Chevrolet Impala: 26.951056
+	Pontiac: 26.740141
 Rotary International
 
 
-Query 'several bridges, including el tahrir, cross the nile in this capital AND african cities^3.0' in category 'african cities' returned:
-	Cairo: 58.366959
-	Orange County, California: 47.959560
-	Marrakesh: 47.863907
-	Nile: 47.470467
-	Western Sahara: 46.148750
-	Nantes: 44.174461
-	Omaha, Nebraska: 43.185360
-	Memphis, Tennessee: 42.413555
-	Khartoum: 42.220665
-	Ayyubid dynasty: 41.981758
+Query 'several bridges, including el tahrir, cross the nile in this capital' in category 'african cities' returned:
+	Khartoum: 33.499912
+	Cairo: 31.511106
+	Mohamed Atta: 28.842323
+	Santa Cruz de Tenerife: 28.369743
+	Blue Nile: 26.360519
+	Battle of Fredericksburg: 26.187874
+	Nile: 25.176439
+	History of Egypt: 24.509747
+	Kharga Oasis: 24.124273
+	Valencia: 23.906061
 Cairo
 
 
-Query 'after the fall of france in 1940, this general told his country, france has lost a battle. but france has not lost the war AND historical quotes^3.0' in category 'historical quotes' returned:
-	Charles de Gaulle: 70.153870
-	Dreyfus affair: 65.768311
-	Henry III of England: 65.310242
-	Napoleonic Wars: 64.352425
-	Battles of Saratoga: 62.754753
-	Battle of Dien Bien Phu: 62.694786
-	Fourth International: 60.906452
-	John, King of England: 60.784237
-	Louis XVI of France: 60.227516
-	Stanley Baldwin: 60.212887
+Query 'after the fall of france in 1940, this general told his country, france has lost a battle. but france has not lost the war' in category 'historical quotes' returned:
+	Philippe Pétain: 81.875572
+	Adolf Galland: 71.769997
+	Charles de Gaulle: 68.353943
+	Dunkirk evacuation: 64.157768
+	Free French Forces: 63.997543
+	Henry III of England: 63.786324
+	Napoleonic Wars: 63.277714
+	Battle of Dien Bien Phu: 61.419968
+	Battle of the Plains of Abraham: 61.158543
+	Battles of Saratoga: 59.733326
 Charles de Gaulle|de Gaulle
 
 
-Query 'the taft museum of art AND state of the art museum alex: we'll give you the museum. you give us the state.^3.0' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
-	Florida Museum of Natural History: 84.378059
-	Museum of Modern Art: 68.132538
-	Art museum: 61.578770
-	Museum of Science and Industry (Chicago): 58.337532
-	Ian Hornak: 55.838322
-	The Cloisters: 53.336666
-	Malacañang Palace: 53.155457
-	Cranbrook Educational Community: 53.062565
-	Columbia, Missouri: 52.759624
-	Robert E. Lee: 52.620056
+Query 'the taft museum of art' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+	Museum of Modern Art: 23.838463
+	Taft–Katsura Agreement: 23.497568
+	Art museum: 22.537729
+	Whitney Museum of American Art: 21.250351
+	Canadian War Museum: 20.465117
+	Museum of Science and Industry (Chicago): 20.091696
+	The Cloisters: 19.172819
+	National Gallery of Victoria: 18.939590
+	Florida Museum of Natural History: 18.813278
+	Ian Hornak: 18.367653
 Ohio
 
 
-Query 'the mast from the uss maine is part of the memorial to the ship & crew at this national cemetery AND cemeteries^3.0' in category 'cemeteries' returned:
-	Cemetery: 81.012260
-	Zentralfriedhof: 71.473946
-	Sutton Hoo: 66.645584
-	London Necropolis Company: 57.267040
-	Madras War Cemetery: 56.766014
-	Calvary Cemetery (Queens, New York): 55.377926
-	Magnificent Seven cemeteries: 52.775135
-	The King's Pilgrimage: 52.763412
-	Brockley and Ladywell Cemeteries: 51.706375
-	Cremation: 51.381332
+Query 'the mast from the uss maine is part of the memorial to the ship & crew at this national cemetery' in category 'cemeteries' returned:
+	Robert Ballard: 38.264000
+	USS Arizona Memorial: 35.611820
+	USS John F. Kennedy (CV-67): 33.601280
+	USS Missouri (BB-63): 33.509495
+	H. L. Hunley (submarine): 33.040009
+	USS Constitution: 32.657616
+	USS Minneapolis–Saint Paul (SSN-708): 31.860449
+	Thomas W. Lawson (ship): 31.820503
+	Sloop: 31.477688
+	USS Oregon (BB-3): 31.192806
 Arlington National Cemetery|Arlington Cemetery
 
 
-Query 'in 2009: joker on film AND golden globe winners^3.0' in category 'golden globe winners' returned:
-	High Noon: 40.150970
-	Cinema of Denmark: 37.588547
-	Philip Pullman: 36.880192
-	Paul Verhoeven: 36.819336
-	FC Barcelona: 34.806381
-	Jacqueline Bisset: 34.622780
-	George Clooney: 33.004639
-	Alfred I. duPont–Columbia University Award: 32.108398
-	Columbia University: 30.634346
-	Los Angeles Film Critics Association: 30.486425
+Query 'in 2009: joker on film' in category 'golden globe winners' returned:
+	Aamir Khan: 9.886940
+	35 mm film: 9.827070
+	Goodfellas: 9.789154
+	Super 8 film: 9.674576
+	Jurassic Park (film): 9.657032
+	Schindler's List: 9.575734
+	Brazil (1985 film): 9.517126
+	Anastasia (1997 film): 9.501698
+	70 mm film: 9.491561
+	Snow White and the Seven Dwarfs (1937 film): 9.461647
 Heath Ledger
 
 
-Query 'it was the peninsula fought over in the peninsular war of 1808 to 1814 AND historical hodgepodge^3.0' in category 'historical hodgepodge' returned:
-	Napoleonic Wars: 54.582390
-	History of Spain: 43.110859
-	History of Catalonia: 35.184029
-	History of Italy: 32.307518
-	Battle of New Orleans: 31.844507
-	Charles Maurice de Talleyrand-Périgord: 30.433626
-	Spain: 29.893372
-	History of France: 28.200985
-	Valencia: 27.309547
-	Napoleon III: 26.769949
+Query 'it was the peninsula fought over in the peninsular war of 1808 to 1814' in category 'historical hodgepodge' returned:
+	Napoleonic Wars: 53.507679
+	History of Spain: 41.183697
+	Honoré Théodore Maxime Gazan de la Peyrière: 36.917961
+	History of Catalonia: 33.846970
+	Finnish War: 33.774620
+	House of Bourbon: 33.512894
+	Ferdinand VII of Spain: 33.512894
+	Norway: 32.782681
+	Badajoz: 31.195711
+	Battle of Lundy's Lane: 30.958601
 Iberia|Iberian Peninsula
 
 
-Query 'in 1980 china founded a center for these cute creatures in its bamboo-rich wolong nature preserve AND conservation^3.0' in category 'conservation' returned:
-	Conservation movement: 73.789703
-	Botanical garden: 54.336548
-	Andean mountain cat: 53.412395
-	Katmai National Park and Preserve: 46.006714
-	Hungarian Ornithological and Nature Conservation Society: 44.036053
-	National park: 42.087486
-	International Union for Conservation of Nature: 41.905636
-	River Wye: 41.590736
-	Ecology: 39.511463
-	Manta ray: 39.398689
+Query 'in 1980 china founded a center for these cute creatures in its bamboo-rich wolong nature preserve' in category 'conservation' returned:
+	Chengdu: 32.741795
+	Chinese music: 30.144478
+	Chinese dragon: 29.488169
+	Yangtze: 27.664410
+	Nepal: 27.664410
+	Foreign relations of China: 27.034643
+	Reed College: 26.933805
+	History of science: 26.055964
+	Poland: 25.725569
+	Russia: 25.584545
 Panda|Giant panda
 
 
-Query '1988: father figure AND '80s no.1 hitmakers^3.0' in category ''80s no.1 hitmakers' returned:
-	Gil Scott-Heron: 16.887094
-	Alan Moore: 14.287955
-	Like a Virgin: 13.440038
-	John Treasure: 11.914295
-	Keshi: 11.811587
-	Transformers (toy line): 11.811587
-	Action figure: 11.811587
-	Marsyas: 10.963670
-	Gobots: 10.334242
-	Revolver: 10.334242
+Query '1988: father figure' in category ''80s no.1 hitmakers' returned:
+	Antenna gain: 10.450047
+	Genetic recombination: 10.174397
+	Laozi: 9.651109
+	Buzz Lightyear: 9.195962
+	Elvis Stojko: 9.125417
+	Ice skate: 9.065994
+	Battle of Barnet: 8.782228
+	Meshes of the Afternoon: 8.719902
+	Basque mythology: 8.673557
+	Low-noise amplifier: 8.606258
 George Michael
 
 
-Query 'in an essay defending this 2011 film, myrlie evers-williams said, my mother was this film & so was her mother AND african-american women^3.0' in category 'african-american women' returned:
-	Joan Crawford: 74.355324
-	Gloria Steinem: 71.623848
-	Whitney Houston: 61.813229
-	Milla Jovovich: 60.694668
-	Ken Russell: 59.531967
-	María Félix: 58.031708
-	Mary Magdalene: 57.782623
-	Susan Sarandon: 57.579414
-	Serena Williams: 56.034470
-	Mandy Moore: 56.031715
+Query 'in an essay defending this 2011 film, myrlie evers-williams said, my mother was this film & so was her mother' in category 'african-american women' returned:
+	River Phoenix: 50.859318
+	Fly Away Home: 48.465675
+	Rachel Weisz: 46.100475
+	Wild at Heart (film): 44.619339
+	Joan Crawford: 44.385544
+	Serena Williams: 43.847527
+	Bonnie and Clyde: 42.269436
+	Maria Callas: 42.009457
+	The Cat in the Hat: 41.889706
+	William Katt: 41.748108
 The Help
 
 
-Query 'father michael mcgivney founded this fraternal society for catholic laymen in 1882 AND service organizations^3.0' in category 'service organizations' returned:
-	Knights of Columbus: 90.826752
-	B'nai B'rith: 48.209721
-	Ku Klux Klan: 40.336788
-	History of the United States (1865–1918): 39.192795
-	Animal testing: 38.614529
-	Swiss Red Cross: 38.391254
-	Mikhail Bakunin: 32.894238
-	Grand Army of the Republic: 31.425934
-	Roanoke College: 29.839123
-	Ion Antonescu: 28.810741
+Query 'father michael mcgivney founded this fraternal society for catholic laymen in 1882' in category 'service organizations' returned:
+	Knights of Columbus: 78.022202
+	University of Notre Dame: 27.435280
+	Pope Pius XI: 26.397318
+	Grand Duke Michael Alexandrovich of Russia: 26.071455
+	Émile Durkheim: 25.038786
+	Catholic sex abuse cases: 24.882557
+	Georgetown University: 24.447084
+	Lay abbot: 24.441437
+	Secret society: 24.311890
+	Ralph Waldo Emerson: 23.536747
 Knights of Columbus
 
 
-Query 'early projects of the wwf, this organization, included work with the bald eagle & the red wolf AND conservation^3.0' in category 'conservation' returned:
-	Yellowstone National Park: 47.790169
-	Chien-Shiung Wu: 43.448261
-	Cougar: 42.942013
-	Political ecology: 41.856506
-	Gray wolf: 37.057079
-	Golden Eagle: 36.593407
-	Columbia River: 36.173115
-	Manaslu: 32.989407
-	Killer whale: 32.626453
-	List of National Parks of Canada: 32.467335
+Query 'early projects of the wwf, this organization, included work with the bald eagle & the red wolf' in category 'conservation' returned:
+	Hulk Hogan: 29.469006
+	Gray wolf: 27.731022
+	CARE (relief agency): 27.539156
+	Little Red Riding Hood: 27.441616
+	Golden Eagle: 27.267349
+	Columbia River: 26.847057
+	Falconry: 26.345705
+	Osprey: 26.294666
+	Lex Luger: 26.027641
+	Red Skelton: 24.854332
 World Wide Fund|World Wide Fund for Nature
 
 
-Query 'indonesia's largest lizard, it's protected from poachers, though we wish it could breathe fire to do the job itself AND conservation^3.0' in category 'conservation' returned:
-	Conservation of mass: 57.975014
-	Yellowstone National Park: 54.661484
-	Conservation of energy: 53.289360
-	Energy: 50.116554
-	Botanical garden: 48.792088
-	Emu: 48.529282
-	International Whaling Commission: 46.626495
-	Seabird: 44.876266
-	Hampstead Heath: 43.833912
-	Political ecology: 43.682693
+Query 'indonesia's largest lizard, it's protected from poachers, though we wish it could breathe fire to do the job itself' in category 'conservation' returned:
+	Indonesian National Revolution: 38.252563
+	Reptile: 34.890717
+	Omnipotence paradox: 34.849239
+	Alan Moore: 34.392395
+	Chinese Indonesians: 33.913574
+	Battle of the Atlantic: 33.182079
+	Fear and Trembling: 32.954388
+	Komodo dragon: 32.953075
+	Roger Waters: 32.581249
+	Ludwig Wittgenstein: 32.425911
 Komodo dragon
 
 
-Query 'nov. 28, 1929 this man & his chief pilot bernt balchen fly to south pole yowza you'll be an admirable admiral, sir AND 1920s news flash^3.0' in category '1920s news flash!' returned:
-	Winston Churchill: 40.430141
-	Wright brothers: 36.520218
-	Sir Henry Wilson, 1st Baronet: 34.764027
-	John French, 1st Earl of Ypres: 33.874081
-	Ramsay MacDonald: 33.498489
-	Pierre Monteux: 31.237411
-	List of Donald Duck universe characters: 30.698370
-	James Scullin: 30.690609
-	William Lyon Mackenzie King: 30.227371
-	Ralph Richardson: 29.627583
+Query 'nov. 28, 1929 this man & his chief pilot bernt balchen fly to south pole yowza you'll be an admirable admiral, sir' in category '1920s news flash!' returned:
+	Adolf Galland: 37.684639
+	Hermann Göring: 33.150887
+	Neil Armstrong: 31.997290
+	1929: 31.723286
+	Vladimir Komarov: 31.494221
+	John French, 1st Earl of Ypres: 31.164141
+	Douglas MacArthur: 30.714428
+	Robert Falcon Scott: 30.358315
+	Sir Henry Wilson, 1st Baronet: 30.250599
+	Horace Walpole: 30.142256
 Richard Byrd|Richard E. Byrd
 
 
-Query 'on may 5, 1878 alice chambers was the last person buried in this dodge city, kansas cemetery AND cemeteries^3.0' in category 'cemeteries' returned:
-	Cemetery: 96.431412
-	Zentralfriedhof: 75.791588
-	Cremation: 60.813335
-	Sutton Hoo: 60.509235
-	Calvary Cemetery (Queens, New York): 59.564423
-	London Necropolis Company: 59.048626
-	Magnificent Seven cemeteries: 54.988613
-	Mount Royal Cemetery: 53.512825
-	Boot Hill: 52.242569
-	Mount Auburn Cemetery: 51.377491
+Query 'on may 5, 1878 alice chambers was the last person buried in this dodge city, kansas cemetery' in category 'cemeteries' returned:
+	Doc Holliday: 35.712784
+	Omaha, Nebraska: 35.399841
+	Cemetery: 33.449215
+	Gunsmoke: 30.053833
+	Samuel Jay Crumbine: 29.439434
+	Alice in Chains: 28.192186
+	Princess Alice, Countess of Athlone: 27.802755
+	Nikola Tesla: 27.675259
+	Boot Hill: 27.238800
+	Gertrude Stein: 26.957186
 Boot Hill
 
 
-Query 'the royal palace grounds feature a statue of king norodom, who in the late 1800s was compelled to first put his country under the control of this european power; of course, it was sculpted in that country AND cambodian history & culture^3.0' in category 'cambodian history & culture' returned:
-	History of Cambodia: 67.650322
-	Khmer Rouge: 52.285786
-	Laos: 48.267403
-	Vietnam War: 47.840073
-	History of painting: 42.161076
-	Gustave Rolin-Jaequemyns: 41.420261
-	Culture of the Philippines: 40.427170
-	Foreign relations of Indonesia: 40.319366
-	History of Southeast Asia: 39.763817
-	Tet Offensive: 38.738438
+Query 'the royal palace grounds feature a statue of king norodom, who in the late 1800s was compelled to first put his country under the control of this european power; of course, it was sculpted in that country' in category 'cambodian history & culture' returned:
+	History of Madagascar: 68.849236
+	History of France: 66.413742
+	Henry III of England: 58.028027
+	History of Indonesia: 55.546204
+	Louis XIV of France: 55.423386
+	Abbas I of Persia: 54.668228
+	James VI and I: 53.576683
+	Norway: 53.255985
+	Rideau Hall: 52.917583
+	Philip IV of France: 52.764778
 France
 
 
-Query 'in the 400s b.c. this chinese philosopher went into exile for 12 years AND historical hodgepodge^3.0' in category 'historical hodgepodge' returned:
-	Culture of Italy: 33.090618
-	Zhang Binglin: 32.805916
-	Chinese mythology: 29.888994
-	Sun Yat-sen: 27.682774
-	Napoleon III: 27.381886
-	Daphne Marlatt: 26.985802
-	Confucius: 26.019432
-	Romance of the Three Kingdoms: 25.786823
-	Luis Cernuda: 24.805546
-	Harald Hardrada: 24.635887
+Query 'in the 400s b.c. this chinese philosopher went into exile for 12 years' in category 'historical hodgepodge' returned:
+	Zhang Binglin: 27.316809
+	Sun Yat-sen: 25.755613
+	Napoleon III: 25.454725
+	Confucius: 24.092272
+	Chinese mythology: 23.181587
+	Luis Cernuda: 22.878387
+	Harald Hardrada: 22.315098
+	Hannibal: 21.844957
+	Penda of Mercia: 21.280184
+	Herbert Spencer: 21.276199
 Confucius
 
 
-Query 'bessie coleman, the first black woman licensed as a pilot, landed a street named in her honor at this chicago airport AND african-american women^3.0' in category 'african-american women' returned:
-	Bessie Coleman: 66.976692
-	Whitney Houston: 60.212376
-	O'Hare International Airport: 50.986370
-	Patsy Cline: 49.793510
-	Lambert–St. Louis International Airport: 47.057037
-	Monrovia: 45.213425
-	Assassins (musical): 43.958309
-	Rita Hayworth: 43.301552
-	Louis Armstrong: 42.087971
-	Marrakesh: 42.028702
+Query 'bessie coleman, the first black woman licensed as a pilot, landed a street named in her honor at this chicago airport' in category 'african-american women' returned:
+	Bessie Coleman: 50.702091
+	O'Hare International Airport: 45.608631
+	Pilot (aeronautics): 39.529293
+	Lambert–St. Louis International Airport: 35.344269
+	Billy Bishop Toronto City Airport: 33.260414
+	Newark Liberty International Airport: 33.164635
+	Kalamazoo/Battle Creek International Airport: 32.945484
+	Diamond Bessie: 32.611805
+	Ida Cox: 32.524338
+	All in the Family: 32.428303
 O'Hare|O'Hare International Airport
 
 
-Query 'the ammonites held sway in this mideast country in the 1200s b.c. & the capital is named for them AND historical hodgepodge^3.0' in category 'historical hodgepodge' returned:
-	Culture of Italy: 47.089520
-	Panama: 27.407215
-	History of Armenia: 27.007477
-	Palestinian people: 26.927073
-	West Germany: 26.204134
-	Comoros: 25.724468
-	Warren G. Harding: 25.303982
-	Danelaw: 24.949322
-	San Salvador: 24.851158
-	History of Madagascar: 24.510078
+Query 'the ammonites held sway in this mideast country in the 1200s b.c. & the capital is named for them' in category 'historical hodgepodge' returned:
+	Culture of Italy: 29.586432
+	Ammonoidea: 28.823183
+	Panama: 25.480057
+	West Germany: 24.276976
+	Comoros: 23.797310
+	San Salvador: 22.924000
+	Rabbah: 22.778282
+	Quezon City: 22.140121
+	Nepal: 22.048813
+	History of Madagascar: 21.893181
 Jordan
 
 
-Query 'the sum of all fears; he also won a screenwriting oscar for good will hunting AND he played a guy named jack ryan in...^3.0' in category 'he played a guy named jack ryan in...' returned:
-	Ben Affleck: 73.007233
-	Mickey Rooney: 34.340954
-	John Huston: 34.274433
-	Get Carter: 33.847042
-	Daniel Day-Lewis: 33.753048
-	Fox hunting: 33.698265
-	The Pianist (memoir): 33.141907
-	Gus Van Sant: 32.652172
-	Ricky Gervais: 30.566231
-	Michael J. Fox: 30.466223
+Query 'the sum of all fears; he also won a screenwriting oscar for good will hunting' in category 'he played a guy named jack ryan in...' returned:
+	Ben Affleck: 55.082169
+	Liev Schreiber: 32.930176
+	Ethan Hawke: 32.365669
+	Morgan Freeman: 32.302532
+	George Clooney: 30.091953
+	Oscar Robertson: 29.969082
+	Fox hunting: 29.762634
+	The Pianist (memoir): 28.054646
+	John Huston: 27.849419
+	Gus Van Sant: 27.564911
 Ben Affleck
 
 
-Query 'one of the n.y. times' headlines on this landmark 1973 supreme court decision was cardinals shocked AND potpourri^3.0' in category 'potpourri' returned:
-	Aida: 30.030994
+Query 'one of the n.y. times' headlines on this landmark 1973 supreme court decision was cardinals shocked' in category 'potpourri' returned:
+	Roe v. Wade: 46.423779
+	Romer v. Evans: 44.427452
+	Brown v. Board of Education: 42.493263
+	Same-sex marriage in California: 39.774326
+	Minersville School District v. Gobitis: 37.953621
+	Regents of the University of California v. Bakke: 36.079426
+	Dartmouth College v. Woodward: 35.562916
+	Fletcher v. Peck: 35.535957
+	Wesberry v. Sanders: 34.796108
+	Bowers v. Hardwick: 34.503410
 Roe v. Wade
 
 
-Query 'france's philip iv--known as the fair--had jacques de molay, the last grand master of this order, burned in 1314 AND i'm burnin' for you^3.0' in category 'i'm burnin' for you' returned:
-	Paris: 66.905144
-	History of England: 34.273834
-	1066 and All That: 31.458561
+Query 'france's philip iv--known as the fair--had jacques de molay, the last grand master of this order, burned in 1314' in category 'i'm burnin' for you' returned:
+	Philip IV of France: 71.028648
+	Knights Templar: 60.357807
+	Paris: 58.726456
+	History of France: 48.226097
+	Edward II of England: 44.794056
+	War of the Spanish Succession: 44.452335
+	Napoleon III: 43.608345
+	Louis X of France: 43.285168
+	Lille: 42.315823
+	Avignon Papacy: 41.228237
 Knights Templar
 
 
-Query 'the georgia o'keeffe museum AND state of the art museum alex: we'll give you the museum. you give us the state.^3.0' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
-	Florida Museum of Natural History: 81.818436
-	Museum of Modern Art: 63.552406
-	Georgia (U.S. state): 59.794006
-	Robert E. Lee: 51.655334
-	Museum of Science and Industry (Chicago): 50.879005
-	Crown jewels: 49.935265
-	Raleigh, North Carolina: 49.793457
-	Art museum: 49.744019
-	Malacañang Palace: 49.049553
-	Cranbrook Educational Community: 47.152863
+Query 'the georgia o'keeffe museum' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+	Alfred Stieglitz: 26.729717
+	Palo Duro Canyon: 19.839319
+	Dan Budnik: 19.839319
+	Museum of Modern Art: 19.258333
+	Georgia (U.S. state): 19.152399
+	Georgia (country): 16.916157
+	Florida Museum of Natural History: 16.253656
+	Kain O'Keeffe: 16.235966
+	Fort Knox: 15.106705
+	Georgia Southern Eagles: 14.750012
 New Mexico
 
 
-Query 'the name of this largest moroccan city combines 2 spanish words AND african cities^3.0' in category 'african cities' returned:
-	Marrakesh: 57.976105
-	Leicester: 52.360588
-	Toronto: 47.430794
-	Music of the United States: 45.240677
-	Venezuela: 42.094894
-	Yucatán: 41.066170
-	Sheffield: 40.860344
-	Languages of the United States: 39.397026
-	Demographics of New Zealand: 39.113865
-	Rio de Janeiro: 37.763977
+Query 'the name of this largest moroccan city combines 2 spanish words' in category 'african cities' returned:
+	Havana: 32.396130
+	Marrakesh: 31.120249
+	Valencia: 26.294598
+	Leicester: 26.156630
+	Peñón de Vélez de la Gomera: 26.007065
+	Schaerbeek: 25.997030
+	Bilbao: 25.976505
+	Languages of the United States: 25.957399
+	Rabat: 25.826115
+	History of Casablanca: 25.817619
 Casablanca
 
 
-Query 'jell-o AND name the parent company^3.0' in category 'name the parent company' returned:
-	Jell-O: 36.693306
-	Fox Broadcasting Company: 35.467979
-	Universal Studios: 34.952690
-	CBS: 29.748863
-	Walt Disney: 28.914112
-	Hormel: 28.914112
-	Cold Stone Creamery: 28.050022
-	Donruss: 27.275921
-	Sumner Redstone: 27.275921
-	Union Carbide: 26.679432
+Query 'jell-o' in category 'name the parent company' returned:
+	Jell-O: 25.588089
+	Olive loaf: 16.290981
+	O-Bahn Busway: 14.644526
+	Omphalotus olearius: 11.598167
+	Ò: 11.333262
+	Pepetela: 11.295718
+	Ó: 11.227919
+	Isocyanate: 10.648756
+	Story of O: 10.526070
+	James MacArthur: 10.041910
 Kraft Foods
 
 
-Query '2011: chicago mayor tom kane AND golden globe winners^3.0' in category 'golden globe winners' returned:
-	High Noon: 39.605255
-	Daniel Day-Lewis: 29.902397
-	Chloë Sevigny: 22.909557
-	Glen Campbell: 22.909557
-	American Beauty (film): 22.127935
-	Willy Wonka: 22.127935
-	Captain America: 21.869482
-	Dog Day Afternoon: 20.477049
-	Gary Cooper: 20.221394
-	The Ninth Configuration: 20.221394
+Query '2011: chicago mayor tom kane' in category 'golden globe winners' returned:
+	William Randolph Hearst: 20.066338
+	Citizen Kane: 17.559341
+	New York Dolls: 16.851202
+	Tom Kenny: 15.700542
+	Larry Kane: 14.952995
+	Ed Koch: 14.884525
+	Gary Cooper: 14.795778
+	Vertigo (film): 14.795778
+	The Ninth Configuration: 14.795778
+	Bernard Herrmann: 14.703454
 Kelsey Grammer
 
 
-Query 'title residence of otter, flounder, pinto & bluto in a 1978 comedy AND the residents^3.0' in category 'the residents' returned:
+Query 'title residence of otter, flounder, pinto & bluto in a 1978 comedy' in category 'the residents' returned:
 	Animal House: 60.737610
-	Des Moines, Iowa: 32.868996
-	Characters of Parks and Recreation: 32.509048
-	Chicago: 31.953339
-	Johannesburg: 31.472645
-	Wellington: 30.641449
-	Coronation Street: 30.077553
-	Cleveland: 30.077553
-	Bucharest: 29.135281
-	Manhattan: 28.867920
+	Bluto: 39.461285
+	Ford Pinto: 34.256344
+	Flounder: 28.105455
+	Bozo the Clown: 23.573946
+	National Lampoon (magazine): 21.804064
+	George Carlin: 20.644089
+	Penelope Keith: 19.456091
+	Ronnie Barker: 19.402832
+	Harold Pinter: 19.256454
 Animal House
 
 
-Query 'neurobiologist amy farrah fowler on the big bang theory, in real life she has a ph.d. in neuroscience from ucla AND ucla celebrity alumni^3.0' in category 'ucla celebrity alumni' returned:
-	Mayim Bialik: 103.513130
-	University of California, Los Angeles: 70.413361
-	California Institute of Technology: 65.734009
-	Mighty Bruins: 58.262238
-	University of Oregon: 46.009167
-	Wil Wheaton: 44.477352
-	Kareem Abdul-Jabbar: 44.031525
-	University of North Carolina at Chapel Hill: 42.801071
-	John Lott: 41.433159
-	Iowa State University: 41.317604
+Query 'neurobiologist amy farrah fowler on the big bang theory, in real life she has a ph.d. in neuroscience from ucla' in category 'ucla celebrity alumni' returned:
+	Mayim Bialik: 95.629623
+	Howard Wolowitz: 43.467110
+	Nucleosynthesis: 41.301090
+	Laurie Metcalf: 38.649414
+	Raj Koothrappali: 36.726109
+	Wil Wheaton: 36.593853
+	George Gamow: 35.437321
+	Barbara Windsor: 33.581505
+	Subrahmanyan Chandrasekhar: 33.101955
+	California Institute of Technology: 30.880989
 Mayim Bialik
 
 
-Query 'in the deadlocked election of 1800, james r. sharp outlines the fall of this dueling vice president AND notes from the campaign trail^3.0' in category 'notes from the campaign trail' returned:
-	Oregon Trail: 67.449615
-	Vietnam War: 49.685226
-	Richard Mentor Johnson: 46.299248
-	Richard Nixon: 45.414207
-	Aaron Burr: 43.621223
-	California Gold Rush: 40.733398
-	John Brown (abolitionist): 39.979168
-	John C. Breckinridge: 39.846138
-	William McKinley: 38.625031
-	American frontier: 36.856522
+Query 'in the deadlocked election of 1800, james r. sharp outlines the fall of this dueling vice president' in category 'notes from the campaign trail' returned:
+	Republic of China presidential election, 2004: 39.644642
+	President pro tempore of the United States Senate: 34.219692
+	John C. Breckinridge: 34.097488
+	Republic of China presidential election, 2000: 33.626801
+	John Breathitt: 32.524086
+	Joe Lieberman: 32.372459
+	Richard Mentor Johnson: 31.890860
+	Republic of China presidential election, 1996: 30.602102
+	Speaker of the United States House of Representatives: 30.441681
+	William Eustis: 29.906734
 Aaron Burr
 
 
-Query 'he served in the kgb before becoming president & then prime minister of russia AND tin men^3.0' in category '"tin" men' returned:
-	Irving Berlin: 29.479977
-	History of the Netherlands: 29.256340
-	Economy of Malaysia: 28.685125
-	Goldman Sachs: 27.866112
-	Gulf War: 27.666424
-	Nigeria: 27.528309
-	Foreign relations of India: 27.513870
-	Hersir: 25.598721
-	History of Africa: 23.600307
-	Sami people: 23.472713
+Query 'he served in the kgb before becoming president & then prime minister of russia' in category '"tin" men' returned:
+	Vladimir Putin: 57.173557
+	José Ramos-Horta: 49.128174
+	Shimon Peres: 44.178116
+	David Ben-Gurion: 41.202557
+	Stanley Baldwin: 40.553955
+	Robert Walpole: 40.247543
+	Charles de Gaulle: 40.083397
+	Jean Chrétien: 39.044529
+	Risto Ryti: 38.615574
+	Mauno Koivisto: 38.439018
 Vladimir Putin|Putin
 
 
-Query 'when asked to describe herself, she says first & foremost, she is malia & sasha's mom AND african-american women^3.0' in category 'african-american women' returned:
-	Whitney Houston: 55.961536
-	Tippi Hedren: 41.464783
-	Billie Holiday: 37.957249
-	Halle Berry: 37.667747
-	Jennifer Lopez: 37.546654
-	The Donna Reed Show: 36.594749
-	Yelena Davydova: 35.344215
-	Mazie Hirono: 35.336716
-	Rosie O'Donnell: 33.552284
-	Stevie Nicks: 33.552284
+Query 'when asked to describe herself, she says first & foremost, she is malia & sasha's mom' in category 'african-american women' returned:
+	Michelle Obama: 36.758900
+	Anne Marie Louise d'Orléans, Duchess of Montpensier: 36.701527
+	Maria Callas: 35.314396
+	Mary Magdalene: 35.134296
+	Joan Crawford: 34.076256
+	Ahalya: 33.381031
+	Emma Goldman: 32.991711
+	Poison Ivy (comics): 32.917248
+	Gloria Steinem: 32.592968
+	Joan Baez: 32.258190
 Michelle Obama
 
 
-Query 'she wrote, my candle burns at both ends... but, ah, my foes, and oh, my friends--it gives a lovely light AND poets & poetry^3.0' in category 'poets & poetry' returned:
-	Bliss Carman: 69.503906
-	Wilfred Owen: 68.104668
-	Howl: 61.796558
-	Kenneth Patchen: 61.418976
-	W. B. Yeats: 60.473022
-	Harold Stewart: 59.845318
-	Oxfordian theory of Shakespeare authorship: 57.958687
-	Ivan Bunin: 57.875977
-	Irish literature: 56.853222
-	Edmund Blunden: 56.428028
+Query 'she wrote, my candle burns at both ends... but, ah, my foes, and oh, my friends--it gives a lovely light' in category 'poets & poetry' returned:
+	Fear and Trembling: 53.170116
+	My Lai Massacre: 51.805073
+	My Darling Clementine: 46.102222
+	Stephen Foster: 44.601250
+	Ringo Starr: 44.012276
+	Thérèse of Lisieux: 43.648590
+	August Strindberg: 43.336452
+	Errol Flynn: 43.309448
+	Stanley Holloway: 43.075676
+	My Man Godfrey: 42.278896
 Edna St. Vincent Millay
 
 
-Query 'in this finnish city, the lutheran cathedral, also known as tuomiokirkko AND capital city churches alex: we'll give you the church. you tell us the capital city in which it is located.^3.0' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
-	Savonlinna: 43.294376
+Query 'in this finnish city, the lutheran cathedral, also known as tuomiokirkko' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
+	Mikael Agricola: 39.125938
+	Cathedral: 35.007088
+	Tampere: 31.383995
+	Porvoo: 30.191448
+	Evangelical Lutheran Church in America: 30.035265
+	Turku: 26.436123
+	Lichfield: 26.105001
+	Ripon: 25.946096
+	Lutheran Church–Missouri Synod: 25.818525
+	History of Finland: 25.784534
 Helsinki
 
 
-Query 'milton bradley games AND name the parent company^3.0' in category 'name the parent company' returned:
-	Axis & Allies: 46.071587
-	Vectrex: 45.455093
-	Hasbro: 40.143936
-	Namco: 35.656982
-	Wizards of the Coast: 35.637772
-	TSR (company): 35.389027
-	Avalon Hill: 34.979637
-	Revell: 34.625042
-	The Electric Company: 33.290207
-	Sony: 33.105972
+Query 'milton bradley games' in category 'name the parent company' returned:
+	Handheld game console: 27.439430
+	Vectrex: 27.439430
+	Axis & Allies: 27.439430
+	Microvision: 27.439430
+	Battleship (game): 23.659750
+	Milton, Ontario: 19.748693
+	Darkover: 17.655762
+	The Price Is Right (U.S. game show): 16.981754
+	Milton Berle: 16.871824
+	Hasbro: 16.598639
 Hasbro
 
 
-Query 'the kentucky & virginia resolutions were passed to protest these controversial 1798 acts of congress AND old year's resolutions^3.0' in category 'old year's resolutions' returned:
-	Kentucky and Virginia Resolutions: 103.953033
-	Patrick Henry: 83.771332
-	Stamp Act 1765: 58.537056
-	John C. Breckinridge: 50.675278
-	History of South Carolina: 47.971092
-	Confederate States of America: 45.144402
-	Law: 43.074089
-	Jawaharlal Nehru: 42.077438
-	Solomon P. Sharp: 41.480858
-	Texas annexation: 40.165348
+Query 'the kentucky & virginia resolutions were passed to protest these controversial 1798 acts of congress' in category 'old year's resolutions' returned:
+	Kentucky and Virginia Resolutions: 66.778618
+	Intolerable Acts: 46.917118
+	Patrick Henry: 46.596916
+	Emancipation Proclamation: 41.393917
+	Stamp Act 1765: 41.220650
+	Solomon P. Sharp: 39.477196
+	History of the United States: 35.768188
+	History of the United States Navy: 34.934799
+	History of South Carolina: 33.997906
+	John C. Breckinridge: 33.453644
 The Alien and Sedition Acts
 
 
-Query '1983: beat it AND '80s no.1 hitmakers^3.0' in category ''80s no.1 hitmakers' returned:
+Query '1983: beat it' in category ''80s no.1 hitmakers' returned:
 Michael Jackson
 
 
-Query 'in 2009: sookie stackhouse AND golden globe winners^3.0' in category 'golden globe winners' returned:
-	True Blood: 37.544487
-	Anna Paquin: 27.945301
-	The West Wing: 23.072220
-	Pittsburgh Penguins: 12.450617
-	Kobe Bryant: 5.402821
+Query 'in 2009: sookie stackhouse' in category 'golden globe winners' returned:
+	True Blood: 17.564491
+	Anna Paquin: 17.564491
+	Jim O'Neal: 10.298695
+	Chondrus crispus: 7.265798
+	Laskar Jihad: 7.265798
+	Your Business: 7.265798
+	The West Wing: 7.265798
+	Michael Jordan: 7.265798
+	Roberto Durán: 7.265798
+	Pittsburgh Penguins: 4.051888
 Anna Paquin
 
 
-Query 'this member of the nixon & ford cabinets was born in furth, germany in 1923 AND historical hodgepodge^3.0' in category 'historical hodgepodge' returned:
-	Warren G. Harding: 25.953892
-	Willy Brandt: 25.116110
-	L. Ron Hubbard: 20.933582
-	Ramapough Mountain Indians: 20.918060
-	John Ford: 20.777382
-	Woodrow Wilson: 20.760582
-	Fernand Braudel: 20.545687
-	Konrad Adenauer: 20.530720
-	Wisława Szymborska: 18.997032
-	Free Workers' Union of Germany: 18.909649
+Query 'this member of the nixon & ford cabinets was born in furth, germany in 1923' in category 'historical hodgepodge' returned:
+	Henry Kissinger: 35.340897
+	Ben Stein: 27.306870
+	Richard Nixon: 25.318268
+	William Colby: 23.800468
+	Leonid Brezhnev: 23.457378
+	Shimon Peres: 23.364586
+	Willy Brandt: 22.976627
+	John Bingham, 7th Earl of Lucan: 22.935190
+	Ford flathead V8 engine: 22.834961
+	John Connally: 21.960068
 Henry Kissinger
 
 
-Query 'the high kirk of st. giles, where john knox was minister AND capital city churches alex: we'll give you the church. you tell us the capital city in which it is located.^3.0' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
-	Perth, Scotland: 77.893562
-	Aleppo: 71.957954
-	John Knox: 69.478851
-	Edinburgh: 69.343445
-	Valletta: 59.353752
-	Nantes: 56.536942
-	Paris: 56.286251
-	Munich: 56.153866
-	Braunschweig: 55.566223
-	Ulan Bator: 55.512657
+Query 'the high kirk of st. giles, where john knox was minister' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
+	John Knox: 44.500271
+	Perth, Scotland: 40.003483
+	Edinburgh: 31.155968
+	Church of Scotland: 27.374872
+	William Whittingham: 26.354176
+	Jack Buck: 26.213799
+	Giles of Assisi: 24.851330
+	Giles of Rome: 24.817774
+	John Howison: 24.763241
+	Presbyterian polity: 24.143311
 Edinburgh
 
 
-Query 'for the brief time he attended, he was a rebel with a cause, even landing a lead role in a 1950 stage production AND ucla celebrity alumni^3.0' in category 'ucla celebrity alumni' returned:
-	University of California, Los Angeles: 61.884842
-	California Institute of Technology: 48.786648
-	Humphrey Bogart: 41.345543
-	Nicolas Cage: 40.833252
-	James Dean: 39.668404
-	Ed McMahon: 36.437309
-	Randolph Scott: 35.420689
-	John Wayne: 34.982464
-	Luis Cernuda: 34.532177
-	Orson Welles: 33.631733
+Query 'for the brief time he attended, he was a rebel with a cause, even landing a lead role in a 1950 stage production' in category 'ucla celebrity alumni' returned:
+	John Le Mesurier: 47.532310
+	Casablanca (film): 42.527740
+	Stanley Holloway: 42.422447
+	John Huston: 41.464306
+	Kid Rock: 39.588909
+	Rebel Without a Cause: 38.866203
+	American Beauty (film): 37.601368
+	Ralph Richardson: 37.257431
+	Humphrey Bogart: 36.962276
+	Bela Lugosi: 36.784424
 James Dean
 
 
-Query 'fisher-price toys AND name the parent company^3.0' in category 'name the parent company' returned:
-	Mattel: 47.174953
-	Revell: 40.066734
-	Hasbro: 38.483902
-	Transformers (toy line): 34.913345
-	CBS: 33.803967
-	Variety store: 33.313919
-	TSR (company): 31.218418
-	The Man with the Golden Gun (film): 30.226334
-	Walmart: 30.149281
-	Little People: 29.817314
+Query 'fisher-price toys' in category 'name the parent company' returned:
+	Mattel: 30.206345
+	Variety store: 23.090143
+	Little People: 22.969341
+	Toy Town Museum: 22.969341
+	Buzzy Bee: 19.762493
+	Transformers (toy line): 19.370625
+	Department store: 19.370625
+	Jean-Pierre Abbat: 18.533136
+	Sex toy: 18.265095
+	Tom Clancy's Splinter Cell (video game): 17.427231
 Mattel
 
 
-Query 'in a 1959 american kitchen exhibit in moscow, he told khrushchev, in america, we like to make life easier for women AND historical quotes^3.0' in category 'historical quotes' returned:
-	Stanley Kubrick: 50.026936
-	Spencer Tracy: 46.238384
-	Mithraic mysteries: 42.930588
-	Chiang Kai-shek: 42.386295
-	Charles de Gaulle: 41.683323
-	Candide: 41.371788
-	Jewish prayer: 40.828400
-	Christianity: 40.217247
-	Josemaría Escrivá: 39.985687
-	Native Americans in the United States: 39.869350
+Query 'in a 1959 american kitchen exhibit in moscow, he told khrushchev, in america, we like to make life easier for women' in category 'historical quotes' returned:
+	Irving Berlin: 40.979237
+	Leonid Brezhnev: 40.787437
+	Charles de Gaulle: 39.883389
+	Cuban missile crisis: 39.699013
+	Perry Como: 38.073593
+	Stanley Kubrick: 36.962055
+	Stanley Kramer: 36.350239
+	Fidel Castro: 36.261997
+	Ken Russell: 36.046856
+	Women in the California Gold Rush: 34.571686
 Richard Nixon|Nixon
 
 
-Query 'one of his tales of a wayside inn begins, listen, my children, and you shall hear of the midnight ride of paul revere AND poets & poetry^3.0' in category 'poets & poetry' returned:
-	Lord Byron: 46.255562
-	List of minor The Hitchhiker's Guide to the Galaxy characters: 36.099392
-	Cambridge, Massachusetts: 22.400246
-	Modern paganism: 22.329121
-	The Man in the Moone: 19.123777
+Query 'one of his tales of a wayside inn begins, listen, my children, and you shall hear of the midnight ride of paul revere' in category 'poets & poetry' returned:
+	Paul Revere: 63.625496
+	Henry Wadsworth Longfellow: 38.805168
+	Ringo Starr: 37.858330
+	Patsy Cline: 37.409508
+	Everything That Happens Will Happen Today: 37.190094
+	Bart Simpson: 36.917366
+	Solomon Burke: 35.887295
+	Nathaniel Hawthorne: 35.450809
+	Túrin Turambar: 35.205463
+	Thérèse of Lisieux: 34.324444
 Henry Wadsworth Longfellow
 
 
-Query 'this bestseller about problems on the mccain-palin ticket became an hbo movie with julianne moore AND notes from the campaign trail^3.0' in category 'notes from the campaign trail' returned:
-	Hannibal (film): 34.979908
-	Vietnam War: 34.897327
-	Inspector Clouseau: 34.634914
-	Richard Mentor Johnson: 34.221741
-	Mary Tyler Moore: 33.321705
-	Bowling for Columbine: 33.162781
-	Ted Kaczynski: 29.112917
-	1996 Mount Everest disaster: 28.846228
-	History of Scotland: 27.989985
-	Switchfoot: 27.234552
+Query 'this bestseller about problems on the mccain-palin ticket became an hbo movie with julianne moore' in category 'notes from the campaign trail' returned:
+	Game Change: 46.511883
+	Joe Lieberman: 37.871685
+	Michael Moore: 32.098701
+	Hannibal (film): 31.328423
+	Margaret Cho: 29.360834
+	Monty Python's Life of Brian: 28.932617
+	Mike Huckabee: 28.100372
+	Bowling for Columbine: 27.617952
+	Monty Python: 27.178949
+	George Carlin: 26.733097
 Game Change
 
 
-Query 'a 2-part episode of jag introduced this mark harmon drama AND that 20-aughts show^3.0' in category 'that 20-aughts show' returned:
+Query 'a 2-part episode of jag introduced this mark harmon drama' in category 'that 20-aughts show' returned:
+	24 (TV series): 27.056990
+	Law & Order: 26.324558
+	Brookside: 25.971018
+	List of Being Human episodes: 25.920238
+	NYPD Blue: 24.168749
+	The Price Is Right (U.S. game show): 23.056143
+	Firefly (TV series): 22.077242
+	Ricky Nelson: 21.982363
+	Dawn Summers: 21.704443
+	Patrick Dempsey: 21.480776
 NCIS
 
 
-Query 'this port is the southernmost of south africa's 3 capitals AND african cities^3.0' in category 'african cities' returned:
-	Porto Alegre: 47.434067
-	Montevideo: 45.598938
-	Cairo: 42.986633
-	Nantes: 41.838219
-	Canary Islands: 38.424805
-	London: 38.424805
-	Portuguese Mozambique: 37.497375
-	Burlington, Vermont: 34.933636
-	Kentucky: 33.867523
-	Rio de Janeiro: 33.867523
+Query 'this port is the southernmost of south africa's 3 capitals' in category 'african cities' returned:
+	Eilat: 27.740299
+	Porto Alegre: 25.140039
+	Lisbon: 24.005152
+	Montevideo: 23.304909
+	History of Africa: 21.870825
+	Busan: 20.854244
+	Bloemfontein: 20.090988
+	Recife: 20.046364
+	Johannesburg: 20.035694
+	Afrikaner: 20.035694
 Cape Town
 
 
-Query 'keats was quoting this edmund spenser poem when he told shelley to 'load every rift' of your subject with ore AND the quotable keats^3.0' in category 'the quotable keats' returned:
-	John Keats: 101.904808
+Query 'keats was quoting this edmund spenser poem when he told shelley to 'load every rift' of your subject with ore' in category 'the quotable keats' returned:
+	John Keats: 55.937950
+	The Faerie Queene: 53.998486
+	W. B. Yeats: 52.344856
+	Edmund Spenser: 45.056835
 	SS Edmund Fitzgerald: 38.356636
-	Wolverhampton: 23.112749
-	Iron ore: 22.256010
-	Rare earth element: 20.228664
-	W. H. R. Rivers: 20.178476
-	Natural History (Pliny): 20.144438
-	Industrial Revolution: 20.120686
-	Winston Churchill: 19.528460
-	Lex Luthor: 19.179234
+	Ozymandias: 38.038956
+	Blank verse: 37.573097
+	John Milton: 37.192371
+	Orion (mythology): 36.840832
+	Fanny Imlay: 35.430302
 The Faerie Queene
 
 
-Query 'in an 1819 letter keats wrote that this lord & poet cuts a figure, but he is not figurative AND the quotable keats^3.0' in category 'the quotable keats' returned:
-	Orion (mythology): 51.701012
-	John Dryden: 44.861897
-	Richard Rappaport: 22.988626
-	Icon: 22.242165
-	John McCrae: 20.707727
-	Roman Empire: 20.270281
-	Balrog: 19.609314
-	Poetry analysis: 19.378237
-	Fernand Léger: 19.366062
-	Lawrence Ferlinghetti: 18.922773
+Query 'in an 1819 letter keats wrote that this lord & poet cuts a figure, but he is not figurative' in category 'the quotable keats' returned:
+	John Keats: 42.608944
+	La Belle Dame sans Merci: 35.899521
+	George Crabbe: 35.884663
+	Hyperion (poem): 33.336823
+	Thomas Moore: 33.113144
+	William Morris: 32.824642
+	Lord Byron: 32.005619
+	Henry Wadsworth Longfellow: 31.925617
+	John Ruskin: 31.564167
+	Ramsay MacDonald: 31.447460
 Lord Byron
 
 
-Query 'this clear greek liqueur is quite potent, so it's usually mixed with water, which turns it white & cloudy AND greek food & drink^3.0' in category 'greek food & drink' returned:
-	English cuisine: 42.218033
-	Fennel: 40.965954
-	Cider: 35.948631
-	Neptune (mythology): 35.202641
-	Ouzo: 33.862209
-	Provence: 32.395008
-	Exoplanet: 29.595825
-	Cumin: 26.672619
-	Anise: 25.862011
-	Cataract: 24.485344
+Query 'this clear greek liqueur is quite potent, so it's usually mixed with water, which turns it white & cloudy' in category 'greek food & drink' returned:
+	Liqueur: 39.374317
+	Mestizo: 35.191368
+	Orion (mythology): 32.910801
+	Cashew: 32.240963
+	Lipid bilayer: 31.739449
+	Wine: 29.666529
+	Hippopotamus: 28.855501
+	Frog: 28.362429
+	Butter: 28.245279
+	Blackcurrant: 28.223228
 Ouzo
 
 
-Query 'feb. 1, national freedom day, is the date in 1865 when a resolution sent the states an amendment ending this AND old year's resolutions^3.0' in category 'old year's resolutions' returned:
+Query 'feb. 1, national freedom day, is the date in 1865 when a resolution sent the states an amendment ending this' in category 'old year's resolutions' returned:
+	History of the United States: 52.230171
+	Emancipation Proclamation: 44.215591
+	Vietnam War: 43.601791
+	Federal Marriage Amendment: 41.717770
+	West Virginia State Board of Education v. Barnette: 38.933002
+	History of the United States Navy: 38.425697
+	Yasser Arafat: 38.279106
+	Napoleon III: 38.152336
+	William Henry Harrison: 38.138897
+	Warren G. Harding: 37.383392
 Slavery|Slavery in the United States
 
 
-Query 'this person is the queen's representative in canada; currently the office is held by david johnston AND ranks & titles^3.0' in category 'ranks & titles' returned:
-	Rangers F.C.: 44.760685
-	Atlantic Canada's 100 Greatest Books: 35.588333
-	Mario Lemieux: 32.939018
-	Jurassic Park (film): 27.333782
-	Rhode Island: 23.771433
-	Irish diaspora: 23.719254
-	Order of Military Merit (Canada): 23.010677
-	Stephen Crane: 22.959724
-	W. B. Yeats: 22.959724
-	Confederate States of America: 22.644419
+Query 'this person is the queen's representative in canada; currently the office is held by david johnston' in category 'ranks & titles' returned:
+	Governor General of Canada: 58.598789
+	Charles Tupper: 42.751789
+	Jeanne Sauvé: 41.910175
+	Jules Léger: 40.283672
+	Harold Alexander, 1st Earl Alexander of Tunis: 33.158978
+	Head of state: 31.288317
+	Bob Rae: 29.282282
+	Mary McAleese: 28.349018
+	State Opening of Parliament: 27.456116
+	James E. Lockyer: 26.942501
 Governor General of Canada
 
 
-Query 'he earned the fifth beatle nickname by producing all of the beatles' albums AND tin men^3.0' in category '"tin" men' returned:
-	Ringo Starr: 47.893433
-	King Crimson: 29.609802
-	Todd Rundgren: 28.335541
-	Joni Mitchell: 26.156961
-	Skinny Puppy: 24.874989
-	Little Richard: 24.420273
-	Music of the United States: 24.213703
-	Jackie Chan: 23.807667
-	Cover version: 23.492487
-	Everything That Happens Will Happen Today: 22.837708
+Query 'he earned the fifth beatle nickname by producing all of the beatles' albums' in category '"tin" men' returned:
+	George Martin: 44.595791
+	Ringo Starr: 43.955338
+	Rubber Soul: 41.987637
+	The Beatles (album): 41.536442
+	Fifth Beatle: 37.570213
+	Please Please Me: 37.258915
+	Revolver (Beatles album): 37.131111
+	Sgt. Pepper's Lonely Hearts Club Band: 36.174530
+	Help! (album): 35.315941
+	A Hard Day's Night (album): 34.830818
 George Martin
 
 
-Query 'early in their careers, mark twain & bret harte wrote pieces for this california city's chronicle AND newspapers^3.0' in category 'newspapers' returned:
-	Citizen Kane: 49.547226
-	Michael P. Malone: 38.790047
-	Sketches by Boz: 37.832359
-	Elvis Presley: 37.016216
-	Margaret Mitchell: 36.496555
-	Hearst Corporation: 35.137901
-	Pauline Phillips: 34.738144
-	Henry Mayhew: 32.999329
-	Model (profession): 32.857353
-	Ezra Pound: 31.836111
+Query 'early in their careers, mark twain & bret harte wrote pieces for this california city's chronicle' in category 'newspapers' returned:
+	Bret Harte: 45.881260
+	Kansas City Royals: 35.817982
+	Gunsmoke: 34.404949
+	Yoko Ono: 31.638134
+	George Carlin: 29.845005
+	Homosexuality in China: 28.891840
+	Imperial Bedrooms: 27.755308
+	California Gold Rush: 27.171442
+	Oakland, California: 26.523052
+	Jerome Kern: 25.730413
 San Francisco
 
 
-Query 'large specimens of this marsupial can leap over barriers 6 feet high AND potpourri^3.0' in category 'potpourri' returned:
-	Arthur Sullivan: 31.053787
-	Department store: 28.418074
-	The Great Ziegfeld: 26.038223
-	Zimbabwe: 25.857021
-	NBC: 25.857021
-	USS Oregon (BB-3): 24.739908
-	Aida: 22.483627
-	Miscegenation: 14.906540
+Query 'large specimens of this marsupial can leap over barriers 6 feet high' in category 'potpourri' returned:
+	Kangaroo: 37.433460
+	Emu: 26.422052
+	Crocodile: 26.006357
+	Fauna of Australia: 25.897596
+	Python reticulatus: 25.871243
+	Koala: 25.242277
+	United States Navy SEALs: 25.034964
+	Museum: 24.934504
+	Eucalyptus: 24.927317
+	Arundinaria: 24.850231
 Kangaroo
 
 
-Query 'because it's cured & stored in brine, this crumbly white cheese made from sheep's milk is often referred to as pickled cheese AND greek food & drink^3.0' in category 'greek food & drink' returned:
-	Feta: 91.074982
-	English cuisine: 68.714546
-	Quark (dairy product): 68.049843
-	Mediterranean diet: 67.613838
-	Sheep: 66.853806
-	Serbian cuisine: 66.405472
-	Butter: 63.090866
-	New Year's Eve: 52.756130
-	Sicilian cuisine: 48.471493
-	Camel: 46.699028
+Query 'because it's cured & stored in brine, this crumbly white cheese made from sheep's milk is often referred to as pickled cheese' in category 'greek food & drink' returned:
+	Feta: 82.801338
+	Gouda cheese: 66.389305
+	Quark (dairy product): 61.066681
+	Mozzarella: 59.746296
+	Butter: 56.754822
+	Wensleydale cheese: 56.011353
+	Head cheese: 54.902321
+	Sheep: 52.708889
+	English cuisine: 49.879742
+	Bacon: 49.848743
 Feta
 
 
-Query '1927 gene tunney takes a long count in the squared circle but rises to defeat this manassa mauler howzabout that AND 1920s news flash^3.0' in category '1920s news flash!' returned:
+Query '1927 gene tunney takes a long count in the squared circle but rises to defeat this manassa mauler howzabout that' in category '1920s news flash!' returned:
+	Jack Dempsey: 56.936756
+	New Jersey Route 37: 27.412254
+	Max Schmeling: 25.845875
+	Willow Rosenberg: 24.332403
+	Midnight sun: 23.592514
+	House of Habsburg: 22.680700
+	Expected value: 21.477299
+	Ernest Hemingway: 20.889484
+	Gene expression: 20.803211
+	Byrds (album): 20.585636
 Jack Dempsey
 
 
-Query 'italian for leader, it was especially applied to benito mussolini AND ranks & titles^3.0' in category 'ranks & titles' returned:
-	Knight: 48.015602
-	Juventus F.C.: 45.931438
-	Nazi Germany: 37.054123
-	Trento: 33.647614
-	Nazi Party: 32.961823
-	Italy: 28.865307
-	Winston Churchill: 26.752293
-	Statuto Albertino: 26.493267
-	History of Eritrea: 24.793957
-	Individualist anarchism: 24.302708
+Query 'italian for leader, it was especially applied to benito mussolini' in category 'ranks & titles' returned:
+	Alessandra Mussolini: 55.384361
+	Neo-fascism: 48.862049
+	Italian constitutional referendum, 1946: 39.440121
+	Duce: 38.450268
+	League of Nations: 37.876534
+	Vatican City: 36.074013
+	Fascism in Europe: 35.685974
+	Italian Empire: 35.685974
+	History of Italy: 35.685974
+	Esercito Nazionale Repubblicano: 34.079468
 Duce
 
 
-Query 'the kalamazoo institute of arts AND state of the art museum alex: we'll give you the museum. you give us the state.^3.0' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
-	Florida Museum of Natural History: 69.498253
-	Cranbrook Educational Community: 53.193825
-	Museum of Modern Art: 49.458988
-	Arts and Crafts movement: 48.055275
-	Museum of Science and Industry (Chicago): 47.655716
-	Art museum: 46.713463
-	Raleigh, North Carolina: 46.382484
-	Georgia (U.S. state): 45.090324
-	Ian Hornak: 44.276882
-	Texas Tech University: 43.908005
+Query 'the kalamazoo institute of arts' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+	Kalamazoo/Battle Creek International Airport: 28.393650
+	Kalamazoo Kings: 22.826756
+	Mei-Ann Chen: 22.223961
+	Liverpool Institute for Performing Arts: 18.508684
+	Reynolds and Reynolds: 17.456978
+	Goldsmiths, University of London: 17.047611
+	Valencia: 16.158743
+	Loeks Theatres, Inc.: 15.320259
+	Grand Valley State University: 14.444758
+	Barry Hannah: 14.167858
 Michigan
 
 
-Query 'the sun valley center for the arts AND state of the art museum alex: we'll give you the museum. you give us the state.^3.0' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
-	Florida Museum of Natural History: 79.647766
-	Phoenix, Arizona: 69.729195
-	Raleigh, North Carolina: 54.200798
-	Recife: 52.947678
-	Roanoke, Virginia: 49.509193
-	Museum of Modern Art: 49.018848
-	Cranbrook Educational Community: 48.501877
-	Arts and Crafts movement: 48.266785
-	Georgia (U.S. state): 47.729523
-	Columbia, Missouri: 47.672829
+Query 'the sun valley center for the arts' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+	Phoenix, Arizona: 29.978035
+	Sun-Maid: 24.121346
+	The New York Sun: 22.956905
+	New Jersey Institute of Technology: 22.817228
+	Kleiner Perkins Caufield & Byers: 22.428944
+	Roddy McDowall: 20.174456
+	Pioneer Valley: 19.681278
+	Flag of Japan: 19.599216
+	Clark County, Nevada: 18.838531
+	Sarajevo: 18.722973
 Idaho
 
 
-Query 'you can't mention this shortstop without mentioning his double-play associates evers & chance AND tin men^3.0' in category '"tin" men' returned:
-	Jerome Kern: 33.280720
-	Hughie Jennings: 29.503246
-	Todd Rundgren: 29.106300
-	Ezra Pound: 26.707653
-	King Crimson: 25.647366
-	List of EastEnders characters (2010): 23.596722
-	Larry Doby: 22.761108
-	Roman Britain: 21.681553
-	Skat (card game): 21.398254
-	Liberty Bell: 19.215887
+Query 'you can't mention this shortstop without mentioning his double-play associates evers & chance' in category '"tin" men' returned:
+	Joe Tinker: 44.851475
+	Triple play: 37.309780
+	Double play: 36.429695
+	Omar Vizquel: 35.034348
+	Ozzie Smith: 34.640892
+	You Can't Take It with You: 34.010929
+	John Cage: 31.964703
+	Red Hot Chili Peppers: 28.734941
+	Use–mention distinction: 28.243141
+	Derek Jeter: 28.231611
 Joe Tinker
 
 
-Query 'in 1840 horace greeley began publishing the log cabin, a weekly campaign paper in support of this whig candidate AND newspapers^3.0' in category 'newspapers' returned:
-	Horace Greeley: 78.657013
-	Charles Sumner: 55.617249
-	The Day (New London): 52.486649
-	Reforma: 48.363628
-	The Irish Times: 48.363628
-	Richard Mentor Johnson: 46.554195
-	Rupert Murdoch: 46.011810
-	William Wilberforce: 43.147373
-	Censorship in the Republic of Ireland: 42.394478
-	Woodrow Wilson: 40.789467
+Query 'in 1840 horace greeley began publishing the log cabin, a weekly campaign paper in support of this whig candidate' in category 'newspapers' returned:
+	Horace Greeley: 69.988747
+	Charles Sumner: 46.948978
+	Richard Mentor Johnson: 37.885925
+	William Wilberforce: 34.919285
+	William Lyon Mackenzie: 33.336903
+	Woodrow Wilson: 32.121193
+	William Henry Harrison: 31.935648
+	Thaddeus Stevens: 31.841021
+	The Economist: 31.018595
+	Victoria Woodhull: 29.939634
 William Henry Harrison
 
 
-Query 'pierre cauchon, bishop of beauvais, presided over the trial of this woman who went up in smoke may 30, 1431 AND i'm burnin' for you^3.0' in category 'i'm burnin' for you' returned:
-	Paris: 37.154686
+Query 'pierre cauchon, bishop of beauvais, presided over the trial of this woman who went up in smoke may 30, 1431' in category 'i'm burnin' for you' returned:
+	Joan of Arc: 94.634132
+	Roman Catholic Diocese of Beauvais: 36.689003
+	William de St-Calais: 36.555889
+	Ezra Pound: 34.780548
+	Diocese: 33.346489
+	Medieval Inquisition: 31.785469
+	Wilfrid: 31.499788
+	Raëlism: 31.180964
+	Kenesaw Mountain Landis: 31.094465
+	Beauvais: 30.862576
 Joan of Arc|Jeanne d'Arc
 
 
-Query 'this wisconsin city claims to have built the usa's only granite dome AND complete dom-inationalex: not domination.^3.0' in category 'complete dom-ination(alex: not "domination.")' returned:
-	Al-Aqsa Mosque: 34.718491
-	Valle de los Caídos: 28.571896
-	Piazza San Marco: 27.830654
-	Garbage (band): 26.832829
-	Granada: 25.812542
-	Roman Empire: 24.754158
-	Sumer: 24.324026
-	Omaha, Nebraska: 24.021753
-	Warren G. Harding: 23.780876
-	History of Macau: 23.488853
+Query 'this wisconsin city claims to have built the usa's only granite dome' in category 'complete dom-ination(alex: not "domination.")' returned:
+	Temple Mount: 38.885212
+	Yosemite Valley: 34.237694
+	Al-Aqsa Mosque: 33.502968
+	Madison, Wisconsin: 25.344416
+	Dome of the Rock: 24.908928
+	Yosemite National Park: 24.389542
+	Valle de los Caídos: 23.903761
+	55 Wall Street: 23.799700
+	Pope: 23.465843
+	Sumer: 23.078833
 Madison
 
 
-Query 'this georgia paper is known as the ajc for short AND newspapers^3.0' in category 'newspapers' returned:
-	Battle of Atlanta: 37.012589
-	News style: 35.581158
-	New York Press: 35.280830
-	Censorship in the Republic of Ireland: 34.383450
-	Margaret Mitchell: 34.080307
-	Associated Press: 33.832478
-	Sketches by Boz: 32.953995
-	Karl Marx: 32.926311
-	Blog: 32.491417
-	Stamp Act 1765: 32.274384
+Query 'this georgia paper is known as the ajc for short' in category 'newspapers' returned:
+	The Atlanta Journal-Constitution: 28.964706
+	Georgia (U.S. state): 21.538818
+	Georgia (country): 18.537468
+	Stamp Act 1765: 18.229717
+	Augusta, Georgia: 17.552494
+	Georgia Southern Eagles: 17.402695
+	Red Skelton: 17.090950
+	Ebenezer R. Hoar: 16.631554
+	Interstate 285: 16.527519
+	Stylish Century: 15.867573
 The Atlanta Journal-Constitution
 
 
-Query 'wooden 2-story verandas in this liberian capital are an architectural link to the u.s. south AND african cities^3.0' in category 'african cities' returned:
-	Omaha, Nebraska: 51.533333
-	Orange County, California: 50.520203
-	Oakland, California: 50.409843
-	Havana: 48.068295
-	Norfolk, Virginia: 46.599670
-	Toronto: 46.107033
-	Illinois: 44.185074
-	Marrakesh: 44.010780
-	Lincoln, Nebraska: 44.000854
-	Memphis, Tennessee: 43.479794
+Query 'wooden 2-story verandas in this liberian capital are an architectural link to the u.s. south' in category 'african cities' returned:
+	Malta: 27.071880
+	Monrovia: 25.430035
+	Trenton, New Jersey: 24.934305
+	Armed Forces of Liberia: 24.851582
+	Havana: 24.645016
+	Norfolk, Virginia: 24.305641
+	Liberia: 24.096069
+	White House: 23.252573
+	Raiden (Metal Gear): 23.211699
+	Juneau, Alaska: 23.080332
 Monrovia
 
 
-Query 'this new orleans venue reopened sept. 25, 2006 AND complete dom-inationalex: not domination.^3.0' in category 'complete dom-ination(alex: not "domination.")' returned:
-	Bene Tleilax: 41.972778
-	Portugal: 39.211391
-	Ine of Wessex: 38.602692
-	Excel Saga: 37.737293
-	Culture of Italy: 33.488525
-	Harold Pinter: 29.982372
-	Joan of Arc: 29.581829
-	Chiapas: 26.169670
-	History of Equatorial Guinea: 26.041374
-	Sonic the Hedgehog (1991 video game): 25.177759
+Query 'this new orleans venue reopened sept. 25, 2006' in category 'complete dom-ination(alex: not "domination.")' returned:
+	Jimmy Walter: 26.245827
+	Preservation Hall Jazz Band: 26.183720
+	Bleecker Street Cinema: 23.315928
+	Garneau Theatre: 22.999481
+	Louis Armstrong New Orleans International Airport: 22.893356
+	Sugar Bowl: 22.873138
+	Mercedes-Benz Superdome: 21.233309
+	Mario Lanza: 20.886318
+	Hammersmith Apollo: 20.871958
+	Movie theater: 20.232670
 Mercedes-Benz Superdome|The Superdome
 
 
-Query 'the hunt for red october; he went more comedic as jack donaghy on 30 rock AND he played a guy named jack ryan in...^3.0' in category 'he played a guy named jack ryan in...' returned:
-	Alec Baldwin: 79.444336
-	Red Hot Chili Peppers: 52.526695
-	Nolan Ryan: 47.158695
-	Tenacious D: 46.751648
-	Poe (singer): 45.981583
-	Get Carter: 44.551537
-	Roger Waters: 44.195869
-	Harrison Ford: 43.262676
-	Chuck Berry: 42.138317
-	Nickelback: 40.695694
+Query 'the hunt for red october; he went more comedic as jack donaghy on 30 rock' in category 'he played a guy named jack ryan in...' returned:
+	Alec Baldwin: 59.997055
+	Red Skelton: 33.586834
+	Red Hot Chili Peppers: 33.423027
+	Sean Connery: 32.568199
+	Poe (singer): 32.240952
+	1976 Formula One season: 30.602085
+	Chuck Berry: 29.965246
+	Hair (musical): 28.512241
+	Mickey Mouse: 28.004126
+	Assassination of John F. Kennedy: 27.829399
 Alec Baldwin
 
 
-Query 'rita dove titled a collection of poems on the bus with this woman AND african-american women^3.0' in category 'african-american women' returned:
-	Third gender: 46.217007
-	Rosa Parks: 45.356709
-	Menopause: 44.196709
-	Hijab: 43.247330
-	Veil: 41.951973
-	Tribadism: 41.893917
-	Whitney Houston: 41.735516
-	Women's rights: 40.589912
-	Lesbian: 40.511749
-	Spirit possession: 39.946499
+Query 'rita dove titled a collection of poems on the bus with this woman' in category 'african-american women' returned:
+	Emily Dickinson: 29.121635
+	Rosa Parks: 29.082108
+	Howl: 25.316635
+	Thérèse of Lisieux: 23.311268
+	Larry McMurtry: 21.841265
+	Joyce Kilmer: 21.156019
+	The Canterbury Tales: 20.440166
+	Not Waving but Drowning: 20.440166
+	Lawrence Ferlinghetti: 20.440166
+	Edgar Allan Poe: 20.440166
 Rosa Parks
 
 
-Query 'patriot games; he's had other iconic roles, in space & underground AND he played a guy named jack ryan in...^3.0' in category 'he played a guy named jack ryan in...' returned:
-	Robert Downey, Jr.: 40.762192
-	Captain America: 33.448212
-	Paris: 32.697384
-	Raymond Burr: 31.203220
-	Mithraic mysteries: 30.600111
-	X-Men: 30.520624
-	Ken Barlow: 29.897343
-	Mystery Science Theater 3000: 29.397301
-	London: 28.536438
-	Alan Moore: 28.352901
+Query 'patriot games; he's had other iconic roles, in space & underground' in category 'he played a guy named jack ryan in...' returned:
+	Harrison Ford: 30.443039
+	Bugs Bunny: 28.752203
+	Indiana Jones: 27.397230
+	Space Invaders: 27.394901
+	The Seventh Seal: 25.792370
+	Mithraic mysteries: 25.512850
+	Surface-to-air missile: 24.943962
+	Elite (video game): 24.633398
+	Dennis Rodman: 23.977386
+	Heath Ledger: 23.228802
 Harrison Ford
 
 
-Query 'this sacred structure dates from the late 600's a.d. AND complete dom-inationalex: not domination.^3.0' in category 'complete dom-ination(alex: not "domination.")' returned:
-	History of Indonesia: 35.027657
-	Roman Empire: 32.376541
-	Foreign relations of India: 31.217482
-	History of Korea: 29.483631
-	Kyrgyzstan: 27.814512
-	Mithraic mysteries: 27.388281
-	Culture of Italy: 26.199202
-	Christianity: 25.906952
-	Dagger: 24.355148
-	Hebrew calendar: 23.495401
+Query 'this sacred structure dates from the late 600's a.d.' in category 'complete dom-ination(alex: not "domination.")' returned:
+	History of Armenia: 27.748211
+	New Testament: 25.513586
+	Chichen Itza: 23.080246
+	Ben Hecht: 22.414608
+	Classical antiquity: 22.267611
+	Janus: 22.179409
+	Penda of Mercia: 21.769581
+	Hebrew calendar: 21.700655
+	History of Indonesia: 21.536993
+	History of Israel: 21.345348
 Dome of the Rock
 
 
-Query '1988: man in the mirror AND '80s no.1 hitmakers^3.0' in category ''80s no.1 hitmakers' returned:
-	Alan Moore: 15.347050
-	Dannii Minogue: 14.937511
-	Jeff Koons: 11.587423
-	Viz (comic): 11.393337
-	Space debris: 10.750858
-	Kid Icarus: 10.750858
-	The Land of Make Believe: 10.750858
-	Analytic philosophy: 10.092402
-	Coronation Street: 8.151718
-	Late Night with Conan O'Brien: 8.151718
+Query '1988: man in the mirror' in category ''80s no.1 hitmakers' returned:
+	Mirror galvanometer: 18.503651
+	The Mirror (The Twilight Zone): 13.292914
+	Meshes of the Afternoon: 12.427106
+	Mirror Image (The Twilight Zone): 11.739620
+	John Pilger: 11.168861
+	Snub dodecahedron: 10.193229
+	Hyperbola: 10.135881
+	Enantiomer: 10.135881
+	Bloody Mary (folklore): 10.135881
+	Rupert Hamer (journalist): 10.135881
 Michael Jackson
 
 
-Query 'matthias church, or matyas templom, where franz joseph was crowned in 1867 AND capital city churches alex: we'll give you the church. you tell us the capital city in which it is located.^3.0' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
-	Lviv: 68.488884
-	Radom: 61.415947
-	Phoenix, Arizona: 60.428890
-	Hungary: 60.087479
-	Paris: 59.249809
-	Toronto: 57.631195
-	Almaty: 56.676281
-	Reformed Church in America: 55.095161
-	Topeka, Kansas: 54.367737
-	Romania: 54.130798
+Query 'matthias church, or matyas templom, where franz joseph was crowned in 1867' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
+	Franz Liszt: 42.023300
+	Matthias Corvinus: 30.498795
+	Votive Church, Vienna: 27.047138
+	Commemorative medal of the Mexico Expedition: 26.639786
+	Hungary: 25.955746
+	Frederick V, Elector Palatine: 25.540173
+	Joseph Haydn: 24.416290
+	Prince Eugene of Savoy: 24.288584
+	Stigand: 22.496677
+	Empress Matilda: 22.264015
 Budapest
 
 
-Query 'attending ucla in the '60s, he was no meathead, he just played one later on television AND ucla celebrity alumni^3.0' in category 'ucla celebrity alumni' returned:
-	University of California, Los Angeles: 68.773987
-	Kareem Abdul-Jabbar: 56.939453
-	California Institute of Technology: 51.612259
-	Herbie Hancock: 44.326714
-	Kevin Love: 39.383217
-	Magic Johnson: 38.779877
-	Julie Dash: 38.080044
-	Nicolas Cage: 37.863766
-	Rob Reiner: 37.799477
-	Ed McMahon: 37.401424
+Query 'attending ucla in the '60s, he was no meathead, he just played one later on television' in category 'ucla celebrity alumni' returned:
+	All in the Family: 34.765171
+	Carroll O'Connor: 34.617138
+	Ronnie Barker: 31.904881
+	John Le Mesurier: 31.275738
+	Spencer Tracy: 30.680004
+	Kareem Abdul-Jabbar: 30.459454
+	Ricardo Montalbán: 29.258324
+	Solomon Burke: 28.477753
+	Kevin Love: 27.433262
+	Alan Lomax: 27.354643
 Rob Reiner
 
 
-Query 'kinch, carter & lebeau were all residents of stalag 13 on this tv show AND the residents^3.0' in category 'the residents' returned:
-	Hogan's Heroes: 62.698032
-	Tehran: 45.866989
-	New Orleans Saints: 45.866989
-	Toronto: 45.182304
-	Coronation Street: 44.455353
-	Omaha, Nebraska: 43.681858
-	Carolina Panthers: 43.562534
-	Vancouver: 43.310780
-	Tiananmen Square protests of 1989: 42.219749
-	Passions: 41.546162
+Query 'kinch, carter & lebeau were all residents of stalag 13 on this tv show' in category 'the residents' returned:
+	Hogan's Heroes: 62.698036
+	All in the Family: 33.955208
+	Lisa Simpson: 28.967140
+	John Carter (ER): 26.712166
+	Jay-Z: 26.677633
+	The Rocky and Bullwinkle Show: 25.905378
+	Cold Feet: 25.137112
+	Malcolm in the Middle: 24.198132
+	Alfred Hitchcock Presents: 23.962248
+	Danny Bonaduce: 22.869394
 Hogan's Heroes
 
 
-Query 'news flash this less-than-yappy pappy is sixth veep to be nation's top dog after chief takes deep sleep AND 1920s news flash^3.0' in category '1920s news flash!' returned:
-	Herbert Hoover: 38.320980
-	L. Ron Hubbard: 36.965046
-	Symphony No. 8 (Sibelius): 36.923088
-	Harry Nilsson: 35.866779
-	William Howard Taft: 33.087379
-	Mickey Mouse: 31.544044
-	Iditarod Trail Sled Dog Race: 30.630863
-	Airport: 30.313011
-	Wright brothers: 30.266884
-	Humphrey Bogart: 28.561062
+Query 'news flash this less-than-yappy pappy is sixth veep to be nation's top dog after chief takes deep sleep' in category '1920s news flash!' returned:
+	Flash memory: 38.592197
+	Poland: 34.226803
+	Ivy League: 34.218258
+	Hamas: 32.941002
+	Economy of South Korea: 32.869328
+	Herbert Hoover: 32.739971
+	Chris Morris (satirist): 31.946949
+	Benzodiazepine: 31.106035
+	George Michael: 30.426558
+	A-ha: 30.306118
 Calvin Coolidge
 
 
-Query 'in 2001: the president of the united states on television AND golden globe winners^3.0' in category 'golden globe winners' returned:
-	London School of Economics: 42.774639
-	Columbia University: 39.565647
-	Martin Sheen: 39.028877
-	George Clooney: 37.132217
-	Meryl Streep: 36.636795
-	Jacqueline Bisset: 36.358791
-	Cinema of Denmark: 36.329502
-	Paul Verhoeven: 36.071533
-	Copa Libertadores: 36.003071
-	Alfred I. duPont–Columbia University Award: 35.652969
+Query 'in 2001: the president of the united states on television' in category 'golden globe winners' returned:
+	Martin Sheen: 24.161448
+	Barbara Bush: 22.712978
+	Harvard Law School: 22.459402
+	Radio y Televisión Martí: 21.676342
+	Joe Foss: 21.553459
+	President pro tempore of the United States Senate: 21.490314
+	Assassination of John F. Kennedy: 21.451702
+	George W. Bush's first term as President of the United States: 21.171597
+	Speaker of the United States House of Representatives: 20.813129
+	Hugo Chávez: 20.534542
 Martin Sheen
 
 
-Query '1989: miss you much AND '80s no.1 hitmakers^3.0' in category ''80s no.1 hitmakers' returned:
-	Music of Zimbabwe: 29.012218
-	Gil Scott-Heron: 21.104086
-	Like a Virgin: 17.657028
-	New wave music: 16.780933
-	Stock Aitken Waterman: 15.401684
-	King Crimson: 14.852760
-	Alan Moore: 14.852760
-	History of the United States (1964–80): 14.759205
-	Niger: 14.088238
-	Devon Dikeou: 14.004844
+Query '1989: miss you much' in category ''80s no.1 hitmakers' returned:
+	Sonority hierarchy: 11.742367
+	Trolley problem: 11.571512
+	You Can't Take It with You: 11.554890
+	Al Bowlly: 11.026803
+	Carousel (musical): 11.010621
+	Red Hot Chili Peppers: 11.010621
+	Herbie Lovelle: 11.010621
+	Body language: 11.010621
+	Mandy Moore: 11.010621
+	1939 New York World's Fair: 11.010621
 Janet Jackson
 
 
-Query '1922: it's the end of an empire this empire, in fact after 600 years, it's goodbye, this, hello, turkish republic AND 1920s news flash^3.0' in category '1920s news flash!' returned:
-	Lycia: 58.734570
-	History of Korea: 39.009857
-	Iraq: 38.317860
-	Mehmed the Conqueror: 37.280964
-	History of France: 35.715420
-	Lebanon: 35.223335
-	France: 34.856400
-	Culture of Italy: 34.764114
-	History of the United States (1865–1918): 34.519527
-	History of the Republic of China: 34.519527
+Query '1922: it's the end of an empire this empire, in fact after 600 years, it's goodbye, this, hello, turkish republic' in category '1920s news flash!' returned:
+	Lycia: 56.770634
+	History of Iran: 45.907795
+	Portugal: 42.300041
+	Galactic Empire (Star Wars): 41.626427
+	History of Catalonia: 40.369865
+	Batavian Republic: 39.992645
+	Cossacks: 39.288197
+	Corfu: 38.606377
+	Samuel of Bulgaria: 38.331196
+	Poland: 38.049713
 Ottoman Empire
 
 
-Query 'crest toothpaste AND name the parent company^3.0' in category 'name the parent company' returned:
-	Crest (toothpaste): 30.621265
-	Listerine: 26.831985
-	Procter & Gamble: 25.367233
-	Toothpaste: 25.109972
-	Toothbrush: 21.074594
-	Limestone: 18.495655
-	Episode 29 (Twin Peaks): 16.956823
-	Non-Newtonian fluid: 15.804141
-	Fred Allen: 15.284012
-	Radium: 14.421415
+Query 'crest toothpaste' in category 'name the parent company' returned:
+	Crest (toothpaste): 27.101274
+	Toothpaste: 19.687889
+	Toothbrush: 15.652512
+	Non-Newtonian fluid: 14.758691
+	Newcastle United F.C.: 11.448763
+	Chelsea F.C.: 11.448763
+	Crested Shelduck: 11.448763
+	Kröndlhorn: 11.448763
+	Keepit Dam: 11.448763
+	Deep circumflex iliac artery: 11.448763
 Procter & Gamble
 
 
-Query 'in 1888 this chancellor told the reichstag, we germans fear god, but nothing else in the world AND historical quotes^3.0' in category 'historical quotes' returned:
-	Arab street: 54.518013
-	Munich massacre: 39.580212
-	Mithraic mysteries: 39.045563
-	Other Losses: 38.472137
-	Ecclesiastes: 36.465794
-	Otto von Bismarck: 35.766014
-	The Face of Battle: 35.740307
-	Thule: 35.373737
-	Fear and Trembling: 34.189003
-	Criticism of Jehovah's Witnesses: 34.131199
+Query 'in 1888 this chancellor told the reichstag, we germans fear god, but nothing else in the world' in category 'historical quotes' returned:
+	Wilhelm II, German Emperor: 51.213982
+	Otto von Bismarck: 33.838856
+	Thérèse of Lisieux: 33.470226
+	Joachim von Ribbentrop: 32.871342
+	Neville Chamberlain: 32.836864
+	Fear and Trembling: 32.261841
+	Irving Berlin: 32.147964
+	Willy Brandt: 31.297340
+	William Ewart Gladstone: 31.150797
+	Konrad Adenauer: 30.295971
 Otto von Bismarck|Von Bismarck
 
 
-Query 'in 1787 he signed his first published poem axiologus; axio- is from the greek for worth AND poets & poetry^3.0' in category 'poets & poetry' returned:
-	Henry Wadsworth Longfellow: 73.308807
-	Bliss Carman: 72.614441
-	Emily Dickinson: 60.628639
-	Samuel Johnson: 57.373547
-	George Crabbe: 56.902382
-	Irish literature: 56.083546
-	Oxfordian theory of Shakespeare authorship: 55.744370
-	Kubla Khan: 53.769199
-	Walt Whitman: 52.631214
-	Thomas Traherne: 52.631214
+Query 'in 1787 he signed his first published poem axiologus; axio- is from the greek for worth' in category 'poets & poetry' returned:
+	Orion (mythology): 33.480183
+	In Flanders Fields: 31.972582
+	The Faerie Queene: 31.521616
+	Howl: 29.973436
+	Samuel Johnson: 29.458954
+	Peter Heywood: 28.300262
+	William Wilberforce: 28.083776
+	William Shakespeare: 27.971651
+	Enoch Powell: 27.261839
+	Adam Mickiewicz: 26.827339
 William Wordsworth
 
 
-Query 'not to be confused with karma, krama is a popular accessory sold in cambodia; the word means scarf in this national language of cambodia AND cambodian history & culture^3.0' in category 'cambodian history & culture' returned:
-	Mekong: 53.988121
-	Laos: 52.204254
-	History of Cambodia: 52.074123
-	Ramayana: 50.503265
-	Khmer language: 49.741043
-	Vietnam War: 48.489758
-	Siem Reap: 47.825317
-	Khmer Rouge: 47.667606
-	Viet Cong: 44.613026
-	Reamker: 43.878983
+Query 'not to be confused with karma, krama is a popular accessory sold in cambodia; the word means scarf in this national language of cambodia' in category 'cambodian history & culture' returned:
+	Mekong: 38.209690
+	Jackfruit: 36.584145
+	Laos: 36.534023
+	Napoleon III: 36.486214
+	Vietnam War: 35.971375
+	Khmer language: 34.975231
+	Politics of Cambodia: 32.901794
+	Khmer Rouge: 32.901794
+	John Pilger: 32.686615
+	Reserved word: 32.449028
 Khmer language
 
 
-Query 'phnom penh's notorious gridlock is circumvented by the nimble tuk-tuk, a motorized taxi that's also known as an auto this, a similar asian conveyance. AND cambodian history & culture^3.0' in category 'cambodian history & culture' returned:
+Query 'phnom penh's notorious gridlock is circumvented by the nimble tuk-tuk, a motorized taxi that's also known as an auto this, a similar asian conveyance.' in category 'cambodian history & culture' returned:
+	Cycle rickshaw: 47.393215
+	Music of Barbados: 41.337009
+	Na Tuk Kong: 38.778759
+	Tricycle: 34.556255
+	Rickshaw: 33.884087
+	Phnom Kulen National Park: 31.557297
+	Janet Jackson: 26.261477
+	Orlando, Florida: 26.049349
+	Jakarta: 25.880104
+	Notorious (1946 film): 25.787426
 Rickshaw
 
 
-Query '1980: rock with you AND '80s no.1 hitmakers^3.0' in category ''80s no.1 hitmakers' returned:
-	Music of Zimbabwe: 25.452721
-	Helix (band): 18.223612
-	Judy Rodman: 18.223612
-	Gil Scott-Heron: 16.320114
-	Stock Aitken Waterman: 14.269897
-	King Crimson: 13.720975
-	Alan Moore: 13.720975
-	Def Leppard: 13.627419
-	Orchestral Manoeuvres in the Dark: 13.627419
-	History of the United States (1964–80): 13.627419
+Query '1980: rock with you' in category ''80s no.1 hitmakers' returned:
+	Your Disco Needs You: 10.848584
+	Trolley problem: 10.580690
+	You Can't Take It with You: 10.152782
+	Jeremiah: 9.427176
+	Sitar: 9.347916
+	Al Bowlly: 9.181346
+	Stan (song): 9.162056
+	Arlene Phillips: 9.062285
+	Annie Get Your Gun (musical): 8.879321
+	Jewel (singer): 8.839935
 Michael Jackson
 
 
-Query 'the pulitzer-winning the making of the president 1960 covered this man's successful presidential campaign AND notes from the campaign trail^3.0' in category 'notes from the campaign trail' returned:
-	Richard Nixon: 55.813683
-	Vietnam War: 46.943787
-	Michelle Obama: 42.179443
-	George Meade: 40.770081
-	William McKinley: 38.904915
-	Curtis LeMay: 38.791756
-	Cross of Gold speech: 38.454742
-	John Brown (abolitionist): 37.427780
-	Barry Goldwater: 37.324280
-	Battle of Cold Harbor: 36.442097
+Query 'the pulitzer-winning the making of the president 1960 covered this man's successful presidential campaign' in category 'notes from the campaign trail' returned:
+	George McGovern: 37.654961
+	Richard Nixon: 35.361217
+	Evo Morales: 34.538326
+	Joe Lieberman: 32.922951
+	Efraín Ríos Montt: 32.372940
+	Laura Bush: 32.360767
+	Ronald Reagan: 31.376080
+	Mali: 29.597933
+	Hugo Chávez: 29.521421
+	Harold Pinter: 29.459929
 JFK|John F. Kennedy
 
 
-Query 'in 1843 isaac dittenhoefer became the first pres. of this jewish club whose name means children of the covenant AND service organizations^3.0' in category 'service organizations' returned:
-	B'nai B'rith: 66.303467
-	Yasser Arafat: 49.803276
-	Human rights: 41.377029
-	Organized crime: 39.189857
-	Jews as the chosen people: 37.963226
-	World Vision International: 34.286961
-	State of emergency: 33.230972
-	Yahweh: 32.633129
-	History of Israel: 31.609629
-	Ezra: 30.244730
+Query 'in 1843 isaac dittenhoefer became the first pres. of this jewish club whose name means children of the covenant' in category 'service organizations' returned:
+	B'nai B'rith: 38.402184
+	Cave of the Patriarchs: 38.273396
+	Jacob: 37.597954
+	David Ben-Gurion: 34.294434
+	Temple Mount: 33.868149
+	Joseph B. Soloveitchik: 33.280239
+	Esau: 33.199184
+	Fear and Trembling: 31.325863
+	Chabad: 31.215868
+	Yahweh: 31.136745
 B'nai B'rith
 
 
-Query 'don knotts took over from norman fell as the resident landlord on this sitcom AND the residents^3.0' in category 'the residents' returned:
+Query 'don knotts took over from norman fell as the resident landlord on this sitcom' in category 'the residents' returned:
 	Don Knotts: 55.159557
 	Three's Company: 47.875950
-	John Ritter: 34.863350
-	Cleveland: 34.559589
-	Nantucket: 32.640587
+	John Ritter: 34.863346
 	That '70s Show: 30.732000
-	Li'l Abner: 28.768112
-	Franco-Ontarian: 27.753334
-	Regina, Saskatchewan: 27.070770
+	Norman conquest of England: 26.969429
 	Robin Givens: 25.529411
+	Bill Bixby: 24.774588
+	All in the Family: 24.004335
+	American frontier: 23.051718
+	Empress Matilda: 22.916296
 Three's Company
 
 
-Query 'u.n. res. 242 supports secure and recognized boundaries for israel & neighbors following this june 1967 war AND old year's resolutions^3.0' in category 'old year's resolutions' returned:
-	Golan Heights: 72.824028
-	United Nations Partition Plan for Palestine: 60.845940
-	League of Nations: 54.320328
-	History of Israel: 50.685432
-	Nagorno-Karabakh: 49.031872
-	Iran–Iraq War: 48.897018
-	Anwar Sadat: 45.594013
-	Israeli–Palestinian conflict: 44.797634
-	Refugee: 44.361607
-	Capital punishment: 43.829155
+Query 'u.n. res. 242 supports secure and recognized boundaries for israel & neighbors following this june 1967 war' in category 'old year's resolutions' returned:
+	Golan Heights: 67.962959
+	United Nations Partition Plan for Palestine: 46.872753
+	Israeli–Palestinian conflict: 44.231033
+	Yom Kippur War: 41.864487
+	NATO: 40.005981
+	1948 Arab–Israeli War: 39.364632
+	David Ben-Gurion: 39.264885
+	Israeli West Bank barrier: 38.530785
+	Refugee: 38.070637
+	Hamas: 37.863232
 The Six Day War
 
 
-Query 'this blonde beauty who reprised her role as amanda on the new melrose place was a psychology major AND ucla celebrity alumni^3.0' in category 'ucla celebrity alumni' returned:
-	University of California, Los Angeles: 60.880531
-	University of Oregon: 44.399712
-	University of North Carolina at Chapel Hill: 43.851967
-	California Institute of Technology: 42.032337
-	Grant Show: 30.326284
-	Romance (love): 29.723219
-	Jack Kemp: 29.437979
-	University of Virginia: 28.722412
-	Natalie Portman: 27.969589
-	Herbie Hancock: 27.543713
+Query 'this blonde beauty who reprised her role as amanda on the new melrose place was a psychology major' in category 'ucla celebrity alumni' returned:
+	Heather Locklear: 46.230255
+	Milla Jovovich: 38.707123
+	Legally Blonde (musical): 37.838966
+	Melrose Place: 33.797955
+	Maxwell Caulfield: 33.662819
+	Jessica Lange: 33.523205
+	Adam's Rib: 30.941828
+	Kristin Davis: 29.989082
+	Courtney Thorne-Smith: 29.792267
+	Lisa Rinna: 29.755026
 Heather Locklear
 
 
-Query 'the name of this dish of marinated lamb, skewered & grilled, comes from the greek for skewer & also starts with s AND greek food & drink^3.0' in category 'greek food & drink' returned:
-	Serbian cuisine: 74.216156
-	Kava: 50.038918
-	Soma: 44.654488
-	Eggplant: 42.740597
-	Mediterranean diet: 40.655945
-	Sheep: 40.406612
-	The Canon of Medicine: 40.210907
-	Cactus: 40.035282
-	Easter: 39.189804
-	Culture of Italy: 38.859539
+Query 'the name of this dish of marinated lamb, skewered & grilled, comes from the greek for skewer & also starts with s' in category 'greek food & drink' returned:
+	Souvlaki: 69.367340
+	Awadhi cuisine: 32.846146
+	Eggplant: 32.038307
+	Serbian cuisine: 31.580685
+	Short ribs: 31.147179
+	Poutine: 31.046072
+	Hot chicken: 29.106321
+	Homs: 27.977665
+	Ayam bakar: 26.908743
+	Sicilian cuisine: 26.691717
 Souvlaki
 
 
-Query 'post-it notes AND name the parent company^3.0' in category 'name the parent company' returned:
-	South Sea Company: 33.235962
-	AT&T: 31.187941
-	Rover Company: 30.945349
-	Harbinger Group: 30.510206
-	James Tod: 30.492640
-	Panay: 30.215500
-	Ralph Richardson: 29.533167
-	Psion: 29.267569
-	Georg Solti: 29.034033
-	Hull and Barnsley Railway: 27.809202
+Query 'post-it notes' in category 'name the parent company' returned:
+	Interval (music): 14.986730
+	Masoretic Text: 13.798706
+	Staff (music): 13.789500
+	Law school in the United States: 13.531032
+	Mail: 13.007730
+	Clef: 12.892307
+	Rapture: 12.526986
+	Ornament (music): 12.359159
+	Leto: 11.856140
+	Sweep-picking: 11.512114
 3M
 
 
-Query 'in 2010: as sherlock holmes on film AND golden globe winners^3.0' in category 'golden globe winners' returned:
-	Robert Downey, Jr.: 44.547623
-	High Noon: 40.150970
-	Cinema of Denmark: 37.588547
-	Philip Pullman: 36.880192
-	Paul Verhoeven: 36.819336
-	FC Barcelona: 34.806381
-	Jacqueline Bisset: 34.622780
-	Hans Zimmer: 34.352463
-	George Clooney: 33.004639
-	Alfred I. duPont–Columbia University Award: 32.108398
+Query 'in 2010: as sherlock holmes on film' in category 'golden globe winners' returned:
+	Irene Adler: 44.845154
+	Basil Rathbone: 37.302254
+	Peter Cushing: 29.548159
+	Robert Downey, Jr.: 28.741199
+	Sherlock, Jr.: 28.166351
+	The Five Orange Pips: 25.590637
+	Harry Arthur Saintsbury: 25.590637
+	Raiden (Metal Gear): 25.590637
+	The Adventure of the Musgrave Ritual: 25.590637
+	Sherlock Holmes: 25.590637
 Robert Downey, Jr.
 
 
