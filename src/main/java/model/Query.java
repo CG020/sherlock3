@@ -1,14 +1,11 @@
 package model;
 
-import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
-import org.apache.lucene.geo.Line;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
-import org.apache.lucene.queryparser.classic.Token;
 import org.apache.lucene.search.BooleanClause;
 import org.apache.lucene.search.BooleanQuery;
 import org.apache.lucene.search.BoostQuery;
@@ -32,6 +29,7 @@ public class Query {
     MultiFieldQueryParser multiParser;
     HashMap<String, Float> boosts = new HashMap<>();
     List<ResultClass> ans;
+    // debugging - remove later
     static int correct = 0;
 
 
@@ -61,7 +59,7 @@ public class Query {
 
     /**
      * Some syntax in a query is actually interpretted by lucene as phrases or boosts - removed them here
-     * WIP I have to replace with something to help parse
+     * replace later?
      * @param category
      * @param queryStr
      * @return
@@ -77,6 +75,11 @@ public class Query {
         return newStr;
     }
 
+    /**
+     * reads in all questions and separates by category, question, and answer
+     * @param scanner
+     * @return
+     */
     public static ArrayList<ArrayList<String>> readQuestions(Scanner scanner) {
         ArrayList<ArrayList<String>> questionList = new ArrayList<>();
 
@@ -131,6 +134,12 @@ public class Query {
         return ans;
     }
 
+    /**
+     * How the phrase query is constructed - phrases are every combination of sequential
+     * two words in query string
+     * @param queryString
+     * @return
+     */
     public List<PhraseQuery> buildPhraseQ(String queryString) {
         String[] words = queryString.split("\\s+");
 
@@ -192,11 +201,11 @@ public class Query {
         //  duplicate check + returns final results list + printing 
         List<ResultClass> ans = duplicateCheck(hitsPerPage, finalQuery);
     
-        // printing the results 
+        // printing the results
         System.out.format("Query '%s' in category '%s' returned:\n", queryStr, category);
         Boolean first = true;
         for (ResultClass page : ans) {
-            // debugging stuff dont mind the extra parsing like 2 lines when not debugging
+            // debugging stuff dont mind the extra parsing actually becomes like 2 lines when not debugging
             if (first) {
                 if (page.DocName.get("title").equals(right)) {correct += 1;}
                 else {
@@ -213,7 +222,7 @@ public class Query {
     
 
     public static void main(String[] args ) throws FileNotFoundException {
-        // mvn exec:java -D"exec.mainClass=model.Query" dont mind me maven notes 
+        // mvn exec:java -D"exec.mainClass=model.Query"
         Directory index;
         DirectoryReader reader;
         IndexSearcher searcher;
@@ -243,7 +252,7 @@ public class Query {
                 String category = quest.get(0).toLowerCase();
                 String question = quest.get(1).toLowerCase();
                 String right = quest.get(2);
-                // GET RID OF RIGHT LATER DEBUGGING PURPOSES
+                // GET RID OF 'RIGHT' LATER DEBUGGING PURPOSES
                 Tokenizer T = new Tokenizer();
                 String tokenizedQuery = T.tokenizeQuery(question);
                 List<ResultClass> ans = q.runQuery(category, tokenizedQuery, right);
@@ -251,7 +260,7 @@ public class Query {
                 System.out.println("\n");
             }
 
-            System.out.println("\n\n FINAL COUNT: " + correct);
+            System.out.println("\n\n FINAL COUNT: " + correct); // get rid of this too
 
         } catch (IOException e) {
             e.printStackTrace();
