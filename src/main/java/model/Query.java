@@ -8,6 +8,7 @@ import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
+import org.apache.lucene.queryparser.classic.Token;
 import org.apache.lucene.search.BooleanClause;
 import org.apache.lucene.search.BooleanQuery;
 import org.apache.lucene.search.BoostQuery;
@@ -68,10 +69,10 @@ public class Query {
     public static String validateQuery (String queryStr) {
         String newStr;
 
-        newStr = queryStr;
+        newStr = queryStr.strip();
         newStr = newStr.replaceAll("\"", "");
         newStr = newStr.replaceAll("!", "");
-        newStr = newStr.replaceAll("\\(", "").replaceAll("\\)", "");
+        // newStr = newStr.replaceAll("\\(", "").replaceAll("\\)", "");
 
         return newStr;
     }
@@ -139,6 +140,7 @@ public class Query {
             PhraseQuery.Builder builder = new PhraseQuery.Builder();
             builder.add(new Term("bodyText", words[i]));
             builder.add(new Term("bodyText", words[i + 1]));
+            // builder.add(new Term("bodyText", words[i + 2]));
             PhraseQuery phrase = builder.build();
             queries.add(phrase);
         }
@@ -216,10 +218,6 @@ public class Query {
         DirectoryReader reader;
         IndexSearcher searcher;
         
-        // quick stop words remove test 
-        List<String> stopWords = Arrays.asList("a", "an", "and", "or", "but");
-        CharArraySet stopSet = new CharArraySet(stopWords, true);
-
         // im using this for debugging throwing all the out data into answers.txt
         try (PrintStream out = new PrintStream(new FileOutputStream("answers.txt"))) {
             System.setOut(out);
@@ -238,7 +236,7 @@ public class Query {
             // read in the questions
             Scanner scanner = new Scanner(Query.class.getClassLoader().getResourceAsStream("questions.txt"));
             ArrayList<ArrayList<String>> questionList = readQuestions(scanner);
-            Query q = new Query(searcher, new StandardAnalyzer(stopSet));
+            Query q = new Query(searcher, new StandardAnalyzer());
 
             // query everything in questions.txt
             for (ArrayList<String> quest : questionList) {
@@ -246,7 +244,9 @@ public class Query {
                 String question = quest.get(1).toLowerCase();
                 String right = quest.get(2);
                 // GET RID OF RIGHT LATER DEBUGGING PURPOSES
-                List<ResultClass> ans = q.runQuery(category, question, right);
+                Tokenizer T = new Tokenizer();
+                String tokenizedQuery = T.tokenizeQuery(question);
+                List<ResultClass> ans = q.runQuery(category, tokenizedQuery, right);
                 System.out.println(quest.get(2));
                 System.out.println("\n");
             }
