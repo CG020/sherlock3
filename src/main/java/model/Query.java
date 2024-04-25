@@ -37,8 +37,8 @@ public class Query {
         this.analyzer = analyzer;
 
         // boost assignment
-        boosts.put("summary", 1.0f);
-        boosts.put("categories", 1.8f);
+        boosts.put("summary", 1.4f);
+        boosts.put("categories", 2.5f);
         this.multiParser = new MultiFieldQueryParser(
             new String[]{"summary", "categories"},
             analyzer,
@@ -157,7 +157,7 @@ public class Query {
 
         // category boosting
         TermQuery termCombine = new TermQuery(new Term("categories", category));
-        BoostQuery boostedQuery = new BoostQuery(termCombine, 2.2f);
+        BoostQuery boostedQuery = new BoostQuery(termCombine, 2.0f);
         q.add(boostedQuery, BooleanClause.Occur.SHOULD); 
 
         //  the boolean query that has all the other query types layered within
@@ -207,8 +207,8 @@ public class Query {
             searcher = new IndexSearcher(reader);
 
             // $k_1$ and $k_3$ to a value between 1.2 and 2 and b = 0.75 -- random rn
-            float k = 1.2f; // k being lower reduces saturation of term frequency
-            float b = 0.1f; // b lower means doc length affects scoring less
+            float k = 1.4f; // k being lower reduces saturation of term frequency
+            float b = 0.5f; // b lower means doc length affects scoring less
             searcher.setSimilarity(new tuning(k, b));
 
             // read in the questions
