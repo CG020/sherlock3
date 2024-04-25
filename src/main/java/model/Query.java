@@ -9,6 +9,7 @@ import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.BooleanClause;
 import org.apache.lucene.search.BooleanQuery;
+import org.apache.lucene.search.BoostQuery;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TermQuery;
@@ -60,10 +61,9 @@ public class Query {
      * @param queryStr
      * @return
      */
-    public static String validateQuery (String category, String queryStr) {
+    public static String validateQuery (String queryStr) {
         String newStr;
 
-        // newStr = queryStr + " AND " + category + "^3.0";
         newStr = queryStr;
         newStr = newStr.replaceAll("\"", "");
         newStr = newStr.replaceAll("!", "");
@@ -139,7 +139,8 @@ public class Query {
         int hitsPerPage = 10;
     
         // double quotes signify a phrase query in lucene
-        queryStr = validateQuery (category, queryStr);
+        queryStr = validateQuery (queryStr);
+        category = validateQuery (category);
     
         // multi field parsee
         org.apache.lucene.search.Query multiQuery;
@@ -154,8 +155,9 @@ public class Query {
         }
 
         // category boosting
-        TermQuery catQuery = new TermQuery(new Term("categories", category.replaceAll(" ", "_") + "^3.0"));
-        q.add(catQuery, BooleanClause.Occur.SHOULD);
+        TermQuery termCombine = new TermQuery(new Term("categories", category));
+        BoostQuery boostedQuery = new BoostQuery(termCombine, 2.2f);
+        q.add(boostedQuery, BooleanClause.Occur.SHOULD); 
 
         //  the boolean query that has all the other query types layered within
         BooleanQuery finalQuery = q.build();
@@ -220,13 +222,3 @@ public class Query {
 
     }
 }
-
-
-// phrase query experimental stuff didnt really boost any scores kinda useless but might tweak later
-
-    // String[] words = queryStr.split(" ");
-    // for (int i = 0; i < words.length -1 ; i++) {
-    //     String phrase = words[i] + words[i + 1];
-    //     TermQuery phraseQuery = new TermQuery(new Term("categories", phrase));
-    //     q.add(phraseQuery, BooleanClause.Occur.SHOULD);
-    // }

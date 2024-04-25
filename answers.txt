@@ -1,14 +1,14 @@
 Query 'the dominant paper in our nation's capital, it's among the top 10 u.s. papers in circulation' in category 'newspapers' returned:
-	William Randolph Hearst: 35.299442
-	Banking in the United States: 34.821133
-	Laos: 34.593887
-	Manhattan: 32.622063
-	Omaha, Nebraska: 32.465267
-	History of the United States (1865–1918): 31.934830
-	Media of the United States: 31.761829
-	Herbert Hoover: 31.671768
-	The Baltimore Sun: 31.487331
-	Columbia Law School: 31.244730
+	Media of the United States: 46.523922
+	William Randolph Hearst: 42.522999
+	Laos: 41.817444
+	History of the United States (1865–1918): 39.158386
+	Herbert Hoover: 38.895325
+	Manhattan: 38.732132
+	The Baltimore Sun: 38.710888
+	South Dakota: 36.822254
+	Virginia: 36.632599
+	Star Tribune: 35.954903
 The Washington Post
 
 
@@ -27,16 +27,16 @@ Taiwan
 
 
 Query 'daniel hertzberg & james b. stewart of this paper shared a 1988 pulitzer for their stories about insider trading' in category 'newspapers' returned:
-	The Wall Street Journal: 48.377819
-	Michael Milken: 31.916727
-	History of Scotland: 30.696579
-	White-collar crime: 29.177946
-	Raymond Chandler: 28.681374
-	Ireland: 28.246716
-	Irish literature: 28.097935
-	China–United States relations: 27.550819
-	South Sea Company: 26.779032
-	Jonathan Franzen: 26.314409
+	The Wall Street Journal: 55.601376
+	Michael Milken: 39.140285
+	Raymond Chandler: 35.904930
+	Bernard Malamud: 33.044350
+	Søren Kierkegaard: 32.949986
+	Warren G. Harding: 32.913551
+	The Washington Post: 32.491497
+	Ezra Pound: 31.672743
+	George Herriman: 31.538078
+	Palestinian people: 30.946560
 The Wall Street Journal
 
 
@@ -55,20 +55,20 @@ My Funny Valentine
 
 
 Query 'in 2011 bell ringers for this charity started accepting digital donations to its red kettle' in category 'potpourri' returned:
+	NBC: 33.128052
 	The Salvation Army: 32.791824
 	Change ringing: 29.599731
+	Jujube: 29.405027
 	Médecins Sans Frontières: 28.922131
+	Arthur Sullivan: 26.486584
 	Canadian Broadcasting Corporation: 26.412636
+	Chennai: 26.032459
 	Royal Society for the Prevention of Cruelty to Animals: 25.379078
 	CTV Television Network: 24.912577
-	Pixie Day: 24.626961
-	Coventry: 24.299568
-	Council on American–Islamic Relations: 23.555492
-	St John's College, Cambridge: 23.317181
 The Salvation Army|Salvation Army
 
 
-Query 'the naples museum of art' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+Query 'the naples museum of art' in category 'state of the art museum alex: we'll give you the museum. you give us the state.' returned:
 	Museum of Modern Art: 23.838463
 	Art museum: 22.537729
 	Whitney Museum of American Art: 21.250351
@@ -82,7 +82,7 @@ Query 'the naples museum of art' in category 'state of the art museum (alex: we'
 Florida
 
 
-Query 'this italian painter depicted the adoration of the golden calf' in category '"tin" men' returned:
+Query 'this italian painter depicted the adoration of the golden calf' in category 'tin men' returned:
 	Diego Velázquez: 26.572350
 	Tintoretto: 25.505322
 	Cimabue: 23.651518
@@ -152,7 +152,7 @@ Query 'after the fall of france in 1940, this general told his country, france h
 Charles de Gaulle|de Gaulle
 
 
-Query 'the taft museum of art' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+Query 'the taft museum of art' in category 'state of the art museum alex: we'll give you the museum. you give us the state.' returned:
 	Museum of Modern Art: 23.838463
 	Taft–Katsura Agreement: 23.497568
 	Art museum: 22.537729
@@ -167,16 +167,16 @@ Ohio
 
 
 Query 'the mast from the uss maine is part of the memorial to the ship & crew at this national cemetery' in category 'cemeteries' returned:
+	Cemetery: 43.371506
+	Sutton Hoo: 40.027412
+	Tomb of the Unknowns: 38.554195
 	Robert Ballard: 38.264000
+	Mount of Olives: 35.722351
 	USS Arizona Memorial: 35.611820
+	Catacombs of Paris: 35.252968
+	Zentralfriedhof: 34.238052
 	USS John F. Kennedy (CV-67): 33.601280
 	USS Missouri (BB-63): 33.509495
-	H. L. Hunley (submarine): 33.040009
-	USS Constitution: 32.657616
-	USS Minneapolis–Saint Paul (SSN-708): 31.860449
-	Thomas W. Lawson (ship): 31.820503
-	Sloop: 31.477688
-	USS Oregon (BB-3): 31.192806
 Arlington National Cemetery|Arlington Cemetery
 
 
@@ -209,16 +209,16 @@ Iberia|Iberian Peninsula
 
 
 Query 'in 1980 china founded a center for these cute creatures in its bamboo-rich wolong nature preserve' in category 'conservation' returned:
-	Chengdu: 32.741795
-	Chinese music: 30.144478
-	Chinese dragon: 29.488169
-	Yangtze: 27.664410
-	Nepal: 27.664410
-	Foreign relations of China: 27.034643
-	Reed College: 26.933805
-	History of science: 26.055964
-	Poland: 25.725569
-	Russia: 25.584545
+	Chengdu: 40.513508
+	Conservation movement: 38.927464
+	Environmental movement: 36.390198
+	Yangtze: 35.436123
+	Nepal: 35.436123
+	Foreign relations of China: 34.806358
+	History of science: 33.827679
+	Russia: 33.356258
+	Indiana Dunes National Lakeshore: 31.818558
+	Pygmy slow loris: 31.557072
 Panda|Giant panda
 
 
@@ -265,34 +265,34 @@ Knights of Columbus
 
 
 Query 'early projects of the wwf, this organization, included work with the bald eagle & the red wolf' in category 'conservation' returned:
+	Gray wolf: 35.502735
+	Golden Eagle: 35.039063
+	Columbia River: 34.618771
+	Falconry: 34.117420
+	CARE (relief agency): 32.931160
+	Conservation movement: 29.515221
+	International Union for Conservation of Nature: 29.483423
+	Yellowstone National Park: 29.483042
 	Hulk Hogan: 29.469006
-	Gray wolf: 27.731022
-	CARE (relief agency): 27.539156
-	Little Red Riding Hood: 27.441616
-	Golden Eagle: 27.267349
-	Columbia River: 26.847057
-	Falconry: 26.345705
-	Osprey: 26.294666
-	Lex Luger: 26.027641
-	Red Skelton: 24.854332
+	Unmanned aerial vehicle: 29.140303
 World Wide Fund|World Wide Fund for Nature
 
 
 Query 'indonesia's largest lizard, it's protected from poachers, though we wish it could breathe fire to do the job itself' in category 'conservation' returned:
+	Komodo dragon: 40.724789
 	Indonesian National Revolution: 38.252563
+	Yellowstone National Park: 36.354355
+	Yangtze: 35.506989
 	Reptile: 34.890717
 	Omnipotence paradox: 34.849239
+	Project Tiger: 34.787025
+	Fauna of Australia: 34.743752
+	Grand Teton National Park: 34.414078
 	Alan Moore: 34.392395
-	Chinese Indonesians: 33.913574
-	Battle of the Atlantic: 33.182079
-	Fear and Trembling: 32.954388
-	Komodo dragon: 32.953075
-	Roger Waters: 32.581249
-	Ludwig Wittgenstein: 32.425911
 Komodo dragon
 
 
-Query 'nov. 28, 1929 this man & his chief pilot bernt balchen fly to south pole yowza you'll be an admirable admiral, sir' in category '1920s news flash!' returned:
+Query 'nov. 28, 1929 this man & his chief pilot bernt balchen fly to south pole yowza you'll be an admirable admiral, sir' in category '1920s news flash' returned:
 	Adolf Galland: 37.684639
 	Hermann Göring: 33.150887
 	Neil Armstrong: 31.997290
@@ -307,16 +307,16 @@ Richard Byrd|Richard E. Byrd
 
 
 Query 'on may 5, 1878 alice chambers was the last person buried in this dodge city, kansas cemetery' in category 'cemeteries' returned:
+	Cemetery: 58.790657
+	Catacombs of Paris: 41.793541
+	Omaha, Nebraska: 40.437229
+	Zentralfriedhof: 38.555695
+	Ross Bay Cemetery: 38.278126
+	Mount of Olives: 38.013069
 	Doc Holliday: 35.712784
-	Omaha, Nebraska: 35.399841
-	Cemetery: 33.449215
-	Gunsmoke: 30.053833
-	Samuel Jay Crumbine: 29.439434
-	Alice in Chains: 28.192186
-	Princess Alice, Countess of Athlone: 27.802755
-	Nikola Tesla: 27.675259
-	Boot Hill: 27.238800
-	Gertrude Stein: 26.957186
+	Cremation: 34.195168
+	Sutton Hoo: 33.891068
+	Calvary Cemetery (Queens, New York): 33.335754
 Boot Hill
 
 
@@ -418,7 +418,7 @@ Query 'france's philip iv--known as the fair--had jacques de molay, the last gra
 Knights Templar
 
 
-Query 'the georgia o'keeffe museum' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+Query 'the georgia o'keeffe museum' in category 'state of the art museum alex: we'll give you the museum. you give us the state.' returned:
 	Alfred Stieglitz: 26.729717
 	Palo Duro Canyon: 19.839319
 	Dan Budnik: 19.839319
@@ -516,7 +516,7 @@ Query 'in the deadlocked election of 1800, james r. sharp outlines the fall of t
 Aaron Burr
 
 
-Query 'he served in the kgb before becoming president & then prime minister of russia' in category '"tin" men' returned:
+Query 'he served in the kgb before becoming president & then prime minister of russia' in category 'tin men' returned:
 	Vladimir Putin: 57.173557
 	José Ramos-Horta: 49.128174
 	Shimon Peres: 44.178116
@@ -558,7 +558,7 @@ Query 'she wrote, my candle burns at both ends... but, ah, my foes, and oh, my f
 Edna St. Vincent Millay
 
 
-Query 'in this finnish city, the lutheran cathedral, also known as tuomiokirkko' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
+Query 'in this finnish city, the lutheran cathedral, also known as tuomiokirkko' in category 'capital city churches alex: we'll give you the church. you tell us the capital city in which it is located.' returned:
 	Mikael Agricola: 39.125938
 	Cathedral: 35.007088
 	Tampere: 31.383995
@@ -632,7 +632,7 @@ Query 'this member of the nixon & ford cabinets was born in furth, germany in 19
 Henry Kissinger
 
 
-Query 'the high kirk of st. giles, where john knox was minister' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
+Query 'the high kirk of st. giles, where john knox was minister' in category 'capital city churches alex: we'll give you the church. you tell us the capital city in which it is located.' returned:
 	John Knox: 44.500271
 	Perth, Scotland: 40.003483
 	Edinburgh: 31.155968
@@ -814,7 +814,7 @@ Query 'this person is the queen's representative in canada; currently the office
 Governor General of Canada
 
 
-Query 'he earned the fifth beatle nickname by producing all of the beatles' albums' in category '"tin" men' returned:
+Query 'he earned the fifth beatle nickname by producing all of the beatles' albums' in category 'tin men' returned:
 	George Martin: 44.595791
 	Ringo Starr: 43.955338
 	Rubber Soul: 41.987637
@@ -829,30 +829,30 @@ George Martin
 
 
 Query 'early in their careers, mark twain & bret harte wrote pieces for this california city's chronicle' in category 'newspapers' returned:
-	Bret Harte: 45.881260
+	Bret Harte: 53.104816
 	Kansas City Royals: 35.817982
 	Gunsmoke: 34.404949
+	California Gold Rush: 34.395000
 	Yoko Ono: 31.638134
+	Henry Mayhew: 31.554619
+	Citizen Kane: 30.409916
+	Ezra Pound: 30.391399
+	Washington Irving: 29.989992
 	George Carlin: 29.845005
-	Homosexuality in China: 28.891840
-	Imperial Bedrooms: 27.755308
-	California Gold Rush: 27.171442
-	Oakland, California: 26.523052
-	Jerome Kern: 25.730413
 San Francisco
 
 
 Query 'large specimens of this marsupial can leap over barriers 6 feet high' in category 'potpourri' returned:
 	Kangaroo: 37.433460
+	Arthur Sullivan: 27.601681
+	Chives: 27.159344
 	Emu: 26.422052
 	Crocodile: 26.006357
 	Fauna of Australia: 25.897596
 	Python reticulatus: 25.871243
 	Koala: 25.242277
 	United States Navy SEALs: 25.034964
-	Museum: 24.934504
-	Eucalyptus: 24.927317
-	Arundinaria: 24.850231
+	Department store: 24.965969
 Kangaroo
 
 
@@ -870,7 +870,7 @@ Query 'because it's cured & stored in brine, this crumbly white cheese made from
 Feta
 
 
-Query '1927 gene tunney takes a long count in the squared circle but rises to defeat this manassa mauler howzabout that' in category '1920s news flash!' returned:
+Query '1927 gene tunney takes a long count in the squared circle but rises to defeat this manassa mauler howzabout that' in category '1920s news flash' returned:
 	Jack Dempsey: 56.936756
 	New Jersey Route 37: 27.412254
 	Max Schmeling: 25.845875
@@ -898,7 +898,7 @@ Query 'italian for leader, it was especially applied to benito mussolini' in cat
 Duce
 
 
-Query 'the kalamazoo institute of arts' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+Query 'the kalamazoo institute of arts' in category 'state of the art museum alex: we'll give you the museum. you give us the state.' returned:
 	Kalamazoo/Battle Creek International Airport: 28.393650
 	Kalamazoo Kings: 22.826756
 	Mei-Ann Chen: 22.223961
@@ -912,7 +912,7 @@ Query 'the kalamazoo institute of arts' in category 'state of the art museum (al
 Michigan
 
 
-Query 'the sun valley center for the arts' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+Query 'the sun valley center for the arts' in category 'state of the art museum alex: we'll give you the museum. you give us the state.' returned:
 	Phoenix, Arizona: 29.978035
 	Sun-Maid: 24.121346
 	The New York Sun: 22.956905
@@ -926,7 +926,7 @@ Query 'the sun valley center for the arts' in category 'state of the art museum 
 Idaho
 
 
-Query 'you can't mention this shortstop without mentioning his double-play associates evers & chance' in category '"tin" men' returned:
+Query 'you can't mention this shortstop without mentioning his double-play associates evers & chance' in category 'tin men' returned:
 	Joe Tinker: 44.851475
 	Triple play: 37.309780
 	Double play: 36.429695
@@ -941,16 +941,16 @@ Joe Tinker
 
 
 Query 'in 1840 horace greeley began publishing the log cabin, a weekly campaign paper in support of this whig candidate' in category 'newspapers' returned:
-	Horace Greeley: 69.988747
-	Charles Sumner: 46.948978
-	Richard Mentor Johnson: 37.885925
-	William Wilberforce: 34.919285
-	William Lyon Mackenzie: 33.336903
-	Woodrow Wilson: 32.121193
-	William Henry Harrison: 31.935648
-	Thaddeus Stevens: 31.841021
-	The Economist: 31.018595
-	Victoria Woodhull: 29.939634
+	Horace Greeley: 77.212303
+	Charles Sumner: 54.172535
+	Richard Mentor Johnson: 45.109482
+	William Wilberforce: 41.776028
+	Woodrow Wilson: 39.344749
+	Thaddeus Stevens: 39.064579
+	Victoria Woodhull: 37.163193
+	Edgar Allan Poe: 36.585094
+	William Ewart Gladstone: 35.995739
+	New York Press: 34.648296
 William Henry Harrison
 
 
@@ -968,7 +968,7 @@ Query 'pierre cauchon, bishop of beauvais, presided over the trial of this woman
 Joan of Arc|Jeanne d'Arc
 
 
-Query 'this wisconsin city claims to have built the usa's only granite dome' in category 'complete dom-ination(alex: not "domination.")' returned:
+Query 'this wisconsin city claims to have built the usa's only granite dome' in category 'complete dom-inationalex: not domination.' returned:
 	Temple Mount: 38.885212
 	Yosemite Valley: 34.237694
 	Al-Aqsa Mosque: 33.502968
@@ -983,16 +983,16 @@ Madison
 
 
 Query 'this georgia paper is known as the ajc for short' in category 'newspapers' returned:
-	The Atlanta Journal-Constitution: 28.964706
+	The Atlanta Journal-Constitution: 36.188263
+	Red Skelton: 26.670994
+	Punched tape: 23.116108
+	Colonial history of the United States: 21.678568
 	Georgia (U.S. state): 21.538818
-	Georgia (country): 18.537468
-	Stamp Act 1765: 18.229717
-	Augusta, Georgia: 17.552494
-	Georgia Southern Eagles: 17.402695
-	Red Skelton: 17.090950
-	Ebenezer R. Hoar: 16.631554
-	Interstate 285: 16.527519
-	Stylish Century: 15.867573
+	John Maynard Keynes: 20.678926
+	Ivan Bunin: 20.543606
+	William S. Clark: 19.807917
+	Media of the United States: 19.530550
+	Der Standard: 19.310188
 The Atlanta Journal-Constitution
 
 
@@ -1010,7 +1010,7 @@ Query 'wooden 2-story verandas in this liberian capital are an architectural lin
 Monrovia
 
 
-Query 'this new orleans venue reopened sept. 25, 2006' in category 'complete dom-ination(alex: not "domination.")' returned:
+Query 'this new orleans venue reopened sept. 25, 2006' in category 'complete dom-inationalex: not domination.' returned:
 	Jimmy Walter: 26.245827
 	Preservation Hall Jazz Band: 26.183720
 	Bleecker Street Cinema: 23.315928
@@ -1066,7 +1066,7 @@ Query 'patriot games; he's had other iconic roles, in space & underground' in ca
 Harrison Ford
 
 
-Query 'this sacred structure dates from the late 600's a.d.' in category 'complete dom-ination(alex: not "domination.")' returned:
+Query 'this sacred structure dates from the late 600's a.d.' in category 'complete dom-inationalex: not domination.' returned:
 	History of Armenia: 27.748211
 	New Testament: 25.513586
 	Chichen Itza: 23.080246
@@ -1094,7 +1094,7 @@ Query '1988: man in the mirror' in category ''80s no.1 hitmakers' returned:
 Michael Jackson
 
 
-Query 'matthias church, or matyas templom, where franz joseph was crowned in 1867' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
+Query 'matthias church, or matyas templom, where franz joseph was crowned in 1867' in category 'capital city churches alex: we'll give you the church. you tell us the capital city in which it is located.' returned:
 	Franz Liszt: 42.023300
 	Matthias Corvinus: 30.498795
 	Votive Church, Vienna: 27.047138
@@ -1136,7 +1136,7 @@ Query 'kinch, carter & lebeau were all residents of stalag 13 on this tv show' i
 Hogan's Heroes
 
 
-Query 'news flash this less-than-yappy pappy is sixth veep to be nation's top dog after chief takes deep sleep' in category '1920s news flash!' returned:
+Query 'news flash this less-than-yappy pappy is sixth veep to be nation's top dog after chief takes deep sleep' in category '1920s news flash' returned:
 	Flash memory: 38.592197
 	Poland: 34.226803
 	Ivy League: 34.218258
@@ -1178,7 +1178,7 @@ Query '1989: miss you much' in category ''80s no.1 hitmakers' returned:
 Janet Jackson
 
 
-Query '1922: it's the end of an empire this empire, in fact after 600 years, it's goodbye, this, hello, turkish republic' in category '1920s news flash!' returned:
+Query '1922: it's the end of an empire this empire, in fact after 600 years, it's goodbye, this, hello, turkish republic' in category '1920s news flash' returned:
 	Lycia: 56.770634
 	History of Iran: 45.907795
 	Portugal: 42.300041
