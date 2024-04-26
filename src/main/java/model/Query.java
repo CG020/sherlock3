@@ -67,6 +67,7 @@ public class Query {
         newStr = queryStr.trim();
         newStr = newStr.replaceAll("\"", "");
         newStr = newStr.replaceAll("!", "");
+        newStr = newStr.replaceAll("\\(alex:.*?\\)", "");
         // newStr = newStr.replaceAll("\\(", "").replaceAll("\\)", "");
 
         return newStr;

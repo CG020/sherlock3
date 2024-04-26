@@ -68,7 +68,7 @@ Query '2011 bell ringer charity start accept digital donation its red kettle' in
 The Salvation Army|Salvation Army
 
 
-Query 'naples museum art' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+Query 'naples museum art' in category 'state of the art museum ' returned:
 	Russell-Cotes Art Gallery & Museum: 77.646416
 	Lentos Art Museum: 77.456520
 	Metropolitan Museum of Art: 73.783035
@@ -152,7 +152,7 @@ Query 'after fall france 1940 general told his country france has lost battle fr
 Charles de Gaulle|de Gaulle
 
 
-Query 'taft museum art' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+Query 'taft museum art' in category 'state of the art museum ' returned:
 	Russell-Cotes Art Gallery & Museum: 77.646416
 	Lentos Art Museum: 77.456520
 	Metropolitan Museum of Art: 73.783035
@@ -418,7 +418,7 @@ Query 'france's philip iv known fair had jacque de molay last grand master order
 Knights Templar
 
 
-Query 'georgia o'keeffe museum' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+Query 'georgia o'keeffe museum' in category 'state of the art museum ' returned:
 	Alfred Stieglitz: 70.803864
 	Georgia (U.S. state): 57.555981
 	Museum of Modern Art: 55.580688
@@ -558,7 +558,7 @@ Query 'she wrote my candle burn both end ah my foe oh my friends give lovely lig
 Edna St. Vincent Millay
 
 
-Query 'finland city lutheran cathedral also known tuomiokirkko' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
+Query 'finland city lutheran cathedral also known tuomiokirkko' in category 'capital city churches ' returned:
 	Mikael Agricola: 106.040375
 	Porvoo: 100.727493
 	Savonlinna: 97.103210
@@ -642,7 +642,7 @@ Query 'member nixon ford cabinet born furth germany 1923' in category 'historica
 Henry Kissinger
 
 
-Query 'high kirk st gile where john knox minister' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
+Query 'high kirk st gile where john knox minister' in category 'capital city churches ' returned:
 	John Knox: 125.713318
 	Knox Grammar School: 88.862335
 	John Frush Knox: 85.877953
@@ -908,7 +908,7 @@ Query 'italy leader especially applied benito mussolini' in category 'ranks & ti
 Duce
 
 
-Query 'kalamazoo institute arts' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+Query 'kalamazoo institute arts' in category 'state of the art museum ' returned:
 	Kalamazoo/Battle Creek International Airport: 83.688950
 	Kalamazoo Kings: 65.203445
 	Liverpool Institute for Performing Arts: 60.203003
@@ -922,7 +922,7 @@ Query 'kalamazoo institute arts' in category 'state of the art museum (alex: we'
 Michigan
 
 
-Query 'sun valley center arts' in category 'state of the art museum (alex: we'll give you the museum. you give us the state.)' returned:
+Query 'sun valley center arts' in category 'state of the art museum ' returned:
 	Sun Valley High School (North Carolina): 88.080803
 	Denver Center for the Performing Arts: 62.297153
 	The New York Sun: 60.966423
@@ -978,7 +978,7 @@ Query 'pierre cauchon bishop beauvai preside over trial woman who went up smoke 
 Joan of Arc|Jeanne d'Arc
 
 
-Query 'wisconsin city claim have built usa's only granite dome' in category 'complete dom-ination(alex: not domination.)' returned:
+Query 'wisconsin city claim have built usa's only granite dome' in category 'complete dom-ination' returned:
 	Madison, Wisconsin: 90.666267
 	Corcovado: 88.855576
 	Wisconsin Dells, Wisconsin: 80.406410
@@ -1020,7 +1020,7 @@ Query 'wooden 2 story veranda liberia capital architecture link u.s south' in ca
 Monrovia
 
 
-Query 'new orleans venue reopen sept 25 2006' in category 'complete dom-ination(alex: not domination.)' returned:
+Query 'new orleans venue reopen sept 25 2006' in category 'complete dom-ination' returned:
 	Preservation Hall Jazz Band: 104.763657
 	Louis Armstrong New Orleans International Airport: 92.448921
 	Mercedes-Benz Superdome: 90.339638
@@ -1076,7 +1076,7 @@ Query 'patriot games he's had other icon role space underground' in category 'he
 Harrison Ford
 
 
-Query 'sacred structure dates from late 600 s a.d' in category 'complete dom-ination(alex: not domination.)' returned:
+Query 'sacred structure dates from late 600 s a.d' in category 'complete dom-ination' returned:
 	GE-600 series: 64.954742
 	Crystal structure: 58.039093
 	S&P 500: 57.600075
@@ -1104,7 +1104,7 @@ Query '1988 man mirror' in category ''80s no.1 hitmakers' returned:
 Michael Jackson
 
 
-Query 'matthia church matya templom where franz joseph crown 1867' in category 'capital city churches (alex: we'll give you the church. you tell us the capital city in which it is located.)' returned:
+Query 'matthia church matya templom where franz joseph crown 1867' in category 'capital city churches ' returned:
 	Votive Church, Vienna: 92.020386
 	Franz Liszt: 79.322884
 	Crown jewels: 70.065613
