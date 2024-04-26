@@ -94,11 +94,11 @@ public class Index implements Serializable {
     private void addToIndex(NormalPage p) throws IOException {
         Document doc = new Document();
         doc.add(new StringField("title", p.title, Field.Store.YES));
-        doc.add(new TextField("categories", Tokenizer.tokenizeCategories(p.categories), Field.Store.YES));
-        doc.add(new TextField("headers", Tokenizer.tokenizeHeaders(p.headers), Field.Store.YES));
-        doc.add(new TextField("summary",Tokenizer.tokenizeSummary(p.summary), Field.Store.YES));
-        doc.add(new TextField("bodyText", Tokenizer.tokenizeBodyText(p.bodyText), Field.Store.YES));
-        doc.add(new TextField("metaTitles", Tokenizer.tokenizeMetaTitles(p.metaTitles), Field.Store.YES));
+        doc.add(new StringField("categories", Tokenizer.tokenizeCategories(p.categories), Field.Store.YES));
+        doc.add(new StringField("headers", Tokenizer.tokenizeHeaders(p.headers), Field.Store.YES));
+        doc.add(new StringField("summary",Tokenizer.tokenizeSummary(p.summary), Field.Store.YES));
+        doc.add(new StringField("bodyText", Tokenizer.tokenizeBodyText(p.bodyText), Field.Store.YES));
+        doc.add(new StringField("metaTitles", Tokenizer.tokenizeMetaTitles(p.metaTitles), Field.Store.YES));
         writer.addDocument(doc);
         writer.commit();
     }
