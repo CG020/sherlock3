@@ -60,14 +60,11 @@ public class Query {
     /**
      * Some syntax in a query is actually interpretted by lucene as phrases or boosts - removed them here
      * replace later?
-     * @param category
-     * @param queryStr
-     * @return
      */
     public static String validateQuery (String queryStr) {
         String newStr;
 
-        newStr = queryStr.strip();
+        newStr = queryStr.trim();
         newStr = newStr.replaceAll("\"", "");
         newStr = newStr.replaceAll("!", "");
         // newStr = newStr.replaceAll("\\(", "").replaceAll("\\)", "");
@@ -77,24 +74,22 @@ public class Query {
 
     /**
      * reads in all questions and separates by category, question, and answer
-     * @param scanner
-     * @return
      */
     public static ArrayList<ArrayList<String>> readQuestions(Scanner scanner) {
         ArrayList<ArrayList<String>> questionList = new ArrayList<>();
 
         ArrayList<String> temp = new ArrayList<>();
-            scanner.useDelimiter("\r\n");
-            while (scanner.hasNext()) {
-                String next = scanner.next();
-                if(next.isBlank()) {
-                    questionList.add(temp);
-                    temp = new ArrayList<>();
-                } else {
-                    temp.add(next);
-                }
+        scanner.useDelimiter("\n");
+        while (scanner.hasNext()) {
+            String next = scanner.next().trim();
+            if (next.isEmpty()) {
+                questionList.add(temp);
+                temp = new ArrayList<>();
+            } else {
+                temp.add(next);
             }
-            scanner.close();
+        }
+        scanner.close();
         
         return questionList;
     }
@@ -137,8 +132,6 @@ public class Query {
     /**
      * How the phrase query is constructed - phrases are every combination of sequential
      * two words in query string
-     * @param queryString
-     * @return
      */
     public List<PhraseQuery> buildPhraseQ(String queryString) {
         String[] words = queryString.split("\\s+");
@@ -226,46 +219,44 @@ public class Query {
         Directory index;
         DirectoryReader reader;
         IndexSearcher searcher;
-        
+
         // im using this for debugging throwing all the out data into answers.txt
         try (PrintStream out = new PrintStream(new FileOutputStream("answers.txt"))) {
             System.setOut(out);
-        
 
-        try {
-            index = FSDirectory.open(Paths.get("IndexBuild"));
-            reader = DirectoryReader.open(index);
-            searcher = new IndexSearcher(reader);
+            try {
+                index = FSDirectory.open(Paths.get("IndexBuild"));
+                reader = DirectoryReader.open(index);
+                searcher = new IndexSearcher(reader);
 
-            // $k_1$ and $k_3$ to a value between 1.2 and 2 and b = 0.75 -- random rn
-            float k = 1.2f; // k being lower reduces saturation of term frequency
-            float b = 0.4f; // b lower means doc length affects scoring less
-            searcher.setSimilarity(new tuning(k, b));
+                // $k_1$ and $k_3$ to a value between 1.2 and 2 and b = 0.75 -- random rn
+                float k = 1.2f; // k being lower reduces saturation of term frequency
+                float b = 0.4f; // b lower means doc length affects scoring less
+                searcher.setSimilarity(new tuning(k, b));
 
-            // read in the questions
-            Scanner scanner = new Scanner(Query.class.getClassLoader().getResourceAsStream("questions.txt"));
-            ArrayList<ArrayList<String>> questionList = readQuestions(scanner);
-            Query q = new Query(searcher, new StandardAnalyzer());
+                // read in the questions
+                Scanner scanner = new Scanner(new File("questions.txt"));
+                ArrayList<ArrayList<String>> questionList = readQuestions(scanner);
+                Query q = new Query(searcher, new StandardAnalyzer());
 
-            // query everything in questions.txt
-            for (ArrayList<String> quest : questionList) {
-                String category = quest.get(0).toLowerCase();
-                String question = quest.get(1).toLowerCase();
-                String right = quest.get(2);
-                // GET RID OF 'RIGHT' LATER DEBUGGING PURPOSES
-                Tokenizer T = new Tokenizer();
-                String tokenizedQuery = T.tokenizeQuery(question);
-                List<ResultClass> ans = q.runQuery(category, tokenizedQuery, right);
-                System.out.println(quest.get(2));
-                System.out.println("\n");
+                // query everything in questions.txt
+                for (ArrayList<String> quest : questionList) {
+                    String category = quest.get(0).toLowerCase();
+                    String question = quest.get(1).toLowerCase();
+                    String right = quest.get(2);
+                    // GET RID OF 'RIGHT' LATER DEBUGGING PURPOSES
+                    String tokenizedQuery = Tokenizer.tokenizeQuery(question);
+                    List<ResultClass> ans = q.runQuery(category, tokenizedQuery, right);
+                    System.out.println(quest.get(2));
+                    System.out.println("\n");
+                }
+
+                System.out.println("\n\n FINAL COUNT: " + correct); // get rid of this too
+
+            } catch (IOException e) {
+                e.printStackTrace();
+                System.out.println("Could not set up searcher");
             }
-
-            System.out.println("\n\n FINAL COUNT: " + correct); // get rid of this too
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("Could not set up searcher");
-        } } 
-
+        }
     }
 }
