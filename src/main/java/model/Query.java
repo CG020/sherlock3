@@ -64,7 +64,7 @@ public class Query {
      * @param queryStr
      * @return
      */
-    public static String validateQuery (String queryStr) {
+    public String validateQuery (String queryStr) {
         String newStr;
 
         newStr = queryStr.strip();
@@ -184,11 +184,13 @@ public class Query {
             q.add(multiQuery, BooleanClause.Occur.SHOULD);
         }
 
+
         // category boosting
-        TermQuery termCombine = new TermQuery(new Term("bodyText", category));
+        TermQuery termCombine = new TermQuery(new Term("bodyText", "(" + category + ")"));
         BoostQuery boostedQuery = new BoostQuery(termCombine, 2.0f);
         q.add(boostedQuery, BooleanClause.Occur.SHOULD); 
-
+        
+        // phrase queries
         BooleanQuery.setMaxClauseCount(2048);
         List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr);
         for (PhraseQuery pq : phraseQueries) {

@@ -1,14 +1,14 @@
 Query 'dominant paper our nation's capital it's among top 10 u.s papers circulation' in category 'newspapers' returned:
-	Media of the United States: 89.755829
-	William Randolph Hearst: 87.518997
-	Star Tribune: 84.041389
 	Rock-paper-scissors: 79.556099
-	Los Angeles Times: 77.103149
-	Houston Chronicle: 75.240906
-	Yellow journalism: 75.172447
+	Media of the United States: 74.988335
+	William Randolph Hearst: 74.900414
 	Toilet paper: 74.509956
+	Star Tribune: 73.798035
 	Paper marbling: 73.106216
-	London Evening Standard: 72.442566
+	Houston Chronicle: 67.942032
+	Georgia (U.S. state): 65.527664
+	1999 RTHK Top 10 Gold Songs Awards: 64.799713
+	Electronic paper: 64.611938
 The Washington Post
 
 
@@ -27,16 +27,16 @@ Taiwan
 
 
 Query 'daniel hertzberg james b stewart paper share 1988 pulitzer story about insider trade' in category 'newspapers' returned:
-	The Wall Street Journal: 149.467682
-	Mr. Smith Goes to Washington: 88.408516
-	The Baltimore Sun: 86.499313
-	The Washington Post: 85.405960
+	The Wall Street Journal: 139.717010
+	Mr. Smith Goes to Washington: 82.868340
 	Thomas Friedman: 82.733810
-	Michael Milken: 78.183128
 	Walter Duranty: 76.934189
-	Bernard Malamud: 76.382111
-	The Hutchinson News: 75.475136
+	The Baltimore Sun: 76.640839
 	William Saroyan: 74.931564
+	The Philadelphia Story (film): 74.511024
+	James Alan McPherson: 74.282249
+	Michael Milken: 72.938278
+	Pulitzer Prize for Drama: 71.945175
 The Wall Street Journal
 
 
@@ -169,7 +169,6 @@ Ohio
 Query 'mast from uss maine part memorial ship crew national cemetery' in category 'cemeteries' returned:
 	USS Arizona Memorial: 121.044792
 	Kong Christian stod ved højen mast: 98.371941
-	Tomb of the Unknowns: 93.515961
 	USS Winston S. Churchill (DDG-81): 90.297440
 	Pennellville Historic District: 88.974358
 	Robert Ballard: 88.672318
@@ -177,6 +176,7 @@ Query 'mast from uss maine part memorial ship crew national cemetery' in categor
 	Hannibal Hamlin: 86.946716
 	USS Constitution: 86.651382
 	Portland, Maine: 86.394218
+	Lorenzo De Medici Sweat: 84.252243
 Arlington National Cemetery|Arlington Cemetery
 
 
@@ -209,16 +209,16 @@ Iberia|Iberian Peninsula
 
 
 Query '1980 china found center cute creature its bamboo rich wolong nature preserve' in category 'conservation' returned:
-	Chengdu: 100.343903
-	Katmai National Park and Preserve: 89.534973
-	Geography of China: 86.442451
-	Denali National Park and Preserve: 83.439308
-	Red panda: 81.499023
-	Pygmy slow loris: 76.976768
+	Chengdu: 95.346390
+	Katmai National Park and Preserve: 84.102272
+	Geography of China: 81.271446
+	Denali National Park and Preserve: 78.006607
 	Bamboo fly rod: 74.963356
 	China: 74.365623
-	International Union for Conservation of Nature: 74.163834
-	Nature: 70.448784
+	Red panda: 69.972107
+	Pygmy slow loris: 68.706734
+	Bamboo bicycle: 67.829613
+	Père David's deer: 66.583328
 Panda|Giant panda
 
 
@@ -265,16 +265,16 @@ Knights of Columbus
 
 
 Query 'early project wwf organization included work bald eagle red wolf' in category 'conservation' returned:
-	Red wolf: 119.592636
 	Interstate 99: 108.956238
-	Gray wolf: 98.180099
-	Golden Eagle: 81.192429
+	Red wolf: 107.950478
+	Gray wolf: 89.264832
 	Work breakdown structure: 78.450371
-	Wolf attacks on humans: 74.077477
 	Eagle: 73.361160
 	Bald–hairy: 73.045547
-	Philippine Eagle: 72.925331
 	Saint-Gaudens double eagle: 71.330078
+	Golden Eagle: 69.881622
+	White Wolf Publishing: 66.368759
+	Non-governmental organization: 65.606544
 World Wide Fund|World Wide Fund for Nature
 
 
@@ -288,7 +288,7 @@ Query 'indonesia's largest lizard it's protect from poacher though we wish could
 	Roger Waters: 69.901390
 	Gamera: 68.828300
 	Gender marking in job titles: 68.295380
-	Aerial firefighting: 67.262070
+	Great Fire of London: 66.062202
 Komodo dragon
 
 
@@ -312,11 +312,11 @@ Query 'may 5 1878 alice chambers last person bury dodge city kansas cemetery' in
 	Kansas: 102.807312
 	Gunsmoke: 98.580292
 	Boot Hill: 94.662422
-	Cemetery: 94.336708
 	Kansas City, Missouri: 91.723419
 	Sporting Kansas City: 91.352417
 	Late-May 2008 tornado outbreak sequence: 89.251488
 	Kansas City jazz: 87.244812
+	Kansas City Royals: 86.555367
 Boot Hill
 
 
@@ -839,12 +839,12 @@ George Martin
 
 
 Query 'early career mark twain bret harte wrote pieces california city's chronicle' in category 'newspapers' returned:
-	Bret Harte: 202.742096
+	Bret Harte: 195.459045
 	Joaquin Miller: 112.964745
 	Adventures of Huckleberry Finn: 112.917603
 	Bret Harte Union High School: 112.234741
 	George Carlin: 96.825104
-	California Gold Rush: 87.082809
+	California Gold Rush: 83.661636
 	Charles Farrar Browne: 78.769882
 	Neil Simon: 78.748276
 	Is He Dead?: 77.043861
@@ -951,7 +951,7 @@ Joe Tinker
 
 
 Query '1840 horace greeley began publishing log cabin weekly campaign paper support whig candidate' in category 'newspapers' returned:
-	Horace Greeley: 221.678543
+	Horace Greeley: 210.056244
 	William Henry Harrison: 122.869911
 	Horace Walpole: 91.059334
 	Schuyler Colfax: 90.060097
@@ -959,8 +959,8 @@ Query '1840 horace greeley began publishing log cabin weekly campaign paper supp
 	Thomas A. Hendricks: 82.096916
 	William Lyon Mackenzie: 81.487747
 	The Weekly Sillimanian: 79.665573
-	New York Press: 79.256462
-	Victoria Woodhull: 77.059288
+	The Economist: 75.127037
+	New York Press: 71.973419
 William Henry Harrison
 
 
@@ -993,16 +993,16 @@ Madison
 
 
 Query 'georgia paper known ajc short' in category 'newspapers' returned:
-	The Atlanta Journal-Constitution: 115.342979
+	The Atlanta Journal-Constitution: 105.725410
 	Rock-paper-scissors: 66.941940
 	Interstate 285: 62.697979
 	Georgia (U.S. state): 60.828415
 	Paper marbling: 60.303093
 	Toilet paper: 59.037857
-	Lester Maddox: 58.071045
 	Augusta, Georgia: 57.492363
 	Electronic paper: 57.090439
 	History of Augusta, Georgia: 56.433018
+	Abkhazia: 56.111420
 The Atlanta Journal-Constitution
 
 
