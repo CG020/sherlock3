@@ -12,8 +12,8 @@ public class WikiPage {
         // Using regex to find the page sections. This also makes it
         // lazy evaluation, so it should be a bit more memory efficient.
         String regex =  "(?<=^|\\r?\\n)" +                               // Matches start of file or newline (Windows or Unix)
-                        "\\[\\[(?!File:)(?!Image:)(.*?)]]\\r?\\n" +     // Matches the title, ignoring File: and Image:, with potential Windows newline
-                        "(.*?)" +                                       // Matches all text in the middle
+                        "\\[\\[(?!File:)(?!Image:)(.*?)]]\\r?\\n" +      // Matches the title, ignoring File: and Image:, with potential Windows newline
+                        "(.*?)" +                                        // Matches all text in the middle
                         "(?=\\[\\[(?!File:)(?!Image:)(.*?)]]\\r?\\n|$)"; // Matches until the next title or EOF, considering Windows newline
 
         Pattern pattern = Pattern.compile(regex, Pattern.DOTALL);
@@ -26,7 +26,6 @@ public class WikiPage {
             String title = matcher.group(1);
             String pageText = matcher.group(0);
             Page p = createCorrectPageType(title, pageText);
-            System.out.println(p.title + " ----- " + p.contents);
             pages.add(p);
         }
     }

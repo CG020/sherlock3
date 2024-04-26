@@ -62,7 +62,7 @@ public class Index implements Serializable {
         connectRedirects();
 
         // add files to the index
-        System.out.println("Adding to index...");
+        System.out.println("Adding " + allPages.size() + " to index...");
         num = 1;
         startTime = System.currentTimeMillis();
         for (Page page: allPages) {
@@ -94,8 +94,11 @@ public class Index implements Serializable {
     private void addToIndex(NormalPage p) throws IOException {
         Document doc = new Document();
         doc.add(new StringField("title", p.title, Field.Store.YES));
-        doc.add(new TextField("categories", p.bodyText.toString(), Field.Store.YES));
-        doc.add(new TextField("summary",p.summary, Field.Store.YES));
+        doc.add(new TextField("categories", Tokenizer.tokenizeCategories(p.categories), Field.Store.YES));
+        doc.add(new TextField("headers", Tokenizer.tokenizeHeaders(p.headers), Field.Store.YES));
+        doc.add(new TextField("summary",Tokenizer.tokenizeSummary(p.summary), Field.Store.YES));
+        doc.add(new TextField("bodyText", Tokenizer.tokenizeBodyText(p.bodyText), Field.Store.YES));
+        doc.add(new TextField("metaTitles", Tokenizer.tokenizeMetaTitles(p.metaTitles), Field.Store.YES));
         writer.addDocument(doc);
         writer.commit();
     }

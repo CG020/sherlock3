@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class Tokenizer {
 
-    public String tokenizeCategories(ArrayList<String> categories) {
+    public static String tokenizeCategories(ArrayList<String> categories) {
         StringBuilder result = new StringBuilder();
 
         for (String category : categories) {
@@ -23,7 +23,7 @@ public class Tokenizer {
         return result.toString();
     }
 
-    public String tokenizeHeaders(ArrayList<String> headers) {
+    public static String tokenizeHeaders(ArrayList<String> headers) {
         StringBuilder result = new StringBuilder();
 
         for (String header : headers) {
@@ -33,15 +33,15 @@ public class Tokenizer {
         return result.toString();
     }
 
-    public String tokenizeSummary(String content) {
+    public static String tokenizeSummary(String content) {
         return tokenize(content);
     }
 
-    public String tokenizeBodyText(StringBuilder bodyText) {
+    public static String tokenizeBodyText(StringBuilder bodyText) {
         return tokenize(bodyText.toString());
     }
 
-    public String tokenizeMetaTitles(ArrayList<String> metaTitles) {
+    public static String tokenizeMetaTitles(ArrayList<String> metaTitles) {
         StringBuilder result = new StringBuilder();
 
         for (String metaTitle : metaTitles) {
@@ -51,11 +51,11 @@ public class Tokenizer {
         return result.toString();
     }
 
-    public String tokenizeQuery(String query) {
+    public static String tokenizeQuery(String query) {
         return tokenize(query);
     }
 
-    private String tokenize(String text) {
+    private static String tokenize(String text) {
         StringBuilder newString = new StringBuilder();
 
         //analyzer that also removes stop words
