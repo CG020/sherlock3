@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.nio.file.Paths;
 
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.StringField;
@@ -16,19 +15,21 @@ import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.analysis.core.WhitespaceTokenizer;
 
 
-public class Index implements Serializable {
+public class Index {
 
     IndexWriter writer;
-    StandardAnalyzer analyzer;
+    Analyzer analyzer;
     IndexWriterConfig config;
     ArrayList<Page> allPages;
 
     public Index(String path) throws IOException {
         // initialize
         Directory directory = FSDirectory.open(Paths.get("IndexBuild"));
-        analyzer = new StandardAnalyzer();
+        analyzer = new WhitespaceOnlyAnalyzer();
         config = new IndexWriterConfig(analyzer);
         writer = new IndexWriter(directory, config);
         allPages = new ArrayList<>();
@@ -50,8 +51,8 @@ public class Index implements Serializable {
         File[] files = dir.listFiles();
         assert files != null;
 
-        // index the files
-        System.out.println("Indexing...");
+        // read in the wiki pages
+        System.out.println("Reading in files...");
         int num = 1;
         long startTime = System.currentTimeMillis();
         for (File file : files) {
@@ -94,11 +95,11 @@ public class Index implements Serializable {
     private void addToIndex(NormalPage p) throws IOException {
         Document doc = new Document();
         doc.add(new StringField("title", p.title, Field.Store.YES));
-        doc.add(new StringField("categories", Tokenizer.tokenizeCategories(p.categories), Field.Store.YES));
-        doc.add(new StringField("headers", Tokenizer.tokenizeHeaders(p.headers), Field.Store.YES));
-        doc.add(new StringField("summary",Tokenizer.tokenizeSummary(p.summary), Field.Store.YES));
-        doc.add(new StringField("bodyText", Tokenizer.tokenizeBodyText(p.bodyText), Field.Store.YES));
-        doc.add(new StringField("metaTitles", Tokenizer.tokenizeMetaTitles(p.metaTitles), Field.Store.YES));
+        doc.add(new TextField("categories", Tokenizer.tokenizeCategories(p.categories), Field.Store.YES));
+        doc.add(new TextField("headers", Tokenizer.tokenizeHeaders(p.headers), Field.Store.YES));
+        doc.add(new TextField("summary",Tokenizer.tokenizeSummary(p.summary), Field.Store.YES));
+        doc.add(new TextField("metaTitles", Tokenizer.tokenizeMetaTitles(p.metaTitles), Field.Store.YES));
+        doc.add(new TextField("bodyText", Tokenizer.tokenizeBodyText(p.bodyText), Field.Store.YES));
         writer.addDocument(doc);
         writer.commit();
     }
@@ -147,3 +148,11 @@ public class Index implements Serializable {
     }
 
 }
+
+class WhitespaceOnlyAnalyzer extends Analyzer {
+    @Override
+    protected TokenStreamComponents createComponents(String fieldName) {
+        return new TokenStreamComponents(new WhitespaceTokenizer());
+    }
+}
+

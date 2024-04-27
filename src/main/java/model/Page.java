@@ -55,8 +55,9 @@ public abstract class Page {
     protected static MetadataParse extractMetadata(String text) {
         MetadataParse retval = new MetadataParse();
         String[][] tags = {{"[tpl]", "[/tpl]"},
-                {"[ref]", "[/ref]"},
-                {"<ref>", "</ref>"}};
+                           {"[ref]", "[/ref]"},
+                           {"<ref>", "</ref>"}};
+
         for (String line: text.split("\n")) {
             for (String[] tag : tags) {
                 String openTag = tag[0];

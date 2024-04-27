@@ -228,13 +228,13 @@ public class Query {
             System.setOut(out);
 
             try {
-                index = FSDirectory.open(Paths.get("IndexBuild"));
+                index = FSDirectory.open(Paths.get("IndexBuild/Index1"));
                 reader = DirectoryReader.open(index);
                 searcher = new IndexSearcher(reader);
 
                 // $k_1$ and $k_3$ to a value between 1.2 and 2 and b = 0.75 -- random rn
-                float k = 1.2f; // k being lower reduces saturation of term frequency
-                float b = 0.4f; // b lower means doc length affects scoring less
+                float k = 1.9f; // k being lower reduces saturation of term frequency
+                float b = 0.2f; // b lower means doc length affects scoring less
                 searcher.setSimilarity(new tuning(k, b));
 
                 // read in the questions
