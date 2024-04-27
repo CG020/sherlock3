@@ -41,8 +41,9 @@ public class Query {
         boosts.put("summary", 1.4f);
         boosts.put("categories", 2.5f);
         boosts.put("bodyText", 2.0f);
+        boosts.put("metaTitles", 2.0f);
         this.multiParser = new MultiFieldQueryParser(
-            new String[]{"summary", "categories", "bodyText"},
+            new String[]{"summary", "categories", "bodyText", "metaTitles"},
             analyzer,
             boosts
         );
@@ -228,7 +229,7 @@ public class Query {
             System.setOut(out);
 
             try {
-                index = FSDirectory.open(Paths.get("IndexBuild/Index1"));
+                index = FSDirectory.open(Paths.get("IndexBuild"));
                 reader = DirectoryReader.open(index);
                 searcher = new IndexSearcher(reader);
 
