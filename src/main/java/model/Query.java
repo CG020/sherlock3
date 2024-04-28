@@ -199,14 +199,14 @@ public class Query {
         BooleanQuery.setMaxClauseCount(2048);
         List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr, "bodyText");
         for (PhraseQuery pq : phraseQueries) {
-            BoostQuery boostQuery = new BoostQuery(pq,3.0f);
+            BoostQuery boostQuery = new BoostQuery(pq,2.5f);
             q.add(boostQuery, BooleanClause.Occur.SHOULD);
         }
 
         // phrase queries -- boost phrases
         List<PhraseQuery> phraseCategory = buildPhraseQ(category, "bodyText");
         for (PhraseQuery pc : phraseCategory) {
-            BoostQuery boostQuery = new BoostQuery(pc, 3.0f);
+            BoostQuery boostQuery = new BoostQuery(pc, 1.9f);
             q.add(boostQuery, BooleanClause.Occur.SHOULD);
         }
 
