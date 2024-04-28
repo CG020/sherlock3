@@ -5,7 +5,9 @@ from conversation import Conversation
 CONVO = Conversation(memory=False)
 PROMPT_HEADER = ("Given the following query and documents, "
                  "give me the title only of the correct answer. "
-                 "Select your answer from only the documents listed.")
+                 "Select your answer from only the documents listed. "
+                 "Select the best match, even if none of the documents "
+                 "seem to fully match.")
 
 
 def read_file(filename):
