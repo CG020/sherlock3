@@ -1398,6 +1398,3 @@ Query '2010 sherlock holmes film' in category 'golden globe winners' returned:
 Robert Downey, Jr.
 
 
-
-
- FINAL COUNT: 44

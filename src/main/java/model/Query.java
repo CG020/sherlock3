@@ -20,7 +20,10 @@ import org.apache.lucene.search.similarities.BM25Similarity;
 
 import java.io.*;
 import java.util.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 
 
 public class Query {
@@ -196,7 +199,7 @@ public class Query {
         BooleanQuery.setMaxClauseCount(2048);
         List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr, "bodyText");
         for (PhraseQuery pq : phraseQueries) {
-            BoostQuery boostQuery = new BoostQuery(pq, 3.0f);
+            BoostQuery boostQuery = new BoostQuery(pq,3.0f);
             q.add(boostQuery, BooleanClause.Occur.SHOULD);
         }
 
@@ -240,6 +243,7 @@ public class Query {
         IndexSearcher searcher;
 
         // im using this for debugging throwing all the out data into answers.txt
+        
         try (PrintStream out = new PrintStream(new FileOutputStream("answers.txt"))) {
             System.setOut(out);
 
@@ -252,6 +256,7 @@ public class Query {
                 float k = 1.9f; // k being lower reduces saturation of term frequency
                 float b = 0.0f; // b lower means doc length affects scoring less
                 searcher.setSimilarity(new tuning(k, b));
+
 
                 // read in the questions
                 Scanner scanner = new Scanner(new File("questions.txt"));
@@ -268,6 +273,14 @@ public class Query {
                     List<ResultClass> ans = q.runQuery(category, tokenizedQuery, right);
                     System.out.println(quest.get(2));
                     System.out.println("\n");
+                }
+
+                try {
+                    Path sourcePath = Paths.get("answers.txt");
+                    Path destinationPath = Paths.get("src", "main", "python", "answers.txt");
+                    Files.copy(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
+                } catch (IOException e) {
+                    System.out.println("File could not be copied to python environment.");
                 }
 
                 System.out.println("\n\n FINAL COUNT: " + correct); // get rid of this too
