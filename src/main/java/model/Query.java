@@ -20,7 +20,10 @@ import org.apache.lucene.search.similarities.BM25Similarity;
 
 import java.io.*;
 import java.util.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 
 
 public class Query {
@@ -38,10 +41,10 @@ public class Query {
         this.analyzer = analyzer;
 
         // boost assignment
-        boosts.put("summary", 1.4f);
-        boosts.put("categories", 2.5f);
-        boosts.put("bodyText", 2.0f);
-        boosts.put("metaTitles", 2.0f);
+        boosts.put("summary", 1.3f);
+        boosts.put("categories", 1.8f);
+        boosts.put("bodyText", 1.4f);
+        boosts.put("metaTitles", 1.0f);
         this.multiParser = new MultiFieldQueryParser(
             new String[]{"summary", "categories", "bodyText", "metaTitles"},
             analyzer,
@@ -103,7 +106,7 @@ public class Query {
      * @return List<ResultCalss>
      * @throws IOException
      */
-    public List<ResultClass> duplicateCheck(int hitsPerPage, BooleanQuery finalQuery) throws IOException {
+    public List<ResultClass> duplicateCheck(int hitsPerPage, BooleanQuery finalQuery, String query) throws IOException {
         Set<String> duplicatesCheck = new HashSet<>();
         List<ResultClass> ans = new ArrayList<>();
         
@@ -114,11 +117,13 @@ public class Query {
     
             // reach 10!!
             if (hitCount >= pages.totalHits) { break; }
+
     
             for (int i = hitCount; i < hits.length; i++) {
                 Document d = searcher.doc(hits[i].doc);
                 String title = d.get("title");
-                if (duplicatesCheck.add(title)) {
+                String tokenizedCategory = Tokenizer.tokenizeQuery(title);
+                if (duplicatesCheck.add(title) && !query.contains(tokenizedCategory.toLowerCase())) {
                     ResultClass page = new ResultClass();
                     page.DocName = d;
                     page.docScore = hits[i].score;
@@ -135,15 +140,15 @@ public class Query {
      * How the phrase query is constructed - phrases are every combination of sequential
      * two words in query string
      */
-    public List<PhraseQuery> buildPhraseQ(String queryString) {
+    public List<PhraseQuery> buildPhraseQ(String queryString, String field) {
         String[] words = queryString.split("\\s+");
 
         List<PhraseQuery> queries = new ArrayList<>();
 
         for (int i = 0; i < words.length - 1; i++) {
             PhraseQuery.Builder builder = new PhraseQuery.Builder();
-            builder.add(new Term("bodyText", words[i]));
-            builder.add(new Term("bodyText", words[i + 1]));
+            builder.add(new Term(field, words[i]));
+            builder.add(new Term(field, words[i + 1]));
             // builder.add(new Term("bodyText", words[i + 2]));
             PhraseQuery phrase = builder.build();
             queries.add(phrase);
@@ -181,22 +186,35 @@ public class Query {
 
 
         // category boosting
-        TermQuery termCombine = new TermQuery(new Term("bodyText", "(" + category + ")"));
-        BoostQuery boostedQuery = new BoostQuery(termCombine, 2.0f);
-        q.add(boostedQuery, BooleanClause.Occur.SHOULD); 
+        String[] queryParts = category.split(" ");
+        TermQuery termCombine;
+        BoostQuery boostedQuery;
+        for (String s: queryParts) {
+            termCombine = new TermQuery(new Term("bodyText", s));
+            boostedQuery = new BoostQuery(termCombine, 1.7f);
+            q.add(boostedQuery, BooleanClause.Occur.SHOULD); 
+        }
         
-        // phrase queries
+        // phrase queries -- query phrases
         BooleanQuery.setMaxClauseCount(2048);
-        List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr);
+        List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr, "bodyText");
         for (PhraseQuery pq : phraseQueries) {
-            q.add(pq, BooleanClause.Occur.SHOULD);
+            BoostQuery boostQuery = new BoostQuery(pq,3.0f);
+            q.add(boostQuery, BooleanClause.Occur.SHOULD);
+        }
+
+        // phrase queries -- boost phrases
+        List<PhraseQuery> phraseCategory = buildPhraseQ(category, "bodyText");
+        for (PhraseQuery pc : phraseCategory) {
+            BoostQuery boostQuery = new BoostQuery(pc, 3.0f);
+            q.add(boostQuery, BooleanClause.Occur.SHOULD);
         }
 
         //  the boolean query that has all the other query types layered within
         BooleanQuery finalQuery = q.build();
 
         //  duplicate check + returns final results list + printing 
-        List<ResultClass> ans = duplicateCheck(hitsPerPage, finalQuery);
+        List<ResultClass> ans = duplicateCheck(hitsPerPage, finalQuery, queryStr);
     
         // printing the results
         System.out.format("Query '%s' in category '%s' returned:\n", queryStr, category);
@@ -225,6 +243,7 @@ public class Query {
         IndexSearcher searcher;
 
         // im using this for debugging throwing all the out data into answers.txt
+        
         try (PrintStream out = new PrintStream(new FileOutputStream("answers.txt"))) {
             System.setOut(out);
 
@@ -235,8 +254,9 @@ public class Query {
 
                 // $k_1$ and $k_3$ to a value between 1.2 and 2 and b = 0.75 -- random rn
                 float k = 1.9f; // k being lower reduces saturation of term frequency
-                float b = 0.2f; // b lower means doc length affects scoring less
+                float b = 0.0f; // b lower means doc length affects scoring less
                 searcher.setSimilarity(new tuning(k, b));
+
 
                 // read in the questions
                 Scanner scanner = new Scanner(new File("questions.txt"));
@@ -253,6 +273,14 @@ public class Query {
                     List<ResultClass> ans = q.runQuery(category, tokenizedQuery, right);
                     System.out.println(quest.get(2));
                     System.out.println("\n");
+                }
+
+                try {
+                    Path sourcePath = Paths.get("answers.txt");
+                    Path destinationPath = Paths.get("src", "main", "python", "answers.txt");
+                    Files.copy(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
+                } catch (IOException e) {
+                    System.out.println("File could not be copied to python environment.");
                 }
 
                 System.out.println("\n\n FINAL COUNT: " + correct); // get rid of this too
