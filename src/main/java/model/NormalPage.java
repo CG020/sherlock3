@@ -1,9 +1,19 @@
+/**
+ * Katelyn Rohrer, Camila Grubb, Lydia Dufek
+ * CSC 483/583
+ * This file defines the NormalPage class, which is a subclass of the Page.
+ */
 package model;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * The most important type of Page. This page is the only type that ends up
+ * being added to the index, after redirects from the RedirectPage are linked.
+ * Defines several methods for string/page parsing.
+ */
 public class NormalPage extends Page{
     static final List<String> generalHeaders = Arrays.asList(
             "Images", "See also", "References",

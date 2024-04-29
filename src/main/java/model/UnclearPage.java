@@ -1,7 +1,17 @@
+/**
+ * Katelyn Rohrer, Camila Grubb, Lydia Dufek
+ * CSC 483/583
+ * This file defines the UnclearPage object, which is a type of Page.
+ */
 package model;
 
 import java.util.ArrayList;
 
+/**
+ * This object contains the same information as a Page, with the added fields
+ * `categories` and `headers`, which is all that makes up the body text of
+ * an UnclearPage.
+ */
 public class UnclearPage extends Page {
     ArrayList<String> categories;
     ArrayList<String> headers;

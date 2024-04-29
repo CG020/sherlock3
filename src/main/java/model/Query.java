@@ -31,11 +31,7 @@ public class Query {
     StandardAnalyzer analyzer;
     MultiFieldQueryParser multiParser;
     HashMap<String, Float> boosts = new HashMap<>();
-    List<ResultClass> ans;
-    // counters for scoring
     static int correct = 0;
-    static int top10 = 0;
-    static int top10Not1 = 0;
 
 
     /**
@@ -71,7 +67,7 @@ public class Query {
     }
 
     /**
-     * validateQuery maniupulates the parameter querystr for symbols or extra clauses
+     * validateQuery manipulates the parameter querystr for symbols or extra clauses
      * we want to change or edit
      * @param queryStr String to be manipulated
      * @return updated String
@@ -82,9 +78,7 @@ public class Query {
         newStr = queryStr.trim();
         newStr = newStr.replaceAll("\"", "");
         newStr = newStr.replaceAll("!", "");
-        // newStr = newStr.replaceAll("&", "");
         newStr = newStr.replaceAll("\\(alex:.*?\\)", "");
-        // newStr = newStr.replaceAll("\\(", "").replaceAll("\\)", "");
 
         return newStr;
     }
@@ -99,7 +93,7 @@ public class Query {
         ArrayList<ArrayList<String>> questionList = new ArrayList<>();
 
         ArrayList<String> temp = new ArrayList<>();
-        scanner.useDelimiter("\n"); // parsing by blocks of catgeory, question, answer
+        scanner.useDelimiter("\n"); // parsing by blocks of category, question, answer
         while (scanner.hasNext()) {
             String next = scanner.next().trim();
             if (next.isEmpty()) {
@@ -119,7 +113,7 @@ public class Query {
      * results in formatted paragraphs
      * @param hitsPerPage results number 
      * @param finalQuery the boolean query with all the configs from runQuery
-     * @return List<ResultCalss>
+     * @return List<ResultClass>
      * @throws IOException
      */
     public List<ResultClass> duplicateCheck(int hitsPerPage, BooleanQuery finalQuery, String query) throws IOException {
@@ -137,7 +131,7 @@ public class Query {
             for (int i = hitCount; i < hits.length; i++) { //printing formatted results
                 Document d = searcher.doc(hits[i].doc);
                 String title = d.get("title");
-                String tokenizedCategory = Tokenizer.tokenizeQuery(title); //check for duplicate results
+                String tokenizedCategory = Tokenizer.tokenizeQuery(title); // check for duplicate results
                 if (duplicatesCheck.add(title) && !query.contains(tokenizedCategory.toLowerCase())) {
                     ResultClass page = new ResultClass();
                     page.DocName = d;
@@ -255,9 +249,7 @@ public class Query {
     
         // printing the results
         System.out.format("Query '%s' in category '%s' returned:\n", queryStr, category);
-        Boolean first = true;
-        boolean any = false;
-        boolean notFirstButThere = false;
+        boolean first = true;
         for (ResultClass page : ans) {
             if (first) {
                 if (page.DocName.get("title").equals(right)) {correct += 1;}
@@ -265,17 +257,10 @@ public class Query {
                     String[] options = right.split("\\|");
                     for (String o : options) { if (o.equals(page.DocName.get("title"))) { correct += 1;}}
                 }
-            } else {
-                String[] options = right.split("\\|");
-                for (String o : options) { if (o.equals(page.DocName.get("title"))) { notFirstButThere = true;}}
             }
             System.out.format("\t%s: %f\n", page.DocName.get("title"), page.docScore);
-            String[] options = right.split("\\|");
-            for (String o : options) { if (o.equals(page.DocName.get("title"))) { any = true;}}
             first = false;
         }
-        if (any) top10 += 1;
-        if (notFirstButThere) top10Not1 += 1;
         return ans;
     }
     
@@ -318,7 +303,7 @@ public class Query {
                     List<ResultClass> ans = q.runQuery(category, tokenizedQuery, right);
                     System.out.println(quest.get(2));
 
-                    //MRR calculation
+                    // MRR calculation
                     double mrr = q.calculateMRR(ans, right);
                     totalMRR += mrr;
                     queryCount++;
@@ -326,6 +311,7 @@ public class Query {
                     System.out.println("\n");
                 }
 
+                // copying the file to the python directory (python venv needs it)
                 try {
                     Path sourcePath = Paths.get("answers.txt"); 
                     Path destinationPath = Paths.get("src", "main", "python", "answers.txt");
@@ -334,12 +320,8 @@ public class Query {
                     System.out.println("File could not be copied to python environment.");
                 }
 
-                double meanMRR = totalMRR / queryCount;
-                System.out.println("Mean Reciprocal Rank (MRR): " + meanMRR);
-
-                System.out.println("\n\n FINAL COUNT: " + correct); 
-                System.out.println(" TOP10 (not first) COUNT: " + top10Not1); 
-                System.out.println(" TOP10 COUNT: " + top10); 
+                System.out.println("\n\n MRR: " + (totalMRR / queryCount));
+                System.out.println(" P@1: " + correct);
 
             } catch (IOException e) {
                 e.printStackTrace();
@@ -349,12 +331,15 @@ public class Query {
     }
 
     public double calculateMRR(List<ResultClass> results, String correctAnswer) {
-        //Get the results for the title --> check if the correct answer is within the top ranked documents
+        // Get the results for the title --> check if the correct answer is within the top ranked documents
         for (int i = 0; i < results.size(); i++) {
-            if (results.get(i).DocName.get("title").contains(correctAnswer)) {
-            return 1.0 / (i + 1); //rank starts at 1
+            String[] options = correctAnswer.split("\\|");
+            for (String o : options) {
+                if (o.equals(results.get(i).DocName.get("title"))) {
+                    return 1.0 / (i + 1); // rank starts at 1
+                }
             }
         }
-        return 0.0; //answer not found
+        return 0.0; // answer not found
     }
 }
