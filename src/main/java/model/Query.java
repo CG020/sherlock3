@@ -82,6 +82,7 @@ public class Query {
         newStr = queryStr.trim();
         newStr = newStr.replaceAll("\"", "");
         newStr = newStr.replaceAll("!", "");
+        // newStr = newStr.replaceAll("&", "");
         newStr = newStr.replaceAll("\\(alex:.*?\\)", "");
         // newStr = newStr.replaceAll("\\(", "").replaceAll("\\)", "");
 
@@ -158,7 +159,7 @@ public class Query {
      * @param field field of Index phrase query is tested against
      * @return List<PhraseQuery> list of phrase queries 
      */
-    public List<PhraseQuery> buildPhraseQ(String queryString, String field) {
+    public List<PhraseQuery> buildPhraseQ(String queryString, String field, int slop) {
         String[] words = queryString.split("\\s+");
 
         List<PhraseQuery> queries = new ArrayList<>();
@@ -167,6 +168,7 @@ public class Query {
             PhraseQuery.Builder builder = new PhraseQuery.Builder();
             builder.add(new Term(field, words[i]));
             builder.add(new Term(field, words[i + 1]));
+            builder.setSlop(slop);
             // builder.add(new Term("bodyText", words[i + 2]));
             PhraseQuery phrase = builder.build();
             queries.add(phrase);
@@ -214,17 +216,29 @@ public class Query {
             boostedQuery = new BoostQuery(termCombine, 1.7f);
             q.add(boostedQuery, BooleanClause.Occur.SHOULD); 
         }
+
+        String[] words = queryStr.split("\\s+");
+        TermQuery year;
+        BoostQuery boostYear;
+        for (String s : words) {
+            try {
+                int num = Integer.parseInt(s);
+                year = new TermQuery(new Term("bodyText", s));
+                boostYear = new BoostQuery(year, 1.9f);
+                q.add(boostYear, BooleanClause.Occur.SHOULD);
+            } catch (NumberFormatException e) {}
+        }
         
         // phrase queries -- query phrases
         BooleanQuery.setMaxClauseCount(2048);
-        List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr, "bodyText");
+        List<PhraseQuery> phraseQueries = buildPhraseQ(queryStr, "bodyText", 0);
         for (PhraseQuery pq : phraseQueries) {
             BoostQuery boostQuery = new BoostQuery(pq,2.5f);
             q.add(boostQuery, BooleanClause.Occur.SHOULD);
         }
 
         // phrase queries -- category phrases
-        List<PhraseQuery> phraseCategory = buildPhraseQ(category, "bodyText");
+        List<PhraseQuery> phraseCategory = buildPhraseQ(category, "bodyText", 2);
         for (PhraseQuery pc : phraseCategory) {
             BoostQuery boostQuery = new BoostQuery(pc, 1.9f);
             q.add(boostQuery, BooleanClause.Occur.SHOULD);
