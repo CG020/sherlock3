@@ -306,6 +306,9 @@ public class Query {
                 ArrayList<ArrayList<String>> questionList = readQuestions(scanner);
                 Query q = new Query(searcher, new StandardAnalyzer());
 
+                double totalMRR = 0.0;
+                int queryCount = 0;
+
                 // query everything in questions.txt
                 for (ArrayList<String> quest : questionList) {
                     String category = quest.get(0).toLowerCase();
@@ -314,6 +317,12 @@ public class Query {
                     String tokenizedQuery = Tokenizer.tokenizeQuery(question);
                     List<ResultClass> ans = q.runQuery(category, tokenizedQuery, right);
                     System.out.println(quest.get(2));
+
+                    //MRR calculation
+                    double mrr = q.calculateMRR(ans, right);
+                    totalMRR += mrr;
+                    queryCount++;
+                    System.out.println("MRR for query: " + mrr);
                     System.out.println("\n");
                 }
 
@@ -325,6 +334,9 @@ public class Query {
                     System.out.println("File could not be copied to python environment.");
                 }
 
+                double meanMRR = totalMRR / queryCount;
+                System.out.println("Mean Reciprocal Rank (MRR): " + meanMRR);
+
                 System.out.println("\n\n FINAL COUNT: " + correct); 
                 System.out.println(" TOP10 (not first) COUNT: " + top10Not1); 
                 System.out.println(" TOP10 COUNT: " + top10); 
@@ -334,5 +346,15 @@ public class Query {
                 System.out.println("Could not set up searcher");
             }
         }
+    }
+
+    public double calculateMRR(List<ResultClass> results, String correctAnswer) {
+        //Get the results for the title --> check if the correct answer is within the top ranked documents
+        for (int i = 0; i < results.size(); i++) {
+            if (results.get(i).DocName.get("title").contains(correctAnswer)) {
+            return 1.0 / (i + 1); //rank starts at 1
+            }
+        }
+        return 0.0; //answer not found
     }
 }
