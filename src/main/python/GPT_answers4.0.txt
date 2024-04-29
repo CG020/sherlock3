@@ -1,15 +1,15 @@
 Query 'dominant paper our nation's capital it's among top 10 u.s papers circulation' in category 'newspapers'
-	Oklahoma
 	Manhattan
-	University of Virginia
+	Oklahoma
 	Warren G. Harding
+	Phoenix, Arizona
+	University of Virginia
 	History of the United States (1865–1918)
 	Virginia
-	Phoenix, Arizona
-	Washington University in St. Louis
 	Citizen Kane
+	Washington University in St. Louis
 	Bangalore
-The query does not provide sufficient information to select a title from the listed documents.
+None of the given documents accurately respond to the query.
 
 
 Query 'practice pre authorize presidential use force dates 1955 resolution re island near mainland china' in category 'old year's resolutions'
@@ -20,38 +20,38 @@ Query 'practice pre authorize presidential use force dates 1955 resolution re is
 	China–United States relations
 	Tiananmen Square protests of 1989
 	One-China policy
-	Chiang Kai-shek
 	Chinese Indonesians
-	Religion in China
-History of the Republic of China
+	Chiang Kai-shek
+	George McGovern
+Political status of Taiwan
 
 
 Query 'daniel hertzberg james b stewart paper share 1988 pulitzer story about insider trade' in category 'newspapers'
 	The Wall Street Journal
 	Goldman Sachs
 	Michael Milken
-	Wall Street (1987 film)
 	Rudy Giuliani
+	Wall Street (1987 film)
 	Barry Minkow
 	Stanley Kubrick
-	Hedge fund
 	Thomas Friedman
-	GoldenEye
+	Oscar Wilde
+	Citizen Kane
 The Wall Street Journal
 
 
 Query 'song say you make me smile my heart your looks laughable unphotographable' in category 'broadway lyrics'
 	Janet Jackson
 	Whitney Houston
-	Carole King
 	Kylie Minogue
+	Carole King
 	Born This Way (song)
 	Hold It Against Me
-	Keyshia Cole
 	Dusty Springfield
+	Keyshia Cole
+	Irving Berlin
 	Stevie Wonder
-	Thérèse of Lisieux
-The query doesn't match with any of the given documents.
+The query does not match with any of the given document titles.
 
 
 Query '2011 bell ringer charity start accept digital donation its red kettle' in category 'potpourri'
@@ -60,10 +60,10 @@ Query '2011 bell ringer charity start accept digital donation its red kettle' in
 	Liberty Bell
 	Campanology
 	Bell OH-58 Kiowa
-	CKVR-DT
 	Red Hot Chili Peppers
+	CKVR-DT
 	GiveWell
-	Bell Canada
+	Hamas
 	Goodwill Industries
 The Salvation Army
 
@@ -72,19 +72,19 @@ Query 'naples museum art' in category 'state of the art museum '
 	Metropolitan Museum of Art
 	Art museum
 	San Francisco Museum of Modern Art
+	Whitney Museum of American Art
 	The Louvre
 	Museum of Modern Art
 	Royal Ontario Museum
+	Museum of Contemporary Art, Chicago
 	History of painting
-	Whitney Museum of American Art
-	Maxwell L. Anderson
 	The Cloisters
-San Francisco Museum of Modern Art
+Art museum
 
 
 Query 'italy painter depict adoration golden calf' in category 'tin men'
-	Nicolas Poussin
 	Tintoretto
+	Nicolas Poussin
 	Caravaggio
 	Raphael
 	Diego Velázquez
@@ -93,48 +93,48 @@ Query 'italy painter depict adoration golden calf' in category 'tin men'
 	Culture of Italy
 	Annibale Carracci
 	Pietro Lorenzetti
-Tintoretto
+Nicolas Poussin
 
 
 Query 'woman who won consecutive heptathlon olympic went ucla basketball scholarship' in category 'ucla celebrity alumni'
 	University of California, Los Angeles
 	Kevin Love
-	Kobe Bryant
 	Kareem Abdul-Jabbar
 	Magic Johnson
+	Kobe Bryant
 	Jackie Joyner-Kersee
 	Michael Jordan
 	Reggie Miller
 	Bob Knight
-	Shaquille O'Neal
+	Jackie Robinson
 Jackie Joyner-Kersee
 
 
 Query 'originally club's emblem wagon wheel now it's gearwheel 24 cog 6 spoke' in category 'service organizations'
-	Wheel of Fortune (U.S. game show)
 	Honda Accord
-	AMC Matador
+	Wheel of Fortune (U.S. game show)
 	Chevrolet Impala
+	AMC Matador
 	Oregon Trail
+	24 (TV series)
+	Toyota Celica
 	Ford Taurus
 	Audi S6
-	Chevrolet Celebrity
-	Toyota Celica
-	24 (TV series)
-Toyota Celica
+	Oakland Raiders
+The query doesn't provide enough information to accurately rerank the provided documents. No document title seems related to a service organization with a wagon wheel or gearwheel emblem.
 
 
 Query 'several bridge including el tahrir cross nile capital' in category 'african cities'
 	Cairo
 	Tunisian Revolution
 	Khartoum
-	San Salvador
-	Mexico City
 	El Salvador
-	Yom Kippur War
-	Blue Nile
-	London
 	Marrakesh
+	Yom Kippur War
+	London
+	San Salvador
+	West Nile virus
+	Mexico City
 Cairo
 
 
@@ -145,10 +145,10 @@ Query 'after fall france 1940 general told his country france has lost battle fr
 	Free French Forces
 	Napoleon III
 	Philippe Pétain
-	John French, 1st Earl of Ypres
 	World War II
+	Winston Churchill
+	Battle of Britain
 	Battle of the Bulge
-	Dunkirk evacuation
 Philippe Pétain
 
 
@@ -156,96 +156,96 @@ Query 'taft museum art' in category 'state of the art museum '
 	Metropolitan Museum of Art
 	Art museum
 	San Francisco Museum of Modern Art
+	Whitney Museum of American Art
 	The Louvre
 	Museum of Modern Art
 	Royal Ontario Museum
+	Museum of Contemporary Art, Chicago
 	History of painting
-	Whitney Museum of American Art
-	Maxwell L. Anderson
 	The Cloisters
 Metropolitan Museum of Art
 
 
 Query 'mast from uss maine part memorial ship crew national cemetery' in category 'cemeteries'
-	USS Constitution
 	USS Arizona Memorial
+	USS Constitution
 	Tomb of the Unknowns
+	Thomas W. Lawson (ship)
 	HMS Endeavour
 	Littoral combat ship
-	Thomas W. Lawson (ship)
 	USS Missouri (BB-63)
 	Roberto Cofresí
-	H. L. Hunley (submarine)
-	USS Cumberland (1842)
+	Portland, Maine
+	Sutton Hoo
 USS Arizona Memorial
 
 
 Query '2009 joker film' in category 'golden globe winners'
 	Heath Ledger
-	Martin Scorsese
-	Nicole Kidman
 	Meryl Streep
-	Jessica Lange
-	Brad Pitt
-	George Clooney
-	Michelle Pfeiffer
-	Ang Lee
+	Nicole Kidman
 	Steven Spielberg
+	George Clooney
+	Ang Lee
+	Brad Pitt
+	Martin Scorsese
+	Jessica Lange
+	Michelle Pfeiffer
 Heath Ledger
 
 
 Query 'peninsula fought over peninsular war 1808 1814' in category 'historical hodgepodge'
 	Napoleonic Wars
 	History of Spain
-	History of Catalonia
 	Finnish War
+	History of Catalonia
 	War of the Sixth Coalition
 	Valencia
-	Battle of Lundy's Lane
+	History of France
+	Charles Maurice de Talleyrand-Périgord
 	Ferdinand VII of Spain
-	Napoleon III
-	Joseph Bonaparte
+	Battle of Lundy's Lane
 Napoleonic Wars
 
 
 Query '1980 china found center cute creature its bamboo rich wolong nature preserve' in category 'conservation'
 	Chengdu
-	Chinese dragon
 	Foreign relations of China
-	Religion in China
-	Geography of China
-	Chinese art
-	Red panda
-	Taiwan
-	Katmai National Park and Preserve
+	Chinese dragon
 	Chinese American
-Katmai National Park and Preserve
+	Geography of China
+	Red panda
+	Katmai National Park and Preserve
+	Religion in China
+	Golden Eagle
+	Chinese art
+Red panda
 
 
 Query '1988 father figure' in category ''80s no.1 hitmakers'
+	George Michael
 	Kristi Yamaguchi
-	Željka Čižmešija
 	Ruhollah Khomeini
-	Elvis Stojko
-	2010–11 Grand Prix of Figure Skating Final
-	2009–10 Japan Figure Skating Championships
-	Zhang Shubin
+	Željka Čižmešija
+	Nico
+	...And Justice for All (album)
+	Marcel Lefebvre
 	Winter Olympic Games
-	John Chrysostom
-	Ashurbanipal (sculpture)
-The provided documents do not contain an answer for the query '1988 father figure' in the category ''80s no.1 hitmakers'.
+	François Mitterrand
+	My Neighbor Totoro
+George Michael
 
 
 Query 'essay defend 2011 film myrlie ever williams said my mother film so her mother' in category 'african-american women'
 	Medgar Evers
 	Natalie Portman
 	Naomi Watts
+	Kylie Minogue
 	Chloë Sevigny
 	Mandy Moore
-	Kylie Minogue
 	Whitney Houston
 	Meryl Streep
-	Dilwale Dulhania Le Jayenge
+	Janet Jackson
 	Citizen Kane
 Medgar Evers
 
@@ -254,12 +254,12 @@ Query 'father michael mcgivney found fraternal society catholic laymen 1882' in 
 	Knights of Columbus
 	Catholic sex abuse cases
 	History of France
-	Marcel Lefebvre
 	Georgetown University
 	Opus Dei
-	Dorothy Day
 	University of Notre Dame
-	History of Christianity
+	Marcel Lefebvre
+	Josemaría Escrivá
+	Charles Tupper
 	Traditionalist Catholic
 Knights of Columbus
 
@@ -267,27 +267,27 @@ Knights of Columbus
 Query 'early project wwf organization included work bald eagle red wolf' in category 'conservation'
 	Golden Eagle
 	Gray wolf
-	Interstate 99
 	Yellowstone National Park
+	Interstate 99
 	Osprey
 	Falconry
 	Great Seal of the United States
 	Coyote
 	Ferruginous Hawk
-	Oklahoma
-Yellowstone National Park
+	Phoenix, Arizona
+Gray wolf
 
 
 Query 'indonesia's largest lizard it's protect from poacher though we wish could breathe fire do job itself' in category 'conservation'
 	Komodo dragon
 	Yellowstone National Park
 	Dragon (Middle-earth)
+	Grand Teton National Park
 	Economy of Indonesia
 	Digital rights management
-	Grand Teton National Park
 	Unmanned aerial vehicle
-	Petrified Forest National Park
 	Reptile
+	Petrified Forest National Park
 	Jack Kemp
 Komodo dragon
 
@@ -296,55 +296,55 @@ Query 'nov 28 1929 man his chief pilot bernt balchen fly south pole yowza you'll
 	Winston Churchill
 	Amundsen–Scott South Pole Station
 	North Pole
+	Neville Chamberlain
+	John French, 1st Earl of Ypres
+	Wright brothers
 	Robert Falcon Scott
 	Ernest Shackleton
-	John French, 1st Earl of Ypres
-	Battle of Arnhem
-	Neville Chamberlain
-	Noman Bashir
-	George McGovern
+	John Ford
+	Neil Armstrong
 Amundsen–Scott South Pole Station
 
 
 Query 'may 5 1878 alice chambers last person bury dodge city kansas cemetery' in category 'cemeteries'
-	Kansas City, Missouri
 	Boot Hill
+	Kansas City, Missouri
+	Doc Holliday
 	Gunsmoke
+	Omaha, Nebraska
 	Gunfight at the O.K. Corral
 	Dodge City (1939 film)
-	Doc Holliday
 	Sporting Kansas City
-	Omaha, Nebraska
-	American frontier
-	List of people from Dodge City, Kansas
+	Mobile, Alabama
+	Gertrude Stein
 Boot Hill
 
 
 Query 'royal palace grounds feature statue king norodom who late 1800s compel first put his country under control europe power course sculpte country' in category 'cambodian history & culture'
 	Napoleon III
 	Norway
-	Rideau Hall
 	England
 	Spain
+	Rideau Hall
 	Bahrain
-	Louis XIV of France
-	Madagascar
+	History of France
 	Romania
-	Russia
-Louis XIV of France
+	Louis XIV of France
+	Scotland
+Norodom of Cambodia
 
 
 Query '400s b.c china philosopher went exile 12 years' in category 'historical hodgepodge'
 	Sun Yat-sen
 	Cicero
 	Napoleon III
-	Zhang Binglin
-	Laozi
 	Chiang Kai-shek
-	Confucius
-	Chinese art
+	Zhang Binglin
 	Tiananmen Square protests of 1989
-	Chinese music
+	Confucius
+	Laozi
+	Chinese art
+	History of China
 Confucius
 
 
@@ -364,10 +364,10 @@ O'Hare International Airport
 
 Query 'ammonite held sway mideast country 1200s b.c capital name them' in category 'historical hodgepodge'
 	Culture of Italy
-	Capitalism
 	North Korea
-	Ammonoidea
 	Bahrain
+	Capitalism
+	Ammonoidea
 	Copenhagen
 	Capital punishment
 	Norway
@@ -378,8 +378,8 @@ Bahrain
 
 Query 'sum all fear he also won screenwrite oscar good hunting' in category 'he played a guy named jack ryan in...'
 	Ben Affleck
-	Wilt Chamberlain
 	Stanley Kubrick
+	Wilt Chamberlain
 	Ethan Hawke
 	George Clooney
 	Fox hunting
@@ -391,16 +391,16 @@ Ben Affleck
 
 
 Query 'one n.y times headline landmark 1973 supreme court decision cardinal shock' in category 'potpourri'
-	Brown v. Board of Education
 	Roe v. Wade
+	Brown v. Board of Education
 	Regents of the University of California v. Bakke
 	William Rehnquist
 	Gideon v. Wainwright
 	Same-sex marriage in California
-	Brandenburg v. Ohio
 	Miller v. California
-	Same-sex marriage in the United States
 	Byron White
+	William Howard Taft
+	Brandenburg v. Ohio
 Roe v. Wade
 
 
@@ -410,10 +410,10 @@ Query 'france's philip iv known fair had jacque de molay last grand master order
 	Paris
 	Charles de Gaulle
 	Louis XIV of France
-	List of Donald Duck universe characters
 	History of France
+	List of Donald Duck universe characters
+	Edward II of England
 	Philip IV of Spain
-	War of the Spanish Succession
 	Napoleon III
 Philip IV of France
 
@@ -421,28 +421,28 @@ Philip IV of France
 Query 'georgia o'keeffe museum' in category 'state of the art museum '
 	Alfred Stieglitz
 	Museum of Modern Art
-	History of painting
 	Georgia (U.S. state)
 	Metropolitan Museum of Art
-	Royal Ontario Museum
-	Art museum
+	History of painting
 	The Louvre
-	Phillips Academy
+	Royal Ontario Museum
+	Edward Hopper
 	San Francisco Museum of Modern Art
-The query does not match any of the document titles provided.
+	Art museum
+Georgia O'Keeffe Museum
 
 
 Query 'name largest morocco city combine 2 spain words' in category 'african cities'
 	Casablanca
-	Melilla
 	Marrakesh
+	Melilla
 	Ceuta
-	Rabat
 	Western Sahara
+	Rabat
 	Spanish language
-	Bilbao
 	Agadir
 	History of Western Sahara
+	Bilbao
 Casablanca
 
 
@@ -450,53 +450,53 @@ Query 'jell o' in category 'name the parent company'
 	Cold Stone Creamery
 	3rd Rock from the Sun
 	Baseball card
-	Bart Simpson
 	Jelling stones
+	Bart Simpson
 	Herbie Lovelle
 	Kraft Foods
-	Arch West
-	Vikings
 	Peter Steele
+	Big O notation
+	O-Bahn Busway
 Kraft Foods
 
 
 Query '2011 chicago mayor tom kane' in category 'golden globe winners'
-	Nicole Kidman
 	Citizen Kane
 	Chicago Cubs
-	Martin Scorsese
-	Jessica Lange
-	Meryl Streep
+	Nicole Kidman
+	Roger Ebert
 	Steven Spielberg
-	Michelle Pfeiffer
-	Harrison Ford
+	Jack Layton
+	Meryl Streep
+	Jennifer Hudson
+	Chicago White Sox
 	Hyde Park, Chicago
-The query doesn't match any of the provided documents.
+The query does not correlate to any of the given documents.
 
 
 Query 'title residence otter flounder pinto bluto 1978 comedy' in category 'the residents'
 	Animal House
 	Ford Pinto
-	De Havilland Canada DHC-6 Twin Otter
 	Grease (film)
-	The Three Stooges
-	Monty Python
-	Monty Python's Life of Brian
+	De Havilland Canada DHC-6 Twin Otter
 	Burwash Hall
+	Malacañang Palace
+	Dawn of the Dead
+	Lupin III
+	The Three Stooges
 	National Lampoon (magazine)
-	São Tomé and Príncipe presidential election, 2011
 Animal House
 
 
 Query 'neurobiologist amy farrah fowler big bang theory real life she has ph.d neuroscience from ucla' in category 'ucla celebrity alumni'
 	Mayim Bialik
-	Big Bang nucleosynthesis
 	Howard Wolowitz
-	Meaning of life
+	Big Bang nucleosynthesis
 	Raj Koothrappali
+	Meaning of life
 	California Institute of Technology
-	Physical cosmology
 	University of California, Los Angeles
+	Physical cosmology
 	Characters of Parks and Recreation
 	Inflation (cosmology)
 Mayim Bialik
@@ -508,24 +508,24 @@ Query 'deadlock election 1800 james r sharp outline fall duel vice president' in
 	John C. Breckinridge
 	Richard Mentor Johnson
 	Richard Nixon
-	Calvin Coolidge
-	Thomas A. Hendricks
 	Presidency of Thomas Jefferson
+	Jack Kemp
+	Thomas A. Hendricks
 	Ronald Reagan
-	George McGovern
-Presidency of Thomas Jefferson
+	Calvin Coolidge
+Aaron Burr
 
 
 Query 'he serve kgb before becoming president prime minister russia' in category 'tin men'
 	Vladimir Putin
 	Clement Attlee
-	Politics of Russia
-	Charles de Gaulle
 	Boris Berezovsky (businessman)
+	Charles de Gaulle
+	Politics of Russia
 	Winston Churchill
 	Julia Gillard
-	Anerood Jugnauth
 	Rajiv Gandhi
+	Anerood Jugnauth
 	Charles Tupper
 Vladimir Putin
 
@@ -534,13 +534,13 @@ Query 'when ask describe herself she say first foremost she malia sasha's mom' i
 	Michelle Obama
 	Nancy Reagan
 	Characters of Parks and Recreation
-	Whitney Houston
 	Jennifer Lopez
+	Whitney Houston
 	Chloë Sevigny
 	Janet Jackson
-	Willow Rosenberg
 	Julia Gillard
-	Jenna Jameson
+	Willow Rosenberg
+	Kylie Minogue
 Michelle Obama
 
 
@@ -552,22 +552,22 @@ Query 'she wrote my candle burn both end ah my foe oh my friends give lovely lig
 	Ringo Starr
 	Emily Dickinson
 	Flow My Tears
-	Carole King
-	Joni Mitchell
-	Murder, She Wrote
+	Anna Akhmatova
+	Fear and Trembling
+	Jennifer Lopez
 Emily Dickinson
 
 
 Query 'finland city lutheran cathedral also known tuomiokirkko' in category 'capital city churches '
 	Helsinki
 	Turku
-	Continuation War
 	Mikael Agricola
 	History of Finland
-	Jakarta
-	Liverpool
+	Continuation War
 	Tampere
-	Carl Gustaf Emil Mannerheim
+	Liverpool
+	London
+	St Paul's Cathedral
 	Gustav I of Sweden
 Helsinki
 
@@ -581,50 +581,50 @@ Query 'milton bradley games' in category 'name the parent company'
 	Handheld game console
 	Snakes and Ladders
 	The Price Is Right (U.S. game show)
+	Milton Keynes
 	Scooby-Doo
-	History of video games
 Hasbro
 
 
 Query 'kentucky virginia resolution were pass protest controversial 1798 acts congress' in category 'old year's resolutions'
 	History of the United States
-	West Virginia
-	John C. Breckinridge
 	Patrick Henry
+	John C. Breckinridge
+	West Virginia
 	Stamp Act 1765
-	Solomon P. Sharp
-	Emancipation Proclamation
-	African-American Civil Rights Movement (1954–68)
+	History of the United States Navy
 	Robert Byrd
-	Tiananmen Square protests of 1989
+	Solomon P. Sharp
+	Confederate States of America
+	Emancipation Proclamation
 History of the United States
 
 
 Query '1983 beat' in category ''80s no.1 hitmakers'
 	William S. Burroughs
-	Beats Electronics
-	Blast beat
-	Hurricane Alicia
+	Run–D.M.C.
+	House music
+	Scarface (1983 film)
 	North American video game crash of 1983
+	Beats Electronics
+	Hurricane Alicia
 	Invasion of Grenada
-	Lawrence Ferlinghetti
-	Beatnik
-	1983 Kuwait bombings
-	Pull My Daisy
-North American video game crash of 1983
+	Billie Jean
+	Gang of Four (band)
+Billie Jean
 
 
 Query '2009 sookie stackhouse' in category 'golden globe winners'
 	True Blood
 	Anna Paquin
-	Jessica Lange
-	Nicole Kidman
 	Meryl Streep
-	Martin Scorsese
-	Brad Pitt
-	Warren Beatty
+	Nicole Kidman
 	George Clooney
-	Michelle Pfeiffer
+	Liza Minnelli
+	Jessica Lange
+	Steven Spielberg
+	Ang Lee
+	Brad Pitt
 Anna Paquin
 
 
@@ -632,13 +632,13 @@ Query 'member nixon ford cabinet born furth germany 1923' in category 'historica
 	Henry Kissinger
 	Richard Nixon
 	Henry Ford
-	John Ford
-	John Connally
-	Herbert Hoover
 	Warren G. Harding
 	Konrad Adenauer
-	William B. Saxbe
-	Zbigniew Brzezinski
+	John Ford
+	Herbert Hoover
+	Willy Brandt
+	John Connally
+	Neville Chamberlain
 Henry Kissinger
 
 
@@ -648,53 +648,53 @@ Query 'high kirk st gile where john knox minister' in category 'capital city chu
 	John Milton
 	History of Scotland
 	Church of Scotland
-	Scottish Episcopal Church
 	John the Baptist
+	Scottish Episcopal Church
 	Knox Grammar School
-	James Douglas, 4th Earl of Morton
-	Book of Common Prayer
-Edinburgh
+	Scotland
+	Glasgow
+Church of Scotland
 
 
 Query 'brief time he attend he rebel cause even landing lead role 1950 stage production' in category 'ucla celebrity alumni'
-	Michael Crawford
-	Janet Jackson
-	Orson Welles
 	Humphrey Bogart
-	Jack Kemp
 	James Dean
-	Stephen Fry
+	Janet Jackson
+	Harold Pinter
+	Orson Welles
+	Jack Kemp
+	Michael Crawford
+	Clement Attlee
 	Natalie Portman
 	Cristiano Ronaldo
-	Harold Pinter
 James Dean
 
 
 Query 'fisher price toy' in category 'name the parent company'
 	Little People
-	Hasbro
 	Mattel
+	Hasbro
 	Transformers (toy line)
 	Toy Town Museum
-	Super Friends
 	The Price Is Right (U.S. game show)
 	Toy Story 2
-	Power Rangers
 	Lego
+	Super Friends
+	Power Rangers
 Mattel
 
 
 Query '1959 america kitchen exhibit moscow he told khrushchev america we like make life easy women' in category 'historical quotes'
 	Cuban missile crisis
 	Perry Como
+	Lee Harvey Oswald
 	Malcolm X
 	Michelle Obama
-	Lee Harvey Oswald
-	Janet Jackson
-	Paul Robeson
 	Ronald Reagan
-	Ezra Pound
 	Stanley Kubrick
+	Charles de Gaulle
+	Ezra Pound
+	Paul Robeson
 Ronald Reagan
 
 
@@ -704,12 +704,12 @@ Query 'one his tale wayside inn begin listen my children you shall hear midnight
 	Ethan Hawke
 	Michael Jackson
 	Rush Limbaugh
+	The Canterbury Tales
 	Thérèse of Lisieux
-	Original sin
-	Solomon Burke
-	Born This Way (song)
-	Joss Whedon
-Paul Revere & the Raiders
+	Hans Christian Andersen
+	Henry Wadsworth Longfellow
+	Kubla Khan
+Henry Wadsworth Longfellow
 
 
 Query 'bestseller about problem mccain palin ticket became hbo movie julianne moore' in category 'notes from the campaign trail'
@@ -717,12 +717,12 @@ Query 'bestseller about problem mccain palin ticket became hbo movie julianne mo
 	Hannibal (film)
 	Monty Python's Life of Brian
 	Joe Lieberman
+	Mary Tyler Moore
 	Meryl Streep
 	Michael Crichton
-	Mary Tyler Moore
-	Hunter S. Thompson
-	Nicole Kidman
 	Keating Five
+	True Blood
+	Bowling for Columbine
 Game Change
 
 
@@ -730,12 +730,12 @@ Query '2 part episode jag introduce mark harmon drama' in category 'that 20-augh
 	The West Wing
 	List of NCIS characters
 	Ike's Wee Wee
-	House's Head
 	Law & Order
+	House's Head
 	Brookside
 	24 (TV series)
-	Characters of Parks and Recreation
 	General Hospital
+	Characters of Parks and Recreation
 	The Sopranos
 List of NCIS characters
 
@@ -747,25 +747,25 @@ Query 'port southernmost south africa's 3 capitals' in category 'african cities'
 	Afrikaner
 	History of South Africa
 	Music of South Africa
-	Wayne Parnell
-	South African rand
-	Flag of South Africa
 	Namibia
+	Wayne Parnell
+	Karachi
+	South African rand
 Port Elizabeth
 
 
 Query 'keat quote edmund spenser poem when he told shelley load every rift your subject ore' in category 'the quotable keats'
 	John Keats
 	W. B. Yeats
-	Oxfordian theory of Shakespeare authorship
-	The Faerie Queene
 	Ozymandias
 	John Milton
+	The Faerie Queene
+	Orion (mythology)
+	La Belle Dame sans Merci
+	Oxfordian theory of Shakespeare authorship
 	George Crabbe
-	Piers Plowman
-	Lesbian
 	Poetry
-Ozymandias
+The Faerie Queene
 
 
 Query '1819 letter keat wrote lord poet cut figure he figurative' in category 'the quotable keats'
@@ -773,54 +773,54 @@ Query '1819 letter keat wrote lord poet cut figure he figurative' in category 't
 	Lord Byron
 	La Belle Dame sans Merci
 	Hyperion (poem)
+	Romanticism
+	John Ruskin
+	Peterloo Massacre
+	John Milton
+	Harold Stewart
 	Ezra Pound
-	Oscar Wilde
-	Walt Whitman
-	George Crabbe
-	James Russell Lowell
-	Thomas Moore
 John Keats
 
 
 Query 'clear greece liqueur quite potent so it's usually mixed water which turn white cloudy' in category 'greek food & drink'
 	Ouzo
 	List of coffee beverages
-	Frog
 	Corfu
 	Rice
 	Golden Eagle
-	Ice
+	Roman Empire
+	Orion (mythology)
 	History of painting
 	Nutrition
-	Orion (mythology)
+	Frog
 Ouzo
 
 
 Query 'feb 1 national freedom day date 1865 when resolution sent states amendment ending' in category 'old year's resolutions'
 	Emancipation Proclamation
-	Ronald Reagan
-	History of the United States
-	Warren G. Harding
 	Confederate States of America
-	Kentucky and Virginia Resolutions
-	Equal Rights Amendment
+	Warren G. Harding
+	History of the United States
+	Ronald Reagan
 	Puerto Rico
+	John C. Breckinridge
+	Thaddeus Stevens
 	First Transcontinental Railroad
-	Napoleon III
+	Equal Rights Amendment
 Emancipation Proclamation
 
 
 Query 'person queen's representative canada current office held david johnston' in category 'ranks & titles'
 	Governor General of Canada
-	Jeanne Sauvé
 	Charles Tupper
+	Jeanne Sauvé
 	Jules Léger
 	Head of state
 	Jack Layton
 	Bob Rae
-	Frederick Hamilton-Temple-Blackwood, 1st Marquess of Dufferin and Ava
-	Rideau Hall
 	David Duke
+	Winston Churchill
+	Frederick Hamilton-Temple-Blackwood, 1st Marquess of Dufferin and Ava
 Governor General of Canada
 
 
@@ -829,48 +829,48 @@ Query 'he earn fifth beatle nickname produce all beatle album' in category 'tin 
 	Ringo Starr
 	Rubber Soul
 	1 (The Beatles album)
-	A Hard Day's Night (album)
 	Help! (album)
+	A Hard Day's Night (album)
 	Beatles for Sale
 	Revolver (Beatles album)
 	Please Please Me
 	Love (The Beatles album)
-The titles provided do not contain the answer to the query.
+The given documents do not provide a valid answer to the query 'he earn fifth beatle nickname produce all beatle album'.
 
 
 Query 'early career mark twain bret harte wrote pieces california city's chronicle' in category 'newspapers'
 	Adventures of Huckleberry Finn
 	Joaquin Miller
-	George Carlin
 	California Gold Rush
+	George Carlin
 	San Francisco
-	Nigger
-	Imperial Bedrooms
-	Neil Simon
 	University of California, Los Angeles
+	Imperial Bedrooms
+	Nigger
 	Nikola Tesla
+	Oakland, California
 San Francisco
 
 
 Query 'large specimen marsupial can leap over barrier 6 feet high' in category 'potpourri'
 	Kangaroo
 	Koala
-	Frog
 	Wilt Chamberlain
+	Frog
 	Tammar wallaby
 	Israeli West Bank barrier
 	Kakapo
-	Snakebite
-	Fauna of Australia
 	Kobe Bryant
+	Snakebite
+	Thames Barrier
 Kangaroo
 
 
 Query 'because it's cure store brine crumbly white cheese made from sheep's milk often refer pickled cheese' in category 'greek food & drink'
 	Feta
 	Wensleydale cheese
-	Cheddar cheese
 	Mozzarella
+	Cheddar cheese
 	Stilton cheese
 	Quark (dairy product)
 	Roquefort
@@ -884,55 +884,55 @@ Query '1927 gene tunney take long count square circle rise defeat manassa maul h
 	Jack Dempsey
 	Max Schmeling
 	Manhattan
+	Sacco and Vanzetti
 	Tiananmen Square protests of 1989
-	Trafalgar Square
-	State University of New York at Stony Brook
-	Napoleon III
-	Winston Churchill
-	Joachim von Ribbentrop
+	New Jersey Route 37
 	History of the United States
+	Trafalgar Square
+	Yankees–Red Sox rivalry
+	Zhou Enlai
 Jack Dempsey
 
 
 Query 'italy leader especially applied benito mussolini' in category 'ranks & titles'
 	Alessandra Mussolini
 	Duce
-	League of Nations
-	Romano Mussolini
 	History of Italy
+	Romano Mussolini
+	League of Nations
 	Pope Pius XI
-	Rome
 	Predappio
 	Italian Empire
 	Vatican City
+	Rome
 Duce
 
 
 Query 'kalamazoo institute arts' in category 'state of the art museum '
-	Ian Hornak
 	Massachusetts Institute of Technology
-	Cranbrook Educational Community
-	Iowa State University
-	Edgar Degas
-	Colby College
 	Kalamazoo/Battle Creek International Airport
-	Oberlin College
-	Museum
-	Edwin Scheier
-Kalamazoo Institute of Arts
+	Agnes Martin
+	Colby College
+	Ian Hornak
+	Bruce Nauman
+	Cranbrook Educational Community
+	Thomas Hart Benton (painter)
+	Metropolitan Museum of Art
+	Arts and Crafts movement
+Kalamazoo/Battle Creek International Airport
 
 
 Query 'sun valley center arts' in category 'state of the art museum '
 	Phoenix, Arizona
-	Mexico City
 	The Center for Arts Education
+	Mexico City
 	Stanford University
-	Sun Valley High School (North Carolina)
 	Newark, New Jersey
-	Arthouse at The Jones Center
-	Louisiana State University
-	Eugene, Oregon
+	Sun Valley High School (North Carolina)
 	Roanoke, Virginia
+	Louisiana State University
+	Grand Valley State University
+	Mobile, Alabama
 The Center for Arts Education
 
 
@@ -942,54 +942,54 @@ Query 'you can't mention shortstop without mention his double play associate eve
 	You Can't Take It with You
 	Janet Jackson
 	Chicago Cubs
-	Citizen Kane
-	Sachin Tendulkar
 	Dave Bancroft
-	You Can't Win (song)
+	Sachin Tendulkar
+	Citizen Kane
 	Ozzie Smith
+	Omar Vizquel
 Joe Tinker
 
 
 Query '1840 horace greeley began publishing log cabin weekly campaign paper support whig candidate' in category 'newspapers'
 	William Henry Harrison
 	William Lyon Mackenzie
-	Thomas A. Hendricks
 	Charles Sumner
+	Thomas A. Hendricks
 	Thaddeus Stevens
-	Schuyler Colfax
 	Karl Marx
 	Richard Mentor Johnson
+	Schuyler Colfax
 	John C. Breckinridge
-	Horace Walpole
+	Woodrow Wilson
 William Henry Harrison
 
 
 Query 'pierre cauchon bishop beauvai preside over trial woman who went up smoke may 30 1431' in category 'i'm burnin' for you'
 	Joan of Arc
 	Medieval Inquisition
-	Roman Catholic Diocese of Beauvais
 	Catholic sex abuse cases
 	Kenesaw Mountain Landis
+	Roman Catholic Diocese of Beauvais
+	Whitney Houston
 	Yoko Ono
 	Murder of Stephen Lawrence
-	Whitney Houston
 	Nuremberg trials
-	Mulholland Drive (film)
+	Napoleon III
 Joan of Arc
 
 
 Query 'wisconsin city claim have built usa's only granite dome' in category 'complete dom-ination'
 	Madison, Wisconsin
 	Wisconsin Dells, Wisconsin
-	Corcovado
 	St Paul's Cathedral
 	Temple Mount
+	Corcovado
 	Yosemite National Park
 	Chicago
 	Rogers Centre
 	Florence Cathedral
 	Hyderabad
-Madison, Wisconsin
+Wisconsin Dells, Wisconsin
 
 
 Query 'georgia paper known ajc short' in category 'newspapers'
@@ -997,40 +997,40 @@ Query 'georgia paper known ajc short' in category 'newspapers'
 	Georgia (U.S. state)
 	Rock-paper-scissors
 	Abkhazia
+	Lester Maddox
 	Toilet paper
+	Electronic paper
 	U.S. Route 25 in Georgia
 	U.S. Route 82 in Georgia
-	Electronic paper
 	Georgia (country)
-	Marion L. Brittain
 The Atlanta Journal-Constitution
 
 
 Query 'wooden 2 story veranda liberia capital architecture link u.s south' in category 'african cities'
 	Armed Forces of Liberia
-	Samuel Doe
 	Monrovia
-	South Korea
-	History of Liberia
-	North Korea
 	Vietnam War
-	William R. Tolbert, Jr.
+	Samuel Doe
+	South Korea
 	Capital punishment
+	William R. Tolbert, Jr.
+	History of Liberia
 	White House
+	London
 Monrovia
 
 
 Query 'new orleans venue reopen sept 25 2006' in category 'complete dom-ination'
 	Mercedes-Benz Superdome
 	Louis Armstrong New Orleans International Airport
-	Saenger Theatre (New Orleans, Louisiana)
 	New Orleans Saints
+	Saenger Theatre (New Orleans, Louisiana)
 	Preservation Hall Jazz Band
-	Battle of New Orleans
-	French Quarter
 	History of the New Orleans Pelicans
 	Xavier University of Louisiana
+	Battle of New Orleans
 	Harry Connick, Jr.
+	French Quarter
 Mercedes-Benz Superdome
 
 
@@ -1040,10 +1040,10 @@ Query 'hunt red october he went more comedy jack donaghy 30 rock' in category 'h
 	Red Hot Chili Peppers
 	Tenacious D
 	"Weird Al" Yankovic
-	Harrison Ford
-	Ben Affleck
 	Yankees–Red Sox rivalry
 	The Who
+	Michael Jackson
+	Hair (musical)
 	Jennifer Lopez
 Alec Baldwin
 
@@ -1055,52 +1055,52 @@ Query 'rita dove titled collection poem bus woman' in category 'african-american
 	University of Virginia
 	Dover Beach
 	Rita Hayworth
-	E. E. Cummings
 	Howl
 	Dover, Delaware
 	In Flanders Fields
+	E. E. Cummings
 Rosa Parks
 
 
 Query 'patriot games he's had other icon role space underground' in category 'he played a guy named jack ryan in...'
 	Harrison Ford
 	Raiden (Metal Gear)
-	Space Invaders
 	Role-playing video game
 	New England Patriots
 	Janet Jackson
-	Ben Affleck
-	2008 New England Patriots season
 	Washington Redskins
-	Thora Birch
+	Space Invaders
+	2008 New England Patriots season
+	Live action role-playing game
+	Elite (video game)
 Harrison Ford
 
 
 Query 'sacred structure dates from late 600 s a.d' in category 'complete dom-ination'
-	Mithraic mysteries
-	Cholula, Puebla
 	Roman Empire
-	Topkapı Palace
+	Mithraic mysteries
+	Jeff Gordon
 	Golden Eagle
-	History of Israel
+	Anglo-Saxons
+	GE-600 series
+	Cholula, Puebla
+	Iowa-class battleship
+	Sati (practice)
 	Norway
-	Salford, Greater Manchester
-	William S. Burroughs
-	Christian views on marriage
 Cholula, Puebla
 
 
 Query '1988 man mirror' in category ''80s no.1 hitmakers'
-	Michael Jackson
-	Pac-Man
 	Alan Moore
-	Isle of Man
-	Mirror galvanometer
+	Michael Jackson
+	Nico
 	Iron Man
-	The Man with the Golden Gun (film)
-	Spider-Man (2002 film)
-	Mega Man
-	Eddie Brock
+	Ruhollah Khomeini
+	...And Justice for All (album)
+	Pac-Man
+	Isle of Man
+	Julia Roberts
+	Little Richard
 Michael Jackson
 
 
@@ -1108,12 +1108,12 @@ Query 'matthia church matya templom where franz joseph crown 1867' in category '
 	Franz Liszt
 	Napoleon III
 	Hungary
-	Votive Church, Vienna
 	History of Buda Castle
+	Votive Church, Vienna
 	Budapest
 	Wilhelm II, German Emperor
-	Matthias Corvinus
 	Italian unification
+	Matthias Corvinus
 	Crown jewels
 History of Buda Castle
 
@@ -1125,24 +1125,24 @@ Query 'attend ucla 60s he meathead he just play one late television' in category
 	Kevin Love
 	Perry Como
 	Jackie Robinson
-	Harry Shearer
 	Michael Jackson
-	Jon Scheyer
+	Harry Shearer
+	Max Weinberg
 	Dennis Rodman
-Rob Reiner
+Harry Shearer
 
 
 Query 'kinch carter lebeau were all resident stalag 13 tv show' in category 'the residents'
 	Hogan's Heroes
-	Stargate SG-1
 	All in the Family
+	Stargate SG-1
 	Reality television
-	24 (TV series)
-	Ernie Kovacs
-	Joan Rivers
-	The Sopranos
 	Coronation Street
-	Firefly (TV series)
+	Ernie Kovacs
+	24 (TV series)
+	John Carter (ER)
+	The Sopranos
+	Get Carter
 Hogan's Heroes
 
 
@@ -1151,8 +1151,8 @@ Query 'news flash less than yappy pappy sixth veep nation's top dog after chief 
 	Sleep (non-human)
 	Flash memory
 	Chicago
-	Winston Churchill
 	Phoenix, Arizona
+	Winston Churchill
 	Manhattan
 	William Howard Taft
 	Menopause
@@ -1162,29 +1162,29 @@ William Howard Taft
 
 Query '2001 president united states television' in category 'golden globe winners'
 	24 (TV series)
-	Nicole Kidman
 	Ronald Reagan
 	Bush Doctrine
-	Meryl Streep
-	Brad Pitt
-	Martin Sheen
+	Nicole Kidman
 	Vice President of the United States
-	Netflix
 	History of the United States
+	Meryl Streep
+	Martin Sheen
+	Osama bin Laden
+	Brad Pitt
 Martin Sheen
 
 
 Query '1989 miss you much' in category ''80s no.1 hitmakers'
 	Janet Jackson
-	Joshua Allen
 	Tiananmen Square protests of 1989
-	Cathy Garcia-Molina
+	Kylie Minogue
 	Halle Berry
 	Royal Rumble (1989)
-	Spümcø
-	The Who
-	Ms.
-	Ethan Hawke
+	Hillsborough disaster
+	Hurricane Hugo
+	Nicolae Ceaușescu
+	Joshua Allen
+	Def Leppard
 Janet Jackson
 
 
@@ -1192,55 +1192,55 @@ Query '1922 it's end empire empire fact after 600 years it's goodbye hello turke
 	Ottoman Empire
 	Cyprus dispute
 	Kurdish people
+	Russo-Turkish War (1877–78)
 	Napoleon III
 	Cyprus
-	Russo-Turkish War (1877–78)
 	Lycia
 	Iraq
+	Soviet Union
 	Portugal
-	Iran
 Ottoman Empire
 
 
 Query 'crest toothpaste' in category 'name the parent company'
 	Crest of the Stars
-	CBS
-	Stan Lee
-	Sceafa
-	Parma F.C.
-	Great North Eastern Railway
-	Citizen Kane
 	Jane Wyman
-	List of minor The Hitchhiker's Guide to the Galaxy characters
+	CBS
+	Crest Capital
+	Procter & Gamble
+	Rangers F.C.
+	Great North Eastern Railway
 	Air India (football club)
-The query does not match any of the documents provided.
+	West Ham United F.C.
+	FC Barcelona
+Procter & Gamble
 
 
 Query '1888 chancellor told reichstag we germany fear god nothing else world' in category 'historical quotes'
 	Otto von Bismarck
 	Konrad Adenauer
-	Joachim von Ribbentrop
-	Wilhelm II, German Emperor
 	Winston Churchill
+	Wilhelm II, German Emperor
+	Joachim von Ribbentrop
 	Hermann Göring
-	Heinrich Brüning
 	Willy Brandt
+	William Ewart Gladstone
+	Heinrich Brüning
 	Immanuel Kant
-	Charles de Gaulle
 Otto von Bismarck
 
 
 Query '1787 he sign his first publish poem axiologu axio from greece worth' in category 'poets & poetry'
-	Cristiano Ronaldo
-	Kubla Khan
 	Lord Byron
+	Cristiano Ronaldo
 	George Crabbe
+	Kubla Khan
 	Luis Cernuda
 	John Milton
 	Irish literature
-	Stephen Crane
 	Tristan Tzara
-	In Flanders Fields
+	Samuel Johnson
+	Stephen Crane
 George Crabbe
 
 
@@ -1251,39 +1251,39 @@ Query 'confuse karma krama popular accessory sold cambodia word means scarf nati
 	Economy of Cambodia
 	Khmer language
 	Mekong
-	Siem Reap
 	Politics of Cambodia
+	Siem Reap
 	Cambodian general election, 2008
 	Olympic Stadium (Phnom Penh)
 Khmer language
 
 
 Query 'phnom penh's notorious gridlock circumvent nimble tuk tuk motorize taxi that's also known auto similar asia conveyance' in category 'cambodian history & culture'
-	Tricycle
-	Coppersmith Barbet
-	Na Tuk Kong
 	Khmer Rouge
+	Tricycle
+	Na Tuk Kong
+	Coppersmith Barbet
 	Cycle rickshaw
 	Music of Barbados
-	Jakarta
 	Vietnam War
-	Maldives
-	Iran
+	Mekong
+	Jakarta
+	Ho Chi Minh City
 Cycle rickshaw
 
 
 Query '1980 rock you' in category ''80s no.1 hitmakers'
 	Prince (musician)
 	Helix (band)
-	Godspeed You! Black Emperor
-	Janet Jackson
-	Yes (band)
-	The Who
-	INXS
 	Rock music
-	Michael Jackson
 	Whitesnake
-Queen (band)
+	Yes (band)
+	Rush (band)
+	INXS
+	King Crimson
+	Punk rock
+	Joy Division
+Rock music
 
 
 Query 'pulitzer winning making president 1960 cover man's successful presidential campaign' in category 'notes from the campaign trail'
@@ -1293,38 +1293,38 @@ Query 'pulitzer winning making president 1960 cover man's successful presidentia
 	Richard Nixon
 	Barry Goldwater
 	Herbert Hoover
-	Hunter S. Thompson
 	Warren G. Harding
-	Michelle Obama
+	William McKinley
 	Woodrow Wilson
+	Vladimir Putin
 Richard Nixon
 
 
 Query '1843 isaac dittenhoefer became first pre jewish club whose name means children covenant' in category 'service organizations'
 	B'nai B'rith
 	Lilith
-	Cristiano Ronaldo
-	Cave of the Patriarchs
-	Kabbalah
-	University of Notre Dame
 	Roman Empire
-	Palestinian people
-	Juventus F.C.
+	University of Notre Dame
+	Karl Marx
 	History of Israel
+	Palestinian people
+	Cristiano Ronaldo
+	Fear and Trembling
+	Cave of the Patriarchs
 B'nai B'rith
 
 
 Query 'don knott took over from norman fell resident landlord sitcom' in category 'the residents'
 	Three's Company
 	Tim Conway
-	Matlock (TV series)
 	That '70s Show
 	Cossacks
+	Matlock (TV series)
 	John Ritter
+	All in the Family
 	George Costanza
-	Bill Bixby
-	Iron Man
-	Scooby-Doo
+	American frontier
+	Sheffield
 Three's Company
 
 
@@ -1334,11 +1334,11 @@ Query 'u.n re 242 support secure recognize boundary israel neighbor following ju
 	History of Israel
 	Hamas
 	West Bank
+	Yom Kippur War
 	1948 Arab–Israeli War
-	Refugee
 	Foreign relations of Israel
-	Hezbollah
 	Yasser Arafat
+	Refugee
 Foreign relations of Israel
 
 
@@ -1347,12 +1347,12 @@ Query 'blonde beauty who reprise her role amanda new melrose place psychology ma
 	Legally Blonde (musical)
 	Beauty and the Beast (musical)
 	Lisa Rinna
-	Kate Beckinsale
 	Natalie Portman
+	Kate Beckinsale
 	Milla Jovovich
-	Jennifer Lopez
 	Michelle Pfeiffer
-	Hairspray (musical)
+	Jennifer Lopez
+	Mandy Moore
 Heather Locklear
 
 
@@ -1360,26 +1360,26 @@ Query 'name dish marinate lamb skewer grill come from greece skewer also start s
 	Souvlaki
 	Awadhi cuisine
 	KFC
-	Chicago
-	Tenerife
-	Brazilian cuisine
 	Corfu
-	Korean cuisine
-	English cuisine
+	Chicago
 	Sheep
+	Homs
+	Sausage
+	Roman Empire
+	English cuisine
 Souvlaki
 
 
 Query 'post note' in category 'name the parent company'
-	Janet Jackson
+	Mail
+	The Washington Post
 	Banknotes of the pound sterling
 	NBC
-	Citizen Kane
-	Mail
-	CBS
 	Babylon 5
-	The Washington Post
-	Stan Lee
+	Janet Jackson
+	CBS
+	United States Postal Service
+	Notes on a Scandal
 	Atlantic Records
 The Washington Post
 
@@ -1393,11 +1393,11 @@ Query '2010 sherlock holmes film' in category 'golden globe winners'
 	Hans Zimmer
 	William S. Baring-Gould
 	Edward Hardwicke
-	Adrian Conan Doyle
-	Reichenbach Falls
-The query does not match any of the documents listed.
+	The Five Orange Pips
+	Stephen Fry
+Robert Downey, Jr.
 
 
 
 
-FINAL COUNT: 55
+FINAL COUNT: 58
