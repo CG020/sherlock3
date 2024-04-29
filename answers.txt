@@ -1,56 +1,56 @@
 Query 'dominant paper our nation's capital it's among top 10 u.s papers circulation' in category 'newspapers' returned:
-	Manhattan: 131.254913
-	Oklahoma: 129.712708
-	Warren G. Harding: 115.227425
-	University of Virginia: 114.581985
-	History of the United States (1865–1918): 113.251122
-	Virginia: 112.647850
-	Phoenix, Arizona: 111.724136
-	Citizen Kane: 105.802734
-	Washington University in St. Louis: 105.238899
-	Newark, New Jersey: 104.597969
+	Manhattan: 140.904251
+	Oklahoma: 140.026306
+	Warren G. Harding: 126.979263
+	Phoenix, Arizona: 122.037743
+	University of Virginia: 121.880844
+	History of the United States (1865–1918): 120.549980
+	Virginia: 119.946709
+	Citizen Kane: 118.334740
+	Washington University in St. Louis: 114.888237
+	Bangalore: 113.443756
 The Washington Post
 
 
 Query 'practice pre authorize presidential use force dates 1955 resolution re island near mainland china' in category 'old year's resolutions' returned:
-	Taiwan: 259.361389
-	Korean War: 207.871628
-	Political status of Taiwan: 204.803452
-	History of the Republic of China: 199.122971
-	China–United States relations: 192.333115
-	Tiananmen Square protests of 1989: 178.984695
-	One-China policy: 172.058838
-	Chiang Kai-shek: 168.488571
-	Chinese Indonesians: 163.941696
-	Sri Lanka: 156.315475
+	Taiwan: 273.814514
+	Korean War: 221.466873
+	Political status of Taiwan: 219.590668
+	History of the Republic of China: 210.524231
+	China–United States relations: 205.167419
+	Tiananmen Square protests of 1989: 185.735703
+	One-China policy: 178.480225
+	Chinese Indonesians: 170.658676
+	Chiang Kai-shek: 168.798386
+	George McGovern: 165.350433
 Taiwan
 
 
 Query 'daniel hertzberg james b stewart paper share 1988 pulitzer story about insider trade' in category 'newspapers' returned:
-	The Wall Street Journal: 253.445313
+	The Wall Street Journal: 265.197144
 	Goldman Sachs: 156.159210
-	Michael Milken: 146.938126
+	Michael Milken: 151.845978
+	Rudy Giuliani: 122.143570
 	Wall Street (1987 film): 116.922714
 	Barry Minkow: 115.287926
-	Rudy Giuliani: 114.844711
+	Stanley Kubrick: 114.212471
 	Thomas Friedman: 108.313751
 	Oscar Wilde: 108.028580
-	Stanley Kubrick: 106.913612
-	Hedge fund: 99.903542
+	Citizen Kane: 102.781693
 The Wall Street Journal
 
 
 Query 'song say you make me smile my heart your looks laughable unphotographable' in category 'broadway lyrics' returned:
-	Janet Jackson: 189.305023
+	Janet Jackson: 190.763947
 	Whitney Houston: 171.257843
-	Kylie Minogue: 167.562653
-	Carole King: 162.531235
-	Born This Way (song): 161.754501
-	Hold It Against Me: 158.385635
-	Keyshia Cole: 146.602524
-	Dusty Springfield: 146.361145
-	Irving Berlin: 133.154907
-	"Weird Al" Yankovic: 132.716156
+	Kylie Minogue: 168.632187
+	Carole King: 164.264587
+	Born This Way (song): 162.682770
+	Hold It Against Me: 159.212433
+	Dusty Springfield: 147.627029
+	Keyshia Cole: 147.340576
+	Irving Berlin: 135.157272
+	Stevie Wonder: 133.763107
 My Funny Valentine
 
 
@@ -69,324 +69,324 @@ The Salvation Army|Salvation Army
 
 
 Query 'naples museum art' in category 'state of the art museum ' returned:
-	Metropolitan Museum of Art: 192.055099
-	Art museum: 148.209335
-	San Francisco Museum of Modern Art: 146.687744
-	Whitney Museum of American Art: 145.303741
-	The Louvre: 142.468353
-	Museum of Modern Art: 137.589188
-	Royal Ontario Museum: 135.069504
-	Museum of Contemporary Art, Chicago: 133.841492
-	History of painting: 129.599838
-	The Cloisters: 125.801666
+	Metropolitan Museum of Art: 193.644760
+	Art museum: 149.790314
+	San Francisco Museum of Modern Art: 148.188171
+	Whitney Museum of American Art: 146.660187
+	The Louvre: 144.102890
+	Museum of Modern Art: 139.162628
+	Royal Ontario Museum: 136.420181
+	Museum of Contemporary Art, Chicago: 135.191635
+	History of painting: 131.240891
+	The Cloisters: 127.087059
 Florida
 
 
 Query 'italy painter depict adoration golden calf' in category 'tin men' returned:
-	Tintoretto: 129.533356
+	Tintoretto: 129.746567
 	Nicolas Poussin: 128.257828
-	Caravaggio: 125.742111
-	Raphael: 119.512756
-	Diego Velázquez: 104.565872
-	History of painting: 102.480591
+	Caravaggio: 125.955315
+	Raphael: 119.725967
+	Diego Velázquez: 104.779076
+	History of painting: 102.859138
 	Antonello da Messina: 98.466705
-	Culture of Italy: 92.266273
+	Culture of Italy: 92.583359
 	Annibale Carracci: 89.949310
-	Pietro Lorenzetti: 85.636055
+	Pietro Lorenzetti: 85.849258
 Tintoretto
 
 
 Query 'woman who won consecutive heptathlon olympic went ucla basketball scholarship' in category 'ucla celebrity alumni' returned:
-	University of California, Los Angeles: 217.779114
-	Kevin Love: 209.794052
-	Kareem Abdul-Jabbar: 200.555115
-	Magic Johnson: 197.383026
-	Kobe Bryant: 194.922989
-	Jackie Joyner-Kersee: 191.873077
-	Michael Jordan: 170.919235
-	Reggie Miller: 151.889206
-	Bob Knight: 147.233978
-	Jackie Robinson: 146.341446
+	University of California, Los Angeles: 220.950256
+	Kevin Love: 211.001511
+	Kareem Abdul-Jabbar: 202.878601
+	Magic Johnson: 199.367691
+	Kobe Bryant: 195.321838
+	Jackie Joyner-Kersee: 192.688370
+	Michael Jordan: 171.853928
+	Reggie Miller: 152.967041
+	Bob Knight: 148.207336
+	Jackie Robinson: 147.654144
 Jackie Joyner-Kersee
 
 
 Query 'originally club's emblem wagon wheel now it's gearwheel 24 cog 6 spoke' in category 'service organizations' returned:
-	Honda Accord: 139.304962
+	Honda Accord: 139.465714
 	Wheel of Fortune (U.S. game show): 138.776001
-	Chevrolet Impala: 120.256813
-	AMC Matador: 118.820534
-	Oregon Trail: 115.450043
+	Chevrolet Impala: 120.495872
+	AMC Matador: 118.981277
+	Oregon Trail: 115.610786
 	24 (TV series): 101.026520
 	Toyota Celica: 96.834427
 	Ford Taurus: 96.682442
 	Audi S6: 95.092659
-	Buick Century: 92.666344
+	Oakland Raiders: 93.948563
 Rotary International
 
 
 Query 'several bridge including el tahrir cross nile capital' in category 'african cities' returned:
-	Cairo: 133.337616
-	Tunisian Revolution: 96.057587
-	Khartoum: 92.064270
-	San Salvador: 86.045303
-	El Salvador: 84.198448
-	Mexico City: 81.536903
-	Blue Nile: 81.406761
-	Yom Kippur War: 80.516479
-	London: 80.030220
-	Marrakesh: 79.551994
+	Cairo: 151.043335
+	Tunisian Revolution: 110.152245
+	Khartoum: 105.173416
+	El Salvador: 99.911301
+	Marrakesh: 97.679741
+	Yom Kippur War: 93.709106
+	London: 93.659477
+	San Salvador: 93.107674
+	West Nile virus: 90.462997
+	Mexico City: 88.790649
 Cairo
 
 
 Query 'after fall france 1940 general told his country france has lost battle france has lost war' in category 'historical quotes' returned:
-	Charles de Gaulle: 373.219452
-	History of France: 303.643066
+	Charles de Gaulle: 379.013641
+	History of France: 309.395660
 	Anglo-French Supreme War Council: 284.189270
-	Free French Forces: 275.896851
+	Free French Forces: 276.115417
+	Napoleon III: 260.151306
 	Philippe Pétain: 258.208069
-	Napoleon III: 251.714020
 	World War II: 246.559952
-	Battle of Britain: 238.980835
+	Winston Churchill: 243.911880
+	Battle of Britain: 239.492996
 	Battle of the Bulge: 238.790756
-	Dunkirk evacuation: 236.540848
 Charles de Gaulle|de Gaulle
 
 
 Query 'taft museum art' in category 'state of the art museum ' returned:
-	Metropolitan Museum of Art: 192.055099
-	Art museum: 148.209335
-	San Francisco Museum of Modern Art: 146.687744
-	Whitney Museum of American Art: 145.303741
-	The Louvre: 142.468353
-	Museum of Modern Art: 137.589188
-	Royal Ontario Museum: 135.069504
-	Museum of Contemporary Art, Chicago: 133.841492
-	History of painting: 129.599838
-	The Cloisters: 125.801666
+	Metropolitan Museum of Art: 193.644760
+	Art museum: 149.790314
+	San Francisco Museum of Modern Art: 148.188171
+	Whitney Museum of American Art: 146.660187
+	The Louvre: 144.102890
+	Museum of Modern Art: 139.162628
+	Royal Ontario Museum: 136.420181
+	Museum of Contemporary Art, Chicago: 135.191635
+	History of painting: 131.240891
+	The Cloisters: 127.087059
 Ohio
 
 
 Query 'mast from uss maine part memorial ship crew national cemetery' in category 'cemeteries' returned:
+	USS Arizona Memorial: 188.606949
 	USS Constitution: 188.244446
-	USS Arizona Memorial: 182.400604
-	Tomb of the Unknowns: 142.045670
+	Tomb of the Unknowns: 158.407867
+	Thomas W. Lawson (ship): 130.449020
 	HMS Endeavour: 124.774994
-	Thomas W. Lawson (ship): 124.242668
 	Littoral combat ship: 124.000610
 	USS Missouri (BB-63): 120.132446
-	H. L. Hunley (submarine): 107.046310
-	Portland, Maine: 104.408081
-	Roberto Cofresí: 104.246101
+	Roberto Cofresí: 116.448410
+	Portland, Maine: 115.427521
+	Sutton Hoo: 113.423233
 Arlington National Cemetery|Arlington Cemetery
 
 
 Query '2009 joker film' in category 'golden globe winners' returned:
-	Heath Ledger: 135.975876
-	Nicole Kidman: 111.610870
-	Meryl Streep: 109.376083
-	Brad Pitt: 106.497604
-	Martin Scorsese: 105.328522
-	Jessica Lange: 104.851990
-	Steven Spielberg: 103.828598
-	George Clooney: 103.144012
-	Michelle Pfeiffer: 99.589233
-	Ang Lee: 99.282623
+	Heath Ledger: 137.319046
+	Meryl Streep: 119.448860
+	Nicole Kidman: 118.969238
+	Steven Spielberg: 115.162552
+	George Clooney: 114.632210
+	Ang Lee: 109.288437
+	Brad Pitt: 108.002296
+	Martin Scorsese: 107.046997
+	Jessica Lange: 106.562363
+	Michelle Pfeiffer: 101.218651
 Heath Ledger
 
 
 Query 'peninsula fought over peninsular war 1808 1814' in category 'historical hodgepodge' returned:
-	Napoleonic Wars: 279.618011
-	History of Spain: 223.868652
+	Napoleonic Wars: 279.836578
+	History of Spain: 224.298340
 	Finnish War: 137.427383
-	History of Catalonia: 135.901138
+	History of Catalonia: 136.119690
 	War of the Sixth Coalition: 133.523605
-	Valencia: 132.021164
-	History of France: 128.552643
-	Charles Maurice de Talleyrand-Périgord: 121.159828
+	Valencia: 132.409210
+	History of France: 128.940689
+	Charles Maurice de Talleyrand-Périgord: 121.378380
 	Ferdinand VII of Spain: 119.173653
 	Battle of Lundy's Lane: 116.875267
 Iberia|Iberian Peninsula
 
 
 Query '1980 china found center cute creature its bamboo rich wolong nature preserve' in category 'conservation' returned:
-	Chengdu: 175.477219
-	Foreign relations of China: 108.584091
+	Chengdu: 176.061951
+	Foreign relations of China: 108.977272
 	Chinese dragon: 107.117249
 	Chinese American: 103.518784
-	Geography of China: 102.480278
-	Katmai National Park and Preserve: 99.233749
-	Red panda: 99.231224
+	Geography of China: 102.873459
+	Red panda: 100.057465
+	Katmai National Park and Preserve: 99.626923
 	Religion in China: 99.174591
+	Golden Eagle: 98.316681
 	Chinese art: 98.018837
-	Golden Eagle: 97.236816
 Panda|Giant panda
 
 
 Query '1988 father figure' in category ''80s no.1 hitmakers' returned:
+	George Michael: 71.443192
 	Kristi Yamaguchi: 70.717041
-	Ruhollah Khomeini: 62.494427
+	Ruhollah Khomeini: 66.251366
 	Željka Čižmešija: 60.229309
-	Winter Olympic Games: 54.426178
-	Marcel Lefebvre: 53.467308
-	Elvis Stojko: 52.147423
-	My Neighbor Totoro: 52.043396
-	François Mitterrand: 51.360756
-	2010–11 Grand Prix of Figure Skating Final: 51.334106
-	2009–10 Japan Figure Skating Championships: 50.558128
+	Nico: 59.880745
+	...And Justice for All (album): 58.644585
+	Marcel Lefebvre: 58.042850
+	Winter Olympic Games: 57.267967
+	François Mitterrand: 55.376331
+	My Neighbor Totoro: 54.885189
 George Michael
 
 
 Query 'essay defend 2011 film myrlie ever williams said my mother film so her mother' in category 'african-american women' returned:
 	Medgar Evers: 218.400208
-	Natalie Portman: 210.983902
+	Natalie Portman: 211.428177
 	Naomi Watts: 199.695358
-	Kylie Minogue: 197.194763
-	Chloë Sevigny: 194.096603
+	Kylie Minogue: 197.745911
+	Chloë Sevigny: 194.468750
 	Mandy Moore: 193.690857
-	Whitney Houston: 192.432190
-	Meryl Streep: 191.921982
-	Janet Jackson: 187.274536
+	Whitney Houston: 193.071136
+	Meryl Streep: 192.366257
+	Janet Jackson: 187.927246
 	Citizen Kane: 186.769882
 The Help
 
 
 Query 'father michael mcgivney found fraternal society catholic laymen 1882' in category 'service organizations' returned:
-	Knights of Columbus: 319.704498
-	History of France: 105.461510
-	Catholic sex abuse cases: 105.294189
-	Marcel Lefebvre: 97.979080
-	Georgetown University: 93.795776
-	Opus Dei: 92.071793
-	University of Notre Dame: 91.635559
-	Pope Pius XI: 84.781311
-	Charles Tupper: 82.522301
-	Dorothy Day: 80.075661
+	Knights of Columbus: 330.639252
+	Catholic sex abuse cases: 113.939590
+	History of France: 112.018585
+	Georgetown University: 105.069885
+	Opus Dei: 102.115166
+	University of Notre Dame: 100.212318
+	Marcel Lefebvre: 98.139824
+	Josemaría Escrivá: 87.423851
+	Charles Tupper: 86.900200
+	Traditionalist Catholic: 86.654785
 Knights of Columbus
 
 
 Query 'early project wwf organization included work bald eagle red wolf' in category 'conservation' returned:
-	Golden Eagle: 226.909439
-	Gray wolf: 195.806763
-	Yellowstone National Park: 123.448860
+	Golden Eagle: 227.989319
+	Gray wolf: 196.748230
+	Yellowstone National Park: 124.221893
 	Interstate 99: 123.013565
 	Osprey: 117.796204
-	Falconry: 115.074913
+	Falconry: 115.996307
 	Great Seal of the United States: 106.707352
-	Coyote: 103.459381
-	Ferruginous Hawk: 92.768852
-	Phoenix, Arizona: 91.742020
+	Coyote: 104.044106
+	Ferruginous Hawk: 93.595093
+	Phoenix, Arizona: 92.326744
 World Wide Fund|World Wide Fund for Nature
 
 
 Query 'indonesia's largest lizard it's protect from poacher though we wish could breathe fire do job itself' in category 'conservation' returned:
-	Komodo dragon: 141.369003
-	Yellowstone National Park: 140.670654
+	Komodo dragon: 141.762177
+	Yellowstone National Park: 141.443680
 	Dragon (Middle-earth): 121.303757
-	Grand Teton National Park: 109.043808
+	Grand Teton National Park: 109.436989
 	Economy of Indonesia: 107.998436
 	Digital rights management: 107.124672
-	Unmanned aerial vehicle: 106.093575
+	Unmanned aerial vehicle: 106.866608
 	Reptile: 100.509720
+	Petrified Forest National Park: 99.443703
 	Jack Kemp: 99.135406
-	Petrified Forest National Park: 99.050522
 Komodo dragon
 
 
 Query 'nov 28 1929 man his chief pilot bernt balchen fly south pole yowza you'll admirable admiral sir' in category '1920s news flash' returned:
-	Winston Churchill: 176.278839
-	Amundsen–Scott South Pole Station: 165.425308
-	North Pole: 161.760559
+	Winston Churchill: 177.540939
+	Amundsen–Scott South Pole Station: 165.738861
+	North Pole: 162.203629
 	Neville Chamberlain: 133.963104
-	John French, 1st Earl of Ypres: 131.387894
-	Wright brothers: 124.811348
-	Robert Falcon Scott: 123.806992
-	Ernest Shackleton: 121.715073
-	Neil Armstrong: 120.924690
-	John Ford: 120.295959
+	John French, 1st Earl of Ypres: 132.224335
+	Wright brothers: 125.821022
+	Robert Falcon Scott: 124.120537
+	Ernest Shackleton: 121.925911
+	John Ford: 121.420670
+	Neil Armstrong: 121.299026
 Richard Byrd|Richard E. Byrd
 
 
 Query 'may 5 1878 alice chambers last person bury dodge city kansas cemetery' in category 'cemeteries' returned:
+	Boot Hill: 160.067322
 	Kansas City, Missouri: 158.783066
+	Doc Holliday: 154.928146
 	Gunsmoke: 152.968430
-	Boot Hill: 144.363998
-	Doc Holliday: 142.725830
+	Omaha, Nebraska: 145.235123
 	Gunfight at the O.K. Corral: 142.297546
-	Omaha, Nebraska: 131.565445
 	Dodge City (1939 film): 129.652313
 	Sporting Kansas City: 126.349686
-	Topeka, Kansas: 115.218636
-	American frontier: 111.932945
+	Mobile, Alabama: 118.577805
+	Gertrude Stein: 117.861534
 Boot Hill
 
 
 Query 'royal palace grounds feature statue king norodom who late 1800s compel first put his country under control europe power course sculpte country' in category 'cambodian history & culture' returned:
-	Napoleon III: 263.648407
-	Norway: 235.897827
-	England: 228.806259
-	Spain: 222.965057
-	Rideau Hall: 222.697662
-	Bahrain: 216.629944
-	Romania: 212.401031
-	Louis XIV of France: 209.915131
-	Russia: 209.046570
-	Scotland: 209.029419
+	Napoleon III: 283.132904
+	Norway: 236.928024
+	England: 229.759277
+	Spain: 223.895218
+	Rideau Hall: 223.208603
+	Bahrain: 217.480911
+	History of France: 216.876953
+	Romania: 213.335876
+	Louis XIV of France: 210.475494
+	Scotland: 210.050735
 France
 
 
 Query '400s b.c china philosopher went exile 12 years' in category 'historical hodgepodge' returned:
-	Sun Yat-sen: 119.961632
-	Cicero: 100.512039
-	Napoleon III: 100.001770
-	Chiang Kai-shek: 95.651337
-	Zhang Binglin: 92.924088
-	Tiananmen Square protests of 1989: 92.268478
-	Confucius: 87.165031
-	Laozi: 86.616875
+	Sun Yat-sen: 120.349670
+	Cicero: 100.730591
+	Napoleon III: 100.461044
+	Chiang Kai-shek: 95.976357
+	Zhang Binglin: 93.142639
+	Tiananmen Square protests of 1989: 92.749847
+	Confucius: 87.383583
+	Laozi: 87.004913
 	Chinese art: 85.007751
-	History of China: 81.959213
+	History of China: 82.388901
 Confucius
 
 
 Query 'bessie coleman first black woman licensed pilot landed street name her honor chicago airport' in category 'african-american women' returned:
 	O'Hare International Airport: 187.038452
-	Lambert–St. Louis International Airport: 180.530746
-	Whitney Houston: 151.132065
-	Michelle Obama: 150.588455
-	Pilot (aeronautics): 143.653427
+	Lambert–St. Louis International Airport: 180.780975
+	Whitney Houston: 151.771011
+	Michelle Obama: 151.080429
+	Pilot (aeronautics): 144.292374
 	Larry Doby: 137.893158
-	Janet Jackson: 135.275436
-	Mary Edwards Walker: 129.373108
-	Josephine Baker: 117.007431
-	Chicago Midway International Airport: 117.000847
+	Janet Jackson: 135.928146
+	Mary Edwards Walker: 129.991898
+	Harriet Tubman: 117.489761
+	Josephine Baker: 117.379570
 O'Hare|O'Hare International Airport
 
 
 Query 'ammonite held sway mideast country 1200s b.c capital name them' in category 'historical hodgepodge' returned:
-	Culture of Italy: 94.944252
-	North Korea: 83.890594
+	Culture of Italy: 96.319641
+	North Korea: 84.109146
+	Bahrain: 82.898827
+	Capitalism: 82.622391
 	Ammonoidea: 82.604546
-	Bahrain: 82.510788
-	Capitalism: 82.123901
-	Copenhagen: 81.000923
-	Capital punishment: 80.577888
-	Norway: 79.810501
-	Scotland: 79.505409
-	Comoros: 78.980377
+	Copenhagen: 81.482292
+	Capital punishment: 80.965927
+	Norway: 80.135529
+	Scotland: 79.935097
+	Comoros: 79.198929
 Jordan
 
 
 Query 'sum all fear he also won screenwrite oscar good hunting' in category 'he played a guy named jack ryan in...' returned:
-	Ben Affleck: 239.455170
-	Stanley Kubrick: 139.987534
-	Wilt Chamberlain: 136.835541
-	Ethan Hawke: 133.071793
-	George Clooney: 123.932831
-	Fox hunting: 123.152016
-	Jack Kemp: 117.940041
-	Jaws (film): 117.008469
-	Russell Crowe: 113.111755
-	Albert Pujols: 112.595856
+	Ben Affleck: 250.500015
+	Stanley Kubrick: 153.054214
+	Wilt Chamberlain: 149.934708
+	Ethan Hawke: 143.202728
+	George Clooney: 135.218384
+	Fox hunting: 131.035416
+	Jack Kemp: 130.172287
+	Jaws (film): 127.726715
+	Albert Pujols: 125.331329
+	Russell Crowe: 124.009773
 Ben Affleck
 
 
@@ -407,70 +407,70 @@ Roe v. Wade
 Query 'france's philip iv known fair had jacque de molay last grand master order burn 1314' in category 'i'm burnin' for you' returned:
 	Knights Templar: 423.654510
 	Philip IV of France: 421.724548
-	Paris: 306.273529
-	Charles de Gaulle: 204.777130
-	Louis XIV of France: 185.901489
+	Paris: 306.867554
+	Charles de Gaulle: 205.331177
+	Louis XIV of France: 186.357468
 	History of France: 182.076981
-	List of Donald Duck universe characters: 171.632690
+	List of Donald Duck universe characters: 172.017944
 	Edward II of England: 168.682678
 	Philip IV of Spain: 163.086853
-	War of the Spanish Succession: 156.061707
+	Napoleon III: 156.522797
 Knights Templar
 
 
 Query 'georgia o'keeffe museum' in category 'state of the art museum ' returned:
-	Alfred Stieglitz: 148.167847
-	Museum of Modern Art: 137.521179
-	Georgia (U.S. state): 110.461609
-	Metropolitan Museum of Art: 108.066574
-	History of painting: 104.835785
-	The Louvre: 98.706619
-	Royal Ontario Museum: 94.805183
-	Edward Hopper: 92.860367
-	San Francisco Museum of Modern Art: 89.718552
-	Phillips Academy: 88.986473
+	Alfred Stieglitz: 149.281570
+	Museum of Modern Art: 139.094620
+	Georgia (U.S. state): 111.825829
+	Metropolitan Museum of Art: 109.656227
+	History of painting: 106.476845
+	The Louvre: 100.341156
+	Royal Ontario Museum: 96.155853
+	Edward Hopper: 94.456795
+	San Francisco Museum of Modern Art: 91.218987
+	Art museum: 90.467178
 New Mexico
 
 
 Query 'name largest morocco city combine 2 spain words' in category 'african cities' returned:
-	Casablanca: 146.027237
-	Marrakesh: 142.847122
-	Melilla: 141.673813
-	Ceuta: 139.563950
-	Rabat: 125.016716
-	Western Sahara: 124.245033
-	Spanish language: 116.167511
-	Bilbao: 111.899529
-	Agadir: 110.840134
-	History of Western Sahara: 110.583084
+	Casablanca: 164.044983
+	Marrakesh: 160.974869
+	Melilla: 156.792480
+	Ceuta: 153.983353
+	Western Sahara: 138.629623
+	Rabat: 137.968460
+	Spanish language: 130.594986
+	Agadir: 125.468246
+	History of Western Sahara: 125.207474
+	Bilbao: 118.918716
 Casablanca
 
 
 Query 'jell o' in category 'name the parent company' returned:
-	Cold Stone Creamery: 93.923286
-	3rd Rock from the Sun: 72.074036
-	Baseball card: 69.514336
-	Jelling stones: 65.232986
-	Bart Simpson: 63.120113
-	Herbie Lovelle: 58.271065
-	Vikings: 57.721748
-	Peter Steele: 55.442097
-	Kraft Foods: 55.034851
+	Cold Stone Creamery: 94.956627
+	3rd Rock from the Sun: 72.536720
+	Baseball card: 70.210945
+	Jelling stones: 65.328545
+	Bart Simpson: 64.093765
+	Herbie Lovelle: 59.159088
+	Kraft Foods: 55.732513
+	Peter Steele: 55.660072
 	Big O notation: 54.853287
+	O-Bahn Busway: 53.981056
 Kraft Foods
 
 
 Query '2011 chicago mayor tom kane' in category 'golden globe winners' returned:
-	Citizen Kane: 124.315552
-	Nicole Kidman: 108.523750
-	Chicago Cubs: 107.348770
-	Roger Ebert: 91.282318
-	Steven Spielberg: 89.356094
+	Citizen Kane: 125.060394
+	Chicago Cubs: 120.223213
+	Nicole Kidman: 115.882111
+	Roger Ebert: 101.304115
+	Steven Spielberg: 100.690048
+	Jack Layton: 94.371971
+	Meryl Streep: 93.869835
+	Jennifer Hudson: 91.928436
+	Chicago White Sox: 86.626747
 	Hyde Park, Chicago: 86.455101
-	Jack Layton: 85.040810
-	Martin Scorsese: 83.866241
-	Meryl Streep: 83.797050
-	Spencer Tracy: 82.866302
 Kelsey Grammer
 
 
@@ -479,354 +479,354 @@ Query 'title residence otter flounder pinto bluto 1978 comedy' in category 'the 
 	Ford Pinto: 93.043106
 	Grease (film): 81.769012
 	De Havilland Canada DHC-6 Twin Otter: 75.797295
+	Burwash Hall: 74.024345
+	Malacañang Palace: 72.203651
+	Dawn of the Dead: 70.760674
+	Lupin III: 68.374130
 	The Three Stooges: 68.297394
 	National Lampoon (magazine): 67.977020
-	Monty Python's Life of Brian: 67.655067
-	Monty Python: 66.378326
-	Burwash Hall: 63.943466
-	Lupin III: 63.246784
 Animal House
 
 
 Query 'neurobiologist amy farrah fowler big bang theory real life she has ph.d neuroscience from ucla' in category 'ucla celebrity alumni' returned:
-	Mayim Bialik: 470.139557
+	Mayim Bialik: 471.353699
 	Howard Wolowitz: 205.815277
 	Big Bang nucleosynthesis: 203.187500
-	Raj Koothrappali: 187.619385
+	Raj Koothrappali: 188.018234
 	Meaning of life: 187.063660
-	California Institute of Technology: 179.965698
-	University of California, Los Angeles: 175.037506
+	California Institute of Technology: 182.350830
+	University of California, Los Angeles: 178.208649
 	Physical cosmology: 170.289764
-	Characters of Parks and Recreation: 156.816513
+	Characters of Parks and Recreation: 157.215378
 	Inflation (cosmology): 151.154892
 Mayim Bialik
 
 
 Query 'deadlock election 1800 james r sharp outline fall duel vice president' in category 'notes from the campaign trail' returned:
-	Aaron Burr: 300.289642
-	Vice President of the United States: 242.596390
-	John C. Breckinridge: 203.685883
-	Richard Mentor Johnson: 190.210602
-	Richard Nixon: 176.514557
-	Presidency of Thomas Jefferson: 171.687134
-	Jack Kemp: 167.005096
-	Thomas A. Hendricks: 166.299362
-	Calvin Coolidge: 165.670517
-	Ronald Reagan: 162.788666
+	Aaron Burr: 306.734009
+	Vice President of the United States: 243.521072
+	John C. Breckinridge: 208.065048
+	Richard Mentor Johnson: 197.840179
+	Richard Nixon: 181.503983
+	Presidency of Thomas Jefferson: 175.720764
+	Jack Kemp: 175.597076
+	Thomas A. Hendricks: 170.450684
+	Ronald Reagan: 169.412323
+	Calvin Coolidge: 166.698822
 Aaron Burr
 
 
 Query 'he serve kgb before becoming president prime minister russia' in category 'tin men' returned:
-	Vladimir Putin: 332.204132
-	Clement Attlee: 202.417328
-	Boris Berezovsky (businessman): 193.381958
-	Charles de Gaulle: 192.970779
+	Vladimir Putin: 332.417358
+	Clement Attlee: 202.734406
+	Boris Berezovsky (businessman): 193.801147
+	Charles de Gaulle: 193.490372
 	Politics of Russia: 191.333282
-	Winston Churchill: 186.993652
-	Julia Gillard: 185.067841
+	Winston Churchill: 187.493301
+	Julia Gillard: 185.281052
 	Rajiv Gandhi: 182.563080
 	Anerood Jugnauth: 182.105072
-	Charles Tupper: 176.177429
+	Charles Tupper: 176.390625
 Vladimir Putin|Putin
 
 
 Query 'when ask describe herself she say first foremost she malia sasha's mom' in category 'african-american women' returned:
-	Michelle Obama: 183.068024
-	Nancy Reagan: 155.420502
-	Characters of Parks and Recreation: 148.375336
-	Jennifer Lopez: 144.906784
-	Whitney Houston: 142.502335
-	Chloë Sevigny: 137.079483
-	Janet Jackson: 134.173126
-	Julia Gillard: 123.049454
-	Willow Rosenberg: 120.644302
-	Kylie Minogue: 116.725433
+	Michelle Obama: 183.559998
+	Nancy Reagan: 155.912476
+	Characters of Parks and Recreation: 148.961731
+	Jennifer Lopez: 145.432632
+	Whitney Houston: 143.141281
+	Chloë Sevigny: 137.451614
+	Janet Jackson: 134.825836
+	Julia Gillard: 123.575302
+	Willow Rosenberg: 121.016434
+	Kylie Minogue: 117.276566
 Michelle Obama
 
 
 Query 'she wrote my candle burn both end ah my foe oh my friends give lovely light' in category 'poets & poetry' returned:
-	Yoko Ono: 222.607697
+	Yoko Ono: 235.268341
 	My Lai Massacre: 212.564713
 	Bullet for My Valentine: 205.786621
-	Thérèse of Lisieux: 186.872131
+	Thérèse of Lisieux: 187.250702
 	Ringo Starr: 185.027161
-	Emily Dickinson: 157.378006
+	Emily Dickinson: 174.778473
 	Flow My Tears: 156.010132
+	Anna Akhmatova: 155.710983
+	Fear and Trembling: 151.651733
 	Jennifer Lopez: 147.047424
-	Carole King: 146.988800
-	Katie Piper: 145.886108
 Edna St. Vincent Millay
 
 
 Query 'finland city lutheran cathedral also known tuomiokirkko' in category 'capital city churches ' returned:
-	Helsinki: 151.469193
-	Turku: 144.710358
-	Mikael Agricola: 116.463379
-	Continuation War: 115.559227
-	History of Finland: 112.087067
-	Carl Gustaf Emil Mannerheim: 104.420593
-	Tampere: 103.893028
-	Liverpool: 103.173454
-	Jakarta: 101.263817
-	London: 99.309860
+	Helsinki: 158.426971
+	Turku: 154.133514
+	Mikael Agricola: 124.605965
+	History of Finland: 122.681778
+	Continuation War: 116.309174
+	Tampere: 114.244446
+	Liverpool: 114.079231
+	London: 109.961624
+	St Paul's Cathedral: 108.850182
+	Gustav I of Sweden: 108.395218
 Helsinki
 
 
 Query 'milton bradley games' in category 'name the parent company' returned:
 	Axis & Allies: 217.553696
-	Vectrex: 156.583740
+	Vectrex: 157.009750
 	Microvision: 150.835754
-	Battleship (game): 137.525238
-	Handheld game console: 113.757591
-	Hasbro: 113.484543
-	Snakes and Ladders: 110.478630
-	The Price Is Right (U.S. game show): 98.734680
-	Milton Keynes: 93.704887
-	Scooby-Doo: 93.158051
+	Battleship (game): 137.775192
+	Hasbro: 114.413300
+	Handheld game console: 114.110771
+	Snakes and Ladders: 110.824135
+	The Price Is Right (U.S. game show): 99.605957
+	Milton Keynes: 94.498009
+	Scooby-Doo: 94.115654
 Hasbro
 
 
 Query 'kentucky virginia resolution were pass protest controversial 1798 acts congress' in category 'old year's resolutions' returned:
-	History of the United States: 152.862839
-	Patrick Henry: 137.729874
-	West Virginia: 134.186676
-	John C. Breckinridge: 126.965279
-	Stamp Act 1765: 122.427193
-	History of the United States Navy: 122.322922
-	Solomon P. Sharp: 113.375145
-	Emancipation Proclamation: 110.482819
-	African-American Civil Rights Movement (1954–68): 108.774429
-	Robert Byrd: 108.760338
+	History of the United States: 153.072021
+	Patrick Henry: 150.495636
+	John C. Breckinridge: 142.748749
+	West Virginia: 141.334625
+	Stamp Act 1765: 138.052933
+	History of the United States Navy: 136.126968
+	Robert Byrd: 120.370773
+	Solomon P. Sharp: 120.092125
+	Confederate States of America: 118.919250
+	Emancipation Proclamation: 116.904213
 The Alien and Sedition Acts
 
 
 Query '1983 beat' in category ''80s no.1 hitmakers' returned:
-	William S. Burroughs: 66.852715
+	William S. Burroughs: 69.694504
+	Run–D.M.C.: 59.715752
+	House music: 56.522057
+	Scarface (1983 film): 55.391510
+	North American video game crash of 1983: 55.103264
 	Beats Electronics: 54.057541
 	Hurricane Alicia: 53.605381
 	Invasion of Grenada: 52.973820
-	1983 Kuwait bombings: 51.714855
-	Scarface (1983 film): 51.375938
-	North American video game crash of 1983: 51.346321
-	Blast beat: 50.663002
-	Billie Jean: 49.752972
-	Red Hot Chili Peppers: 47.707550
+	Billie Jean: 52.594761
+	Gang of Four (band): 52.237007
 Michael Jackson
 
 
 Query '2009 sookie stackhouse' in category 'golden globe winners' returned:
-	True Blood: 178.574356
-	Anna Paquin: 117.034256
-	Nicole Kidman: 76.479599
-	Jessica Lange: 75.214523
-	Meryl Streep: 74.165901
-	Brad Pitt: 72.653618
-	George Clooney: 71.741180
-	Liza Minnelli: 68.473030
-	Heath Ledger: 67.571434
-	Michelle Pfeiffer: 67.469170
+	True Blood: 184.218811
+	Anna Paquin: 122.678719
+	Meryl Streep: 84.238678
+	Nicole Kidman: 83.837967
+	George Clooney: 83.229378
+	Liza Minnelli: 78.203804
+	Jessica Lange: 76.924896
+	Steven Spielberg: 75.845779
+	Ang Lee: 75.341209
+	Brad Pitt: 74.158310
 Anna Paquin
 
 
 Query 'member nixon ford cabinet born furth germany 1923' in category 'historical hodgepodge' returned:
 	Henry Kissinger: 202.908310
-	Richard Nixon: 155.529312
-	Henry Ford: 124.703308
-	Warren G. Harding: 119.805809
-	Konrad Adenauer: 113.766930
-	John Ford: 110.190407
-	Herbert Hoover: 108.193100
-	Willy Brandt: 102.722427
+	Richard Nixon: 155.854340
+	Henry Ford: 125.091347
+	Warren G. Harding: 120.235504
+	Konrad Adenauer: 113.985481
+	John Ford: 110.578445
+	Herbert Hoover: 108.622795
+	Willy Brandt: 103.110466
 	John Connally: 100.244759
 	Neville Chamberlain: 97.641228
 Henry Kissinger
 
 
 Query 'high kirk st gile where john knox minister' in category 'capital city churches ' returned:
-	Edinburgh: 162.782394
-	Perth, Scotland: 151.806976
-	John Milton: 145.080292
-	History of Scotland: 127.016342
-	Church of Scotland: 123.311745
-	Knox Grammar School: 108.396889
-	John the Baptist: 106.673233
-	Scottish Episcopal Church: 104.956192
-	Scotland: 101.156067
-	Charles Tupper: 101.106033
+	Edinburgh: 174.295471
+	Perth, Scotland: 161.854874
+	John Milton: 155.207443
+	History of Scotland: 139.097198
+	Church of Scotland: 135.041107
+	John the Baptist: 117.655449
+	Scottish Episcopal Church: 116.308037
+	Knox Grammar School: 114.361992
+	Scotland: 112.150688
+	Glasgow: 108.972885
 Edinburgh
 
 
 Query 'brief time he attend he rebel cause even landing lead role 1950 stage production' in category 'ucla celebrity alumni' returned:
-	Humphrey Bogart: 151.882004
-	James Dean: 151.133026
-	Janet Jackson: 148.668243
-	Harold Pinter: 147.578308
-	Orson Welles: 147.412720
-	Jack Kemp: 145.227997
+	Humphrey Bogart: 152.697296
+	James Dean: 152.683929
+	Janet Jackson: 149.261414
+	Harold Pinter: 147.977173
+	Orson Welles: 147.960938
+	Jack Kemp: 146.903351
 	Michael Crawford: 143.762833
 	Clement Attlee: 142.809174
-	Cristiano Ronaldo: 138.570862
-	Fidel Castro: 138.357452
+	Natalie Portman: 139.361374
+	Cristiano Ronaldo: 138.969711
 James Dean
 
 
 Query 'fisher price toy' in category 'name the parent company' returned:
-	Little People: 174.103928
-	Mattel: 113.695168
-	Hasbro: 112.190216
-	Transformers (toy line): 102.752922
-	Toy Town Museum: 100.194901
-	The Price Is Right (U.S. game show): 88.025009
-	Toy Story 2: 84.527779
-	Lego: 81.675491
-	Super Friends: 78.712723
-	Power Rangers: 75.669014
+	Little People: 174.756989
+	Mattel: 114.200302
+	Hasbro: 113.118973
+	Transformers (toy line): 103.235748
+	Toy Town Museum: 100.444847
+	The Price Is Right (U.S. game show): 88.896286
+	Toy Story 2: 84.953781
+	Lego: 82.516594
+	Super Friends: 79.501808
+	Power Rangers: 76.581306
 Mattel
 
 
 Query '1959 america kitchen exhibit moscow he told khrushchev america we like make life easy women' in category 'historical quotes' returned:
 	Cuban missile crisis: 215.348923
-	Perry Como: 172.888824
-	Malcolm X: 162.196671
-	Lee Harvey Oswald: 161.837204
-	Michelle Obama: 153.280319
-	Ronald Reagan: 153.235107
+	Perry Como: 178.253357
+	Lee Harvey Oswald: 169.815216
+	Malcolm X: 167.779755
+	Michelle Obama: 158.644852
+	Ronald Reagan: 158.599640
+	Stanley Kubrick: 157.614838
+	Charles de Gaulle: 157.377991
+	Ezra Pound: 156.068420
 	Paul Robeson: 152.306488
-	Stanley Kubrick: 152.031754
-	Charles de Gaulle: 151.583771
-	Native Americans in the United States: 149.897858
 Richard Nixon|Nixon
 
 
 Query 'one his tale wayside inn begin listen my children you shall hear midnight ride paul revere' in category 'poets & poetry' returned:
 	Paul Revere & the Raiders: 198.320389
-	Van Morrison: 130.429260
-	Ethan Hawke: 125.780930
-	Michael Jackson: 117.454597
+	Van Morrison: 143.455658
+	Ethan Hawke: 135.071213
+	Michael Jackson: 117.833168
 	Rush Limbaugh: 116.673637
-	Thérèse of Lisieux: 112.374138
-	Born This Way (song): 108.828217
-	Joss Whedon: 108.591850
-	Haunted Mansion: 108.133850
-	Solomon Burke: 107.682938
+	The Canterbury Tales: 115.682610
+	Thérèse of Lisieux: 112.752701
+	Hans Christian Andersen: 111.777870
+	Henry Wadsworth Longfellow: 111.306526
+	Kubla Khan: 110.397957
 Henry Wadsworth Longfellow
 
 
 Query 'bestseller about problem mccain palin ticket became hbo movie julianne moore' in category 'notes from the campaign trail' returned:
-	Game Change: 236.870193
-	Hannibal (film): 144.875702
-	Monty Python's Life of Brian: 119.836105
-	Joe Lieberman: 118.092010
-	Mary Tyler Moore: 110.866280
-	Meryl Streep: 110.539360
-	Keating Five: 106.377098
-	Michael Crichton: 104.085625
-	Nicole Kidman: 102.574997
-	True Blood: 101.818504
+	Game Change: 237.823349
+	Hannibal (film): 151.546219
+	Monty Python's Life of Brian: 125.869240
+	Joe Lieberman: 118.792229
+	Mary Tyler Moore: 115.258774
+	Meryl Streep: 110.866249
+	Michael Crichton: 109.686531
+	Keating Five: 107.069611
+	True Blood: 106.045265
+	Bowling for Columbine: 104.456734
 Game Change
 
 
 Query '2 part episode jag introduce mark harmon drama' in category 'that 20-aughts show' returned:
-	The West Wing: 140.594421
-	List of NCIS characters: 123.493927
-	Ike's Wee Wee: 98.603104
-	Law & Order: 98.003838
-	House's Head: 93.895546
-	Brookside: 93.105186
-	24 (TV series): 92.829437
-	General Hospital: 92.243004
-	Characters of Parks and Recreation: 91.956932
-	The Sopranos: 91.716713
+	The West Wing: 141.000565
+	List of NCIS characters: 123.861206
+	Ike's Wee Wee: 98.926216
+	Law & Order: 98.413986
+	House's Head: 94.203827
+	Brookside: 93.393616
+	24 (TV series): 93.222397
+	General Hospital: 92.640465
+	Characters of Parks and Recreation: 92.364357
+	The Sopranos: 92.121880
 NCIS
 
 
 Query 'port southernmost south africa's 3 capitals' in category 'african cities' returned:
-	Johannesburg: 129.305862
-	Port Elizabeth: 127.044197
-	Hansie Cronje: 113.467529
-	Afrikaner: 105.985214
-	History of South Africa: 101.726326
-	South African rand: 92.892967
-	Wayne Parnell: 92.310577
-	Music of South Africa: 89.107384
-	Namibia: 88.379730
-	Flag of South Africa: 88.057434
+	Johannesburg: 148.592651
+	Port Elizabeth: 145.106430
+	Hansie Cronje: 125.476822
+	Afrikaner: 118.297722
+	History of South Africa: 117.806068
+	Music of South Africa: 107.393562
+	Namibia: 104.356941
+	Wayne Parnell: 103.702461
+	Karachi: 103.309067
+	South African rand: 103.291977
 Cape Town
 
 
 Query 'keat quote edmund spenser poem when he told shelley load every rift your subject ore' in category 'the quotable keats' returned:
-	John Keats: 231.489868
+	John Keats: 266.338593
 	W. B. Yeats: 174.376572
+	Ozymandias: 157.987259
+	John Milton: 155.802063
 	The Faerie Queene: 149.369232
-	Ozymandias: 145.825027
+	Orion (mythology): 149.206436
+	La Belle Dame sans Merci: 145.973480
 	Oxfordian theory of Shakespeare authorship: 140.886078
-	John Milton: 134.207901
 	George Crabbe: 131.797485
-	Piers Plowman: 127.068550
-	Orion (mythology): 122.418739
-	Lesbian: 119.356026
+	Poetry: 129.538071
 The Faerie Queene
 
 
 Query '1819 letter keat wrote lord poet cut figure he figurative' in category 'the quotable keats' returned:
-	John Keats: 254.795532
+	John Keats: 289.644287
 	Lord Byron: 172.358582
-	La Belle Dame sans Merci: 112.407059
+	La Belle Dame sans Merci: 142.046112
+	Hyperion (poem): 117.328537
+	Romanticism: 114.970207
+	John Ruskin: 109.406288
 	Peterloo Massacre: 107.054131
-	Walt Whitman: 99.833138
-	George Crabbe: 99.558105
-	James Russell Lowell: 98.009453
-	Thomas Moore: 97.600250
-	John Ruskin: 97.244057
-	Hyperion (poem): 95.734367
+	John Milton: 106.983963
+	Harold Stewart: 104.593246
+	Ezra Pound: 104.104256
 Lord Byron
 
 
 Query 'clear greece liqueur quite potent so it's usually mixed water which turn white cloudy' in category 'greek food & drink' returned:
-	Ouzo: 157.666977
-	List of coffee beverages: 110.867737
-	Corfu: 107.326370
-	Rice: 104.609169
-	Golden Eagle: 104.382637
-	Frog: 103.468155
-	Ice: 100.835175
-	Nutrition: 100.617020
-	History of painting: 98.248085
-	Cider: 98.142647
+	Ouzo: 171.041367
+	List of coffee beverages: 121.760750
+	Corfu: 121.419930
+	Rice: 117.068253
+	Golden Eagle: 116.223038
+	Roman Empire: 112.714958
+	Orion (mythology): 111.606232
+	History of painting: 111.222572
+	Nutrition: 109.400101
+	Frog: 108.996651
 Ouzo
 
 
 Query 'feb 1 national freedom day date 1865 when resolution sent states amendment ending' in category 'old year's resolutions' returned:
-	Emancipation Proclamation: 201.161850
-	Confederate States of America: 176.052032
-	History of the United States: 167.722687
-	Warren G. Harding: 164.131683
-	Ronald Reagan: 160.673843
-	First Transcontinental Railroad: 150.491318
-	Napoleon III: 149.254257
-	History of the United States (1865–1918): 145.186768
-	Puerto Rico: 141.259552
-	John C. Breckinridge: 137.918793
+	Emancipation Proclamation: 207.583252
+	Confederate States of America: 187.801117
+	Warren G. Harding: 175.938660
+	History of the United States: 167.931870
+	Ronald Reagan: 167.344971
+	Puerto Rico: 157.698181
+	John C. Breckinridge: 153.702271
+	Thaddeus Stevens: 150.818756
+	First Transcontinental Railroad: 150.767853
+	Equal Rights Amendment: 149.845322
 Slavery|Slavery in the United States
 
 
 Query 'person queen's representative canada current office held david johnston' in category 'ranks & titles' returned:
-	Governor General of Canada: 270.052429
-	Charles Tupper: 143.835220
+	Governor General of Canada: 277.143951
+	Charles Tupper: 147.054932
 	Jeanne Sauvé: 142.830963
 	Jules Léger: 132.654877
-	Head of state: 113.940048
+	Head of state: 122.683884
 	Jack Layton: 113.710838
 	Bob Rae: 110.389748
-	David Duke: 105.308548
+	David Duke: 110.096840
+	Winston Churchill: 103.354164
 	Frederick Hamilton-Temple-Blackwood, 1st Marquess of Dufferin and Ava: 102.124313
-	Rideau Hall: 102.072998
 Governor General of Canada
 
 
 Query 'he earn fifth beatle nickname produce all beatle album' in category 'tin men' returned:
 	Sgt. Pepper's Lonely Hearts Club Band: 258.609070
-	Ringo Starr: 255.208420
+	Ringo Starr: 255.928513
 	Rubber Soul: 238.009689
 	1 (The Beatles album): 234.891281
 	Help! (album): 233.421310
@@ -839,16 +839,16 @@ George Martin
 
 
 Query 'early career mark twain bret harte wrote pieces california city's chronicle' in category 'newspapers' returned:
-	Adventures of Huckleberry Finn: 179.320435
-	Joaquin Miller: 163.801575
+	Adventures of Huckleberry Finn: 184.228287
+	Joaquin Miller: 171.100433
+	California Gold Rush: 165.780045
 	George Carlin: 160.432861
-	California Gold Rush: 156.130707
-	San Francisco: 111.798149
+	San Francisco: 120.512093
+	University of California, Los Angeles: 107.755501
 	Imperial Bedrooms: 106.062393
-	Neil Simon: 99.227341
-	Nigger: 98.608658
-	University of California, Los Angeles: 98.106163
-	Mark McGwire: 97.587105
+	Nigger: 103.516518
+	Nikola Tesla: 103.131561
+	Oakland, California: 101.740776
 San Francisco
 
 
@@ -867,72 +867,72 @@ Kangaroo
 
 
 Query 'because it's cure store brine crumbly white cheese made from sheep's milk often refer pickled cheese' in category 'greek food & drink' returned:
-	Feta: 485.638611
+	Feta: 498.302155
 	Wensleydale cheese: 289.621643
-	Mozzarella: 288.442200
-	Cheddar cheese: 284.095886
-	Stilton cheese: 278.339752
-	Quark (dairy product): 252.892166
+	Mozzarella: 288.900787
+	Cheddar cheese: 284.685028
+	Stilton cheese: 278.931488
+	Quark (dairy product): 260.142120
 	Roquefort: 234.015366
 	Ricotta: 229.761566
 	Gouda cheese: 224.083221
-	Casu marzu: 217.540970
+	English cuisine: 223.837082
 Feta
 
 
 Query '1927 gene tunney take long count square circle rise defeat manassa maul howzabout' in category '1920s news flash' returned:
-	Jack Dempsey: 263.315369
-	Max Schmeling: 151.753540
-	Manhattan: 106.254486
-	Sacco and Vanzetti: 91.577408
-	Tiananmen Square protests of 1989: 91.074944
+	Jack Dempsey: 263.526215
+	Max Schmeling: 151.964371
+	Manhattan: 107.474922
+	Sacco and Vanzetti: 92.143806
+	Tiananmen Square protests of 1989: 91.621468
 	New Jersey Route 37: 88.875687
-	Trafalgar Square: 87.213326
-	History of the United States: 86.858765
-	Zhou Enlai: 85.265099
-	Yankees–Red Sox rivalry: 84.798912
+	History of the United States: 87.919502
+	Trafalgar Square: 87.568886
+	Yankees–Red Sox rivalry: 85.635361
+	Zhou Enlai: 85.578644
 Jack Dempsey
 
 
 Query 'italy leader especially applied benito mussolini' in category 'ranks & titles' returned:
-	Alessandra Mussolini: 196.775726
-	Duce: 187.959076
-	Romano Mussolini: 141.067169
-	History of Italy: 140.841187
+	Alessandra Mussolini: 199.995438
+	Duce: 192.747360
+	History of Italy: 145.629486
+	Romano Mussolini: 144.286880
 	League of Nations: 138.057495
-	Pope Pius XI: 131.976410
-	Predappio: 130.634918
-	Italian Empire: 129.618469
-	Rome: 127.884094
-	Vatican City: 125.443329
+	Pope Pius XI: 136.764694
+	Predappio: 135.423218
+	Italian Empire: 134.406754
+	Vatican City: 132.209396
+	Rome: 128.263824
 Duce
 
 
 Query 'kalamazoo institute arts' in category 'state of the art museum ' returned:
-	Massachusetts Institute of Technology: 95.700912
-	Kalamazoo/Battle Creek International Airport: 83.015121
-	Agnes Martin: 81.135948
-	Colby College: 80.418396
-	Bruce Nauman: 79.767769
-	Ian Hornak: 79.665810
-	Cranbrook Educational Community: 78.976997
-	Thomas Hart Benton (painter): 78.751137
-	Metropolitan Museum of Art: 78.215782
-	Arts and Crafts movement: 76.699951
+	Massachusetts Institute of Technology: 96.924088
+	Kalamazoo/Battle Creek International Airport: 83.487892
+	Agnes Martin: 82.580940
+	Colby College: 81.894173
+	Ian Hornak: 81.210724
+	Bruce Nauman: 81.028824
+	Cranbrook Educational Community: 80.304832
+	Thomas Hart Benton (painter): 80.260231
+	Metropolitan Museum of Art: 79.805435
+	Arts and Crafts movement: 77.880135
 Michigan
 
 
 Query 'sun valley center arts' in category 'state of the art museum ' returned:
-	Phoenix, Arizona: 134.083771
-	The Center for Arts Education: 105.863472
-	Mexico City: 101.100677
-	Stanford University: 100.508430
-	Newark, New Jersey: 98.575867
-	Sun Valley High School (North Carolina): 97.232971
-	Roanoke, Virginia: 93.744469
-	Louisiana State University: 92.266846
-	Grand Valley State University: 92.053047
-	Mobile, Alabama: 90.934334
+	Phoenix, Arizona: 135.645279
+	The Center for Arts Education: 106.710320
+	Mexico City: 102.805161
+	Stanford University: 101.880051
+	Newark, New Jersey: 100.045631
+	Sun Valley High School (North Carolina): 97.355461
+	Roanoke, Virginia: 95.309830
+	Louisiana State University: 93.857452
+	Grand Valley State University: 92.942879
+	Mobile, Alabama: 92.488953
 Idaho
 
 
@@ -940,11 +940,11 @@ Query 'you can't mention shortstop without mention his double play associate eve
 	Joe Tinker: 202.488434
 	Derek Jeter: 171.212067
 	You Can't Take It with You: 154.729568
-	Janet Jackson: 145.138626
+	Janet Jackson: 145.351837
 	Chicago Cubs: 139.634811
 	Dave Bancroft: 123.828392
 	Sachin Tendulkar: 123.264374
-	Citizen Kane: 122.306282
+	Citizen Kane: 122.684837
 	Ozzie Smith: 117.238281
 	Omar Vizquel: 112.901955
 Joe Tinker
@@ -952,109 +952,109 @@ Joe Tinker
 
 Query '1840 horace greeley began publishing log cabin weekly campaign paper support whig candidate' in category 'newspapers' returned:
 	William Henry Harrison: 244.919220
-	William Lyon Mackenzie: 162.736160
-	Charles Sumner: 148.374481
+	William Lyon Mackenzie: 175.023453
+	Charles Sumner: 153.282349
 	Thomas A. Hendricks: 146.585953
-	Thaddeus Stevens: 135.968521
-	Karl Marx: 127.336555
-	Richard Mentor Johnson: 122.848549
-	Schuyler Colfax: 117.372841
-	John C. Breckinridge: 117.076912
-	Horace Walpole: 108.181587
+	Thaddeus Stevens: 144.682465
+	Karl Marx: 140.210434
+	Richard Mentor Johnson: 127.756409
+	Schuyler Colfax: 122.280693
+	John C. Breckinridge: 121.984764
+	Woodrow Wilson: 112.340446
 William Henry Harrison
 
 
 Query 'pierre cauchon bishop beauvai preside over trial woman who went up smoke may 30 1431' in category 'i'm burnin' for you' returned:
 	Joan of Arc: 314.496124
 	Medieval Inquisition: 187.671371
-	Catholic sex abuse cases: 151.307648
-	Kenesaw Mountain Landis: 140.963699
+	Catholic sex abuse cases: 152.111313
+	Kenesaw Mountain Landis: 141.390305
 	Roman Catholic Diocese of Beauvais: 140.759552
-	Whitney Houston: 123.790421
-	Yoko Ono: 122.370613
+	Whitney Houston: 125.297539
+	Yoko Ono: 123.682518
 	Murder of Stephen Lawrence: 121.417900
 	Nuremberg trials: 118.504410
-	Napoleon III: 116.109512
+	Napoleon III: 116.638290
 Joan of Arc|Jeanne d'Arc
 
 
 Query 'wisconsin city claim have built usa's only granite dome' in category 'complete dom-ination' returned:
-	Madison, Wisconsin: 143.390549
+	Madison, Wisconsin: 143.642212
 	Wisconsin Dells, Wisconsin: 101.708488
-	St Paul's Cathedral: 94.654343
+	St Paul's Cathedral: 95.040337
+	Temple Mount: 93.276619
 	Corcovado: 93.262138
-	Temple Mount: 93.024948
-	Yosemite National Park: 88.971390
-	Chicago: 84.437950
-	Rogers Centre: 84.179375
-	Florence Cathedral: 83.620903
-	Hyderabad: 81.532188
+	Yosemite National Park: 89.223061
+	Chicago: 84.770668
+	Rogers Centre: 84.534996
+	Florence Cathedral: 84.017471
+	Hyderabad: 81.701416
 Madison
 
 
 Query 'georgia paper known ajc short' in category 'newspapers' returned:
-	The Atlanta Journal-Constitution: 110.231781
-	Georgia (U.S. state): 85.729820
-	Rock-paper-scissors: 78.208237
-	Abkhazia: 77.825645
+	The Atlanta Journal-Constitution: 121.426102
+	Georgia (U.S. state): 90.637672
+	Rock-paper-scissors: 83.116089
+	Abkhazia: 82.733498
+	Lester Maddox: 67.814049
 	Toilet paper: 67.622353
+	Electronic paper: 67.260475
 	U.S. Route 25 in Georgia: 65.589554
 	U.S. Route 82 in Georgia: 62.474888
-	Electronic paper: 62.352619
 	Georgia (country): 61.475010
-	Marion L. Brittain: 59.562637
 The Atlanta Journal-Constitution
 
 
 Query 'wooden 2 story veranda liberia capital architecture link u.s south' in category 'african cities' returned:
-	Armed Forces of Liberia: 130.713806
-	South Korea: 100.148529
-	Samuel Doe: 100.106468
-	Monrovia: 98.702873
-	Vietnam War: 95.488998
-	North Korea: 94.987541
-	History of Liberia: 92.951965
-	William R. Tolbert, Jr.: 92.565620
-	Capital punishment: 92.199234
-	White House: 90.164101
+	Armed Forces of Liberia: 145.204742
+	Monrovia: 115.259048
+	Vietnam War: 109.816910
+	Samuel Doe: 107.817299
+	South Korea: 106.799026
+	Capital punishment: 106.038902
+	William R. Tolbert, Jr.: 104.993904
+	History of Liberia: 104.688644
+	White House: 100.547348
+	London: 100.311668
 Monrovia
 
 
 Query 'new orleans venue reopen sept 25 2006' in category 'complete dom-ination' returned:
-	Mercedes-Benz Superdome: 201.135406
+	Mercedes-Benz Superdome: 201.435867
 	Louis Armstrong New Orleans International Airport: 176.336411
-	New Orleans Saints: 155.223160
+	New Orleans Saints: 155.474823
 	Saenger Theatre (New Orleans, Louisiana): 144.599228
 	Preservation Hall Jazz Band: 123.186920
-	History of the New Orleans Pelicans: 121.682526
-	Xavier University of Louisiana: 121.399994
+	History of the New Orleans Pelicans: 121.934204
+	Xavier University of Louisiana: 121.651665
 	Battle of New Orleans: 117.404190
 	Harry Connick, Jr.: 116.720993
-	French Quarter: 113.683723
+	French Quarter: 113.852951
 Mercedes-Benz Superdome|The Superdome
 
 
 Query 'hunt red october he went more comedy jack donaghy 30 rock' in category 'he played a guy named jack ryan in...' returned:
-	Alec Baldwin: 290.766998
-	30 Rock (season 6): 214.767258
-	Red Hot Chili Peppers: 188.241104
-	Tenacious D: 157.547867
-	"Weird Al" Yankovic: 147.157150
-	Yankees–Red Sox rivalry: 134.223450
-	The Who: 130.908264
-	Michael Jackson: 130.227356
-	Hair (musical): 127.984306
-	Jennifer Lopez: 126.658318
+	Alec Baldwin: 301.083130
+	30 Rock (season 6): 220.261368
+	Red Hot Chili Peppers: 200.362167
+	Tenacious D: 168.768738
+	"Weird Al" Yankovic: 159.033768
+	Yankees–Red Sox rivalry: 145.054138
+	The Who: 142.125107
+	Michael Jackson: 141.936203
+	Hair (musical): 140.184967
+	Jennifer Lopez: 138.108841
 Alec Baldwin
 
 
 Query 'rita dove titled collection poem bus woman' in category 'african-american women' returned:
-	Rosa Parks: 105.727837
+	Rosa Parks: 106.099968
 	Kubla Khan: 95.577835
-	Elizabeth Barrett Browning: 92.316414
-	Dover Beach: 86.370773
-	University of Virginia: 86.369324
-	Rita Hayworth: 75.383568
+	Elizabeth Barrett Browning: 92.688545
+	University of Virginia: 86.895164
+	Dover Beach: 86.742905
+	Rita Hayworth: 75.633797
 	Howl: 73.564728
 	Dover, Delaware: 72.349823
 	In Flanders Fields: 71.614571
@@ -1063,254 +1063,254 @@ Rosa Parks
 
 
 Query 'patriot games he's had other icon role space underground' in category 'he played a guy named jack ryan in...' returned:
-	Harrison Ford: 134.694473
-	Raiden (Metal Gear): 129.946640
-	Space Invaders: 120.992905
-	Role-playing video game: 117.928558
-	New England Patriots: 114.412910
-	Janet Jackson: 112.840088
-	2008 New England Patriots season: 110.257088
-	Washington Redskins: 109.784958
-	Live action role-playing game: 103.833389
-	Elite (video game): 103.205292
+	Harrison Ford: 145.808838
+	Raiden (Metal Gear): 139.577774
+	Role-playing video game: 128.207169
+	New England Patriots: 124.348381
+	Janet Jackson: 123.764168
+	Washington Redskins: 123.748245
+	Space Invaders: 123.730881
+	2008 New England Patriots season: 121.114708
+	Live action role-playing game: 112.502037
+	Elite (video game): 111.929092
 Harrison Ford
 
 
 Query 'sacred structure dates from late 600 s a.d' in category 'complete dom-ination' returned:
-	Roman Empire: 84.768715
-	Mithraic mysteries: 82.959274
-	Jeff Gordon: 79.428093
-	Golden Eagle: 78.991829
-	Anglo-Saxons: 77.682480
-	GE-600 series: 76.498787
-	Cholula, Puebla: 72.151802
-	Iowa-class battleship: 71.618675
-	Sati (practice): 70.555855
-	Norway: 68.461937
+	Roman Empire: 85.101433
+	Mithraic mysteries: 83.210945
+	Jeff Gordon: 79.728561
+	Golden Eagle: 79.243500
+	Anglo-Saxons: 77.982941
+	GE-600 series: 76.750458
+	Cholula, Puebla: 72.321030
+	Iowa-class battleship: 72.037148
+	Sati (practice): 70.725082
+	Norway: 68.762405
 Dome of the Rock
 
 
 Query '1988 man mirror' in category ''80s no.1 hitmakers' returned:
-	Michael Jackson: 63.476868
-	Alan Moore: 61.738525
-	Ruhollah Khomeini: 54.546402
-	Iron Man: 54.309547
-	Isle of Man: 53.893253
-	Pac-Man: 52.362572
-	Julia Roberts: 52.195778
-	1988 Giro d'Italia: 49.551422
-	Nico: 48.990524
-	Mystery Science Theater 3000: 48.828201
+	Alan Moore: 79.014275
+	Michael Jackson: 67.492439
+	Nico: 65.092499
+	Iron Man: 59.144405
+	Ruhollah Khomeini: 58.303341
+	...And Justice for All (album): 57.292000
+	Pac-Man: 56.840542
+	Isle of Man: 55.804111
+	Julia Roberts: 54.106640
+	Little Richard: 53.231922
 Michael Jackson
 
 
 Query 'matthia church matya templom where franz joseph crown 1867' in category 'capital city churches ' returned:
-	Franz Liszt: 189.802063
-	Napoleon III: 170.548935
-	Hungary: 146.194977
-	History of Buda Castle: 141.993103
-	Votive Church, Vienna: 133.148209
+	Franz Liszt: 197.232346
+	Napoleon III: 180.895691
+	Hungary: 154.339188
+	History of Buda Castle: 150.659042
+	Votive Church, Vienna: 143.794312
+	Budapest: 129.985031
 	Wilhelm II, German Emperor: 122.001442
-	Budapest: 120.111443
-	Italian unification: 110.179626
-	Matthias Corvinus: 107.703812
-	Crown jewels: 103.336472
+	Italian unification: 117.111382
+	Matthias Corvinus: 112.179764
+	Crown jewels: 112.013557
 Budapest
 
 
 Query 'attend ucla 60s he meathead he just play one late television' in category 'ucla celebrity alumni' returned:
-	Kareem Abdul-Jabbar: 177.641174
-	University of California, Los Angeles: 175.758469
-	Jack Kemp: 133.507339
-	Kevin Love: 128.862244
-	Perry Como: 126.343559
-	Jackie Robinson: 121.712936
-	Michael Jackson: 114.289696
-	Harry Shearer: 113.065453
-	Max Weinberg: 111.115532
-	Jon Scheyer: 110.337311
+	Kareem Abdul-Jabbar: 179.964661
+	University of California, Los Angeles: 178.929611
+	Jack Kemp: 135.182678
+	Kevin Love: 130.069702
+	Perry Como: 126.742409
+	Jackie Robinson: 123.025627
+	Michael Jackson: 115.546082
+	Harry Shearer: 113.613663
+	Max Weinberg: 111.514389
+	Dennis Rodman: 110.574982
 Rob Reiner
 
 
 Query 'kinch carter lebeau were all resident stalag 13 tv show' in category 'the residents' returned:
 	Hogan's Heroes: 295.998535
-	Stargate SG-1: 132.313461
 	All in the Family: 124.213547
+	Stargate SG-1: 122.432999
 	Reality television: 109.670822
+	Coronation Street: 108.708359
 	Ernie Kovacs: 103.875900
 	24 (TV series): 102.718498
+	John Carter (ER): 102.232391
 	The Sopranos: 101.107536
-	Coronation Street: 101.083084
-	Cheers: 95.686897
-	Joan Rivers: 95.468498
+	Get Carter: 99.915398
 Hogan's Heroes
 
 
 Query 'news flash less than yappy pappy sixth veep nation's top dog after chief take deep sleep' in category '1920s news flash' returned:
-	Insomnia: 139.028687
+	Insomnia: 139.665161
 	Sleep (non-human): 137.387970
-	Flash memory: 126.001900
-	Chicago: 123.624161
-	Phoenix, Arizona: 119.480835
-	Winston Churchill: 115.383163
-	William Howard Taft: 115.287498
-	Manhattan: 114.669113
-	Menopause: 112.756691
-	Intel: 111.711540
+	Flash memory: 127.434746
+	Chicago: 124.804123
+	Phoenix, Arizona: 120.220451
+	Winston Churchill: 116.645256
+	Manhattan: 115.889549
+	William Howard Taft: 115.853889
+	Menopause: 114.099472
+	Intel: 113.213844
 Calvin Coolidge
 
 
 Query '2001 president united states television' in category 'golden globe winners' returned:
-	24 (TV series): 158.587280
-	Ronald Reagan: 151.316696
-	Bush Doctrine: 146.485336
-	History of the United States: 138.773987
-	Nicole Kidman: 138.302887
-	Vice President of the United States: 137.000290
+	24 (TV series): 160.121674
+	Ronald Reagan: 159.711014
+	Bush Doctrine: 146.864182
+	Nicole Kidman: 145.661255
+	Vice President of the United States: 145.394623
+	History of the United States: 144.797302
+	Meryl Streep: 139.025131
+	Martin Sheen: 137.416397
 	Osama bin Laden: 134.874329
-	Martin Sheen: 130.755951
-	Brad Pitt: 129.844025
-	Meryl Streep: 128.952347
+	Brad Pitt: 131.348724
 Martin Sheen
 
 
 Query '1989 miss you much' in category ''80s no.1 hitmakers' returned:
 	Janet Jackson: 100.103050
-	Tiananmen Square protests of 1989: 74.842224
-	Royal Rumble (1989): 65.938980
-	Halle Berry: 64.953514
+	Tiananmen Square protests of 1989: 79.826630
+	Kylie Minogue: 71.503761
+	Halle Berry: 69.529053
+	Royal Rumble (1989): 69.331726
+	Hillsborough disaster: 67.748230
+	Hurricane Hugo: 66.145020
 	Nicolae Ceaușescu: 63.578579
 	Joshua Allen: 63.305042
-	Hillsborough disaster: 63.172684
-	Nancy Reagan: 62.267178
-	Hurricane Hugo: 61.667049
-	Bette Davis: 60.267868
+	Def Leppard: 62.780804
 Janet Jackson
 
 
 Query '1922 it's end empire empire fact after 600 years it's goodbye hello turkey republic' in category '1920s news flash' returned:
 	Ottoman Empire: 230.716400
-	Cyprus dispute: 190.288879
-	Kurdish people: 186.959671
-	Russo-Turkish War (1877–78): 170.953171
-	Napoleon III: 163.629242
-	Cyprus: 161.795853
-	Lycia: 161.528870
-	Iraq: 160.578735
-	Soviet Union: 155.418182
-	Portugal: 148.817047
+	Cyprus dispute: 190.703400
+	Kurdish people: 187.658737
+	Russo-Turkish War (1877–78): 171.327515
+	Napoleon III: 164.123322
+	Cyprus: 162.221481
+	Lycia: 161.884430
+	Iraq: 161.308640
+	Soviet Union: 156.165375
+	Portugal: 149.027878
 Ottoman Empire
 
 
 Query 'crest toothpaste' in category 'name the parent company' returned:
 	Crest of the Stars: 55.971867
-	Sceafa: 45.870636
-	Jane Wyman: 45.197037
-	List of minor The Hitchhiker's Guide to the Galaxy characters: 45.110023
-	Stan Lee: 44.468128
-	Crest Capital: 44.274963
-	CBS: 43.362686
-	Procter & Gamble: 41.690929
-	Citizen Kane: 40.960121
-	Rangers F.C.: 40.761234
+	Jane Wyman: 45.978535
+	CBS: 44.599083
+	Crest Capital: 44.443031
+	Procter & Gamble: 42.385044
+	Rangers F.C.: 41.424313
+	Great North Eastern Railway: 39.979496
+	Air India (football club): 38.637287
+	West Ham United F.C.: 38.071449
+	FC Barcelona: 37.735126
 Procter & Gamble
 
 
 Query '1888 chancellor told reichstag we germany fear god nothing else world' in category 'historical quotes' returned:
-	Otto von Bismarck: 178.656113
+	Otto von Bismarck: 178.981125
+	Konrad Adenauer: 159.228592
+	Winston Churchill: 155.903137
 	Wilhelm II, German Emperor: 155.754166
-	Konrad Adenauer: 153.645508
-	Winston Churchill: 144.857452
+	Joachim von Ribbentrop: 147.438736
 	Hermann Göring: 143.556244
-	Joachim von Ribbentrop: 142.074203
-	Heinrich Brüning: 128.999832
-	Willy Brandt: 128.480804
-	William Ewart Gladstone: 122.238983
-	Immanuel Kant: 120.690826
+	Willy Brandt: 136.846848
+	William Ewart Gladstone: 132.193451
+	Heinrich Brüning: 129.324860
+	Immanuel Kant: 128.887390
 Otto von Bismarck|Von Bismarck
 
 
 Query '1787 he sign his first publish poem axiologu axio from greece worth' in category 'poets & poetry' returned:
+	Lord Byron: 154.985062
 	Cristiano Ronaldo: 152.571503
-	Lord Byron: 138.974258
-	George Crabbe: 134.952866
-	Kubla Khan: 132.261703
-	John Milton: 118.054123
-	Luis Cernuda: 117.780609
-	Stephen Crane: 117.042221
-	Irish literature: 114.905930
-	Tristan Tzara: 113.356880
-	In Flanders Fields: 113.253670
+	George Crabbe: 151.772919
+	Kubla Khan: 150.513229
+	Luis Cernuda: 136.257996
+	John Milton: 135.438568
+	Irish literature: 132.984299
+	Tristan Tzara: 131.709183
+	Samuel Johnson: 129.956558
+	Stephen Crane: 129.081467
 William Wordsworth
 
 
 Query 'confuse karma krama popular accessory sold cambodia word means scarf national language cambodia' in category 'cambodian history & culture' returned:
-	Khmer Rouge: 192.061874
-	Vietnam War: 185.182892
-	History of Cambodia: 182.135498
-	Economy of Cambodia: 159.532104
-	Khmer language: 157.644302
-	Mekong: 150.522430
-	Siem Reap: 123.600525
-	Politics of Cambodia: 122.535591
-	Cambodian general election, 2008: 115.696121
-	Olympic Stadium (Phnom Penh): 113.186348
+	Khmer Rouge: 220.174942
+	Vietnam War: 212.224976
+	History of Cambodia: 210.582581
+	Economy of Cambodia: 186.262619
+	Khmer language: 181.211670
+	Mekong: 176.521957
+	Politics of Cambodia: 148.799683
+	Siem Reap: 146.837921
+	Cambodian general election, 2008: 140.101486
+	Olympic Stadium (Phnom Penh): 136.528168
 Khmer language
 
 
 Query 'phnom penh's notorious gridlock circumvent nimble tuk tuk motorize taxi that's also known auto similar asia conveyance' in category 'cambodian history & culture' returned:
+	Khmer Rouge: 152.776169
 	Tricycle: 152.478592
-	Na Tuk Kong: 148.967972
+	Na Tuk Kong: 149.397049
 	Coppersmith Barbet: 146.343872
-	Khmer Rouge: 124.663101
-	Cycle rickshaw: 121.878006
-	Music of Barbados: 120.467384
-	Jakarta: 104.742805
-	Vietnam War: 91.196671
-	Maldives: 90.101181
-	Phnom Kulen National Park: 84.579506
+	Cycle rickshaw: 139.185883
+	Music of Barbados: 121.256149
+	Vietnam War: 118.238747
+	Mekong: 106.232071
+	Jakarta: 105.426735
+	Ho Chi Minh City: 100.244240
 Rickshaw
 
 
 Query '1980 rock you' in category ''80s no.1 hitmakers' returned:
-	Prince (musician): 96.066154
-	Yes (band): 81.711838
-	Helix (band): 77.275734
-	INXS: 77.107765
-	The Who: 76.309608
-	Punk rock: 76.036903
-	Led Zeppelin: 75.371300
-	Whitesnake: 74.991493
-	Michael Jackson: 74.494507
-	Rock music: 74.402885
+	Prince (musician): 100.984634
+	Helix (band): 97.923805
+	Rock music: 93.025803
+	Whitesnake: 87.300568
+	Yes (band): 85.468773
+	Rush (band): 83.739021
+	INXS: 81.683304
+	King Crimson: 81.649483
+	Punk rock: 80.916199
+	Joy Division: 80.871002
 Michael Jackson
 
 
 Query 'pulitzer winning making president 1960 cover man's successful presidential campaign' in category 'notes from the campaign trail' returned:
-	George McGovern: 260.658539
-	Jack Kemp: 214.052719
-	Ronald Reagan: 201.012497
-	Richard Nixon: 187.526810
-	Barry Goldwater: 178.813553
-	Herbert Hoover: 174.388397
-	Warren G. Harding: 156.741928
-	William McKinley: 153.645279
-	Vladimir Putin: 152.532547
-	Woodrow Wilson: 151.559387
+	George McGovern: 261.962677
+	Jack Kemp: 222.644699
+	Ronald Reagan: 207.636154
+	Richard Nixon: 192.516220
+	Barry Goldwater: 183.269974
+	Herbert Hoover: 179.118271
+	Warren G. Harding: 163.004547
+	William McKinley: 162.916931
+	Woodrow Wilson: 158.860260
+	Vladimir Putin: 156.839203
 JFK|John F. Kennedy
 
 
 Query '1843 isaac dittenhoefer became first pre jewish club whose name means children covenant' in category 'service organizations' returned:
-	B'nai B'rith: 194.994186
-	Lilith: 127.494499
+	B'nai B'rith: 206.893021
+	Lilith: 131.872406
+	Roman Empire: 119.420517
+	University of Notre Dame: 117.533234
 	Karl Marx: 113.168800
-	Roman Empire: 112.732162
+	History of Israel: 111.517937
+	Palestinian people: 109.500717
 	Cristiano Ronaldo: 109.256432
-	University of Notre Dame: 108.956474
 	Fear and Trembling: 107.804741
-	Cave of the Patriarchs: 106.721069
-	Kabbalah: 102.820198
-	History of Scotland: 101.627159
+	Cave of the Patriarchs: 106.881813
 B'nai B'rith
 
 
@@ -1318,88 +1318,88 @@ Query 'don knott took over from norman fell resident landlord sitcom' in categor
 	Three's Company: 132.523209
 	Tim Conway: 110.799576
 	That '70s Show: 102.470940
+	Cossacks: 97.720894
 	Matlock (TV series): 97.592453
-	Cossacks: 92.593552
 	John Ritter: 88.455437
-	Iron Man: 86.055038
 	All in the Family: 85.063644
 	George Costanza: 84.600204
-	Bill Bixby: 82.802971
+	American frontier: 83.748672
+	Sheffield: 83.419624
 Three's Company
 
 
 Query 'u.n re 242 support secure recognize boundary israel neighbor following june 1967 war' in category 'old year's resolutions' returned:
-	Golan Heights: 345.661713
-	Israeli–Palestinian conflict: 284.039215
-	History of Israel: 218.467606
-	Hamas: 209.554916
-	West Bank: 197.948242
-	1948 Arab–Israeli War: 182.006317
-	Yom Kippur War: 179.775772
-	Foreign relations of Israel: 172.808762
-	Yasser Arafat: 172.693665
-	Refugee: 170.639893
+	Golan Heights: 362.944702
+	Israeli–Palestinian conflict: 298.323181
+	History of Israel: 235.621460
+	Hamas: 221.096832
+	West Bank: 213.827499
+	Yom Kippur War: 195.424561
+	1948 Arab–Israeli War: 194.881165
+	Foreign relations of Israel: 187.455322
+	Yasser Arafat: 182.493164
+	Refugee: 180.398834
 The Six Day War
 
 
 Query 'blonde beauty who reprise her role amanda new melrose place psychology major' in category 'ucla celebrity alumni' returned:
-	Heather Locklear: 239.629868
-	Legally Blonde (musical): 160.498611
+	Heather Locklear: 241.002090
+	Legally Blonde (musical): 160.897476
 	Beauty and the Beast (musical): 146.321442
-	Lisa Rinna: 136.225235
-	Natalie Portman: 135.249588
+	Lisa Rinna: 136.818405
+	Natalie Portman: 136.390961
 	Kate Beckinsale: 128.754257
-	Milla Jovovich: 127.557480
-	Michelle Pfeiffer: 125.379524
-	Jennifer Lopez: 124.915932
-	Mandy Moore: 123.752296
+	Milla Jovovich: 128.265656
+	Michelle Pfeiffer: 126.087692
+	Jennifer Lopez: 125.870987
+	Mandy Moore: 124.151154
 Heather Locklear
 
 
 Query 'name dish marinate lamb skewer grill come from greece skewer also start s' in category 'greek food & drink' returned:
-	Souvlaki: 255.314606
-	Awadhi cuisine: 131.561295
-	KFC: 109.727470
-	Chicago: 107.464577
-	Brazilian cuisine: 107.406898
-	Korean cuisine: 104.600266
-	Corfu: 103.146683
-	English cuisine: 102.487885
-	Sheep: 102.338478
-	Tenerife: 99.692009
+	Souvlaki: 268.354401
+	Awadhi cuisine: 132.207947
+	KFC: 118.272469
+	Corfu: 117.240242
+	Chicago: 116.627960
+	Sheep: 114.396545
+	Homs: 110.794487
+	Sausage: 109.405205
+	Roman Empire: 109.392517
+	English cuisine: 108.925827
 Souvlaki
 
 
 Query 'post note' in category 'name the parent company' returned:
-	Janet Jackson: 57.344852
-	Mail: 52.833508
-	The Washington Post: 52.448174
-	Banknotes of the pound sterling: 50.628269
-	Citizen Kane: 50.447845
-	NBC: 48.709064
-	Babylon 5: 48.007294
-	Stan Lee: 47.354404
-	CBS: 45.916428
-	Sceafa: 45.870636
+	Mail: 53.412754
+	The Washington Post: 53.001190
+	Banknotes of the pound sterling: 51.619015
+	NBC: 49.957790
+	Babylon 5: 49.003487
+	Janet Jackson: 48.506454
+	CBS: 47.152824
+	United States Postal Service: 46.449322
+	Notes on a Scandal: 44.903702
+	Atlantic Records: 44.725468
 3M
 
 
 Query '2010 sherlock holmes film' in category 'golden globe winners' returned:
-	Robert Downey, Jr.: 235.286743
+	Robert Downey, Jr.: 236.302734
 	Irene Adler: 211.311752
 	Jeremy Brett: 189.515488
-	Basil Rathbone: 187.175583
+	Basil Rathbone: 187.554428
 	The Adventure of the Musgrave Ritual: 174.890091
-	Hans Zimmer: 161.653214
+	Hans Zimmer: 162.669205
 	William S. Baring-Gould: 147.754868
 	Edward Hardwicke: 147.734131
 	The Five Orange Pips: 142.316406
-	Adrian Conan Doyle: 135.834518
+	Stephen Fry: 136.232559
 Robert Downey, Jr.
 
 
 
 
- FINAL COUNT: 46
+ FINAL COUNT: 47
  TOP10 (not first) COUNT: 18
- TOP10 COUNT: 64
+ TOP10 COUNT: 65

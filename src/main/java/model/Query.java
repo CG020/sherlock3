@@ -212,11 +212,14 @@ public class Query {
         TermQuery termCombine;
         BoostQuery boostedQuery;
         for (String s: queryParts) {
-            termCombine = new TermQuery(new Term("bodyText", s));
-            boostedQuery = new BoostQuery(termCombine, 1.7f);
+            String tokenizedStr = Tokenizer.tokenizeQuery(s);
+            termCombine = new TermQuery(new Term("bodyText", tokenizedStr));
+            boostedQuery = new BoostQuery(termCombine, 1.8f);
             q.add(boostedQuery, BooleanClause.Occur.SHOULD); 
         }
 
+
+        // score boost for included years or specific numbers
         String[] words = queryStr.split("\\s+");
         TermQuery year;
         BoostQuery boostYear;
