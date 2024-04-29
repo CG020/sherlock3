@@ -163,7 +163,6 @@ public class Query {
             builder.add(new Term(field, words[i]));
             builder.add(new Term(field, words[i + 1]));
             builder.setSlop(slop);
-            // builder.add(new Term("bodyText", words[i + 2]));
             PhraseQuery phrase = builder.build();
             queries.add(phrase);
         }
@@ -219,11 +218,11 @@ public class Query {
         BoostQuery boostYear;
         for (String s : words) {
             try {
-                int num = Integer.parseInt(s);
+                Integer.parseInt(s);
                 year = new TermQuery(new Term("bodyText", s));
                 boostYear = new BoostQuery(year, 1.9f);
                 q.add(boostYear, BooleanClause.Occur.SHOULD);
-            } catch (NumberFormatException e) {}
+            } catch (NumberFormatException ignored) {}
         }
         
         // phrase queries -- query phrases
@@ -266,7 +265,6 @@ public class Query {
     
 
     public static void main(String[] args ) throws FileNotFoundException {
-        // mvn exec:java -D"exec.mainClass=model.Query"
         Directory index;
         DirectoryReader reader;
         IndexSearcher searcher;
