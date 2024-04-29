@@ -34,6 +34,8 @@ public class Query {
     List<ResultClass> ans;
     // debugging - remove later
     static int correct = 0;
+    static int top10 = 0;
+    static int top10Not1 = 0;
 
 
     public Query(IndexSearcher searcher, StandardAnalyzer analyzer) {
@@ -219,6 +221,8 @@ public class Query {
         // printing the results
         System.out.format("Query '%s' in category '%s' returned:\n", queryStr, category);
         Boolean first = true;
+        boolean any = false;
+        boolean notFirstButThere = false;
         for (ResultClass page : ans) {
             // debugging stuff dont mind the extra parsing actually becomes like 2 lines when not debugging
             if (first) {
@@ -227,11 +231,17 @@ public class Query {
                     String[] options = right.split("\\|");
                     for (String o : options) { if (o.equals(page.DocName.get("title"))) { correct += 1;}}
                 }
+            } else {
+                String[] options = right.split("\\|");
+                for (String o : options) { if (o.equals(page.DocName.get("title"))) { notFirstButThere = true;}}
             }
             System.out.format("\t%s: %f\n", page.DocName.get("title"), page.docScore);
+            String[] options = right.split("\\|");
+            for (String o : options) { if (o.equals(page.DocName.get("title"))) { any = true;}}
             first = false;
         }
-    
+        if (any) top10 += 1;
+        if (notFirstButThere) top10Not1 += 1;
         return ans;
     }
     
@@ -284,6 +294,8 @@ public class Query {
                 }
 
                 System.out.println("\n\n FINAL COUNT: " + correct); // get rid of this too
+                System.out.println(" TOP10 (not first) COUNT: " + top10Not1); // get rid of this too
+                System.out.println(" TOP10 COUNT: " + top10); // get rid of this too
 
             } catch (IOException e) {
                 e.printStackTrace();
