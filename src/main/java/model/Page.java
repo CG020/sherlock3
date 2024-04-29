@@ -35,10 +35,19 @@ public abstract class Page {
         parseOutTitle(contents);
     }
 
+    /**
+     * Getter for the page type
+     * @return PageType as a String. Either "normal", "unclear", or "redirect"
+     */
     public String getPageType() {
         return pageType;
     }
 
+    /**
+     * Parses out the title of the page from the contents and sets it to
+     * title attribute. Should only be called by the constructor.
+     * @param contents String contents of the page
+     */
     private void parseOutTitle(String contents){
         String[] title_contents = contents.split("\n", 2);
         this.title = removeDoubleBrackets(title_contents[0]).trim();
@@ -68,9 +77,13 @@ public abstract class Page {
     }
 
     /**
-     *
-     * @param text
-     * @return
+     * Extracts the metadata from a given string of text. Metadata includes
+     * any pair of matching tags [tpl], [ref], or <ref>. It takes the outermost
+     * occurrence of (nested) matching tags and removes all text from between
+     * them and adds it to the metadata attribute.
+     * @param text The string of text to be parsed
+     * @return MetadataParse object, which contains field for the text without
+     * metadata and an ArrayList<String> of the metadata itself.
      */
     protected static MetadataParse extractMetadata(String text) {
         MetadataParse retval = new MetadataParse();
@@ -104,6 +117,7 @@ public abstract class Page {
                     }
                 }
 
+                // adds the metadata to return object and removes it from the text
                 for (int i = startIndices.size() - 1; i >= 0; i--) {
                     retval.metadata.add(result.substring(startIndices.get(i), endIndices.get(i)));
                     result.delete(startIndices.get(i), endIndices.get(i));
@@ -115,6 +129,13 @@ public abstract class Page {
         return retval;
     }
 
+    /**
+     * Removes any extra metadata tags from the text. Since some pages do not
+     * contain balanced tags, some tags can be left over after extractMetadata
+     * is called. This removes those tags.
+     * @param text The string text to be parsed
+     * @return String text without [tpl], [ref], and <ref> tags
+     */
     protected static String removeExtraTags(String text) {
         String[] tags = {"\\[tpl\\]", "\\[/tpl\\]", "\\[re\\f]", "\\[/ref\\]", "<ref>", "</ref>"};
         for (String tag: tags) {
@@ -123,6 +144,13 @@ public abstract class Page {
         return text;
     }
 
+    /**
+     * Takes in a string of TPL metadata and returns the title
+     * from within that metadata. Used to extract extra information
+     * from the TPL metadata.
+     * @param text A TPL metadata string
+     * @return The title of that metadata, if exists. Null if it can't be found.
+     */
     protected static String parseTPLforTitle(String text) {
         String[] tags = removeExtraTags(text).split("\\|");
         for (String tag : tags) {
@@ -140,6 +168,10 @@ public abstract class Page {
         return null;
     }
 
+    /**
+     * Clears the contents attribute of the Page. This helps clear up
+     * memory during processing.
+     */
     public void clearContents() {
         this.contents = null;
     }
