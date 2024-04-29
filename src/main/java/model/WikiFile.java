@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class WikiPage {
+public class WikiFile {
     private final ArrayList<Page> pages;
 
 
-    public WikiPage(String contents) {
+    public WikiFile(String contents) {
         // Using regex to find the page sections. This also makes it
         // lazy evaluation, so it should be a bit more memory efficient.
         String regex =  "(?<=^|\\r?\\n)" +                               // Matches start of file or newline (Windows or Unix)

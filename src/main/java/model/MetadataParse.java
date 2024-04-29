@@ -2,7 +2,7 @@ package model;
 
 import java.util.ArrayList;
 
-class MetadataParse {
+public class MetadataParse {
     StringBuilder text;
     ArrayList<String> metadata;
 

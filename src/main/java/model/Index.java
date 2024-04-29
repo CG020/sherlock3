@@ -69,9 +69,7 @@ public class Index {
         startTime = System.currentTimeMillis();
         for (Page page: allPages) {
             printProgressBar(num, allPages.size(), startTime);
-            if (page.getPageType().equals("normal")) { // always true if redirects are run
-                addToIndex((NormalPage) page);
-            }
+            addToIndex((NormalPage) page);
             num += 1;
         }
     }
@@ -84,7 +82,7 @@ public class Index {
             String contents = scanner.useDelimiter("\\A").next();
 
             // parse the file into separate pages
-            WikiPage wp = new WikiPage(contents);
+            WikiFile wp = new WikiFile(contents);
             allPages.addAll(wp.getPages());
             wp.clearAllContents();
         } catch (FileNotFoundException e) {
@@ -177,7 +175,7 @@ public class Index {
     public static void main(String[] args ) {
         try {
             String wikiPath = "wiki-subset-20140602";
-            Index indexer = new Index(wikiPath);
+            new Index(wikiPath);
         } catch (IOException e) {
             System.out.println("Failed to create Index. Check directories.");
             System.exit(1);

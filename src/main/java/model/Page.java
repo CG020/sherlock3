@@ -1,24 +1,38 @@
+/*
+ * Katelyn Rohrer, Lydia Dufek, Camila Grubb
+ * CSC 483/583
+ * This file defines the Page class and supporting methods. A Page is an
+ * abstract class for each wikipedia page, containing the title, raw contents,
+ * metadata, and pageType of the Page.
+ */
 package model;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * Defines the abstract class Page, which is the parent class to NormalPage,
+ * UnclearPage, and RedirectPage. It also contains several string parsing
+ * methods to assist in parsing these pages.
+ */
 public abstract class Page {
     protected String title;
     protected String contents;
     protected String pageType;
-    ArrayList<String> metadata;
+    protected ArrayList<String> metadata;
 
 
+    /**
+     * Defines a new Page object, setting the contents attribute to the
+     * given string of contents and parsing out and setting the title based
+     * on those contents.
+     * @param contents The entire contents of a single wikipedia page
+     */
     public Page (String contents) {
         this.metadata = new ArrayList<>();
         this.contents = contents;
         parseOutTitle(contents);
-    }
-
-    public String getTitle() {
-        return title;
     }
 
     public String getPageType() {
@@ -32,26 +46,32 @@ public abstract class Page {
 
 
     //
-    // METHODS TO CLEAN UP STRINGS BELOW
+    // METHODS TO CLEAN UP STRINGS
     //
 
     /**
-     * Removes the double brackets around a page title
+     * Removes the double brackets around a page title.
+     * @param text String input text surrounded by [[ ]]
+     * @return Updated String without brackets
      */
     protected static String removeDoubleBrackets(String text) {
         return text.replaceAll("^\\[+|\\]+$", "");
-
-//        return text.substring(2, text.length()-2);
     }
 
     /**
      * Removes n number of dashes around a header, n >= 0.
-     * @return The header without the surrounding dashes.
+     * @param header String input text in the format: ==text==
+     * @return The header without the surrounding equal signs (dashes).
      */
     protected static String removeHeaderDashes(String header) {
         return header.replaceAll("^\\=+|\\=+$", "");
     }
 
+    /**
+     *
+     * @param text
+     * @return
+     */
     protected static MetadataParse extractMetadata(String text) {
         MetadataParse retval = new MetadataParse();
         String[][] tags = {{"[tpl]", "[/tpl]"},
@@ -72,6 +92,7 @@ public abstract class Page {
                     if (i + 4 < line.length() && line.startsWith(openTag, i)) {
                         stack.push(i);
                     } else if (i + 5 < line.length() && line.startsWith(closeTag, i)) {
+                        // if we have a mismatch in the metadata, abort
                         if (stack.isEmpty()) break;
                         int start = stack.pop();
 
