@@ -6,6 +6,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.nio.file.Paths;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
@@ -56,7 +57,7 @@ public class Index {
         int num = 1;
         long startTime = System.currentTimeMillis();
         for (File file : files) {
-            ProgressBar.printProgressBar(num, files.length, startTime);
+            printProgressBar(num, files.length, startTime);
             readFile(file);
             num += 1;
         }
@@ -67,7 +68,7 @@ public class Index {
         num = 1;
         startTime = System.currentTimeMillis();
         for (Page page: allPages) {
-            ProgressBar.printProgressBar(num, allPages.size(), startTime);
+            printProgressBar(num, allPages.size(), startTime);
             if (page.getPageType().equals("normal")) { // always true if redirects are run
                 addToIndex((NormalPage) page);
             }
@@ -120,7 +121,7 @@ public class Index {
         int num = 1;
         long startTime = System.currentTimeMillis();
         for (RedirectPage r: redirects) {
-            ProgressBar.printProgressBar(num, redirects.size(), startTime);
+            printProgressBar(num, redirects.size(), startTime);
             for (Page n: normals) {
                 NormalPage np = (NormalPage) n;
                 if (r.redirect.equals(n.title)) {
@@ -133,10 +134,48 @@ public class Index {
         allPages = normals;
     }
 
+    private static void printProgressBar(int completed, int total, long startTime) {
+        int width = 50;
+        int progressPercentage = (100 * completed) / total;
+        int progress = (width * completed) / total;
+        long currentTime = System.currentTimeMillis();
+        long timeElapsed = currentTime - startTime; // in milliseconds
+        long estimatedTotalTime = (timeElapsed / completed) * total;
+        long estimatedTimeLeft = estimatedTotalTime - timeElapsed;
+
+        String timeLeftFormatted = String.format("%d min, %d sec",
+                TimeUnit.MILLISECONDS.toMinutes(estimatedTimeLeft),
+                TimeUnit.MILLISECONDS.toSeconds(estimatedTimeLeft) -
+                        TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(estimatedTimeLeft)));
+
+        String elapsedTimeFormatted = String.format("%d min, %d sec",
+                TimeUnit.MILLISECONDS.toMinutes(timeElapsed),
+                TimeUnit.MILLISECONDS.toSeconds(timeElapsed) -
+                        TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(timeElapsed)));
+
+        StringBuilder bar = new StringBuilder("[");
+        for (int i = 0; i < width; i++) {
+            if (i < progress) {
+                bar.append("=");
+            } else {
+                bar.append(" ");
+            }
+        }
+        bar.append("] ").append(progressPercentage).append("% ");
+        bar.append("Elapsed: ").append(elapsedTimeFormatted).append(", ");
+        bar.append("Left: ").append(timeLeftFormatted);
+
+        System.out.print("\r"); // carriage return
+        System.out.print(bar);
+
+        if (completed == total) {
+            System.out.println("\nCompleted!");
+        }
+    }
+
 
     public static void main(String[] args ) {
         try {
-//            String wikiPath = "sample";
             String wikiPath = "wiki-subset-20140602";
             Index indexer = new Index(wikiPath);
         } catch (IOException e) {
