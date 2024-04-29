@@ -1401,3 +1401,5 @@ Robert Downey, Jr.
 
 
  FINAL COUNT: 45
+ TOP10 (not first) COUNT: 18
+ TOP10 COUNT: 63

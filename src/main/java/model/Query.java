@@ -32,12 +32,18 @@ public class Query {
     MultiFieldQueryParser multiParser;
     HashMap<String, Float> boosts = new HashMap<>();
     List<ResultClass> ans;
-    // debugging - remove later
+    // counters for scoring
     static int correct = 0;
     static int top10 = 0;
     static int top10Not1 = 0;
 
 
+    /**
+     * Constructor method Query - initializes Query object with custom boosts for
+     * each field in index.
+     * @param searcher IndexSearcher used to query index
+     * @param analyzer Lucene StandardAnalyzer 
+     */
     public Query(IndexSearcher searcher, StandardAnalyzer analyzer) {
         this.searcher = searcher;
         this.analyzer = analyzer;
@@ -55,7 +61,8 @@ public class Query {
     }
 
     /**
-     * BM25Similarity configuration 
+     * BM25Similarity configuration - tuning is a subclass that allows us to
+     * define the k and b values for the BM25 Similarity measure we use to score
      */
     public static class tuning extends BM25Similarity {
         public tuning(float k, float b) {
@@ -64,8 +71,10 @@ public class Query {
     }
 
     /**
-     * Some syntax in a query is actually interpretted by lucene as phrases or boosts - removed them here
-     * replace later?
+     * validateQuery maniupulates the parameter querystr for symbols or extra clauses
+     * we want to change or edit
+     * @param queryStr String to be manipulated
+     * @return updated String
      */
     public String validateQuery (String queryStr) {
         String newStr;
@@ -80,7 +89,10 @@ public class Query {
     }
 
     /**
-     * reads in all questions and separates by category, question, and answer
+     * readQuestions parses the questions text file and divides each query by category,
+     * question, and answer
+     * @param scanner Scanner object to read file
+     * @return ArrayList<ArrayList<String>> arraylist of the three part of all 100 questions
      */
     public static ArrayList<ArrayList<String>> readQuestions(Scanner scanner) {
         ArrayList<ArrayList<String>> questionList = new ArrayList<>();
@@ -102,7 +114,8 @@ public class Query {
     }
 
     /**
-     * makes sure theres no duplicate docs and prints the results for ans in organized format
+     * duplicateCheck ensures no duplicate documents are returned in the results + prints
+     * results in formatted paragraphs
      * @param hitsPerPage results number 
      * @param finalQuery the boolean query with all the configs from runQuery
      * @return List<ResultCalss>
@@ -139,8 +152,11 @@ public class Query {
     }
 
     /**
-     * How the phrase query is constructed - phrases are every combination of sequential
+     * buildPhraseQ constructs the phrase query sequence - phrases are every combination of sequential
      * two words in query string
+     * @param queryString String of the query question
+     * @param field field of Index phrase query is tested against
+     * @return List<PhraseQuery> list of phrase queries 
      */
     public List<PhraseQuery> buildPhraseQ(String queryString, String field) {
         String[] words = queryString.split("\\s+");
@@ -159,22 +175,24 @@ public class Query {
     }
 
 
-    // Lucene's default scoring system is BM25!!! this is good
     /**
-     * Runs the lucene query then prints and returns a list of the matching documents
-     * @param queryStr: String query given to Lucene's QueryParser
-     * @return List<ResultClass>: A list of ResultClass objects representing the matching
-     * documents. A ResultClass object holds a document's score Document object and score
+     * runQuery combines all Lucene query types and queries the index in one function and
+     * returns the ResultClass list of matching documents
+     * @param category String category of question
+     * @param queryStr String question 
+     * @param right String used for printing out the results of matching documents to answer
+     * @return List<ResultClass> of result documents that get matched from the query
+     * @throws IOException
      */
     public List<ResultClass> runQuery(String category, String queryStr, String right) throws IOException {
         BooleanQuery.Builder q = new BooleanQuery.Builder();
         int hitsPerPage = 10;
     
-        // double quotes signify a phrase query in lucene
+        // edit strings of query and category 
         queryStr = validateQuery (queryStr);
         category = validateQuery (category);
     
-        // multi field parsee
+        // multi field parse
         org.apache.lucene.search.Query multiQuery;
         try {
             multiQuery = multiParser.parse(queryStr);
@@ -205,7 +223,7 @@ public class Query {
             q.add(boostQuery, BooleanClause.Occur.SHOULD);
         }
 
-        // phrase queries -- boost phrases
+        // phrase queries -- category phrases
         List<PhraseQuery> phraseCategory = buildPhraseQ(category, "bodyText");
         for (PhraseQuery pc : phraseCategory) {
             BoostQuery boostQuery = new BoostQuery(pc, 1.9f);
@@ -224,7 +242,6 @@ public class Query {
         boolean any = false;
         boolean notFirstButThere = false;
         for (ResultClass page : ans) {
-            // debugging stuff dont mind the extra parsing actually becomes like 2 lines when not debugging
             if (first) {
                 if (page.DocName.get("title").equals(right)) {correct += 1;}
                 else {
@@ -252,8 +269,7 @@ public class Query {
         DirectoryReader reader;
         IndexSearcher searcher;
 
-        // im using this for debugging throwing all the out data into answers.txt
-        
+        // pipes result answers into answers.txt        
         try (PrintStream out = new PrintStream(new FileOutputStream("answers.txt"))) {
             System.setOut(out);
 
@@ -278,7 +294,6 @@ public class Query {
                     String category = quest.get(0).toLowerCase();
                     String question = quest.get(1).toLowerCase();
                     String right = quest.get(2);
-                    // GET RID OF 'RIGHT' LATER DEBUGGING PURPOSES
                     String tokenizedQuery = Tokenizer.tokenizeQuery(question);
                     List<ResultClass> ans = q.runQuery(category, tokenizedQuery, right);
                     System.out.println(quest.get(2));
@@ -293,9 +308,9 @@ public class Query {
                     System.out.println("File could not be copied to python environment.");
                 }
 
-                System.out.println("\n\n FINAL COUNT: " + correct); // get rid of this too
-                System.out.println(" TOP10 (not first) COUNT: " + top10Not1); // get rid of this too
-                System.out.println(" TOP10 COUNT: " + top10); // get rid of this too
+                System.out.println("\n\n FINAL COUNT: " + correct); 
+                System.out.println(" TOP10 (not first) COUNT: " + top10Not1); 
+                System.out.println(" TOP10 COUNT: " + top10); 
 
             } catch (IOException e) {
                 e.printStackTrace();
