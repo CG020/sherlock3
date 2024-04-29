@@ -48,7 +48,7 @@ public class Query {
         this.searcher = searcher;
         this.analyzer = analyzer;
 
-        // boost assignment
+        // boost assignments per field
         boosts.put("summary", 1.3f);
         boosts.put("categories", 1.8f);
         boosts.put("bodyText", 1.4f);
@@ -99,7 +99,7 @@ public class Query {
         ArrayList<ArrayList<String>> questionList = new ArrayList<>();
 
         ArrayList<String> temp = new ArrayList<>();
-        scanner.useDelimiter("\n");
+        scanner.useDelimiter("\n"); // parsing by blocks of catgeory, question, answer
         while (scanner.hasNext()) {
             String next = scanner.next().trim();
             if (next.isEmpty()) {
@@ -131,14 +131,13 @@ public class Query {
             TopDocs pages = searcher.search(finalQuery, hitCount + hitsPerPage);
             ScoreDoc[] hits = pages.scoreDocs;
     
-            // reach 10!!
+            // reach 10 results
             if (hitCount >= pages.totalHits) { break; }
 
-    
-            for (int i = hitCount; i < hits.length; i++) {
+            for (int i = hitCount; i < hits.length; i++) { //printing formatted results
                 Document d = searcher.doc(hits[i].doc);
                 String title = d.get("title");
-                String tokenizedCategory = Tokenizer.tokenizeQuery(title);
+                String tokenizedCategory = Tokenizer.tokenizeQuery(title); //check for duplicate results
                 if (duplicatesCheck.add(title) && !query.contains(tokenizedCategory.toLowerCase())) {
                     ResultClass page = new ResultClass();
                     page.DocName = d;
@@ -164,6 +163,7 @@ public class Query {
 
         List<PhraseQuery> queries = new ArrayList<>();
 
+        // iterates over all combinations building phrases
         for (int i = 0; i < words.length - 1; i++) {
             PhraseQuery.Builder builder = new PhraseQuery.Builder();
             builder.add(new Term(field, words[i]));
@@ -318,7 +318,7 @@ public class Query {
                 }
 
                 try {
-                    Path sourcePath = Paths.get("answers.txt");
+                    Path sourcePath = Paths.get("answers.txt"); 
                     Path destinationPath = Paths.get("src", "main", "python", "answers.txt");
                     Files.copy(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
                 } catch (IOException e) {
