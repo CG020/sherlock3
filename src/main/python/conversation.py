@@ -10,7 +10,12 @@ within it. The API key is necessary to run this class.
 
 
 from openai import OpenAI
-from constants import API_KEY
+
+try:
+    from constants import API_KEY
+except ImportError:
+    print("constants.py not found. Using empty_constants.py instead")
+    from empty_constants import API_KEY
 
 
 class Conversation:
