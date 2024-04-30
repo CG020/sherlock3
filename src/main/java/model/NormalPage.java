@@ -30,6 +30,12 @@ public class NormalPage extends Page{
     StringBuilder bodyText;
     ArrayList<String> metaTitles;
 
+    /**
+     * Creates the NormalPage object by using the Page constructor, setting
+     * the pageType to "normal", then parsing the contents of the Page for
+     * information.
+     * @param contents String contents of the Page
+     */
     public NormalPage(String contents) {
         super(contents);
         bodyText = new StringBuilder();
@@ -37,6 +43,10 @@ public class NormalPage extends Page{
         parse();
     }
 
+    /**
+     * Parses through the entire contents of the page.
+     * Acts as a sort of controller for the other parsing functions.
+     */
     private void parse() {
         headers = new ArrayList<>();
         metaTitles = new ArrayList<>();
@@ -46,30 +56,49 @@ public class NormalPage extends Page{
         parseMetaTitles();
     }
 
+    /**
+     * Parses the top part of the page text, looking for the categories and
+     * the summary text. 
+     * @param text String top part of the page.
+     */
     private void parseTopPart(String text) {
         categories = new ArrayList<>();
         StringBuilder summary = new StringBuilder();
+
         for (String line: text.split("\n")) {
             line = line.trim();
+
             if (line.startsWith("CATEGORIES:")) {
                 String topicsTemp = line.substring("CATEGORIES:".length());
+                
+                // add each of the categories to the categories attribute
                 for (String topic: topicsTemp.split(",")) {
                     categories.add(topic.trim());
                 }
+
             } else if (!line.isEmpty() && !line.startsWith("[[")) {
                 summary.append(line).append("\n");
             }
         }
+
+        // clean up the summary then add it to the attribute
         MetadataParse summary_metadata = extractMetadata(summary.toString());
         metadata.addAll(summary_metadata.metadata);
         this.summary = removeExtraTags(summary_metadata.text());
     }
 
+    /**
+     * Parses the rest of the file (divided by headers). Organizes the
+     * names of the headers, the body text, and the metadata into their
+     * respective attributes.
+     * @param categories List of strings containing the split up lines 
+     * from the page. (Split up on newlines)
+     */
     private void parseHeaders(String[] categories) {
         for (int i = 1; i < categories.length; i++) {
             String[] parts = categories[i].split("={2,6}\n");
 
-            // THERE'S LIKE ONE HEADER WITH NO TEXT IN THE MIDDLE
+            // to account for a header with no text (error in the doc?)
             String header;
             try {
                 header = removeHeaderDashes(parts[0]);
@@ -102,6 +131,10 @@ public class NormalPage extends Page{
         }
     }
 
+    /**
+     * Goes through each of the metadata strings and parses them
+     * for titles. Adds each to the metaTitles attribute.
+     */
     private void parseMetaTitles() {
         for (String line: metadata) {
             String title = parseTPLforTitle(line);
@@ -111,6 +144,9 @@ public class NormalPage extends Page{
         }
     }
 
+    /**
+     * @return string representation of the obhect
+     */
     @Override
     public String toString() {
         String shortSummary;
