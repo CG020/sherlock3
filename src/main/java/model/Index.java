@@ -1,3 +1,11 @@
+/*
+ * Katelyn Rohrer, Camila Grubb, Lydia Dufek
+ * CSC 483/583
+ * Defines the Index class, which does everything related to indexing:
+ * reads in a directory and parses each file into several pages,
+ * then adds each of the pages into the index. The index is saved to
+ * a directory within the project for easy querying. 
+ */
 package model;
 
 import java.io.*;
@@ -20,6 +28,14 @@ import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.core.WhitespaceTokenizer;
 
 
+/**
+ * Class to define the Index object. The Index object reads in the 
+ * directory of wikipedia files, parses them, then adds to the index.
+ * Relevant methods include addToIndex, which adds a document to the index,
+ * connectRedirects, which connects each of the redirect pages to its
+ * corresponding normal page, printProgressBar, which is used to keep track
+ * of time, and main, which creates the actual Index object.
+ */
 public class Index {
 
     IndexWriter writer;
@@ -27,6 +43,14 @@ public class Index {
     IndexWriterConfig config;
     ArrayList<Page> allPages;
 
+    /**
+     * Creates the Index object and controls all of the functionality
+     * of adding a given directory to the Index. Imports a given folder based
+     * on the string input path, parses through the folder, then adds each
+     * of the pages to the index.
+     * @param path String name of the folder within resources to be read in.
+     * @throws IOException If the folder does not exist within reaources.
+     */
     public Index(String path) throws IOException {
         // initialize
         Directory directory = FSDirectory.open(Paths.get("IndexBuild"));
@@ -73,6 +97,12 @@ public class Index {
         }
     }
 
+    /**
+     * Reads in a given file and creates a WikiFile object out of it.
+     * The WikiFile object further parses the file contents into relevant
+     * Page objects, which are added to allPages.
+     * @param file File object to be read through
+     */
     private void readFile(File file) {
         Scanner scanner;
         try {
@@ -90,6 +120,13 @@ public class Index {
     }
 
 
+    /**
+     * Adds a NormalPage object to the Index by creating a document and adding
+     * the relevant fields to it.
+     * @param p NormalPage object to be added to the doc
+     * @throws IOException Committing to the writer can result in an IO error
+     * if something goes wrong with the files during indexing
+     */
     private void addToIndex(NormalPage p) throws IOException {
         Document doc = new Document();
         doc.add(new StringField("title", p.title, Field.Store.YES));
@@ -103,7 +140,15 @@ public class Index {
     }
 
 
+    /**
+     * Connects all of the redirect pages to their correlating
+     * normal pages by first sorting through all of the files
+     * and extracting out the redirects and normals. Then, for each
+     * of the redirects, search for the corresponding normal page.
+     * This function takes several minutes to run.
+     */
     private void connectRedirects() {
+        // divide all pages into redirects list and normals list
         System.out.println("Connecting redirects...");
         ArrayList<RedirectPage> redirects = new ArrayList<>();
         ArrayList<Page> normals = new ArrayList<>();
@@ -115,14 +160,16 @@ public class Index {
             }
         }
 
+        // for each of the redirect pages, search for the correlating normal page
         int num = 1;
         long startTime = System.currentTimeMillis();
         for (RedirectPage r: redirects) {
             printProgressBar(num, redirects.size(), startTime);
             for (Page n: normals) {
                 NormalPage np = (NormalPage) n;
+                // if we find a match, add the redirect string to title categories
                 if (r.redirect.equals(n.title)) {
-                    np.categories.add(r.redirect);
+                    np.categories.add(r.title);
                     break;
                 }
             }
@@ -131,10 +178,22 @@ public class Index {
         allPages = normals;
     }
 
+    /**
+     * Prints a progress bar for whatever task is currently being run.
+     * Useful for longer running tasks such as connectRedirects and especially
+     * for adding the documents to the index. 
+     * @param completed The number of tasks that have been completed so far
+     * (should be incremented on each call to the progress bar)
+     * @param total The total number of iterations needed to be completed
+     * @param startTime The time in ms that the task began at. Used to calculate
+     * time elapsed and estimated time remaining
+     */
     private static void printProgressBar(int completed, int total, long startTime) {
         int width = 50;
         int progressPercentage = (100 * completed) / total;
         int progress = (width * completed) / total;
+
+        // calculate the time and convert to human readable format
         long currentTime = System.currentTimeMillis();
         long timeElapsed = currentTime - startTime; // in milliseconds
         long estimatedTotalTime = (timeElapsed / completed) * total;
@@ -150,6 +209,7 @@ public class Index {
                 TimeUnit.MILLISECONDS.toSeconds(timeElapsed) -
                         TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(timeElapsed)));
 
+        // display the actual bar
         StringBuilder bar = new StringBuilder("[");
         for (int i = 0; i < width; i++) {
             if (i < progress) {
@@ -162,7 +222,8 @@ public class Index {
         bar.append("Elapsed: ").append(elapsedTimeFormatted).append(", ");
         bar.append("Left: ").append(timeLeftFormatted);
 
-        System.out.print("\r"); // carriage return
+        // return the cursor to the beginning of the line
+        System.out.print("\r");
         System.out.print(bar);
 
         if (completed == total) {
@@ -185,6 +246,11 @@ public class Index {
 
 }
 
+/**
+ * Class to define the WhiteSpace analyzer, which simply splits up the text
+ * on whitespace. Used when adding documents to the index, since the document
+ * text is already tokenized and simply divided by whitespace.
+ */
 class WhitespaceOnlyAnalyzer extends Analyzer {
     @Override
     protected TokenStreamComponents createComponents(String fieldName) {
