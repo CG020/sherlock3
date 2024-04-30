@@ -308,6 +308,9 @@ public class Query {
                     System.out.println("\n");
                 }
 
+                System.out.println("\n\n MRR: " + (totalMRR / queryCount));
+                System.out.println(" P@1: " + correct);
+
                 // copying the file to the python directory (python venv needs it)
                 try {
                     Path sourcePath = Paths.get("answers.txt"); 
@@ -316,10 +319,6 @@ public class Query {
                 } catch (IOException e) {
                     System.out.println("File could not be copied to python environment.");
                 }
-
-                System.out.println("\n\n MRR: " + (totalMRR / queryCount));
-                System.out.println(" P@1: " + correct);
-
             } catch (IOException e) {
                 e.printStackTrace();
                 System.out.println("Could not set up searcher");

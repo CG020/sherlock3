@@ -10,7 +10,6 @@ Query 'dominant paper our nation's capital it's among top 10 u.s papers circulat
 	Washington University in St. Louis: 114.888237
 	Bangalore: 113.443756
 The Washington Post
-MRR for query: 0.0
 
 
 Query 'practice pre authorize presidential use force dates 1955 resolution re island near mainland china' in category 'old year's resolutions' returned:
@@ -25,7 +24,6 @@ Query 'practice pre authorize presidential use force dates 1955 resolution re is
 	Chiang Kai-shek: 168.798386
 	George McGovern: 165.350433
 Taiwan
-MRR for query: 1.0
 
 
 Query 'daniel hertzberg james b stewart paper share 1988 pulitzer story about insider trade' in category 'newspapers' returned:
@@ -40,7 +38,6 @@ Query 'daniel hertzberg james b stewart paper share 1988 pulitzer story about in
 	Oscar Wilde: 108.028580
 	Citizen Kane: 102.781693
 The Wall Street Journal
-MRR for query: 1.0
 
 
 Query 'song say you make me smile my heart your looks laughable unphotographable' in category 'broadway lyrics' returned:
@@ -55,7 +52,6 @@ Query 'song say you make me smile my heart your looks laughable unphotographable
 	Irving Berlin: 135.157272
 	Stevie Wonder: 133.763107
 My Funny Valentine
-MRR for query: 0.0
 
 
 Query '2011 bell ringer charity start accept digital donation its red kettle' in category 'potpourri' returned:
@@ -70,7 +66,6 @@ Query '2011 bell ringer charity start accept digital donation its red kettle' in
 	Hamas: 98.588379
 	Goodwill Industries: 96.770668
 The Salvation Army|Salvation Army
-MRR for query: 1.0
 
 
 Query 'naples museum art' in category 'state of the art museum ' returned:
@@ -85,7 +80,6 @@ Query 'naples museum art' in category 'state of the art museum ' returned:
 	History of painting: 131.240891
 	The Cloisters: 127.087059
 Florida
-MRR for query: 0.0
 
 
 Query 'italy painter depict adoration golden calf' in category 'tin men' returned:
@@ -100,7 +94,6 @@ Query 'italy painter depict adoration golden calf' in category 'tin men' returne
 	Annibale Carracci: 89.949310
 	Pietro Lorenzetti: 85.849258
 Tintoretto
-MRR for query: 1.0
 
 
 Query 'woman who won consecutive heptathlon olympic went ucla basketball scholarship' in category 'ucla celebrity alumni' returned:
@@ -115,7 +108,6 @@ Query 'woman who won consecutive heptathlon olympic went ucla basketball scholar
 	Bob Knight: 148.207336
 	Jackie Robinson: 147.654144
 Jackie Joyner-Kersee
-MRR for query: 0.16666666666666666
 
 
 Query 'originally club's emblem wagon wheel now it's gearwheel 24 cog 6 spoke' in category 'service organizations' returned:
@@ -130,7 +122,6 @@ Query 'originally club's emblem wagon wheel now it's gearwheel 24 cog 6 spoke' i
 	Audi S6: 95.092659
 	Oakland Raiders: 93.948563
 Rotary International
-MRR for query: 0.0
 
 
 Query 'several bridge including el tahrir cross nile capital' in category 'african cities' returned:
@@ -145,7 +136,6 @@ Query 'several bridge including el tahrir cross nile capital' in category 'afric
 	West Nile virus: 90.462997
 	Mexico City: 88.790649
 Cairo
-MRR for query: 1.0
 
 
 Query 'after fall france 1940 general told his country france has lost battle france has lost war' in category 'historical quotes' returned:
@@ -160,7 +150,6 @@ Query 'after fall france 1940 general told his country france has lost battle fr
 	Battle of Britain: 239.492996
 	Battle of the Bulge: 238.790756
 Charles de Gaulle|de Gaulle
-MRR for query: 1.0
 
 
 Query 'taft museum art' in category 'state of the art museum ' returned:
@@ -175,7 +164,6 @@ Query 'taft museum art' in category 'state of the art museum ' returned:
 	History of painting: 131.240891
 	The Cloisters: 127.087059
 Ohio
-MRR for query: 0.0
 
 
 Query 'mast from uss maine part memorial ship crew national cemetery' in category 'cemeteries' returned:
@@ -190,7 +178,6 @@ Query 'mast from uss maine part memorial ship crew national cemetery' in categor
 	Portland, Maine: 115.427521
 	Sutton Hoo: 113.423233
 Arlington National Cemetery|Arlington Cemetery
-MRR for query: 0.0
 
 
 Query '2009 joker film' in category 'golden globe winners' returned:
@@ -205,7 +192,6 @@ Query '2009 joker film' in category 'golden globe winners' returned:
 	Jessica Lange: 106.562363
 	Michelle Pfeiffer: 101.218651
 Heath Ledger
-MRR for query: 1.0
 
 
 Query 'peninsula fought over peninsular war 1808 1814' in category 'historical hodgepodge' returned:
@@ -220,7 +206,6 @@ Query 'peninsula fought over peninsular war 1808 1814' in category 'historical h
 	Ferdinand VII of Spain: 119.173653
 	Battle of Lundy's Lane: 116.875267
 Iberia|Iberian Peninsula
-MRR for query: 0.0
 
 
 Query '1980 china found center cute creature its bamboo rich wolong nature preserve' in category 'conservation' returned:
@@ -235,7 +220,6 @@ Query '1980 china found center cute creature its bamboo rich wolong nature prese
 	Golden Eagle: 98.316681
 	Chinese art: 98.018837
 Panda|Giant panda
-MRR for query: 0.0
 
 
 Query '1988 father figure' in category ''80s no.1 hitmakers' returned:
@@ -250,7 +234,6 @@ Query '1988 father figure' in category ''80s no.1 hitmakers' returned:
 	François Mitterrand: 55.376331
 	My Neighbor Totoro: 54.885189
 George Michael
-MRR for query: 1.0
 
 
 Query 'essay defend 2011 film myrlie ever williams said my mother film so her mother' in category 'african-american women' returned:
@@ -265,7 +248,6 @@ Query 'essay defend 2011 film myrlie ever williams said my mother film so her mo
 	Janet Jackson: 187.927246
 	Citizen Kane: 186.769882
 The Help
-MRR for query: 0.0
 
 
 Query 'father michael mcgivney found fraternal society catholic laymen 1882' in category 'service organizations' returned:
@@ -280,7 +262,6 @@ Query 'father michael mcgivney found fraternal society catholic laymen 1882' in 
 	Charles Tupper: 86.900200
 	Traditionalist Catholic: 86.654785
 Knights of Columbus
-MRR for query: 1.0
 
 
 Query 'early project wwf organization included work bald eagle red wolf' in category 'conservation' returned:
@@ -295,7 +276,6 @@ Query 'early project wwf organization included work bald eagle red wolf' in cate
 	Ferruginous Hawk: 93.595093
 	Phoenix, Arizona: 92.326744
 World Wide Fund|World Wide Fund for Nature
-MRR for query: 0.0
 
 
 Query 'indonesia's largest lizard it's protect from poacher though we wish could breathe fire do job itself' in category 'conservation' returned:
@@ -310,7 +290,6 @@ Query 'indonesia's largest lizard it's protect from poacher though we wish could
 	Petrified Forest National Park: 99.443703
 	Jack Kemp: 99.135406
 Komodo dragon
-MRR for query: 1.0
 
 
 Query 'nov 28 1929 man his chief pilot bernt balchen fly south pole yowza you'll admirable admiral sir' in category '1920s news flash' returned:
@@ -325,7 +304,6 @@ Query 'nov 28 1929 man his chief pilot bernt balchen fly south pole yowza you'll
 	John Ford: 121.420670
 	Neil Armstrong: 121.299026
 Richard Byrd|Richard E. Byrd
-MRR for query: 0.0
 
 
 Query 'may 5 1878 alice chambers last person bury dodge city kansas cemetery' in category 'cemeteries' returned:
@@ -340,7 +318,6 @@ Query 'may 5 1878 alice chambers last person bury dodge city kansas cemetery' in
 	Mobile, Alabama: 118.577805
 	Gertrude Stein: 117.861534
 Boot Hill
-MRR for query: 1.0
 
 
 Query 'royal palace grounds feature statue king norodom who late 1800s compel first put his country under control europe power course sculpte country' in category 'cambodian history & culture' returned:
@@ -355,7 +332,6 @@ Query 'royal palace grounds feature statue king norodom who late 1800s compel fi
 	Louis XIV of France: 210.475494
 	Scotland: 210.050735
 France
-MRR for query: 0.0
 
 
 Query '400s b.c china philosopher went exile 12 years' in category 'historical hodgepodge' returned:
@@ -370,7 +346,6 @@ Query '400s b.c china philosopher went exile 12 years' in category 'historical h
 	Chinese art: 85.007751
 	History of China: 82.388901
 Confucius
-MRR for query: 0.14285714285714285
 
 
 Query 'bessie coleman first black woman licensed pilot landed street name her honor chicago airport' in category 'african-american women' returned:
@@ -385,7 +360,6 @@ Query 'bessie coleman first black woman licensed pilot landed street name her ho
 	Harriet Tubman: 117.489761
 	Josephine Baker: 117.379570
 O'Hare|O'Hare International Airport
-MRR for query: 1.0
 
 
 Query 'ammonite held sway mideast country 1200s b.c capital name them' in category 'historical hodgepodge' returned:
@@ -400,7 +374,6 @@ Query 'ammonite held sway mideast country 1200s b.c capital name them' in catego
 	Scotland: 79.935097
 	Comoros: 79.198929
 Jordan
-MRR for query: 0.0
 
 
 Query 'sum all fear he also won screenwrite oscar good hunting' in category 'he played a guy named jack ryan in...' returned:
@@ -415,7 +388,6 @@ Query 'sum all fear he also won screenwrite oscar good hunting' in category 'he 
 	Albert Pujols: 125.331329
 	Russell Crowe: 124.009773
 Ben Affleck
-MRR for query: 1.0
 
 
 Query 'one n.y times headline landmark 1973 supreme court decision cardinal shock' in category 'potpourri' returned:
@@ -430,7 +402,6 @@ Query 'one n.y times headline landmark 1973 supreme court decision cardinal shoc
 	William Howard Taft: 168.101089
 	Brandenburg v. Ohio: 166.368530
 Roe v. Wade
-MRR for query: 1.0
 
 
 Query 'france's philip iv known fair had jacque de molay last grand master order burn 1314' in category 'i'm burnin' for you' returned:
@@ -445,7 +416,6 @@ Query 'france's philip iv known fair had jacque de molay last grand master order
 	Philip IV of Spain: 163.086853
 	Napoleon III: 156.522797
 Knights Templar
-MRR for query: 1.0
 
 
 Query 'georgia o'keeffe museum' in category 'state of the art museum ' returned:
@@ -460,7 +430,6 @@ Query 'georgia o'keeffe museum' in category 'state of the art museum ' returned:
 	San Francisco Museum of Modern Art: 91.218987
 	Art museum: 90.467178
 New Mexico
-MRR for query: 0.0
 
 
 Query 'name largest morocco city combine 2 spain words' in category 'african cities' returned:
@@ -475,7 +444,6 @@ Query 'name largest morocco city combine 2 spain words' in category 'african cit
 	History of Western Sahara: 125.207474
 	Bilbao: 118.918716
 Casablanca
-MRR for query: 1.0
 
 
 Query 'jell o' in category 'name the parent company' returned:
@@ -490,7 +458,6 @@ Query 'jell o' in category 'name the parent company' returned:
 	Big O notation: 54.853287
 	O-Bahn Busway: 53.981056
 Kraft Foods
-MRR for query: 0.14285714285714285
 
 
 Query '2011 chicago mayor tom kane' in category 'golden globe winners' returned:
@@ -505,7 +472,6 @@ Query '2011 chicago mayor tom kane' in category 'golden globe winners' returned:
 	Chicago White Sox: 86.626747
 	Hyde Park, Chicago: 86.455101
 Kelsey Grammer
-MRR for query: 0.0
 
 
 Query 'title residence otter flounder pinto bluto 1978 comedy' in category 'the residents' returned:
@@ -520,7 +486,6 @@ Query 'title residence otter flounder pinto bluto 1978 comedy' in category 'the 
 	The Three Stooges: 68.297394
 	National Lampoon (magazine): 67.977020
 Animal House
-MRR for query: 1.0
 
 
 Query 'neurobiologist amy farrah fowler big bang theory real life she has ph.d neuroscience from ucla' in category 'ucla celebrity alumni' returned:
@@ -535,7 +500,6 @@ Query 'neurobiologist amy farrah fowler big bang theory real life she has ph.d n
 	Characters of Parks and Recreation: 157.215378
 	Inflation (cosmology): 151.154892
 Mayim Bialik
-MRR for query: 1.0
 
 
 Query 'deadlock election 1800 james r sharp outline fall duel vice president' in category 'notes from the campaign trail' returned:
@@ -550,7 +514,6 @@ Query 'deadlock election 1800 james r sharp outline fall duel vice president' in
 	Ronald Reagan: 169.412323
 	Calvin Coolidge: 166.698822
 Aaron Burr
-MRR for query: 1.0
 
 
 Query 'he serve kgb before becoming president prime minister russia' in category 'tin men' returned:
@@ -565,7 +528,6 @@ Query 'he serve kgb before becoming president prime minister russia' in category
 	Anerood Jugnauth: 182.105072
 	Charles Tupper: 176.390625
 Vladimir Putin|Putin
-MRR for query: 1.0
 
 
 Query 'when ask describe herself she say first foremost she malia sasha's mom' in category 'african-american women' returned:
@@ -580,7 +542,6 @@ Query 'when ask describe herself she say first foremost she malia sasha's mom' i
 	Willow Rosenberg: 121.016434
 	Kylie Minogue: 117.276566
 Michelle Obama
-MRR for query: 1.0
 
 
 Query 'she wrote my candle burn both end ah my foe oh my friends give lovely light' in category 'poets & poetry' returned:
@@ -595,7 +556,6 @@ Query 'she wrote my candle burn both end ah my foe oh my friends give lovely lig
 	Fear and Trembling: 151.651733
 	Jennifer Lopez: 147.047424
 Edna St. Vincent Millay
-MRR for query: 0.0
 
 
 Query 'finland city lutheran cathedral also known tuomiokirkko' in category 'capital city churches ' returned:
@@ -610,7 +570,6 @@ Query 'finland city lutheran cathedral also known tuomiokirkko' in category 'cap
 	St Paul's Cathedral: 108.850182
 	Gustav I of Sweden: 108.395218
 Helsinki
-MRR for query: 1.0
 
 
 Query 'milton bradley games' in category 'name the parent company' returned:
@@ -625,7 +584,6 @@ Query 'milton bradley games' in category 'name the parent company' returned:
 	Milton Keynes: 94.498009
 	Scooby-Doo: 94.115654
 Hasbro
-MRR for query: 0.2
 
 
 Query 'kentucky virginia resolution were pass protest controversial 1798 acts congress' in category 'old year's resolutions' returned:
@@ -640,7 +598,6 @@ Query 'kentucky virginia resolution were pass protest controversial 1798 acts co
 	Confederate States of America: 118.919250
 	Emancipation Proclamation: 116.904213
 The Alien and Sedition Acts
-MRR for query: 0.0
 
 
 Query '1983 beat' in category ''80s no.1 hitmakers' returned:
@@ -655,7 +612,6 @@ Query '1983 beat' in category ''80s no.1 hitmakers' returned:
 	Billie Jean: 52.594761
 	Gang of Four (band): 52.237007
 Michael Jackson
-MRR for query: 0.0
 
 
 Query '2009 sookie stackhouse' in category 'golden globe winners' returned:
@@ -670,7 +626,6 @@ Query '2009 sookie stackhouse' in category 'golden globe winners' returned:
 	Ang Lee: 75.341209
 	Brad Pitt: 74.158310
 Anna Paquin
-MRR for query: 0.5
 
 
 Query 'member nixon ford cabinet born furth germany 1923' in category 'historical hodgepodge' returned:
@@ -685,7 +640,6 @@ Query 'member nixon ford cabinet born furth germany 1923' in category 'historica
 	John Connally: 100.244759
 	Neville Chamberlain: 97.641228
 Henry Kissinger
-MRR for query: 1.0
 
 
 Query 'high kirk st gile where john knox minister' in category 'capital city churches ' returned:
@@ -700,7 +654,6 @@ Query 'high kirk st gile where john knox minister' in category 'capital city chu
 	Scotland: 112.150688
 	Glasgow: 108.972885
 Edinburgh
-MRR for query: 1.0
 
 
 Query 'brief time he attend he rebel cause even landing lead role 1950 stage production' in category 'ucla celebrity alumni' returned:
@@ -715,7 +668,6 @@ Query 'brief time he attend he rebel cause even landing lead role 1950 stage pro
 	Natalie Portman: 139.361374
 	Cristiano Ronaldo: 138.969711
 James Dean
-MRR for query: 0.5
 
 
 Query 'fisher price toy' in category 'name the parent company' returned:
@@ -730,7 +682,6 @@ Query 'fisher price toy' in category 'name the parent company' returned:
 	Super Friends: 79.501808
 	Power Rangers: 76.581306
 Mattel
-MRR for query: 0.5
 
 
 Query '1959 america kitchen exhibit moscow he told khrushchev america we like make life easy women' in category 'historical quotes' returned:
@@ -745,7 +696,6 @@ Query '1959 america kitchen exhibit moscow he told khrushchev america we like ma
 	Ezra Pound: 156.068420
 	Paul Robeson: 152.306488
 Richard Nixon|Nixon
-MRR for query: 0.0
 
 
 Query 'one his tale wayside inn begin listen my children you shall hear midnight ride paul revere' in category 'poets & poetry' returned:
@@ -760,7 +710,6 @@ Query 'one his tale wayside inn begin listen my children you shall hear midnight
 	Henry Wadsworth Longfellow: 111.306526
 	Kubla Khan: 110.397957
 Henry Wadsworth Longfellow
-MRR for query: 0.1111111111111111
 
 
 Query 'bestseller about problem mccain palin ticket became hbo movie julianne moore' in category 'notes from the campaign trail' returned:
@@ -775,7 +724,6 @@ Query 'bestseller about problem mccain palin ticket became hbo movie julianne mo
 	True Blood: 106.045265
 	Bowling for Columbine: 104.456734
 Game Change
-MRR for query: 1.0
 
 
 Query '2 part episode jag introduce mark harmon drama' in category 'that 20-aughts show' returned:
@@ -790,7 +738,6 @@ Query '2 part episode jag introduce mark harmon drama' in category 'that 20-augh
 	Characters of Parks and Recreation: 92.364357
 	The Sopranos: 92.121880
 NCIS
-MRR for query: 0.0
 
 
 Query 'port southernmost south africa's 3 capitals' in category 'african cities' returned:
@@ -805,7 +752,6 @@ Query 'port southernmost south africa's 3 capitals' in category 'african cities'
 	Karachi: 103.309067
 	South African rand: 103.291977
 Cape Town
-MRR for query: 0.0
 
 
 Query 'keat quote edmund spenser poem when he told shelley load every rift your subject ore' in category 'the quotable keats' returned:
@@ -820,7 +766,6 @@ Query 'keat quote edmund spenser poem when he told shelley load every rift your 
 	George Crabbe: 131.797485
 	Poetry: 129.538071
 The Faerie Queene
-MRR for query: 0.2
 
 
 Query '1819 letter keat wrote lord poet cut figure he figurative' in category 'the quotable keats' returned:
@@ -835,7 +780,6 @@ Query '1819 letter keat wrote lord poet cut figure he figurative' in category 't
 	Harold Stewart: 104.593246
 	Ezra Pound: 104.104256
 Lord Byron
-MRR for query: 0.5
 
 
 Query 'clear greece liqueur quite potent so it's usually mixed water which turn white cloudy' in category 'greek food & drink' returned:
@@ -850,7 +794,6 @@ Query 'clear greece liqueur quite potent so it's usually mixed water which turn 
 	Nutrition: 109.400101
 	Frog: 108.996651
 Ouzo
-MRR for query: 1.0
 
 
 Query 'feb 1 national freedom day date 1865 when resolution sent states amendment ending' in category 'old year's resolutions' returned:
@@ -865,7 +808,6 @@ Query 'feb 1 national freedom day date 1865 when resolution sent states amendmen
 	First Transcontinental Railroad: 150.767853
 	Equal Rights Amendment: 149.845322
 Slavery|Slavery in the United States
-MRR for query: 0.0
 
 
 Query 'person queen's representative canada current office held david johnston' in category 'ranks & titles' returned:
@@ -880,7 +822,6 @@ Query 'person queen's representative canada current office held david johnston' 
 	Winston Churchill: 103.354164
 	Frederick Hamilton-Temple-Blackwood, 1st Marquess of Dufferin and Ava: 102.124313
 Governor General of Canada
-MRR for query: 1.0
 
 
 Query 'he earn fifth beatle nickname produce all beatle album' in category 'tin men' returned:
@@ -895,7 +836,6 @@ Query 'he earn fifth beatle nickname produce all beatle album' in category 'tin 
 	Please Please Me: 204.600067
 	Love (The Beatles album): 202.561188
 George Martin
-MRR for query: 0.0
 
 
 Query 'early career mark twain bret harte wrote pieces california city's chronicle' in category 'newspapers' returned:
@@ -910,7 +850,6 @@ Query 'early career mark twain bret harte wrote pieces california city's chronic
 	Nikola Tesla: 103.131561
 	Oakland, California: 101.740776
 San Francisco
-MRR for query: 0.2
 
 
 Query 'large specimen marsupial can leap over barrier 6 feet high' in category 'potpourri' returned:
@@ -925,7 +864,6 @@ Query 'large specimen marsupial can leap over barrier 6 feet high' in category '
 	Snakebite: 90.992912
 	Thames Barrier: 88.189865
 Kangaroo
-MRR for query: 1.0
 
 
 Query 'because it's cure store brine crumbly white cheese made from sheep's milk often refer pickled cheese' in category 'greek food & drink' returned:
@@ -940,7 +878,6 @@ Query 'because it's cure store brine crumbly white cheese made from sheep's milk
 	Gouda cheese: 224.083221
 	English cuisine: 223.837082
 Feta
-MRR for query: 1.0
 
 
 Query '1927 gene tunney take long count square circle rise defeat manassa maul howzabout' in category '1920s news flash' returned:
@@ -955,7 +892,6 @@ Query '1927 gene tunney take long count square circle rise defeat manassa maul h
 	Yankees–Red Sox rivalry: 85.635361
 	Zhou Enlai: 85.578644
 Jack Dempsey
-MRR for query: 1.0
 
 
 Query 'italy leader especially applied benito mussolini' in category 'ranks & titles' returned:
@@ -970,7 +906,6 @@ Query 'italy leader especially applied benito mussolini' in category 'ranks & ti
 	Vatican City: 132.209396
 	Rome: 128.263824
 Duce
-MRR for query: 0.5
 
 
 Query 'kalamazoo institute arts' in category 'state of the art museum ' returned:
@@ -985,7 +920,6 @@ Query 'kalamazoo institute arts' in category 'state of the art museum ' returned
 	Metropolitan Museum of Art: 79.805435
 	Arts and Crafts movement: 77.880135
 Michigan
-MRR for query: 0.0
 
 
 Query 'sun valley center arts' in category 'state of the art museum ' returned:
@@ -1000,7 +934,6 @@ Query 'sun valley center arts' in category 'state of the art museum ' returned:
 	Grand Valley State University: 92.942879
 	Mobile, Alabama: 92.488953
 Idaho
-MRR for query: 0.0
 
 
 Query 'you can't mention shortstop without mention his double play associate ever chance' in category 'tin men' returned:
@@ -1015,7 +948,6 @@ Query 'you can't mention shortstop without mention his double play associate eve
 	Ozzie Smith: 117.238281
 	Omar Vizquel: 112.901955
 Joe Tinker
-MRR for query: 1.0
 
 
 Query '1840 horace greeley began publishing log cabin weekly campaign paper support whig candidate' in category 'newspapers' returned:
@@ -1030,7 +962,6 @@ Query '1840 horace greeley began publishing log cabin weekly campaign paper supp
 	John C. Breckinridge: 121.984764
 	Woodrow Wilson: 112.340446
 William Henry Harrison
-MRR for query: 1.0
 
 
 Query 'pierre cauchon bishop beauvai preside over trial woman who went up smoke may 30 1431' in category 'i'm burnin' for you' returned:
@@ -1045,7 +976,6 @@ Query 'pierre cauchon bishop beauvai preside over trial woman who went up smoke 
 	Nuremberg trials: 118.504410
 	Napoleon III: 116.638290
 Joan of Arc|Jeanne d'Arc
-MRR for query: 1.0
 
 
 Query 'wisconsin city claim have built usa's only granite dome' in category 'complete dom-ination' returned:
@@ -1060,7 +990,6 @@ Query 'wisconsin city claim have built usa's only granite dome' in category 'com
 	Florence Cathedral: 84.017471
 	Hyderabad: 81.701416
 Madison
-MRR for query: 0.0
 
 
 Query 'georgia paper known ajc short' in category 'newspapers' returned:
@@ -1075,7 +1004,6 @@ Query 'georgia paper known ajc short' in category 'newspapers' returned:
 	U.S. Route 82 in Georgia: 62.474888
 	Georgia (country): 61.475010
 The Atlanta Journal-Constitution
-MRR for query: 1.0
 
 
 Query 'wooden 2 story veranda liberia capital architecture link u.s south' in category 'african cities' returned:
@@ -1090,7 +1018,6 @@ Query 'wooden 2 story veranda liberia capital architecture link u.s south' in ca
 	White House: 100.547348
 	London: 100.311668
 Monrovia
-MRR for query: 0.5
 
 
 Query 'new orleans venue reopen sept 25 2006' in category 'complete dom-ination' returned:
@@ -1105,7 +1032,6 @@ Query 'new orleans venue reopen sept 25 2006' in category 'complete dom-ination'
 	Harry Connick, Jr.: 116.720993
 	French Quarter: 113.852951
 Mercedes-Benz Superdome|The Superdome
-MRR for query: 1.0
 
 
 Query 'hunt red october he went more comedy jack donaghy 30 rock' in category 'he played a guy named jack ryan in...' returned:
@@ -1120,7 +1046,6 @@ Query 'hunt red october he went more comedy jack donaghy 30 rock' in category 'h
 	Hair (musical): 140.184967
 	Jennifer Lopez: 138.108841
 Alec Baldwin
-MRR for query: 1.0
 
 
 Query 'rita dove titled collection poem bus woman' in category 'african-american women' returned:
@@ -1135,7 +1060,6 @@ Query 'rita dove titled collection poem bus woman' in category 'african-american
 	In Flanders Fields: 71.614571
 	E. E. Cummings: 71.540779
 Rosa Parks
-MRR for query: 1.0
 
 
 Query 'patriot games he's had other icon role space underground' in category 'he played a guy named jack ryan in...' returned:
@@ -1150,7 +1074,6 @@ Query 'patriot games he's had other icon role space underground' in category 'he
 	Live action role-playing game: 112.502037
 	Elite (video game): 111.929092
 Harrison Ford
-MRR for query: 1.0
 
 
 Query 'sacred structure dates from late 600 s a.d' in category 'complete dom-ination' returned:
@@ -1165,7 +1088,6 @@ Query 'sacred structure dates from late 600 s a.d' in category 'complete dom-ina
 	Sati (practice): 70.725082
 	Norway: 68.762405
 Dome of the Rock
-MRR for query: 0.0
 
 
 Query '1988 man mirror' in category ''80s no.1 hitmakers' returned:
@@ -1180,7 +1102,6 @@ Query '1988 man mirror' in category ''80s no.1 hitmakers' returned:
 	Julia Roberts: 54.106640
 	Little Richard: 53.231922
 Michael Jackson
-MRR for query: 0.5
 
 
 Query 'matthia church matya templom where franz joseph crown 1867' in category 'capital city churches ' returned:
@@ -1195,7 +1116,6 @@ Query 'matthia church matya templom where franz joseph crown 1867' in category '
 	Matthias Corvinus: 112.179764
 	Crown jewels: 112.013557
 Budapest
-MRR for query: 0.16666666666666666
 
 
 Query 'attend ucla 60s he meathead he just play one late television' in category 'ucla celebrity alumni' returned:
@@ -1210,7 +1130,6 @@ Query 'attend ucla 60s he meathead he just play one late television' in category
 	Max Weinberg: 111.514389
 	Dennis Rodman: 110.574982
 Rob Reiner
-MRR for query: 0.0
 
 
 Query 'kinch carter lebeau were all resident stalag 13 tv show' in category 'the residents' returned:
@@ -1225,7 +1144,6 @@ Query 'kinch carter lebeau were all resident stalag 13 tv show' in category 'the
 	The Sopranos: 101.107536
 	Get Carter: 99.915398
 Hogan's Heroes
-MRR for query: 1.0
 
 
 Query 'news flash less than yappy pappy sixth veep nation's top dog after chief take deep sleep' in category '1920s news flash' returned:
@@ -1240,7 +1158,6 @@ Query 'news flash less than yappy pappy sixth veep nation's top dog after chief 
 	Menopause: 114.099472
 	Intel: 113.213844
 Calvin Coolidge
-MRR for query: 0.0
 
 
 Query '2001 president united states television' in category 'golden globe winners' returned:
@@ -1255,7 +1172,6 @@ Query '2001 president united states television' in category 'golden globe winner
 	Osama bin Laden: 134.874329
 	Brad Pitt: 131.348724
 Martin Sheen
-MRR for query: 0.125
 
 
 Query '1989 miss you much' in category ''80s no.1 hitmakers' returned:
@@ -1270,7 +1186,6 @@ Query '1989 miss you much' in category ''80s no.1 hitmakers' returned:
 	Joshua Allen: 63.305042
 	Def Leppard: 62.780804
 Janet Jackson
-MRR for query: 1.0
 
 
 Query '1922 it's end empire empire fact after 600 years it's goodbye hello turkey republic' in category '1920s news flash' returned:
@@ -1285,7 +1200,6 @@ Query '1922 it's end empire empire fact after 600 years it's goodbye hello turke
 	Soviet Union: 156.165375
 	Portugal: 149.027878
 Ottoman Empire
-MRR for query: 1.0
 
 
 Query 'crest toothpaste' in category 'name the parent company' returned:
@@ -1300,7 +1214,6 @@ Query 'crest toothpaste' in category 'name the parent company' returned:
 	West Ham United F.C.: 38.071449
 	FC Barcelona: 37.735126
 Procter & Gamble
-MRR for query: 0.2
 
 
 Query '1888 chancellor told reichstag we germany fear god nothing else world' in category 'historical quotes' returned:
@@ -1315,7 +1228,6 @@ Query '1888 chancellor told reichstag we germany fear god nothing else world' in
 	Heinrich Brüning: 129.324860
 	Immanuel Kant: 128.887390
 Otto von Bismarck|Von Bismarck
-MRR for query: 1.0
 
 
 Query '1787 he sign his first publish poem axiologu axio from greece worth' in category 'poets & poetry' returned:
@@ -1330,7 +1242,6 @@ Query '1787 he sign his first publish poem axiologu axio from greece worth' in c
 	Samuel Johnson: 129.956558
 	Stephen Crane: 129.081467
 William Wordsworth
-MRR for query: 0.0
 
 
 Query 'confuse karma krama popular accessory sold cambodia word means scarf national language cambodia' in category 'cambodian history & culture' returned:
@@ -1345,7 +1256,6 @@ Query 'confuse karma krama popular accessory sold cambodia word means scarf nati
 	Cambodian general election, 2008: 140.101486
 	Olympic Stadium (Phnom Penh): 136.528168
 Khmer language
-MRR for query: 0.2
 
 
 Query 'phnom penh's notorious gridlock circumvent nimble tuk tuk motorize taxi that's also known auto similar asia conveyance' in category 'cambodian history & culture' returned:
@@ -1360,7 +1270,6 @@ Query 'phnom penh's notorious gridlock circumvent nimble tuk tuk motorize taxi t
 	Jakarta: 105.426735
 	Ho Chi Minh City: 100.244240
 Rickshaw
-MRR for query: 0.0
 
 
 Query '1980 rock you' in category ''80s no.1 hitmakers' returned:
@@ -1375,7 +1284,6 @@ Query '1980 rock you' in category ''80s no.1 hitmakers' returned:
 	Punk rock: 80.916199
 	Joy Division: 80.871002
 Michael Jackson
-MRR for query: 0.0
 
 
 Query 'pulitzer winning making president 1960 cover man's successful presidential campaign' in category 'notes from the campaign trail' returned:
@@ -1390,7 +1298,6 @@ Query 'pulitzer winning making president 1960 cover man's successful presidentia
 	Woodrow Wilson: 158.860260
 	Vladimir Putin: 156.839203
 JFK|John F. Kennedy
-MRR for query: 0.0
 
 
 Query '1843 isaac dittenhoefer became first pre jewish club whose name means children covenant' in category 'service organizations' returned:
@@ -1405,7 +1312,6 @@ Query '1843 isaac dittenhoefer became first pre jewish club whose name means chi
 	Fear and Trembling: 107.804741
 	Cave of the Patriarchs: 106.881813
 B'nai B'rith
-MRR for query: 1.0
 
 
 Query 'don knott took over from norman fell resident landlord sitcom' in category 'the residents' returned:
@@ -1420,7 +1326,6 @@ Query 'don knott took over from norman fell resident landlord sitcom' in categor
 	American frontier: 83.748672
 	Sheffield: 83.419624
 Three's Company
-MRR for query: 1.0
 
 
 Query 'u.n re 242 support secure recognize boundary israel neighbor following june 1967 war' in category 'old year's resolutions' returned:
@@ -1435,7 +1340,6 @@ Query 'u.n re 242 support secure recognize boundary israel neighbor following ju
 	Yasser Arafat: 182.493164
 	Refugee: 180.398834
 The Six Day War
-MRR for query: 0.0
 
 
 Query 'blonde beauty who reprise her role amanda new melrose place psychology major' in category 'ucla celebrity alumni' returned:
@@ -1450,7 +1354,6 @@ Query 'blonde beauty who reprise her role amanda new melrose place psychology ma
 	Jennifer Lopez: 125.870987
 	Mandy Moore: 124.151154
 Heather Locklear
-MRR for query: 1.0
 
 
 Query 'name dish marinate lamb skewer grill come from greece skewer also start s' in category 'greek food & drink' returned:
@@ -1465,7 +1368,6 @@ Query 'name dish marinate lamb skewer grill come from greece skewer also start s
 	Roman Empire: 109.392517
 	English cuisine: 108.925827
 Souvlaki
-MRR for query: 1.0
 
 
 Query 'post note' in category 'name the parent company' returned:
@@ -1480,7 +1382,6 @@ Query 'post note' in category 'name the parent company' returned:
 	Notes on a Scandal: 44.903702
 	Atlantic Records: 44.725468
 3M
-MRR for query: 0.0
 
 
 Query '2010 sherlock holmes film' in category 'golden globe winners' returned:
@@ -1495,12 +1396,9 @@ Query '2010 sherlock holmes film' in category 'golden globe winners' returned:
 	The Five Orange Pips: 142.316406
 	Stephen Fry: 136.232559
 Robert Downey, Jr.
-MRR for query: 1.0
 
 
-Mean Reciprocal Rank (MRR): 0.5235515873015872
 
 
- FINAL COUNT: 47
- TOP10 (not first) COUNT: 18
- TOP10 COUNT: 65
+ MRR: 0.5235515873015872
+ P@1: 47
