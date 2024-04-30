@@ -38,8 +38,7 @@ public class Index {
         // read in resource directory from resources
         URL dirURL = getClass().getClassLoader().getResource(path);
         if (dirURL == null) {
-            System.out.println("Resource directory not found");
-            System.exit(1);
+            throw new IOException();
         }
 
         // read through wiki pages directory

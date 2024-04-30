@@ -305,7 +305,6 @@ public class Query {
                     double mrr = q.calculateMRR(ans, right);
                     totalMRR += mrr;
                     queryCount++;
-                    System.out.println("MRR for query: " + mrr);
                     System.out.println("\n");
                 }
 

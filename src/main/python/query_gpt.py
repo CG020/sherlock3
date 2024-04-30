@@ -23,9 +23,10 @@ def read_file(filename):
     with open(filename) as file:
         contents = file.read()
 
-    answers = (q.strip()
+    answers = [q.strip()
                for q in contents.split("\n\n\n")
-               if q.startswith("Query"))
+               if q.startswith("Query")]
+    assert len(answers) == 100
 
     for answer in answers:
         # remove the last line with the original answer
@@ -37,7 +38,7 @@ def read_file(filename):
         query = query[:-len(" returned:")]
 
         # remove scores from each document
-        documents = [doc[:doc.index(":")].strip() for doc in documents]
+        documents = [doc[:doc.find(":")].strip() for doc in documents]
 
         yield query, "\n".join(documents), correct_answer
 
