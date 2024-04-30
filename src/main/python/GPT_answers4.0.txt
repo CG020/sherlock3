@@ -9,7 +9,7 @@ Query 'dominant paper our nation's capital it's among top 10 u.s papers circulat
 	Citizen Kane
 	Washington University in St. Louis
 	Bangalore
-None of the given documents accurately respond to the query.
+The query does not provide enough information to accurately rank the given documents. None of the given documents directly relate to the query about a popular newspaper in the U.S. capital.
 
 
 Query 'practice pre authorize presidential use force dates 1955 resolution re island near mainland china' in category 'old year's resolutions'
@@ -51,7 +51,7 @@ Query 'song say you make me smile my heart your looks laughable unphotographable
 	Keyshia Cole
 	Irving Berlin
 	Stevie Wonder
-The query does not match with any of the given document titles.
+Irving Berlin
 
 
 Query '2011 bell ringer charity start accept digital donation its red kettle' in category 'potpourri'
@@ -79,7 +79,7 @@ Query 'naples museum art' in category 'state of the art museum '
 	Museum of Contemporary Art, Chicago
 	History of painting
 	The Cloisters
-Art museum
+San Francisco Museum of Modern Art
 
 
 Query 'italy painter depict adoration golden calf' in category 'tin men'
@@ -121,7 +121,7 @@ Query 'originally club's emblem wagon wheel now it's gearwheel 24 cog 6 spoke' i
 	Ford Taurus
 	Audi S6
 	Oakland Raiders
-The query doesn't provide enough information to accurately rerank the provided documents. No document title seems related to a service organization with a wagon wheel or gearwheel emblem.
+The query doesn't provide enough information to accurately rerank the documents, as none of the provided documents clearly relate to a service organization with a gearwheel emblem.
 
 
 Query 'several bridge including el tahrir cross nile capital' in category 'african cities'
@@ -163,7 +163,7 @@ Query 'taft museum art' in category 'state of the art museum '
 	Museum of Contemporary Art, Chicago
 	History of painting
 	The Cloisters
-Metropolitan Museum of Art
+Art museum
 
 
 Query 'mast from uss maine part memorial ship crew national cemetery' in category 'cemeteries'
@@ -331,7 +331,7 @@ Query 'royal palace grounds feature statue king norodom who late 1800s compel fi
 	Romania
 	Louis XIV of France
 	Scotland
-Norodom of Cambodia
+Norway
 
 
 Query '400s b.c china philosopher went exile 12 years' in category 'historical hodgepodge'
@@ -429,7 +429,7 @@ Query 'georgia o'keeffe museum' in category 'state of the art museum '
 	Edward Hopper
 	San Francisco Museum of Modern Art
 	Art museum
-Georgia O'Keeffe Museum
+Georgia (U.S. state)
 
 
 Query 'name largest morocco city combine 2 spain words' in category 'african cities'
@@ -471,7 +471,7 @@ Query '2011 chicago mayor tom kane' in category 'golden globe winners'
 	Jennifer Hudson
 	Chicago White Sox
 	Hyde Park, Chicago
-The query does not correlate to any of the given documents.
+None of the given documents match the query accurately.
 
 
 Query 'title residence otter flounder pinto bluto 1978 comedy' in category 'the residents'
@@ -653,7 +653,7 @@ Query 'high kirk st gile where john knox minister' in category 'capital city chu
 	Knox Grammar School
 	Scotland
 	Glasgow
-Church of Scotland
+Edinburgh
 
 
 Query 'brief time he attend he rebel cause even landing lead role 1950 stage production' in category 'ucla celebrity alumni'
@@ -695,7 +695,7 @@ Query '1959 america kitchen exhibit moscow he told khrushchev america we like ma
 	Charles de Gaulle
 	Ezra Pound
 	Paul Robeson
-Ronald Reagan
+The Kitchen Debate
 
 
 Query 'one his tale wayside inn begin listen my children you shall hear midnight ride paul revere' in category 'poets & poetry'
@@ -765,7 +765,7 @@ Query 'keat quote edmund spenser poem when he told shelley load every rift your 
 	Oxfordian theory of Shakespeare authorship
 	George Crabbe
 	Poetry
-The Faerie Queene
+John Keats
 
 
 Query '1819 letter keat wrote lord poet cut figure he figurative' in category 'the quotable keats'
@@ -835,7 +835,7 @@ Query 'he earn fifth beatle nickname produce all beatle album' in category 'tin 
 	Revolver (Beatles album)
 	Please Please Me
 	Love (The Beatles album)
-The given documents do not provide a valid answer to the query 'he earn fifth beatle nickname produce all beatle album'.
+The given document titles do not contain information relevant to the query 'he earn fifth beatle nickname produce all beatle album'.
 
 
 Query 'early career mark twain bret harte wrote pieces california city's chronicle' in category 'newspapers'
@@ -1115,7 +1115,7 @@ Query 'matthia church matya templom where franz joseph crown 1867' in category '
 	Italian unification
 	Matthias Corvinus
 	Crown jewels
-History of Buda Castle
+Matthias Corvinus
 
 
 Query 'attend ucla 60s he meathead he just play one late television' in category 'ucla celebrity alumni'
@@ -1241,7 +1241,7 @@ Query '1787 he sign his first publish poem axiologu axio from greece worth' in c
 	Tristan Tzara
 	Samuel Johnson
 	Stephen Crane
-George Crabbe
+The query lacks clarity and none of the given options match directly but based on the context of poets and poetry, the closest possible match could be "Lord Byron".
 
 
 Query 'confuse karma krama popular accessory sold cambodia word means scarf national language cambodia' in category 'cambodian history & culture'
@@ -1381,7 +1381,7 @@ Query 'post note' in category 'name the parent company'
 	United States Postal Service
 	Notes on a Scandal
 	Atlantic Records
-The Washington Post
+United States Postal Service
 
 
 Query '2010 sherlock holmes film' in category 'golden globe winners'

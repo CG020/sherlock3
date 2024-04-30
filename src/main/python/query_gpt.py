@@ -9,7 +9,7 @@ and writes the results to file GPT_answers[3.5/4.0].txt
 
 from conversation import Conversation
 
-MODEL_4 = False
+MODEL_4 = True
 
 def read_file(filename):
     """

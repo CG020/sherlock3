@@ -23,7 +23,7 @@ Query 'practice pre authorize presidential use force dates 1955 resolution re is
 	Chinese Indonesians
 	Chiang Kai-shek
 	George McGovern
-History of the Republic of China
+Political status of Taiwan
 
 
 Query 'daniel hertzberg james b stewart paper share 1988 pulitzer story about insider trade' in category 'newspapers'
@@ -79,7 +79,7 @@ Query 'naples museum art' in category 'state of the art museum '
 	Museum of Contemporary Art, Chicago
 	History of painting
 	The Cloisters
-The Louvre
+Metropolitan Museum of Art
 
 
 Query 'italy painter depict adoration golden calf' in category 'tin men'
@@ -93,7 +93,7 @@ Query 'italy painter depict adoration golden calf' in category 'tin men'
 	Culture of Italy
 	Annibale Carracci
 	Pietro Lorenzetti
-Caravaggio
+Nicolas Poussin
 
 
 Query 'woman who won consecutive heptathlon olympic went ucla basketball scholarship' in category 'ucla celebrity alumni'
@@ -121,7 +121,7 @@ Query 'originally club's emblem wagon wheel now it's gearwheel 24 cog 6 spoke' i
 	Ford Taurus
 	Audi S6
 	Oakland Raiders
-Wheel of Fortune (U.S. game show)
+Oregon Trail
 
 
 Query 'several bridge including el tahrir cross nile capital' in category 'african cities'
@@ -163,7 +163,7 @@ Query 'taft museum art' in category 'state of the art museum '
 	Museum of Contemporary Art, Chicago
 	History of painting
 	The Cloisters
-Museum of Modern Art
+Metropolitan Museum of Art
 
 
 Query 'mast from uss maine part memorial ship crew national cemetery' in category 'cemeteries'
@@ -247,7 +247,7 @@ Query 'essay defend 2011 film myrlie ever williams said my mother film so her mo
 	Meryl Streep
 	Janet Jackson
 	Citizen Kane
-Whitney Houston
+Medgar Evers
 
 
 Query 'father michael mcgivney found fraternal society catholic laymen 1882' in category 'service organizations'
@@ -275,7 +275,7 @@ Query 'early project wwf organization included work bald eagle red wolf' in cate
 	Coyote
 	Ferruginous Hawk
 	Phoenix, Arizona
-Osprey
+Great Seal of the United States
 
 
 Query 'indonesia's largest lizard it's protect from poacher though we wish could breathe fire do job itself' in category 'conservation'
@@ -331,7 +331,7 @@ Query 'royal palace grounds feature statue king norodom who late 1800s compel fi
 	Romania
 	Louis XIV of France
 	Scotland
-Norway
+Louis XIV of France
 
 
 Query '400s b.c china philosopher went exile 12 years' in category 'historical hodgepodge'
@@ -373,7 +373,7 @@ Query 'ammonite held sway mideast country 1200s b.c capital name them' in catego
 	Norway
 	Scotland
 	Comoros
-Comoros
+Bahrain
 
 
 Query 'sum all fear he also won screenwrite oscar good hunting' in category 'he played a guy named jack ryan in...'
@@ -387,7 +387,7 @@ Query 'sum all fear he also won screenwrite oscar good hunting' in category 'he 
 	Jaws (film)
 	Albert Pujols
 	Russell Crowe
-Good Will Hunting
+Good Will Hunting.
 
 
 Query 'one n.y times headline landmark 1973 supreme court decision cardinal shock' in category 'potpourri'
@@ -415,7 +415,7 @@ Query 'france's philip iv known fair had jacque de molay last grand master order
 	Edward II of England
 	Philip IV of Spain
 	Napoleon III
-Philip IV of France
+Knights Templar
 
 
 Query 'georgia o'keeffe museum' in category 'state of the art museum '
@@ -443,7 +443,7 @@ Query 'name largest morocco city combine 2 spain words' in category 'african cit
 	Agadir
 	History of Western Sahara
 	Bilbao
-Ceuta
+Casablanca
 
 
 Query 'jell o' in category 'name the parent company'
@@ -471,7 +471,7 @@ Query '2011 chicago mayor tom kane' in category 'golden globe winners'
 	Jennifer Hudson
 	Chicago White Sox
 	Hyde Park, Chicago
-Chicago White Sox
+Roger Ebert
 
 
 Query 'title residence otter flounder pinto bluto 1978 comedy' in category 'the residents'
@@ -499,7 +499,7 @@ Query 'neurobiologist amy farrah fowler big bang theory real life she has ph.d n
 	Physical cosmology
 	Characters of Parks and Recreation
 	Inflation (cosmology)
-Mayim Bialik
+University of California, Los Angeles
 
 
 Query 'deadlock election 1800 james r sharp outline fall duel vice president' in category 'notes from the campaign trail'
@@ -513,7 +513,7 @@ Query 'deadlock election 1800 james r sharp outline fall duel vice president' in
 	Thomas A. Hendricks
 	Ronald Reagan
 	Calvin Coolidge
-Presidency of Thomas Jefferson
+Aaron Burr
 
 
 Query 'he serve kgb before becoming president prime minister russia' in category 'tin men'
@@ -597,7 +597,7 @@ Query 'kentucky virginia resolution were pass protest controversial 1798 acts co
 	Solomon P. Sharp
 	Confederate States of America
 	Emancipation Proclamation
-Kentucky and Virginia Resolutions
+Virginia and Kentucky Resolutions
 
 
 Query '1983 beat' in category ''80s no.1 hitmakers'
@@ -639,7 +639,7 @@ Query 'member nixon ford cabinet born furth germany 1923' in category 'historica
 	Willy Brandt
 	John Connally
 	Neville Chamberlain
-Konrad Adenauer
+Richard Nixon
 
 
 Query 'high kirk st gile where john knox minister' in category 'capital city churches '
@@ -653,7 +653,7 @@ Query 'high kirk st gile where john knox minister' in category 'capital city chu
 	Knox Grammar School
 	Scotland
 	Glasgow
-High Kirk St Giles
+St. Giles' Cathedral
 
 
 Query 'brief time he attend he rebel cause even landing lead role 1950 stage production' in category 'ucla celebrity alumni'
@@ -667,7 +667,7 @@ Query 'brief time he attend he rebel cause even landing lead role 1950 stage pro
 	Clement Attlee
 	Natalie Portman
 	Cristiano Ronaldo
-James Dean
+Clement Attlee
 
 
 Query 'fisher price toy' in category 'name the parent company'
@@ -695,7 +695,7 @@ Query '1959 america kitchen exhibit moscow he told khrushchev america we like ma
 	Charles de Gaulle
 	Ezra Pound
 	Paul Robeson
-Perry Como
+Ezra Pound
 
 
 Query 'one his tale wayside inn begin listen my children you shall hear midnight ride paul revere' in category 'poets & poetry'
@@ -709,7 +709,7 @@ Query 'one his tale wayside inn begin listen my children you shall hear midnight
 	Hans Christian Andersen
 	Henry Wadsworth Longfellow
 	Kubla Khan
-Paul Revere's Ride
+Henry Wadsworth Longfellow
 
 
 Query 'bestseller about problem mccain palin ticket became hbo movie julianne moore' in category 'notes from the campaign trail'
@@ -737,7 +737,7 @@ Query '2 part episode jag introduce mark harmon drama' in category 'that 20-augh
 	General Hospital
 	Characters of Parks and Recreation
 	The Sopranos
-House's Head
+NCIS: Season 3, Episode 8: "Under Covers"
 
 
 Query 'port southernmost south africa's 3 capitals' in category 'african cities'
@@ -933,7 +933,7 @@ Query 'sun valley center arts' in category 'state of the art museum '
 	Louisiana State University
 	Grand Valley State University
 	Mobile, Alabama
-The Center for Arts Education
+Sun Valley High School (North Carolina)
 
 
 Query 'you can't mention shortstop without mention his double play associate ever chance' in category 'tin men'
@@ -1129,7 +1129,7 @@ Query 'attend ucla 60s he meathead he just play one late television' in category
 	Harry Shearer
 	Max Weinberg
 	Dennis Rodman
-Jackie Robinson
+Harry Shearer
 
 
 Query 'kinch carter lebeau were all resident stalag 13 tv show' in category 'the residents'
@@ -1157,7 +1157,7 @@ Query 'news flash less than yappy pappy sixth veep nation's top dog after chief 
 	William Howard Taft
 	Menopause
 	Intel
-William Howard Taft
+Winston Churchill
 
 
 Query '2001 president united states television' in category 'golden globe winners'
@@ -1241,7 +1241,7 @@ Query '1787 he sign his first publish poem axiologu axio from greece worth' in c
 	Tristan Tzara
 	Samuel Johnson
 	Stephen Crane
-Kubla Khan
+John Milton
 
 
 Query 'confuse karma krama popular accessory sold cambodia word means scarf national language cambodia' in category 'cambodian history & culture'
@@ -1283,7 +1283,7 @@ Query '1980 rock you' in category ''80s no.1 hitmakers'
 	King Crimson
 	Punk rock
 	Joy Division
-Prince (musician)
+Whitesnake
 
 
 Query 'pulitzer winning making president 1960 cover man's successful presidential campaign' in category 'notes from the campaign trail'
@@ -1297,7 +1297,7 @@ Query 'pulitzer winning making president 1960 cover man's successful presidentia
 	William McKinley
 	Woodrow Wilson
 	Vladimir Putin
-Richard Nixon
+Woodrow Wilson
 
 
 Query '1843 isaac dittenhoefer became first pre jewish club whose name means children covenant' in category 'service organizations'
@@ -1395,9 +1395,9 @@ Query '2010 sherlock holmes film' in category 'golden globe winners'
 	Edward Hardwicke
 	The Five Orange Pips
 	Stephen Fry
-Robert Downey, Jr.
+Sherlock Holmes: A Game of Shadows
 
 
 
 
-FINAL COUNT: 49
+FINAL COUNT: 50
