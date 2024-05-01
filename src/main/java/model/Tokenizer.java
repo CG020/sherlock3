@@ -1,3 +1,8 @@
+/*
+ * Katelyn Rohrer, Camila Grubb, Lydia Dufek
+ * CSC 483/583
+ * This file defines the custom Tokenizer class.
+ */
 package model;
 
 import org.apache.lucene.analysis.Analyzer;

@@ -1,3 +1,9 @@
+/*
+ * Katelyn Rohrer, Camila Grubb, Lydia Dufek
+ * CSC 483/583
+ * This file creates the Query class that handles parsing and
+ * defines custom coefficients and boosts.
+ */
 package model;
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
@@ -329,7 +335,7 @@ public class Query {
     /**
      * Calculates the MRR for each query. It calculates the reciprocal by checking to see if the answer can be found within the
      * list of documents. The MRR is in respect the positioning of where the document resides in the ranked list. The MRR is
-     * then returned. 
+     * then returned.
      * @param results: The weighted list of 10 or 9 relevant documents that were returned from the query.
      * @param correctAnswer: This is the actual correct answer that is being cross-referenced with the documents returned.
      * @return double: The MRR value, if the answer was found, or 0.0 if not found.
