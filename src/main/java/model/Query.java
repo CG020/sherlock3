@@ -326,6 +326,14 @@ public class Query {
         }
     }
 
+    /**
+     * Calculates the MRR for each query. It calculates the reciprocal by checking to see if the answer can be found within the
+     * list of documents. The MRR is in respect the positioning of where the document resides in the ranked list. The MRR is
+     * then returned. 
+     * @param results: The weighted list of 10 or 9 relevant documents that were returned from the query.
+     * @param correctAnswer: This is the actual correct answer that is being cross-referenced with the documents returned.
+     * @return double: The MRR value, if the answer was found, or 0.0 if not found.
+     */
     public double calculateMRR(List<ResultClass> results, String correctAnswer) {
         // Get the results for the title --> check if the correct answer is within the top ranked documents
         for (int i = 0; i < results.size(); i++) {
