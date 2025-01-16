@@ -3,6 +3,14 @@
 Katelyn Rohrer, Lydia Dufek, Camila Grubb
 
 
+CSC483 college coursework - semester group project. 
+
+Assignment: build a mini version of the Jeopardy Watson Model. Parse, categorize, and train a classifier to answer jeopardy questions based on 
+similarity to context within Wikipedia pages. The subject of the Wikipedia page with highest similarity score would be considered the answer.
+ 
+
+## Project Notes:
+
 We're running a Maven build for the Java code in the project.
 For the improved implementation, we added Python to the project,
 which is being managed by a virtual environment.
